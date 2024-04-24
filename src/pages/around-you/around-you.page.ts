@@ -13,7 +13,7 @@ export class AroudYouPage extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <h1>Punti di interesse</h1>
-            <a href="/#/settings">Impostazioni</a>
+            <a href="./#/settings">Impostazioni</a>
             `
             ;
     }
