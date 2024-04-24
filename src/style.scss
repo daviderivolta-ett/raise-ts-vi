@@ -1,0 +1,157 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #3178c6aa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0rem;
+  line-height: 1.15;
+  color: var(--on-surface);
+
+  --primary: rgb(55, 222, 187);
+  --on-primary: rgb(0, 56, 45);
+  --primary-container: rgb(0, 81, 66);
+  --on-primary-container: rgb(184, 255, 233);
+
+  --secondary: rgb(174, 205, 194);
+  --on-secondary: rgb(25, 53, 46);
+  --secondary-container: rgb(48, 76, 68);
+  --on-secondary-container: rgb(202, 233, 222);
+
+  --tertiary: rgb(163, 204, 231);
+  --on-tertiary: rgb(1, 52, 74);
+  --tertiary-container: rgb(33, 75, 98);
+  --on-tertiary-container: rgb(197, 231, 255);
+
+  --error: rgb(255, 180, 171);
+  --on-error: rgb(105, 0, 5);
+  --error-container: rgb(147, 0, 10);
+  --on-error-container: rgb(255, 218, 214);
+
+  --surface-dim: rgb(0, 19, 46);
+  --surface: rgb(0, 19, 46);
+  --surface-bright: rgb(0, 56, 115);
+
+  --surface-container-lowest: rgb(0, 14, 37);
+  --surface-container-low: rgb(0, 27, 61);
+  --surface-container: rgb(0, 31, 69);
+  --surface-container-high: rgb(0, 41, 87);
+  --surface-container-highest: rgb(0, 52, 107);
+
+  --on-surface: rgb(213, 227, 255);
+  --on-surface-variant: rgb(171, 200, 247);
+  --outline: rgb(118, 146, 191);
+  --outline-variant: rgb(42, 72, 112);
+
+  --inverse-surface: rgb(214, 227, 255);
+  --inverse-on-surface: rgb(0, 48, 99);
+  --inverse-primary: rgb(0, 107, 88);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--surface);
+}
