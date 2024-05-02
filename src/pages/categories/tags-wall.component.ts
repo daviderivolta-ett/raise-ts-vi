@@ -2,6 +2,7 @@ export class TagsWallComponent extends HTMLElement {
     public shadowRoot: ShadowRoot;
     private _tags: string[] = [];
     private _selectedTags: string[] = [];
+    private _currentPageTags: string[] = [];
     private _currentPage: number = 0;
     private _tagsPerPage: number = 8;
 
@@ -25,6 +26,14 @@ export class TagsWallComponent extends HTMLElement {
 
     public set selectedTags(selectedTags: string[]) {
         this._selectedTags = selectedTags;
+    }
+
+    public get currentPageTags(): string[] {
+        return this._currentPageTags;
+    }
+
+    public set currentPageTags(currentPageTags: string[]) {
+        this._currentPageTags = currentPageTags;
     }
 
     public get currentPage(): number {
@@ -68,6 +77,12 @@ export class TagsWallComponent extends HTMLElement {
                 </div>
                 <button type="submit" class="tags-submit-btn">Continua</button>
             </form>
+
+            <style>
+                .hidden {
+                    display: none;
+                }
+            </style>
             `
             ;
     }
@@ -83,14 +98,22 @@ export class TagsWallComponent extends HTMLElement {
         nextPageBtn.addEventListener('click', () => this.nextPage());
     }
 
-    private update(tags: string[]): void {
+    private update(): void {
         const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');
         if (!currentPage) return;
         currentPage.innerHTML = `Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}`;
 
         const tagsList: HTMLButtonElement | null = this.shadowRoot.querySelector('.tags-list');
         if (!tagsList) return;
-        tagsList.innerHTML = tags.join(', ');
+        tagsList.innerHTML = this.currentPageTags.join(', ');
+
+        const prevPageBtn: HTMLButtonElement | null = this.shadowRoot.querySelector('.prev-btn');
+        const nextPageBtn: HTMLButtonElement | null = this.shadowRoot.querySelector('.next-btn');
+        if (!prevPageBtn) return;
+        if (!nextPageBtn) return;
+
+        this.currentPage === 0 ? prevPageBtn.classList.add('hidden') : prevPageBtn.classList.remove('hidden');
+        this.currentPage === this.getPagesNumber() ? nextPageBtn.classList.add('hidden') : nextPageBtn.classList.remove('hidden');
     }
 
     private createChip(tag: string): HTMLDivElement {
@@ -124,21 +147,20 @@ export class TagsWallComponent extends HTMLElement {
         let endIndex: number = startIndex + this.tagsPerPage;
         if (endIndex > this.tags.length) endIndex = this.tags.length;
 
-        let tags: string[] = [];
-
         const wall: HTMLDivElement | null = this.shadowRoot.querySelector('.tags');
         if (!wall) return;
 
         wall.innerHTML = '';
+        this.currentPageTags = [];
 
         for (let i = startIndex; i < endIndex; i++) {
             let tag: string = this.tags[i];
-            tags.push(tag);
+            this.currentPageTags.push(tag);
             let chip: HTMLDivElement = this.createChip(tag);
             wall.append(chip);
         }
 
-        this.update(tags);
+        this.update();
     }
 
     private getPagesNumber(): number {
