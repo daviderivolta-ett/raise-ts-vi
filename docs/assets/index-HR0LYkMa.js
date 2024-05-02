@@ -3,13 +3,13 @@ var v=Object.defineProperty;var w=(a,n,t)=>n in a?v(a,n,{enumerable:!0,configura
                 <div class="pagination">
                     <p class="current-page hidden">Pagina ${this.currentPage+1} di ${this.getPagesNumber()+1}</p>
                     <div class="hidden">
-                        <p>Categorie in questa pagina:</p>
-                        <p class="tags-list"></p>
+                        <p>Categorie in questa pagina: <span class="tags-list"></span></p>
                     </div>
 
-                    <div class="tags"></div>
                     <button type="button" class="prev-btn">Precedente</button>
                     <button type="button" class="next-btn">Successiva</button>
+
+                    <div class="tags"></div>
                 </div>
                 <button type="submit" class="tags-submit-btn">Continua</button>
             </form>
