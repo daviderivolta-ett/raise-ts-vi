@@ -1,7 +1,9 @@
+import './tag-chip.component';
+import { TagChipComponent } from './tag-chip.component';
+
 export class TagsWallComponent extends HTMLElement {
     public shadowRoot: ShadowRoot;
     private _tags: string[] = [];
-    private _selectedTags: string[] = [];
     private _currentPageTags: string[] = [];
     private _currentPage: number = 0;
     private _tagsPerPage: number = 8;
@@ -18,14 +20,6 @@ export class TagsWallComponent extends HTMLElement {
     public set tags(tags: string[]) {
         this._tags = tags;
         this.connectedCallback();
-    }
-
-    public get selectedTags(): string[] {
-        return this._selectedTags;
-    }
-
-    public set selectedTags(selectedTags: string[]) {
-        this._selectedTags = selectedTags;
     }
 
     public get currentPageTags(): string[] {
@@ -53,30 +47,26 @@ export class TagsWallComponent extends HTMLElement {
     }
 
     public connectedCallback(): void {
-        this.render();
-        this.setup();
-        
+        this.render();        
         if (this.tags.length === 0) return;
         this.paginateTags();
+        this.setup();
     }
 
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <form>
-                <div class="pagination">
-                    <p class="current-page hidden">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
-                    <div class="hidden">
-                        <p>Categorie in questa pagina: <span class="tags-list"></span></p>
-                    </div>
-
-                    <button type="button" class="prev-btn">Precedente</button>
-                    <button type="button" class="next-btn">Successiva</button>
-
-                    <div class="tags"></div>
+            <div class="pagination">
+                <p class="current-page">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
+                <div class="">
+                    <p>Categorie in questa pagina: <span class="tags-list"></span></p>
                 </div>
-                <button type="submit" class="tags-submit-btn">Continua</button>
-            </form>
+
+                <button type="button" class="prev-btn">Precedente</button>
+                <button type="button" class="next-btn">Successiva</button>
+
+                <div class="tags"></div>
+            </div>
 
             <style>
                 .hidden {
@@ -114,32 +104,9 @@ export class TagsWallComponent extends HTMLElement {
 
         this.currentPage === 0 ? prevPageBtn.classList.add('hidden') : prevPageBtn.classList.remove('hidden');
         this.currentPage === this.getPagesNumber() ? nextPageBtn.classList.add('hidden') : nextPageBtn.classList.remove('hidden');
-    }
 
-    private createChip(tag: string): HTMLDivElement {
-        let chip: HTMLDivElement = document.createElement('div');
-        chip.classList.add('chip');
-
-        let checkbox: HTMLInputElement = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.id = tag.replace(' ', '').toLowerCase();
-        checkbox.name = 'tag';
-        checkbox.value = tag;
-
-        this.selectedTags.forEach((t: string) => {
-            if (t === tag) checkbox.checked = true;
-        });
-
-        checkbox.addEventListener('change', this.handleCheckbox);
-
-        let label: HTMLLabelElement = document.createElement('label');
-        label.setAttribute('for', tag.replace(' ', '').toLowerCase());
-        label.innerHTML = tag.charAt(0).toUpperCase() + tag.slice(1);
-
-        chip.append(checkbox);
-        chip.append(label);
-
-        return chip;
+        const buttons: TagChipComponent[] = Array.from(this.shadowRoot.querySelectorAll('button[is="app-tag-chip"]'));
+        buttons.forEach((button: TagChipComponent) => button.addEventListener('tag-selected', this.handleCheckbox));
     }
 
     private paginateTags(): void {
@@ -156,11 +123,20 @@ export class TagsWallComponent extends HTMLElement {
         for (let i = startIndex; i < endIndex; i++) {
             let tag: string = this.tags[i];
             this.currentPageTags.push(tag);
-            let chip: HTMLDivElement = this.createChip(tag);
+            let chip: TagChipComponent = this.createChip(tag);
             wall.append(chip);
         }
 
         this.update();
+    }
+
+    private createChip(tag: string): TagChipComponent {
+        let chip: TagChipComponent = new TagChipComponent();
+        chip.setAttribute('is', 'app-tag-chip');
+        chip.classList.add('chip');
+        chip.innerHTML = tag.charAt(0).toUpperCase() + tag.slice(1);
+        chip.tag = tag;
+        return chip;
     }
 
     private getPagesNumber(): number {
@@ -182,9 +158,8 @@ export class TagsWallComponent extends HTMLElement {
     }
 
     private handleCheckbox = (event: Event): void => {
-        const checkbox: HTMLInputElement = event.target as HTMLInputElement;
-        const tag: string = checkbox.value;
-        checkbox.checked ? this.selectedTags.push(tag) : this.selectedTags = this.selectedTags.filter((t: string) => t !== tag);
+        const button: TagChipComponent = event.target as TagChipComponent;
+        this.dispatchEvent(new CustomEvent('tag-selected', { detail: { tag: button.tag } }));
     }
 }
 

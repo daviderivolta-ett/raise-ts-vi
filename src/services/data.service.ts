@@ -119,7 +119,7 @@ export class DataService {
 
     public getAllTags(data: Data): string[] {
         let tags: string[] = [];
-        
+
         data.categories.map((category: LayerCategory) => {
             category.groups.map((group: LayerGroup | string) => {
                 if (typeof group !== 'string') {
@@ -135,5 +135,33 @@ export class DataService {
         let uniq: string[] = [...new Set(tags)];
 
         return uniq;
+    }
+
+    public filterLayersByTags(tags: string[]): Layer[] {
+        let allLayers: Layer[] = [];
+     
+        tags.forEach((tag: string) => {
+            const layers: Layer[] = this.filterLayersByTag(tag);
+            layers.forEach((layer: Layer) => allLayers.push(layer));
+        });
+
+        let uniq: Layer[] = [...new Set(allLayers)];
+
+        return uniq;
+    }
+
+    public filterLayersByTag(value: string): Layer[] {
+        let layers: Layer[] = [];
+
+        layers = this.data.categories.flatMap((category: LayerCategory) => {
+            return category.groups.flatMap((group: LayerGroup | string) => {
+                if (typeof group === 'string') return [Layer.createEmpty()];
+                return group.layers.filter((layer: Layer) => {
+                    return layer.tags.some((tag: string) => tag.includes(value));
+                });
+            });
+        });
+
+        return layers;
     }
 }
