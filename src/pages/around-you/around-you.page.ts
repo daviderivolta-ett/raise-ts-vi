@@ -39,7 +39,7 @@ export class AroudYouPage extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <button is="app-menu-btn" aria-label="apri menu">Menu</button>
-            <dialog is="app-menu" role="dialog" aria-labelledby="menu-title"></dialog>
+            <dialog is="app-menu" aria-labelledby="menu-title"></dialog>
             <h1>Punti di interesse</h1>
             <a href="/raise-ts-vi/#/settings">Impostazioni</a>
             <div class="around-you-features"></div>

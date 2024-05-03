@@ -31,8 +31,6 @@ export class MenuComponent extends HTMLDialogElement {
                 <p>Pagine</p>            
                 <p>Pagine</p>            
             </nav>
-
-
             `
             ;
     }
@@ -52,7 +50,7 @@ export class MenuComponent extends HTMLDialogElement {
 
         const menuTitle: HTMLHeadingElement | null = this.querySelector('#menu-title');
         if (!menuTitle) return;
-        menuTitle.focus();
+        // if (this.isOpen) menuTitle.focus();
     }
 }
 
