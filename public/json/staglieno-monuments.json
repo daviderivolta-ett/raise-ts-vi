@@ -4,7 +4,7 @@
     {
       "name": "Monumenti cimitero Staglieno",
       "layer": "CULTURA:V_STAG_SCULTURE",
-      "layer_url_wfs": "./GeoJson/staglieno.geojson",
+      "layer_url_wfs": "./geoJson/staglieno.geojson",
       "style": {
         "color": "#7ae8fe",
         "opacity": 0.5

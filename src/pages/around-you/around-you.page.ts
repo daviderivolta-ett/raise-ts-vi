@@ -1,45 +1,33 @@
-import { Feature } from '../../models/feature.model';
-import { Layer } from '../../models/layer.model';
+import { Poi } from '../../models/poi.model';
 import { GeoGraphicService } from '../../services/geographic.service';
-import { HaversinService } from '../../services/haversine.service';
+import { HaversineService } from '../../services/haversine.service';
 import { LayerService } from '../../services/layer.service';
 import { PositionService } from '../../services/position.service';
-import { FeatureCard } from './feature-card.component';
-import './feature-card.component';
+import { PoiCard } from './poi-card.component';
+import './poi-card.component';
 
 export class AroudYouPage extends HTMLElement {
     public shadowRoot: ShadowRoot;
-    private _features: Feature[] = [];
+    private _pois: Poi[] = [];
 
     constructor() {
         super();
         this.shadowRoot = this.attachShadow({ mode: 'closed' });
     }
 
-    public get features(): Feature[] {
-        return this._features;
+    public get pois(): Poi[] {
+        return this._pois;
     }
 
-    public set features(features: Feature[]) {
-        this._features = features;
+    public set pois(pois: Poi[]) {
+        this._pois = pois;
     }
 
     public async connectedCallback(): Promise<void> {
         LayerService.instance.getSavedLayers();
         const position: GeolocationPosition = await PositionService.instance.getUserPosition();
-     
-        const geoJsonPromises: Promise<any>[] = LayerService.instance.activeLayers.map(async (layer: Layer) => {
-            return await GeoGraphicService.instance.createGeoJson(layer);
-        });
-
-        const geoJsons: any = await Promise.all(geoJsonPromises);
-        
-        geoJsons.forEach((geoJson: any) => {
-            geoJson.features.forEach((f: Feature) => this.features.push(f));
-        });
-
-        console.log(this.features);
-
+        this.pois = await GeoGraphicService.instance.getPoisFromLayers(LayerService.instance.activeLayers);
+        this.pois = this.orderPoisByDistance(position, this.pois);
         this.render();
     }
 
@@ -55,11 +43,32 @@ export class AroudYouPage extends HTMLElement {
         const list: HTMLDivElement | null = this.shadowRoot.querySelector('.around-you-features');
         if (!list) return;
 
-        this.features.forEach((feature: Feature) => {
-            const card: FeatureCard = document.createElement('app-feature-card') as FeatureCard;
-            card.feature = feature;
+        this.pois.forEach((feature: Poi) => {
+            const card: PoiCard = document.createElement('app-feature-card') as PoiCard;
+            card.poi = feature;
             this.shadowRoot.append(card);
         });
+    }
+
+    private orderPoisByDistance(position: GeolocationPosition, pois: Poi[]): Poi[] {
+        const haversine: HaversineService = new HaversineService();
+
+        pois.forEach((poi: Poi) => {
+            if (!GeoGraphicService.instance.isCoordinatesMultidimensional(poi.coordinates)) {
+                const lat = Array.isArray(poi.coordinates) ? poi.coordinates[1] : poi.coordinates;
+                const lon = Array.isArray(poi.coordinates) ? poi.coordinates[0] : poi.coordinates;
+                const distance = haversine.haversineDistance(lat as number, lon as number, position.coords.latitude, position.coords.longitude);
+                // const distance = haversine.haversineDistance(lat as number, lon as number, 44.44416497901924, 8.732173415343668);
+                poi.distance = distance;
+            }
+        });
+
+        pois.sort((a, b) => {
+            if (a.distance && b.distance) return a.distance - b.distance;
+            return 0;
+        });
+
+        return pois;
     }
 }
 

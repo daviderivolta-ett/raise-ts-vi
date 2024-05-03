@@ -4,7 +4,7 @@
     {
       "name": "Router FreeWiFiGenova",
       "layer": "SITGEO:WI-FI_URBANO",
-      "layer_url_wfs": "./GeoJson/free-wifi-router.geojson",
+      "layer_url_wfs": "./geoJson/free-wifi-router.geojson",
       "style": {
         "color": "#f7cb90",
         "opacity": 0.5

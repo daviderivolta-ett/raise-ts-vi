@@ -1,5 +1,6 @@
 import { Feature, FeatureGeometry, FeatureGeometryType } from '../models/feature.model';
 import { Layer, LayerProperty } from '../models/layer.model';
+import { Poi } from '../models/poi.model';
 
 export class GeoGraphicService {
     private static _instance: GeoGraphicService;
@@ -14,14 +15,14 @@ export class GeoGraphicService {
         return GeoGraphicService._instance;
     }
 
-    public async createGeoJson(layer: Layer): Promise<any> {
+    public async createGeoJson(layer: Layer): Promise<any> {             
         const url = `${layer.url}?service=WFS&typeName=${layer.layer}&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326`;
         const res: Response = await fetch(url);
         let rawGeoJson: any = await res.json();        
         let geoJsonNewProp: any = this.substituteRelevantProperties(rawGeoJson, layer);
         let geoJsonAddProp: any = this.createFeatureAdditionalProperties(geoJsonNewProp, layer);
         let geoJson: any = { ...geoJsonAddProp };
-        geoJson.features = geoJsonAddProp.features.map((f: any) => this.parseFeature(f));        
+        geoJson.features = geoJsonAddProp.features.map((f: any) => this.parseFeature(f));
         return geoJson;
     }
 
@@ -47,32 +48,13 @@ export class GeoGraphicService {
     }
 
     private createFeatureAdditionalProperties(geoJson: any, layer: Layer): any {
-        geoJson.features = geoJson.features.map((f: Feature, i: number) => {
+        geoJson.features = geoJson.features.map((f: Feature, i: number) => {            
             f.properties.name = layer.name + ' ' + i;
             f.properties.layerName = layer.layer;
-
-            switch (f.geometry.type) {
-                case FeatureGeometryType.Point:
-                    f.properties.uuid = layer.layer + f.geometry.coordinates[1] + f.geometry.coordinates[0];
-                    break;
-
-                case FeatureGeometryType.MultiPoint:
-                    f.properties.uuid = layer.layer + (f.geometry.coordinates as number[][])[0][1] + (f.geometry.coordinates as number[][])[0][0];
-                    break;
-
-                case FeatureGeometryType.LineString || FeatureGeometryType.Polygon || FeatureGeometryType.MultiPoint:
-                    f.properties.uuid = layer.layer + (f.geometry.coordinates as number[][])[0][1] + (f.geometry.coordinates as number[][])[0][0];
-                    break;
-
-                default:
-                    f.properties.uuid = layer.layer + (f.geometry.coordinates as number[][][])[0][0][1] + (f.geometry.coordinates as number[][][])[0][0][0];
-                    break;
-            }
-
             f.properties.uuid = f.id;
-
             return f;
         });
+        
         return geoJson;
     }
 
@@ -83,15 +65,15 @@ export class GeoGraphicService {
         f.properties = feature.properties;
         f.geometry_name = feature.geometry_name;
         f.id = feature.id;
-
-        f.geometry = this.parseFeatureGeometry(feature.geometry);
+                
+        if (feature.geometry) f.geometry = this.parseFeatureGeometry(feature.geometry);
 
         return f;
     }
 
     private parseFeatureGeometry(geometry: any): FeatureGeometry {
         let g: FeatureGeometry = FeatureGeometry.createEmpty();
-
+        
         g.type = this.parseFeatureGeometryType(geometry.type);
         g.coordinates = geometry.coordinates;
 
@@ -127,5 +109,31 @@ export class GeoGraphicService {
         }
 
         return t;
+    }
+
+    public async getPoisFromLayers(layers: Layer[]): Promise<Poi[]> {
+        let pois: Poi[] = [];
+        const geoJsonPromises: Promise<any>[] = layers.map(async (layer: Layer) => {
+            return GeoGraphicService.instance.createGeoJson(layer);
+        });
+        const geoJsons: any = await Promise.all(geoJsonPromises);
+        geoJsons.forEach((geoJson: any) => {
+            geoJson.features.forEach((f: Feature) => pois.push(Poi.fromFeature(f)));
+        });
+        return pois.filter((poi: Poi) => !GeoGraphicService.instance.isCoordinatesMultidimensional(poi.coordinates));
+    }
+
+    public isCoordinatesMultidimensional(coordinates: number[] | number[][] | number[][][]): boolean {
+        if (!Array.isArray(coordinates)) {
+            return false;
+        }
+
+        for (let i = 0; i < coordinates.length; i++) {
+            if (Array.isArray(coordinates[i])) {
+                return true;
+            }
+        }
+
+        return false;
     }
 }

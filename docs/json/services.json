@@ -4,7 +4,7 @@
     {
       "name": "Bagni pubblici",
       "layer": "SITGEO:V_BAGNI",
-      "layer_url_wfs": "./GeoJson/bagni-pubblici.geojson",
+      "layer_url_wfs": "./geoJson/bagni-pubblici.geojson",
       "style": {
         "color": "#febfa4",
         "opacity": 0.5
@@ -49,7 +49,7 @@
     {
       "name": "Ospedali",
       "layer": "SITGEO:V_PC_OSPEDALI",
-      "layer_url_wfs": "./GeoJson/hospitals.geojson",
+      "layer_url_wfs": "./geoJson/hospitals.geojson",
       "style": {
         "color": "#6ab58d",
         "opacity": 0.5
@@ -123,7 +123,7 @@
     {
       "name": "Cinema",
       "layer": "GEOJSON_CINEMA",
-      "layer_url_wfs": "./GeoJson/cinemas.geojson",
+      "layer_url_wfs": "./geoJson/cinemas.geojson",
       "style": {
         "color": "#b795d2",
         "opacity": 0.5
@@ -153,7 +153,7 @@
     {
       "name": "Teatri",
       "layer": "GEOJSON_TEATRI",
-      "layer_url_wfs": "./GeoJson/theatre.geojson",
+      "layer_url_wfs": "./geoJson/theatre.geojson",
       "style": {
         "color": "#c06156",
         "opacity": 0.5
@@ -213,7 +213,7 @@
     {
       "name": "Scuole",
       "layer": "SITGEO:SCUOLE_AGG_GEO",
-      "layer_url_wfs": "./GeoJson/schools.geojson",
+      "layer_url_wfs": "./geoJson/schools.geojson",
       "style": {
         "color": "#97424c",
         "opacity": 0.5
@@ -302,7 +302,7 @@
     {
       "name": "Mercati rionali",
       "layer": "SITGEO:V_COM_MERCATI",
-      "layer_url_wfs": "./GeoJson/mercati-rionali.geojson",
+      "layer_url_wfs": "./geoJson/mercati-rionali.geojson",
       "style": {
         "color": "#37f58e",
         "opacity": 0.5
@@ -346,7 +346,7 @@
     {
       "name": "Strutture ricettive turistiche",
       "layer": "SITGEO:V_RIC_TURISTICHE",
-      "layer_url_wfs": "./GeoJson/strutture-ricettive-turistiche.geojson",
+      "layer_url_wfs": "./geoJson/strutture-ricettive-turistiche.geojson",
       "style": {
         "color": "#bf5132",
         "opacity": 0.5
@@ -394,7 +394,7 @@
     {
       "name": "Acqua potabile",
       "layer": "GEOJSON_ACQUA_POTABILE",
-      "layer_url_wfs": "./GeoJson/drinking-water.geojson",
+      "layer_url_wfs": "./geoJson/drinking-water.geojson",
       "style": {
         "color": "#b89da7",
         "opacity": 0.5
@@ -414,7 +414,7 @@
     {
       "name": "Camere di sorveglianza",
       "layer": "GEOJSON_SURVEILLANCE_CAMERAS",
-      "layer_url_wfs": "./GeoJson/surveillance-cameras.geojson",
+      "layer_url_wfs": "./geoJson/surveillance-cameras.geojson",
       "style": {
         "color": "#691a40",
         "opacity": 0.5
@@ -432,7 +432,7 @@
     {
       "name": "ATM",
       "layer": "GEOJSON_ATM",
-      "layer_url_wfs": "./GeoJson/atm.geojson",
+      "layer_url_wfs": "./geoJson/atm.geojson",
       "style": {
         "color": "#4bdd99",
         "opacity": 0.5
@@ -457,7 +457,7 @@
     {
       "name": "Panchine pubbliche",
       "layer": "GEOJSON_BENCH",
-      "layer_url_wfs": "./GeoJson/benches.geojson",
+      "layer_url_wfs": "./geoJson/benches.geojson",
       "style": {
         "color": "#db2103",
         "opacity": 0.5

@@ -4,7 +4,7 @@
     {
       "name": "Impianti sportivi comunali",
       "layer": "SITGEO:V_IMPIANTI_SPORTIVI",
-      "layer_url_wfs": "./GeoJson/impianti-sportivi.geojson",
+      "layer_url_wfs": "./geoJson/impianti-sportivi.geojson",
       "style": {
         "color": "#aeafd9",
         "opacity": 0.5
@@ -78,7 +78,7 @@
     {
       "name": "Aree ad uso sportivo",
       "layer": "URBANISTICA:V_VAS_SPORT",
-      "layer_url_wfs": "./GeoJson/aree-uso-sportivo.geojson",
+      "layer_url_wfs": "./geoJson/aree-uso-sportivo.geojson",
       "style": {
         "color": "#79f7fd",
         "opacity": 0.5

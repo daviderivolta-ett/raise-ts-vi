@@ -4,7 +4,7 @@
     {
       "name": "Fermate AMT",
       "layer": "SITGEO:V_MOB_FERMATE_AMT",
-      "layer_url_wfs": "./GeoJson/amt-bus-stop.geojson",
+      "layer_url_wfs": "./geoJson/amt-bus-stop.geojson",
       "style": {
         "color": "#85499a",
         "opacity": 0.5
@@ -44,7 +44,7 @@
     {
       "name": "Stazioni metropolitana",
       "layer": "SITGEO:V_MOB_METROPOLITANA_STAZIONI",
-      "layer_url_wfs": "./GeoJson/metro-stations.geojson",
+      "layer_url_wfs": "./geoJson/metro-stations.geojson",
       "style": {
         "color": "#58a293",
         "opacity": 0.5
@@ -75,7 +75,7 @@
     {
       "name": "Tracciato metropolitana",
       "layer": "SITGEO:V_MOB_METROPOLITANA",
-      "layer_url_wfs": "./GeoJson/metro-path.geojson",
+      "layer_url_wfs": "./geoJson/metro-path.geojson",
       "style": {
         "color": "#1b2eb7",
         "opacity": 1
