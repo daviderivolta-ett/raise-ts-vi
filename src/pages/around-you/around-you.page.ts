@@ -4,6 +4,8 @@ import { HaversineService } from '../../services/haversine.service';
 import { LayerService } from '../../services/layer.service';
 import { PositionService } from '../../services/position.service';
 import { PoiCard } from './poi-card.component';
+import '../../components/menu-btn.component';
+import '../../components/menu.component';
 import './poi-card.component';
 
 export class AroudYouPage extends HTMLElement {
@@ -34,6 +36,8 @@ export class AroudYouPage extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
+            <button is="app-menu-btn">Menu</button>
+            <app-menu></app-menu>
             <h1>Punti di interesse</h1>
             <a href="/raise-ts-vi/#/settings">Impostazioni</a>
             <div class="around-you-features"></div>
@@ -41,7 +45,7 @@ export class AroudYouPage extends HTMLElement {
             ;
 
         const list: HTMLDivElement | null = this.shadowRoot.querySelector('.around-you-features');
-        if (!list) return;
+        if (!list) return;        
 
         this.pois.forEach((feature: Poi) => {
             const card: PoiCard = document.createElement('app-feature-card') as PoiCard;

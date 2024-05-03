@@ -14,8 +14,7 @@ export class PoiCard extends HTMLElement {
     }
 
     public set poi(poi: Poi) {
-        this._poi = poi;
-        console.log(this.poi);        
+        this._poi = poi;       
     }
 
     public connectedCallback(): void {
