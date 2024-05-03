@@ -23,13 +23,13 @@ export class LayerService {
         localStorage.setItem('layers', JSON.stringify(this.activeLayers));
     }
 
-    public getSavedLayers(): void {
+    public getSavedLayers(): void {        
         const savedLayersString: string | null = localStorage.getItem('layers');
         if (!savedLayersString) return;
         const rawSavedLayers: any = JSON.parse(savedLayersString);
         let savedLayers: Layer[] = [];
         savedLayers = rawSavedLayers.map((layer: any) => this.parseLayer(layer));
-        this._activeLayers = savedLayers;       
+        this._activeLayers = savedLayers;
     }
 
     private parseLayer(layer: any): Layer {

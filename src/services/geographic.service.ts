@@ -17,11 +17,11 @@ export class GeoGraphicService {
     public async createGeoJson(layer: Layer): Promise<any> {
         const url = `${layer.url}?service=WFS&typeName=${layer.layer}&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326`;
         const res: Response = await fetch(url);
-        let rawGeoJson: any = await res.json();
+        let rawGeoJson: any = await res.json();        
         let geoJsonNewProp: any = this.substituteRelevantProperties(rawGeoJson, layer);
         let geoJsonAddProp: any = this.createFeatureAdditionalProperties(geoJsonNewProp, layer);
         let geoJson: any = { ...geoJsonAddProp };
-        geoJson.features = geoJsonAddProp.features.map((f: any) => this.parseFeature(f));
+        geoJson.features = geoJsonAddProp.features.map((f: any) => this.parseFeature(f));        
         return geoJson;
     }
 

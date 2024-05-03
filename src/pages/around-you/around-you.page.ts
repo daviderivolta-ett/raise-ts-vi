@@ -1,4 +1,4 @@
-import { Feature, FeatureGeometry, FeatureGeometryType } from '../../models/feature.model';
+import { Feature } from '../../models/feature.model';
 import { Layer } from '../../models/layer.model';
 import { GeoGraphicService } from '../../services/geographic.service';
 import { HaversinService } from '../../services/haversine.service';
@@ -27,18 +27,18 @@ export class AroudYouPage extends HTMLElement {
     public async connectedCallback(): Promise<void> {
         LayerService.instance.getSavedLayers();
         const position: GeolocationPosition = await PositionService.instance.getUserPosition();
-
+     
         const geoJsonPromises: Promise<any>[] = LayerService.instance.activeLayers.map(async (layer: Layer) => {
-            return GeoGraphicService.instance.createGeoJson(layer);
+            return await GeoGraphicService.instance.createGeoJson(layer);
         });
 
         const geoJsons: any = await Promise.all(geoJsonPromises);
-
+        
         geoJsons.forEach((geoJson: any) => {
             geoJson.features.forEach((f: Feature) => this.features.push(f));
         });
 
-        console.log(this.features);     
+        console.log(this.features);
 
         this.render();
     }

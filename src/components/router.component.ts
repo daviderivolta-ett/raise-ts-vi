@@ -31,6 +31,9 @@ export class Router extends HTMLElement {
             defaultRoute ? window.location.hash = '#/' + defaultRoute[0].url : this.sendNotFound();
         } else {
             const hashIndex: number = this.routes.findIndex((route: Route) => route.url === hash);
+            console.log(hashIndex);
+            console.log(this.routes);
+            
             this.shadowRoot.innerHTML = this.routes[hashIndex] ? this.routes[hashIndex].routing() : this.sendNotFound();
         }
     }

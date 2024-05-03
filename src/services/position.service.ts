@@ -1,5 +1,3 @@
-import { Feature } from "../models/feature.model";
-
 export class PositionService {
     private static _instance: PositionService;
     private _position: GeolocationPosition | null = null;
