@@ -26,21 +26,40 @@ export class AroudYouPage extends HTMLElement {
     }
 
     public async connectedCallback(): Promise<void> {
+        console.log('connected');        
         LayerService.instance.getSavedLayers();
         const position: GeolocationPosition = await PositionService.instance.getUserPosition();
         this.pois = await GeoGraphicService.instance.getPoisFromLayers(LayerService.instance.activeLayers);
         this.pois = this.orderPoisByDistance(position, this.pois);
+        console.log('render');        
         this.render();
     }
 
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <button is="app-menu-btn">Menu</button>
-            <app-menu></app-menu>
+            <button is="app-menu-btn" aria-label="apri menu">Menu</button>
+            <dialog is="app-menu" role="dialog" aria-labelledby="menu-title"></dialog>
             <h1>Punti di interesse</h1>
             <a href="/raise-ts-vi/#/settings">Impostazioni</a>
             <div class="around-you-features"></div>
+
+            <style>
+                dialog {
+                    display: none;
+                    position: fixed;
+                    width: 100%;
+                    height: 100vh;
+                    top: 0;
+                    right: -500px;
+                    background-color: red;
+                }
+
+                dialog.menu-visible {
+                    display: block;
+                    right: 0;
+                }
+            </style>
             `
             ;
 
