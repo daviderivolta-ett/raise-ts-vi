@@ -29,7 +29,10 @@ export class MenuComponent extends HTMLElement {
             `
             <div class="menu">
                 <button aria-label="chiudi menu">Chiudi</button>
-                <p>MENU</p>            
+                <h2 id="menu-title">Menu</h2>
+                <p>Pagine</p>            
+                <p>Pagine</p>            
+                <p>Pagine</p>            
             </div>
 
             <style>
@@ -62,6 +65,10 @@ export class MenuComponent extends HTMLElement {
 
     private update(): void {
         this.isOpen ? this.classList.add('menu-visible') : this.classList.remove('menu-visible');
+
+        const menuTitle: HTMLHeadingElement | null = this.shadowRoot.querySelector('#menu-title');
+        if (!menuTitle) return;
+        menuTitle.focus();
     }
 }
 
