@@ -27,7 +27,7 @@ var O=Object.defineProperty;var F=(i,e,t)=>e in i?O(i,e,{enumerable:!0,configura
 
             <style>
                 :host {
-                    display: block;
+                    display: none;
                     position: fixed;
                     width: 100%;
                     height: 100vh;
@@ -37,6 +37,7 @@ var O=Object.defineProperty;var F=(i,e,t)=>e in i?O(i,e,{enumerable:!0,configura
                 }
 
                 :host(.menu-visible) {
+                    display: block;
                     right: 0;
                 }
             </style>

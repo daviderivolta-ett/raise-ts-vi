@@ -34,7 +34,7 @@ export class MenuComponent extends HTMLElement {
 
             <style>
                 :host {
-                    display: block;
+                    display: none;
                     position: fixed;
                     width: 100%;
                     height: 100vh;
@@ -44,6 +44,7 @@ export class MenuComponent extends HTMLElement {
                 }
 
                 :host(.menu-visible) {
+                    display: block;
                     right: 0;
                 }
             </style>
