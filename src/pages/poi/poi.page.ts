@@ -1,6 +1,7 @@
 import { SnackbarComponent } from '../../components/snackbar.component';
 import { Poi, PoiProperty } from '../../models/poi.model';
 import { Snackbar, SnackbarType } from '../../models/snackbar.model';
+import { PathService } from '../../services/path.service';
 import { PoiService } from '../../services/poi.service';
 
 export class PoiPage extends HTMLElement {
@@ -88,6 +89,7 @@ export class PoiPage extends HTMLElement {
             const live: SnackbarComponent | null = document.body.querySelector('app-snackbar');          
             if (!live) return;            
             live.snackbar = new Snackbar(SnackbarType.Info, `Aggiunto al percorso personalizzato`, 2);
+            PathService.instance.addPoiToCustomPath(this.poi);
         });
     }
 }

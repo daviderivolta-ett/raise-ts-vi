@@ -21,9 +21,13 @@ import './components/menu.component';
 // Classes
 import { Router } from './components/router.component';
 import { SettingService } from './services/setting.service';
+import { PathService } from './services/path.service';
 
 // Settings
 SettingService.instance.getLocalStorageSettings();
+
+// Saved data
+PathService.instance.getSavedCustomPath();
 
 // Routing
 const router: Router = document.querySelector('app-router') as Router;
