@@ -24,12 +24,15 @@ export class MenuComponent extends HTMLDialogElement {
 
     private render(): void {
         this.innerHTML =
-            `<nav class="menu" >
-                <button aria-label="chiudi menu">Chiudi</button>
-                <h2 id="menu-title">Menu</h2>
-                <p>Pagine</p>            
-                <p>Pagine</p>            
-                <p>Pagine</p>            
+            `
+            <button autofocus aria-label="chiudi menu">Chiudi</button>
+            <h2 id="menu-title">Menu</h2>
+            <nav class="menu" >
+                <ul>
+                    <li>Pagina</li>
+                    <li>Pagina</li>
+                    <li>Pagina</li>           
+                </ul>
             </nav>
             `
             ;
@@ -40,7 +43,8 @@ export class MenuComponent extends HTMLDialogElement {
 
         const closeBtn: HTMLButtonElement | null = this.querySelector('button');
         if (!closeBtn) return;
-        closeBtn.addEventListener('click', () => MenuObservable.instance.isOpen = false);
+        // closeBtn.addEventListener('click', () => MenuObservable.instance.isOpen = false);
+        closeBtn.addEventListener('click', () => this.close());
     }
 
     private update(): void {

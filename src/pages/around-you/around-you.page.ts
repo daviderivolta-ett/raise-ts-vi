@@ -26,13 +26,12 @@ export class AroudYouPage extends HTMLElement {
     }
 
     public async connectedCallback(): Promise<void> {
-        console.log('connected');        
         LayerService.instance.getSavedLayers();
         const position: GeolocationPosition = await PositionService.instance.getUserPosition();
         this.pois = await GeoGraphicService.instance.getPoisFromLayers(LayerService.instance.activeLayers);
         this.pois = this.orderPoisByDistance(position, this.pois);
-        console.log('render');        
         this.render();
+        this.setup();
     }
 
     private render(): void {
@@ -43,34 +42,27 @@ export class AroudYouPage extends HTMLElement {
             <h1>Punti di interesse</h1>
             <a href="/raise-ts-vi/#/settings">Impostazioni</a>
             <div class="around-you-features"></div>
-
-            <style>
-                dialog {
-                    display: none;
-                    position: fixed;
-                    width: 100%;
-                    height: 100vh;
-                    top: 0;
-                    right: -500px;
-                    background-color: red;
-                }
-
-                dialog.menu-visible {
-                    display: block;
-                    right: 0;
-                }
-            </style>
             `
             ;
 
         const list: HTMLDivElement | null = this.shadowRoot.querySelector('.around-you-features');
-        if (!list) return;        
+        if (!list) return;
 
         this.pois.forEach((feature: Poi) => {
             const card: PoiCard = document.createElement('app-feature-card') as PoiCard;
             card.poi = feature;
             this.shadowRoot.append(card);
         });
+    }
+
+    private setup(): void {
+        const menuBtn: HTMLButtonElement | null = this.shadowRoot.querySelector('button[is="app-menu-btn"]');
+        const menu: HTMLDialogElement | null = this.shadowRoot.querySelector('dialog[is="app-menu"]');
+        
+        if (!menuBtn) return;
+        if (!menu) return;
+
+        menuBtn.addEventListener('click', () => menu.showModal());
     }
 
     private orderPoisByDistance(position: GeolocationPosition, pois: Poi[]): Poi[] {

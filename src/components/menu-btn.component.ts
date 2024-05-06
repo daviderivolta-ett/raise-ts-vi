@@ -28,7 +28,7 @@ export class MenuBtnComponent extends HTMLButtonElement {
     }
 
     public connectedCallback(): void {
-        this.setup();
+        // this.setup();
     }
 
     private setup(): void {

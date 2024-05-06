@@ -136,7 +136,7 @@ export class TagsWallComponent extends HTMLElement {
         chip.classList.add('chip');
         chip.innerHTML = tag.charAt(0).toUpperCase() + tag.slice(1);
         chip.tag = tag;
-        return chip;
+        return chip;     
     }
 
     private getPagesNumber(): number {
