@@ -16,6 +16,7 @@ export class MenuComponent extends HTMLDialogElement {
             <nav class="menu" >
                 <ul>
                     <li><a href="/#/categories">Seleziona categoria</a></li>
+                    <li><a href="/#/around-you">Intorno a me</a></li>
                     <li><a href="/#/suggested-paths">Percorsi suggeriti</a></li>
                     <li><a href="/#/custom-path">Percorsi custom</a></li>
                 </ul>

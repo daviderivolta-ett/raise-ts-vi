@@ -31,6 +31,13 @@ export class SnackbarComponent extends HTMLElement {
             </div>
 
             <style>
+                .snackbar {
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                }
+
                 .info-snackbar {
                     background-color: blue;
                 }

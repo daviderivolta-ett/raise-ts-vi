@@ -11,7 +11,9 @@
 
 <body>
   <main>
+    <button is="app-menu-btn" aria-label="apri menu">Menu</button>
     <app-router></app-router>
+    <dialog is="app-menu" aria-labelledby="menu-title"></dialog>
     <app-snackbar role="alert" aria-live="assertive"></app-snackbar>
   </main>
   <script type="module" src="/src/main.ts"></script>

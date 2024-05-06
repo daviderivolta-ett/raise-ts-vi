@@ -40,8 +40,6 @@ export class AroudYouPage extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <button id="app-menu-btn" aria-label="apri menu">Menu</button>
-            <dialog is="app-menu" aria-labelledby="menu-title"></dialog>
             <h1>Punti di interesse</h1>
             <a href="/#/settings">Impostazioni</a>
             <div class="around-you-features"></div>
@@ -51,27 +49,19 @@ export class AroudYouPage extends HTMLElement {
         const list: HTMLDivElement | null = this.shadowRoot.querySelector('.around-you-features');
         if (!list) return;
 
-        this.pois.forEach((feature: Poi) => {
-            const card: PoiCard = document.createElement('app-feature-card') as PoiCard;
-            card.poi = feature;
+        this.pois.forEach((poi: Poi) => {
+            const card: PoiCard = document.createElement('app-poi-card') as PoiCard;
+            card.poi = poi;
             list.append(card);
         });
     }
 
     private setup(): void {
-        const menuBtn: HTMLButtonElement | null = this.shadowRoot.querySelector('button#app-menu-btn');
-        const menu: HTMLDialogElement | null = this.shadowRoot.querySelector('dialog[is="app-menu"]');
-        
-        if (!menuBtn) return;
-        if (!menu) return;
-
-        menuBtn.addEventListener('click', () => menu.showModal());
-
-        const cards: NodeListOf<PoiCard> = this.shadowRoot.querySelectorAll('app-feature-card');
+        const cards: NodeListOf<PoiCard> = this.shadowRoot.querySelectorAll('app-poi-card');
         cards.forEach((card: PoiCard) => {
             card.addEventListener('poi-selected', (e: CustomEventInit) => {
-                PoiService.instance.selectedPoi = e.detail.selectedPoi;
-                window.location.href = '/#/poi';
+                PoiService.instance.selectedPoi = e.detail.selectedPoi;             
+                window.location.hash = '/poi';
             });
         })
     }
