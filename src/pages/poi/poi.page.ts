@@ -82,7 +82,9 @@ export class PoiPage extends HTMLElement {
         const button: HTMLButtonElement | null = this.shadowRoot.querySelector('#add-to-custom-path-btn');
         if (!button) return;
         button.addEventListener('click', () => {
-            console.log(this.poi);
+            const liveRegion: HTMLDivElement | null = document.body.querySelector('#aria-live');
+            if (!liveRegion) return;
+            liveRegion.innerHTML = '<p>pippo</p>';
         });
     }
 }
