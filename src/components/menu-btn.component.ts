@@ -1,5 +1,4 @@
 import { EventObservable } from '../observables/event.observable';
-import { MenuObservable } from '../observables/menu.observable';
 
 export class MenuBtnComponent extends HTMLButtonElement {
     private _isOpen: boolean = false;
@@ -31,12 +30,12 @@ export class MenuBtnComponent extends HTMLButtonElement {
         // this.setup();
     }
 
-    private setup(): void {
-        this.addEventListener('click', () => {
-            MenuObservable.instance.isOpen = !this.isOpen;
-        });
-        EventObservable.instance.subscribe('toggle-menu', (isOpen: boolean) => this.isOpen = isOpen);
-    }
+    // private setup(): void {
+    //     this.addEventListener('click', () => {
+    //         MenuObservable.instance.isOpen = !this.isOpen;
+    //     });
+    //     EventObservable.instance.subscribe('toggle-menu', (isOpen: boolean) => this.isOpen = isOpen);
+    // }
 
     public disconnectedCallback(): void {
         EventObservable.instance.unsubscribeAll('toggle-menu');

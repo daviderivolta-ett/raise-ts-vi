@@ -1,5 +1,4 @@
 import { EventObservable } from '../observables/event.observable';
-import { MenuObservable } from '../observables/menu.observable';
 
 export class MenuComponent extends HTMLDialogElement {
     private _isOpen: boolean = false;
