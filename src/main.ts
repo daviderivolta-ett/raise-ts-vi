@@ -14,6 +14,7 @@ import './pages/around-you/around-you.page';
 import './pages/settings/settings.page';
 import './pages/poi/poi.page';
 import './pages/custom-path/custom-path.page';
+import './components/snackbar.component';
 
 // Classes
 import { Router } from './components/router.component';

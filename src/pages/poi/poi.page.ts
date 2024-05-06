@@ -1,3 +1,4 @@
+import { SnackbarComponent } from '../../components/snackbar.component';
 import { Poi, PoiProperty } from '../../models/poi.model';
 import { PoiService } from '../../services/poi.service';
 
@@ -82,9 +83,13 @@ export class PoiPage extends HTMLElement {
         const button: HTMLButtonElement | null = this.shadowRoot.querySelector('#add-to-custom-path-btn');
         if (!button) return;
         button.addEventListener('click', () => {
-            const liveRegion: HTMLDivElement | null = document.body.querySelector('#aria-live');
-            if (!liveRegion) return;
-            liveRegion.innerHTML = '<p>pippo</p>';
+            // const liveRegion: HTMLDivElement | null = document.body.querySelector('#aria-live');
+            // if (!liveRegion) return;
+            // liveRegion.innerHTML = '<p>pippo</p>';
+
+            const live: SnackbarComponent | null = document.body.querySelector('app-snackbar');          
+            if (!live) return;            
+            live.msg = 'ehiehiehiehiehi';
         });
     }
 }
