@@ -1,6 +1,8 @@
 import { SnackbarComponent } from '../../components/snackbar.component';
 import { Poi, PoiProperty } from '../../models/poi.model';
+import { SnackbarType } from '../../models/snackbar.model';
 import { PoiService } from '../../services/poi.service';
+import { SnackbarService } from '../../services/snackbar.service';
 
 export class PoiPage extends HTMLElement {
     public shadowRoot: ShadowRoot;
@@ -82,14 +84,11 @@ export class PoiPage extends HTMLElement {
     private setupAddToCustomPathBtn(): void {
         const button: HTMLButtonElement | null = this.shadowRoot.querySelector('#add-to-custom-path-btn');
         if (!button) return;
-        button.addEventListener('click', () => {
-            // const liveRegion: HTMLDivElement | null = document.body.querySelector('#aria-live');
-            // if (!liveRegion) return;
-            // liveRegion.innerHTML = '<p>pippo</p>';
 
+        button.addEventListener('click', () => {
             const live: SnackbarComponent | null = document.body.querySelector('app-snackbar');          
             if (!live) return;            
-            live.msg = 'ehiehiehiehiehi';
+            live.snackbar = SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Aggiunto al percorso personalizzato`, 2);
         });
     }
 }

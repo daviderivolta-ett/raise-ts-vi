@@ -1,18 +1,20 @@
+import { Snackbar } from '../models/snackbar.model';
+
 export class SnackbarComponent extends HTMLElement {
     public shadowRoot: ShadowRoot;
-    private _msg: string = '';
+    private _snackbar: Snackbar = Snackbar.createEmpty();
 
     constructor() {
         super();
         this.shadowRoot = this.attachShadow({ mode: 'closed' });
     }
 
-    public get msg(): string {
-        return this._msg;
+    public get snackbar(): Snackbar {
+        return this._snackbar;
     }
 
-    public set msg(msg: string) {
-        this._msg = msg;
+    public set snackbar(snackbar: Snackbar) {
+        this._snackbar = snackbar;
         this.update();
     }
 
@@ -32,11 +34,11 @@ export class SnackbarComponent extends HTMLElement {
     }
 
     private update(): void {
-        if (this.msg.length === 0) return;
-     
+        if (this.snackbar.message.length === 0) return;
+
         const message: HTMLParagraphElement | null = this.shadowRoot.querySelector('.snackbar-message');
         if (!message) return;
-        message.innerHTML = this.msg;
+        message.innerHTML = this.snackbar.message;
     }
 }
 
