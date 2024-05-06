@@ -46,9 +46,7 @@ export class PathService {
         const savedCustomPathString: string | null = localStorage.getItem('custom-path');
         if (!savedCustomPathString) return;
         const rawSavedCustomPath: any = JSON.parse(savedCustomPathString);
-        this._customPath = this.parseCustomPath(rawSavedCustomPath);
-        console.log(this._customPath);
-        
+        this._customPath = this.parseCustomPath(rawSavedCustomPath);        
     }
 
     private parseCustomPath(path: any): Path {                
