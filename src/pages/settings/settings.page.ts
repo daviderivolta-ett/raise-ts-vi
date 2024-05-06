@@ -28,7 +28,7 @@ export class SettingsPage extends HTMLElement {
         this._settings = settings;
     }
 
-    public connectedCallback(): void {
+    public connectedCallback(): void {        
         this.render();
         this.setup();
         this.update();
@@ -96,8 +96,8 @@ export class SettingsPage extends HTMLElement {
         })
 
         applyBtn.addEventListener('click', () => {
-            SettingService.instance.settings = this.settings;
             window.location.href = '/#/around-you'
+            SettingService.instance.settings = this.settings;
         });
     }
 

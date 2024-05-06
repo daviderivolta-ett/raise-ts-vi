@@ -12,7 +12,7 @@ export class SettingsFontSizeComponent extends HTMLElement {
     }
 
     public set fontSize(fontSize: number) {
-        this._fontSize = fontSize;
+        this._fontSize = fontSize;        
         this.update();
         this.dispatchEvent(new CustomEvent('font-size-updated', { detail: { fontSize: this.fontSize } }));
     }
@@ -63,7 +63,7 @@ export class SettingsFontSizeComponent extends HTMLElement {
 
     }
 
-    private update(): void {
+    private update(): void {              
         const slider: HTMLInputElement | null = this.shadowRoot.querySelector('input[type="range"]');
         if (slider) slider.value = this.fontSize.toString();
     }

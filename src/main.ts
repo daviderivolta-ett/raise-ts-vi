@@ -16,6 +16,9 @@ import './pages/settings/settings.page';
 import { Router } from './components/router.component';
 import { SettingService } from './services/setting.service';
 
+// Settings
+SettingService.instance.getLocalStorageSettings();
+
 // Routing
 const router: Router = document.querySelector('app-router') as Router;
 const categoriesRoute: Route = new Route('categories', RouteType.Default, () => '<page-categories />');
@@ -24,6 +27,3 @@ const settingsRoute: Route = new Route('settings', RouteType.Page, () => '<page-
 
 const routes: Route[] = [categoriesRoute, aroundYouRoute, settingsRoute];
 router.addRoutes(routes);
-
-// Settings
-SettingService.instance.getLocalStorageSettings();

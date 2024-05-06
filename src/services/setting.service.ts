@@ -9,7 +9,7 @@ export class SettingService {
     }
 
     public set settings(settings: Settings) {
-        this._settings = settings;
+        this._settings = settings;        
         this.setFontSize(this.settings.fontSize);
         this.setLetterSpace(this.settings.letterSpace);
         this.setLineHeight(this.settings.lineHeight);
@@ -32,7 +32,7 @@ export class SettingService {
         if (!localStorageContentString) return;
         const localStorageContent: any = JSON.parse(localStorageContentString);
         const settings: Settings = this.parseLocalStorageSettings(localStorageContent);
-        this.settings = settings;
+        this.settings = { ...settings };
     }
 
     public setLocalStorageSettings(): void {

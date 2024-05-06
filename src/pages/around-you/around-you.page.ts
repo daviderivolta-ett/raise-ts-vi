@@ -4,7 +4,6 @@ import { HaversineService } from '../../services/haversine.service';
 import { LayerService } from '../../services/layer.service';
 import { PositionService } from '../../services/position.service';
 import { PoiCard } from './poi-card.component';
-import '../../components/menu-btn.component';
 import '../../components/menu.component';
 import './poi-card.component';
 
@@ -37,10 +36,10 @@ export class AroudYouPage extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <button is="app-menu-btn" aria-label="apri menu">Menu</button>
+            <button id="app-menu-btn" aria-label="apri menu">Menu</button>
             <dialog is="app-menu" aria-labelledby="menu-title"></dialog>
             <h1>Punti di interesse</h1>
-            <a href="/raise-ts-vi/#/settings">Impostazioni</a>
+            <a href="/#/settings">Impostazioni</a>
             <div class="around-you-features"></div>
             `
             ;
@@ -56,7 +55,7 @@ export class AroudYouPage extends HTMLElement {
     }
 
     private setup(): void {
-        const menuBtn: HTMLButtonElement | null = this.shadowRoot.querySelector('button[is="app-menu-btn"]');
+        const menuBtn: HTMLButtonElement | null = this.shadowRoot.querySelector('button#app-menu-btn');
         const menu: HTMLDialogElement | null = this.shadowRoot.querySelector('dialog[is="app-menu"]');
         
         if (!menuBtn) return;

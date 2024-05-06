@@ -87,7 +87,7 @@ export class SettingsContrastComponent extends HTMLElement {
         darkHighRadio.addEventListener('change', () => this.contrast = Contrast.DarkHigh);
     }
 
-    private update(): void {
+    private update(): void {        
         const radioBtns: HTMLInputElement[] = Array.from(this.shadowRoot.querySelectorAll<HTMLInputElement>('input[name="contrast"]'));
         radioBtns.forEach((radio: HTMLInputElement) => {
             if (radio.value === this.contrast) radio.checked = true;
