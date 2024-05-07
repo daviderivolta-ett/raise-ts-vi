@@ -20,11 +20,15 @@ export class CategoriesPage extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <button is="app-menu-btn" aria-label="apri menu">Menu</button>
-            <h1 tabindex="-1">Esplora categorie</h1>
-            <app-tags-wall />
+            <div class="categories-page">
+                <h1 tabindex="-1">Esplora categorie</h1>
+                <app-tags-wall />
+            </div>
             `
             ;
+
+        const title: HTMLHeadingElement | null = this.shadowRoot.querySelector('h1');
+        if (title) title.focus();
     }
 
     private setup(): void {
@@ -34,8 +38,8 @@ export class CategoriesPage extends HTMLElement {
         let tags: string[] = DataService.instance.getAllTags(DataService.instance.data);
         tagsWall.tags = tags;
 
-        tagsWall.addEventListener('tag-selected', (e: CustomEventInit) => {            
-            LayerService.instance.activeLayers = DataService.instance.filterLayersByTag(e.detail.tag);      
+        tagsWall.addEventListener('tag-selected', (e: CustomEventInit) => {
+            LayerService.instance.activeLayers = DataService.instance.filterLayersByTag(e.detail.tag);
             window.location.hash = '/around-you';
         });
     }

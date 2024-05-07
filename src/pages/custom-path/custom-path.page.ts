@@ -28,7 +28,6 @@ export class CustomPathPage extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <div class="custom-path-page">
-                <button is="app-menu-btn" aria-label="apri menu">Menu</button>
                 <h1 tabindex="-1">Percorso personalizzato</h1>
                 <div class="custom-path-list"></div>
                 <nav>
@@ -46,6 +45,9 @@ export class CustomPathPage extends HTMLElement {
             p.innerHTML = poi.name;
             list.append(p);
         });
+
+        const title: HTMLHeadingElement | null = this.shadowRoot.querySelector('h1');
+        if (title) title.focus();
     }
 
     private setup(): void {

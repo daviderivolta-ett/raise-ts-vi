@@ -31,8 +31,7 @@ export class PoiPage extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <div class="page-poi">
-            <button is="app-menu-btn" aria-label="apri menu">Menu</button>
+            <div class="poi-page">
                 <h1 tabindex="-1">${this.poi.name}</h1>
                 <p>${this.poi.name}</p>
                 <button type="button" id="directions-btn">Indicazioni</button>
@@ -40,6 +39,9 @@ export class PoiPage extends HTMLElement {
             </div>
             `
             ;
+
+        const title: HTMLHeadingElement | null = this.shadowRoot.querySelector('h1');
+        if (title) title.focus();
 
         this.renderInfo();
     }

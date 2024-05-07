@@ -28,7 +28,7 @@ export class SettingsPage extends HTMLElement {
         this._settings = settings;
     }
 
-    public connectedCallback(): void {        
+    public connectedCallback(): void {
         this.render();
         this.setup();
         this.update();
@@ -37,8 +37,7 @@ export class SettingsPage extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <div class="page">
-                <button is="app-menu-btn" aria-label="apri menu">Menu</button>
+            <div class="settings-page">
                 <h1 tabindex="-1">Impostazioni</h1>
                 <app-settings-contrast></app-settings-contrast>
                 <app-settings-font-size></app-settings-font-size>
@@ -49,13 +48,16 @@ export class SettingsPage extends HTMLElement {
             </div>
 
             <style>
-                .page {
+                .settings-page {
                     max-width: 500px;
                     margin: auto;
                 }
             </style>
             `
             ;
+
+        const title: HTMLHeadingElement | null = this.shadowRoot.querySelector('h1');
+        if (title) title.focus();
     }
 
     private setup(): void {
