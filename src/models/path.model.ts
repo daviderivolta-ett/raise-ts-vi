@@ -8,4 +8,8 @@ export class Path {
         this.name = name;
         this.pois = pois;
     }
+
+    static createEmpty(): Path {
+        return new Path('', []);
+    }
 }

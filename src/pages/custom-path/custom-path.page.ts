@@ -2,6 +2,7 @@ import { Path } from '../../models/path.model';
 import { Poi } from '../../models/poi.model';
 import { SnackbarType } from '../../models/snackbar.model';
 import { PathService } from '../../services/path.service';
+import { PoiService } from '../../services/poi.service';
 import { PositionService } from '../../services/position.service';
 import { SnackbarService } from '../../services/snackbar.service';
 import { TspService } from '../../services/tsp.service';
@@ -24,12 +25,14 @@ export class CustomPathPage extends HTMLElement {
     public set customPath(customPath: Path) {
         this._customPath = customPath;
         this.update();
+        this.setupCardsBeahviour();
     }
 
     public connectedCallback(): void {
         this.render();
         this.update();
         this.setup();
+        this.setupCardsBeahviour();
     }
 
     private render(): void {
@@ -87,6 +90,22 @@ export class CustomPathPage extends HTMLElement {
             const orderedPois: Poi[] = TspService.instance.nearestInsertion(this.customPath.pois, [position.coords.latitude, position.coords.longitude]);
             this.customPath = { ...this.customPath, pois: orderedPois };
             PathService.instance.customPath = this.customPath;
+        });
+    }
+
+    private setupCardsBeahviour(): void {
+        const cards: NodeListOf<CustomPathCardComponent> = this.shadowRoot.querySelectorAll('app-custom-path-card');
+        cards.forEach((card: CustomPathCardComponent) => {
+            card.addEventListener('poi-selected', (e: CustomEventInit) => {
+                PoiService.instance.selectedPoi = e.detail.selectedPoi;
+                window.location.hash = '/poi';
+            });
+
+            card.addEventListener('poi-deleted', (e: CustomEventInit) => {
+                let pois: Poi[] = this.customPath.pois.filter((poi: Poi) => poi.uuid !== e.detail.deletedPoi.uuid);
+                this.customPath = { ...this.customPath, pois: pois };
+                PathService.instance.customPath = this.customPath;
+            });
         });
     }
 }

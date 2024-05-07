@@ -19,6 +19,7 @@ export class CustomPathCardComponent extends HTMLElement {
 
     public connectedCallback(): void {
         this.render();
+        this.setup();
     }
 
     private render(): void {
@@ -26,10 +27,32 @@ export class CustomPathCardComponent extends HTMLElement {
             `
             <div class="custom-path-card">
                 <h4 class="custom-path-card-title">${this.poi.name}</h4>
-                <button type="button">Elimina tappa</button>
+                <button type="button" id="poi-info-btn">Vedi tappa</button>
+                <button type="button" id="poi-delete-btn">Elimina tappa</button>
             </div>
             `
             ;
+    }
+
+    public setup(): void {
+        this.setupPoiInfoBtn();
+        this.setupPoiDeleteBtn();
+    }
+
+    private setupPoiInfoBtn(): void {
+        const button: HTMLButtonElement | null = this.shadowRoot.querySelector('#poi-info-btn');
+        if (!button) return;
+        button.addEventListener('click', () => {
+            this.dispatchEvent(new CustomEvent('poi-selected', { detail: { selectedPoi: this.poi } }));
+        });
+    }
+
+    private setupPoiDeleteBtn(): void {
+        const button: HTMLButtonElement | null = this.shadowRoot.querySelector('#poi-delete-btn');
+        if (!button) return;
+        button.addEventListener('click', () => {
+            this.dispatchEvent(new CustomEvent('poi-deleted', { detail: { deletedPoi: this.poi } }));
+        });
     }
 }
 

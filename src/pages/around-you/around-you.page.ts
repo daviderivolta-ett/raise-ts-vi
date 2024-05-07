@@ -27,7 +27,6 @@ export class AroudYouPage extends HTMLElement {
 
     public async connectedCallback(): Promise<void> {
         this.createLoader();
-        LayerService.instance.getSavedLayers();
         const position: GeolocationPosition = await PositionService.instance.getUserPosition();
         this.pois = await GeoGraphicService.instance.getPoisFromLayers(LayerService.instance.activeLayers);
         this.pois = GeoGraphicService.instance.orderPoisByDistance(position, this.pois);
