@@ -32,6 +32,7 @@ export class PoiPage extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <div class="page-poi">
+            <button is="app-menu-btn" aria-label="apri menu">Menu</button>
                 <h1 tabindex="-1">${this.poi.name}</h1>
                 <p>${this.poi.name}</p>
                 <button type="button" id="directions-btn">Indicazioni</button>

@@ -28,6 +28,7 @@ export class CustomPathPage extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <div class="custom-path-page">
+                <button is="app-menu-btn" aria-label="apri menu">Menu</button>
                 <h1 tabindex="-1">Percorso personalizzato</h1>
                 <div class="custom-path-list"></div>
                 <nav>

@@ -39,6 +39,7 @@ export class AroudYouPage extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
+            <button is="app-menu-btn" aria-label="apri menu">Menu</button>
             <h1 tabindex="-1">Punti di interesse</h1>
             <a href="/#/settings">Impostazioni</a>
             <div class="around-you-features"></div>

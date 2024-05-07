@@ -38,6 +38,7 @@ export class SettingsPage extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <div class="page">
+                <button is="app-menu-btn" aria-label="apri menu">Menu</button>
                 <h1 tabindex="-1">Impostazioni</h1>
                 <app-settings-contrast></app-settings-contrast>
                 <app-settings-font-size></app-settings-font-size>

@@ -20,6 +20,7 @@ export class CategoriesPage extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
+            <button is="app-menu-btn" aria-label="apri menu">Menu</button>
             <h1 tabindex="-1">Esplora categorie</h1>
             <app-tags-wall />
             `
