@@ -38,6 +38,7 @@ export class SettingsPage extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <div class="page">
+                <h1 tabindex="-1">Impostazioni</h1>
                 <app-settings-contrast></app-settings-contrast>
                 <app-settings-font-size></app-settings-font-size>
                 <app-settings-letter-space></app-settings-letter-space>

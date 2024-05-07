@@ -15,14 +15,15 @@ export class GeoGraphicService {
         return GeoGraphicService._instance;
     }
 
-    public async createGeoJson(layer: Layer): Promise<any> {             
+    public async createGeoJson(layer: Layer): Promise<any> {
         const url = `${layer.url}?service=WFS&typeName=${layer.layer}&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326`;
         const res: Response = await fetch(url);
-        let rawGeoJson: any = await res.json();        
+        let rawGeoJson: any = await res.json();
         let geoJsonNewProp: any = this.substituteRelevantProperties(rawGeoJson, layer);
         let geoJsonAddProp: any = this.createFeatureAdditionalProperties(geoJsonNewProp, layer);
         let geoJson: any = { ...geoJsonAddProp };
-        geoJson.features = geoJsonAddProp.features.map((f: any) => this.parseFeature(f));
+        geoJson.features = geoJson.features.slice(0, 10);
+        geoJson.features = geoJson.features.map((f: any) => this.parseFeature(f));
         return geoJson;
     }
 
@@ -48,13 +49,13 @@ export class GeoGraphicService {
     }
 
     private createFeatureAdditionalProperties(geoJson: any, layer: Layer): any {
-        geoJson.features = geoJson.features.map((f: Feature, i: number) => {            
+        geoJson.features = geoJson.features.map((f: Feature, i: number) => {
             f.properties.name = layer.name + ' ' + i;
             f.properties.layerName = layer.layer;
             f.properties.uuid = f.id;
             return f;
         });
-        
+
         return geoJson;
     }
 
@@ -65,7 +66,7 @@ export class GeoGraphicService {
         f.properties = feature.properties;
         f.geometry_name = feature.geometry_name;
         f.id = feature.id;
-                
+
         if (feature.geometry) f.geometry = this.parseFeatureGeometry(feature.geometry);
 
         return f;
@@ -73,7 +74,7 @@ export class GeoGraphicService {
 
     private parseFeatureGeometry(geometry: any): FeatureGeometry {
         let g: FeatureGeometry = FeatureGeometry.createEmpty();
-        
+
         g.type = this.parseFeatureGeometryType(geometry.type);
         g.coordinates = geometry.coordinates;
 
@@ -135,5 +136,35 @@ export class GeoGraphicService {
         }
 
         return false;
+    }
+
+    public orderPoisByDistance(position: GeolocationPosition, pois: Poi[]): Poi[] {
+        pois.forEach((poi: Poi) => {
+            if (!GeoGraphicService.instance.isCoordinatesMultidimensional(poi.coordinates)) {
+                const lat = Array.isArray(poi.coordinates) ? poi.coordinates[1] : poi.coordinates;
+                const lon = Array.isArray(poi.coordinates) ? poi.coordinates[0] : poi.coordinates;
+                const distance = this.haversineDistance(lat as number, lon as number, position.coords.latitude, position.coords.longitude);
+                // const distance = haversine.haversineDistance(lat as number, lon as number, 44.44416497901924, 8.732173415343668);
+                poi.distance = distance;
+            }
+        });
+
+        pois.sort((a, b) => {
+            if (a.distance && b.distance) return a.distance - b.distance;
+            return 0;
+        });
+
+        return pois;
+    }
+
+    private haversineDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
+        const p1: number = lat1 * Math.PI / 180;
+        const p2: number = lat2 * Math.PI / 180;
+        const deltaLon: number = lon2 - lon1;
+        const deltaLambda: number = (deltaLon * Math.PI) / 180;
+        const d: number = Math.acos(
+            Math.sin(p1) * Math.sin(p2) + Math.cos(p1) * Math.cos(p2) * Math.cos(deltaLambda),
+        ) * 6371e3;
+        return d;
     }
 }

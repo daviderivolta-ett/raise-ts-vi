@@ -20,7 +20,7 @@ export class CategoriesPage extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <h1>Esplora categorie</h1>
+            <h1 tabindex="-1">Esplora categorie</h1>
             <app-tags-wall />
             `
             ;

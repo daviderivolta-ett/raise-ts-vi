@@ -1,13 +1,14 @@
 import { Poi } from '../../models/poi.model';
 import { PositionService } from '../../services/position.service';
 import { GeoGraphicService } from '../../services/geographic.service';
-import { HaversineService } from '../../services/haversine.service';
 import { LayerService } from '../../services/layer.service';
 import { PoiService } from '../../services/poi.service';
 import { PoiCard } from './poi-card.component';
 import { LoaderComponent } from '../../components/loader.component';
 import '../../components/menu.component';
 import './poi-card.component';
+import { SnackbarService } from '../../services/snackbar.service';
+import { SnackbarType } from '../../models/snackbar.model';
 
 export class AroudYouPage extends HTMLElement {
     public shadowRoot: ShadowRoot;
@@ -27,11 +28,12 @@ export class AroudYouPage extends HTMLElement {
     }
 
     public async connectedCallback(): Promise<void> {
+        SnackbarService.instance.updateSnackbar(SnackbarType.Info, 'Caricamento...');
         this.createLoader();
         LayerService.instance.getSavedLayers();
         const position: GeolocationPosition = await PositionService.instance.getUserPosition();
         this.pois = await GeoGraphicService.instance.getPoisFromLayers(LayerService.instance.activeLayers);
-        this.pois = this.orderPoisByDistance(position, this.pois);
+        this.pois = GeoGraphicService.instance.orderPoisByDistance(position, this.pois);
         this.render();
         this.setup();
         this.removeLoader();
@@ -40,7 +42,7 @@ export class AroudYouPage extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <h1>Punti di interesse</h1>
+            <h1 tabindex="-1">Punti di interesse</h1>
             <a href="/#/settings">Impostazioni</a>
             <div class="around-you-features"></div>
             `
@@ -75,27 +77,6 @@ export class AroudYouPage extends HTMLElement {
         const loader: LoaderComponent | null = document.body.querySelector('app-loader');
         if (!loader) return;
         loader.remove();
-    }
-
-    private orderPoisByDistance(position: GeolocationPosition, pois: Poi[]): Poi[] {
-        const haversine: HaversineService = new HaversineService();
-
-        pois.forEach((poi: Poi) => {
-            if (!GeoGraphicService.instance.isCoordinatesMultidimensional(poi.coordinates)) {
-                const lat = Array.isArray(poi.coordinates) ? poi.coordinates[1] : poi.coordinates;
-                const lon = Array.isArray(poi.coordinates) ? poi.coordinates[0] : poi.coordinates;
-                const distance = haversine.haversineDistance(lat as number, lon as number, position.coords.latitude, position.coords.longitude);
-                // const distance = haversine.haversineDistance(lat as number, lon as number, 44.44416497901924, 8.732173415343668);
-                poi.distance = distance;
-            }
-        });
-
-        pois.sort((a, b) => {
-            if (a.distance && b.distance) return a.distance - b.distance;
-            return 0;
-        });
-
-        return pois;
     }
 }
 

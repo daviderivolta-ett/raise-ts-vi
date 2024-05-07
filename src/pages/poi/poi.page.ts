@@ -1,8 +1,8 @@
-import { SnackbarComponent } from '../../components/snackbar.component';
 import { Poi, PoiProperty } from '../../models/poi.model';
-import { Snackbar, SnackbarType } from '../../models/snackbar.model';
+import { SnackbarType } from '../../models/snackbar.model';
 import { PathService } from '../../services/path.service';
 import { PoiService } from '../../services/poi.service';
+import { SnackbarService } from '../../services/snackbar.service';
 
 export class PoiPage extends HTMLElement {
     public shadowRoot: ShadowRoot;
@@ -32,7 +32,7 @@ export class PoiPage extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <div class="page-poi">
-                <h1>${this.poi.name}</h1>
+                <h1 tabindex="-1">${this.poi.name}</h1>
                 <p>${this.poi.name}</p>
                 <button type="button" id="directions-btn">Indicazioni</button>
                 <button type="button" id="add-to-custom-path-btn">Aggiungi</button>
@@ -86,9 +86,7 @@ export class PoiPage extends HTMLElement {
         if (!button) return;
 
         button.addEventListener('click', () => {
-            const live: SnackbarComponent | null = document.body.querySelector('app-snackbar');          
-            if (!live) return;            
-            live.snackbar = new Snackbar(SnackbarType.Info, `Aggiunto al percorso personalizzato`, 2);
+            SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Aggiunto al percorso personalizzato`);
             PathService.instance.addPoiToCustomPath(this.poi);
         });
     }

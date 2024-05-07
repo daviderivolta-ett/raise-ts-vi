@@ -36,14 +36,17 @@ export class SnackbarComponent extends HTMLElement {
                     bottom: 0;
                     left: 0;
                     width: 100%;
+                    visibility: hidden;
                 }
 
                 .info-snackbar {
                     background-color: blue;
+                    visibility: visible;
                 }
 
                 .error-snackbar {
                     background-color: crimson;
+                    visibility: visible;
                 }
             </style>
             `

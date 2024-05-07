@@ -28,12 +28,12 @@ export class CustomPathPage extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <div class="custom-path-page">
+                <h1 tabindex="-1">Percorso personalizzato</h1>
+                <div class="custom-path-list"></div>
                 <nav>
                     <button type="button" aria-label="Riordina punti di interesse">Riordina punti di interesse</button>
                     <button type="button" id="save-custom-path-btn" aria-label="Salva percorso">Salva percorso</button>
                 </nav>
-                <h1>Percorso personalizzato</h1>
-                <div class="custom-path-list"></div>
             </div>
             `
             ;
