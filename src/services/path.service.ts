@@ -31,7 +31,7 @@ export class PathService {
     }
 
     public set suggestedPaths(suggestedPaths: Path[]) {
-        this._suggestedPaths = suggestedPaths;               
+        this._suggestedPaths = suggestedPaths;           
     }
 
     public addPoiToCustomPath(poi: Poi): void {

@@ -18,13 +18,12 @@ export class SuggestedPathsPage extends HTMLElement {
     }
 
     public set paths(paths: Path[]) {
-        this._paths = paths;       
+        this._paths = paths;             
         this.update();
     }
 
     public connectedCallback(): void {
-        this.render();
-        console.log(LayerService.instance.activeLayers);        
+        this.render();        
         this.paths = PathService.instance.getSuggestedPaths(LayerService.instance.activeLayers);  
     }
 
@@ -45,9 +44,11 @@ export class SuggestedPathsPage extends HTMLElement {
         if (!list) return;
        
         this.paths.forEach((path: Path) => {
+            let li: HTMLLIElement = document.createElement('li');
             let card: SuggestedPathCardComponent = document.createElement('app-suggested-path-card') as SuggestedPathCardComponent;
             card.path = path;
-            list.append(card);
+            li.append(card);
+            list.append(li);
         });
     }
 }

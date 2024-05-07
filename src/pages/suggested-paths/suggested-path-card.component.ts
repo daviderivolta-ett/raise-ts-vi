@@ -22,7 +22,15 @@ export class SuggestedPathCardComponent extends HTMLElement {
     }
 
     private render(): void {
-        this.shadowRoot.innerHTML = `<p>${this.path.name}</p>`
+        this.shadowRoot.innerHTML =
+            `
+            <div class="suggested-path-card">
+                <h4 class="suggested-path-card-title">${this.path.name}</h4>
+                <p class="suggested-path-card-length">${this.path.pois.length} tappe</p>
+                <button type="button">Apri percorso</button>
+            </div>
+            `
+            ;
     }
 }
 
