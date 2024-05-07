@@ -54,6 +54,9 @@ export class AroudYouPage extends HTMLElement {
             card.poi = poi;
             list.append(card);
         });
+
+        const title: HTMLHeadingElement | null = this.shadowRoot.querySelector('h1');
+        if (title) title.focus();
     }
 
     private setup(): void {
