@@ -22,6 +22,7 @@ export class CategoriesPage extends HTMLElement {
             `
             <div class="categories-page">
                 <h1 tabindex="-1">Esplora categorie</h1>
+                <button is="app-menu-btn" aria-label="apri menu">Menu</button>
                 <app-tags-wall />
             </div>
             `

@@ -33,6 +33,7 @@ export class PoiPage extends HTMLElement {
             `
             <div class="poi-page">
                 <h1 tabindex="-1">${this.poi.name}</h1>
+                <button is="app-menu-btn" aria-label="apri menu">Menu</button>
                 <p>${this.poi.name}</p>
                 <button type="button" id="directions-btn">Indicazioni</button>
                 <button type="button" id="add-to-custom-path-btn">Aggiungi</button>

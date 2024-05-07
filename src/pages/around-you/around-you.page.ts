@@ -41,7 +41,7 @@ export class AroudYouPage extends HTMLElement {
             `
             <div class="around-you-page">
                 <h1 tabindex="-1">Punti di interesse</h1>
-                <a href="/#/settings">Impostazioni</a>
+                <button is="app-menu-btn" aria-label="apri menu">Menu</button>
                 <div class="around-you-features"></div>
             </div>
             `

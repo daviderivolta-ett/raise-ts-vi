@@ -29,6 +29,7 @@ export class CustomPathPage extends HTMLElement {
             `
             <div class="custom-path-page">
                 <h1 tabindex="-1">Percorso personalizzato</h1>
+                <button is="app-menu-btn" aria-label="apri menu">Menu</button>
                 <div class="custom-path-list"></div>
                 <nav>
                     <button type="button" aria-label="Riordina punti di interesse">Riordina punti di interesse</button>
