@@ -7,8 +7,6 @@ import { PoiCard } from './poi-card.component';
 import { LoaderComponent } from '../../components/loader.component';
 import '../../components/menu.component';
 import './poi-card.component';
-import { SnackbarService } from '../../services/snackbar.service';
-import { SnackbarType } from '../../models/snackbar.model';
 
 export class AroudYouPage extends HTMLElement {
     public shadowRoot: ShadowRoot;
@@ -28,7 +26,6 @@ export class AroudYouPage extends HTMLElement {
     }
 
     public async connectedCallback(): Promise<void> {
-        SnackbarService.instance.updateSnackbar(SnackbarType.Info, 'Caricamento...');
         this.createLoader();
         LayerService.instance.getSavedLayers();
         const position: GeolocationPosition = await PositionService.instance.getUserPosition();
@@ -42,7 +39,7 @@ export class AroudYouPage extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <h1 tabindex="-1">Punti di interesse</h1>
+            <h1 tabindex="0">Punti di interesse</h1>
             <a href="/#/settings">Impostazioni</a>
             <div class="around-you-features"></div>
             `
