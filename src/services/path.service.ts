@@ -17,7 +17,6 @@ export class PathService {
 
     public set customPath(customPath: Path) {
         this._customPath = customPath;
-        console.log(this.customPath);
     }
 
     public static get instance(): PathService {

@@ -5,6 +5,8 @@ import { PathService } from '../../services/path.service';
 import { PositionService } from '../../services/position.service';
 import { SnackbarService } from '../../services/snackbar.service';
 import { TspService } from '../../services/tsp.service';
+import { CustomPathCardComponent } from './custom-path-card.component';
+import './custom-path-card.component';
 
 export class CustomPathPage extends HTMLElement {
     public shadowRoot: ShadowRoot;
@@ -36,7 +38,7 @@ export class CustomPathPage extends HTMLElement {
             <div class="custom-path-page">
                 <h1 tabindex="-1">Percorso personalizzato</h1>
                 <button is="app-menu-btn" aria-label="apri menu">Menu</button>
-                <div class="custom-path-list"></div>
+                <ul class="custom-path-list" aria-label="Tappe presenti nel percorso"></ul>
                 <nav>
                     <button type="button" id="reorder-pois-btn" aria-label="Riordina punti di interesse">Riordina punti di interesse</button>
                     <button type="button" id="save-custom-path-btn" aria-label="Salva percorso">Salva percorso</button>
@@ -59,9 +61,11 @@ export class CustomPathPage extends HTMLElement {
         if (!list) return;
         list.innerHTML = '';
         this.customPath.pois.forEach((poi: Poi) => {
-            let p = document.createElement('p');
-            p.innerHTML = poi.name;
-            list.append(p);
+            let li: HTMLLIElement = document.createElement('li');
+            let card: CustomPathCardComponent = document.createElement('app-custom-path-card') as CustomPathCardComponent;
+            card.poi = poi;
+            li.append(card);
+            list.append(li);
         });
     }
 
