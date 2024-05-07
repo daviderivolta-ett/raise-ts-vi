@@ -39,7 +39,7 @@ export class AroudYouPage extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <h1 tabindex="0">Punti di interesse</h1>
+            <h1 tabindex="-1">Punti di interesse</h1>
             <a href="/#/settings">Impostazioni</a>
             <div class="around-you-features"></div>
             `
