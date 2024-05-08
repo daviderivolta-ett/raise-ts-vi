@@ -13,6 +13,7 @@ import './pages/categories/categories.page';
 import './pages/around-you/around-you.page';
 import './pages/custom-path/custom-path.page';
 import './pages/suggested-paths/suggested-paths.page';
+import './pages/selected-suggested-path/selected-suggested-path.page';
 import './pages/poi/poi.page';
 import './pages/settings/settings.page';
 import './components/snackbar.component';
@@ -40,6 +41,7 @@ const settingsRoute: Route = new Route('settings', RouteType.Page, () => '<page-
 const poiRoute: Route = new Route('poi', RouteType.Page, () => '<page-poi />');
 const customPathRoute: Route = new Route('custom-path', RouteType.Page, () => '<page-custom-path />');
 const suggestedPathsRoute: Route = new Route('suggested-paths', RouteType.Page, () => '<page-suggested-paths />');
+const suggestedPathRoute: Route = new Route('selected-suggested-path', RouteType.Page, () => '<page-selected-suggested-path />');
 
-const routes: Route[] = [categoriesRoute, aroundYouRoute, settingsRoute, poiRoute, customPathRoute, suggestedPathsRoute];
+const routes: Route[] = [categoriesRoute, aroundYouRoute, settingsRoute, poiRoute, customPathRoute, suggestedPathsRoute, suggestedPathRoute];
 router.addRoutes(routes);

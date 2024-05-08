@@ -7,6 +7,7 @@ export class PathService {
     private static _instance: PathService;
     private _customPath: Path = new Path('Percorso personalizzato', []);
     private _suggestedPaths: Path[] = [];
+    private _selectedSuggestedPath: Path = new Path('', []);
 
     constructor() {
         if (PathService._instance) return PathService._instance;
@@ -34,6 +35,15 @@ export class PathService {
         this._suggestedPaths = suggestedPaths;
     }
 
+    public get selectedSuggestedPath(): Path {
+        return this._selectedSuggestedPath;
+    }
+
+    public set selectedSuggestedPath(selectedSuggestedPath: Path) {
+        this._selectedSuggestedPath = selectedSuggestedPath;
+        localStorage.setItem('selected-suggested-path', JSON.stringify(this.selectedSuggestedPath));
+    }
+
     public addPoiToCustomPath(poi: Poi): void {
         if (this.isPoiInCustomPath(poi)) {
             return;
@@ -55,10 +65,10 @@ export class PathService {
         const savedCustomPathString: string | null = localStorage.getItem('custom-path');
         if (!savedCustomPathString) return;
         const rawSavedCustomPath: any = JSON.parse(savedCustomPathString);
-        this._customPath = this.parseCustomPath(rawSavedCustomPath);
+        this._customPath = this.parsePath(rawSavedCustomPath);
     }
 
-    private parseCustomPath(path: any): Path {
+    private parsePath(path: any): Path {
         let p: Path = new Path(
             path.name,
             path.pois
@@ -126,26 +136,6 @@ export class PathService {
 
         return p;
     }
-
-    // public getCsvPaths(fileNumber: number): void {
-    //     let index = 0;
-    //     const paths: Path[] = [];
-    //     const promises: Promise<any>[] = [];
-
-    //     while (index <= fileNumber) {
-    //         const promise = fetch(`./suggested-paths/${index}.tsv`)
-    //             .then(res => res.text())
-    //             .then(data => {
-    //                 const parsedCsv: Record<string, string>[] = this.parseCsvFile(data);
-    //                 paths.push(this.parseCsvPath(parsedCsv));
-    //             })
-    //             .catch(error => console.error('Errore durante il recupero dei percorsi suggeriti', error))
-
-    //         promises.push(promise);
-    //         index++;
-    //     }
-    //     Promise.all(promises).then(() => this.suggestedPaths = [...paths]);
-    // }
 
     public getCsvPaths(fileNumber: number): Promise<void> {
         return new Promise((resolve, reject) => {
@@ -249,5 +239,12 @@ export class PathService {
             });
         });
         return [...new Set(paths)];
+    }
+
+    public getSelectedSuggestedPath(): void {
+        const savedSelectedSuggestedPath: string | null = localStorage.getItem('selected-suggested-path');
+        if (!savedSelectedSuggestedPath) return;
+        const rawSavedSalectedSuggestedPath: any = JSON.parse(savedSelectedSuggestedPath);
+        this._selectedSuggestedPath = this.parsePath(rawSavedSalectedSuggestedPath);
     }
 }

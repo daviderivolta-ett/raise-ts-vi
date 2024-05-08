@@ -23,7 +23,7 @@ export class PoiPage extends HTMLElement {
 
     public connectedCallback(): void {
         PoiService.instance.getSelectedPoi();
-        this.poi = PoiService.instance.selectedPoi;
+        this.poi = PoiService.instance.selectedPoi;        
         this.render();
         this.setup();
     }
@@ -37,6 +37,7 @@ export class PoiPage extends HTMLElement {
                 <p>${this.poi.name}</p>
                 <button type="button" id="directions-btn">Indicazioni</button>
                 <button type="button" id="add-to-custom-path-btn">Aggiungi</button>
+                <div class="poi-page-infos"></div>
             </div>
             `
             ;
@@ -48,12 +49,12 @@ export class PoiPage extends HTMLElement {
     }
 
     private renderInfo(): void {
-        const page: HTMLDivElement | null = this.shadowRoot.querySelector('.page-poi');
-        if (!page) return;
-
+        const info: HTMLDivElement | null = this.shadowRoot.querySelector('.poi-page-infos');
+        if (!info) return;
+       
         this.poi.props.forEach((prop: PoiProperty) => {
             const topic: HTMLDivElement = this.renderTopic(prop);
-            page.appendChild(topic);
+            info.appendChild(topic);
         })
     }
 

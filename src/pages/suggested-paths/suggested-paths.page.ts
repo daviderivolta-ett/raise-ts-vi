@@ -20,12 +20,14 @@ export class SuggestedPathsPage extends HTMLElement {
     public set paths(paths: Path[]) {
         this._paths = paths;             
         this.update();
+        this.setupCardsBeahviour();
     }
 
     public async connectedCallback(): Promise<void> {
         await PathService.instance.getCsvPaths(1);
         this.render();        
         this.paths = PathService.instance.getSuggestedPaths(LayerService.instance.activeLayers);  
+        this.setupCardsBeahviour();
     }
 
     private render(): void {
@@ -50,6 +52,16 @@ export class SuggestedPathsPage extends HTMLElement {
             card.path = path;
             li.append(card);
             list.append(li);
+        });
+    }
+
+    private setupCardsBeahviour(): void {
+        const cards: NodeListOf<SuggestedPathCardComponent> = this.shadowRoot.querySelectorAll('app-suggested-path-card');
+        cards.forEach((card: SuggestedPathCardComponent) => {
+            card.addEventListener('suggested-path-selected', (e: CustomEventInit) => {
+                PathService.instance.selectedSuggestedPath = e.detail.selectedSuggestedPath;
+                window.location.hash = '/selected-suggested-path';                             
+            });
         });
     }
 }

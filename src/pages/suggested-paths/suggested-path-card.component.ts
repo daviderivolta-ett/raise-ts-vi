@@ -19,6 +19,7 @@ export class SuggestedPathCardComponent extends HTMLElement {
 
     public connectedCallback(): void {
         this.render();
+        this.setup();
     }
 
     private render(): void {
@@ -27,10 +28,22 @@ export class SuggestedPathCardComponent extends HTMLElement {
             <div class="suggested-path-card">
                 <h4 class="suggested-path-card-title">${this.path.name}</h4>
                 <p class="suggested-path-card-length">${this.path.pois.length} tappe</p>
-                <button type="button">Apri percorso</button>
+                <button type="button" id="path-info-btn">Apri percorso</button>
             </div>
             `
             ;
+    }
+
+    private setup(): void {
+        this.setupPoiInfoBtn();
+    }
+
+    private setupPoiInfoBtn(): void {
+        const button: HTMLButtonElement | null = this.shadowRoot.querySelector('#path-info-btn');
+        if (!button) return;
+        button.addEventListener('click', () => {
+            this.dispatchEvent(new CustomEvent('suggested-path-selected', { detail: { selectedSuggestedPath: this.path } }));
+        });
     }
 }
 

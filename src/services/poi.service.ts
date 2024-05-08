@@ -27,7 +27,7 @@ export class PoiService {
     public getSelectedPoi(): void {
         const savedSelectedPoiString: string | null = localStorage.getItem('selected-poi');
         if (!savedSelectedPoiString) return;
-        const rawSavedSelectedPoi: any = JSON.parse(savedSelectedPoiString);
+        const rawSavedSelectedPoi: any = JSON.parse(savedSelectedPoiString);             
         this._selectedPoi = this.parsePoi(rawSavedSelectedPoi);
     }
 
