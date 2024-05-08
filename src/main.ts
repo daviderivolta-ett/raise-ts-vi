@@ -28,9 +28,6 @@ import { LayerService } from './services/layer.service';
 // Settings
 SettingService.instance.getLocalStorageSettings();
 
-// Suggested paths
-PathService.instance.getCsvPaths(1);
-
 // Saved data
 PathService.instance.getSavedCustomPath();
 LayerService.instance.getSavedLayers();

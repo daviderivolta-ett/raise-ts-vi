@@ -22,7 +22,8 @@ export class SuggestedPathsPage extends HTMLElement {
         this.update();
     }
 
-    public connectedCallback(): void {
+    public async connectedCallback(): Promise<void> {
+        await PathService.instance.getCsvPaths(1);
         this.render();        
         this.paths = PathService.instance.getSuggestedPaths(LayerService.instance.activeLayers);  
     }
