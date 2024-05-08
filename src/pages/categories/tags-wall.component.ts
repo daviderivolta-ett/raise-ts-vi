@@ -58,7 +58,7 @@ export class TagsWallComponent extends HTMLElement {
             `
             <div class="pagination">
                 <div class="current-page-status">
-                    <p class="current-page">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
+                    <p class="current-page" autofocus>Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
                     <p>Categorie in questa pagina: <span class="tags-list"></span></p>
                 </div>
 
@@ -71,6 +71,10 @@ export class TagsWallComponent extends HTMLElement {
             </div>
 
             <style>
+                *:focus {
+                    outline: 1px solid var(--outline);
+                }
+
                 button {
                     cursor: pointer;
                 }
@@ -88,10 +92,6 @@ export class TagsWallComponent extends HTMLElement {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                }
-
-                .hidden {
-                    display: none;
                 }
 
                 .tags {
@@ -154,9 +154,7 @@ export class TagsWallComponent extends HTMLElement {
         if (!prevPageBtn) return;
         if (!nextPageBtn) return;
 
-        // this.currentPage === 0 ? prevPageBtn.classList.add('hidden') : prevPageBtn.classList.remove('hidden');
         this.currentPage === 0 ? prevPageBtn.setAttribute('disabled', '') : prevPageBtn.removeAttribute('disabled');
-        // this.currentPage === this.getPagesNumber() ? nextPageBtn.classList.add('hidden') : nextPageBtn.classList.remove('hidden');
         this.currentPage === this.getPagesNumber() ? nextPageBtn.setAttribute('disabled', '') : nextPageBtn.removeAttribute('disabled');
 
         const buttons: TagChipComponent[] = Array.from(this.shadowRoot.querySelectorAll('button[is="app-tag-chip"]'));
