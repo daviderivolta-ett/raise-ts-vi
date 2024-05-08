@@ -20,14 +20,14 @@ export class SuggestedPathsPage extends HTMLElement {
     public set paths(paths: Path[]) {
         this._paths = paths;             
         this.update();
-        this.setupCardsBeahviour();
+        this.setupCardsBehaviour();
     }
 
     public async connectedCallback(): Promise<void> {
         await PathService.instance.getCsvPaths(1);
         this.render();        
         this.paths = PathService.instance.getSuggestedPaths(LayerService.instance.activeLayers);  
-        this.setupCardsBeahviour();
+        // this.setupCardsBehaviour();
     }
 
     private render(): void {
@@ -46,6 +46,14 @@ export class SuggestedPathsPage extends HTMLElement {
         const list: HTMLUListElement | null = this.shadowRoot.querySelector('.suggested-paths-list');        
         if (!list) return;
        
+        list.innerHTML = '';
+
+        if (this.paths.length === 0) {
+            let msg: HTMLParagraphElement = document.createElement('p');
+            msg.innerHTML = 'Nessun percorso suggerito per il layer attivato al momento';
+            list.append(msg);
+        }
+
         this.paths.forEach((path: Path) => {
             let li: HTMLLIElement = document.createElement('li');
             let card: SuggestedPathCardComponent = document.createElement('app-suggested-path-card') as SuggestedPathCardComponent;
@@ -55,7 +63,7 @@ export class SuggestedPathsPage extends HTMLElement {
         });
     }
 
-    private setupCardsBeahviour(): void {
+    private setupCardsBehaviour(): void {
         const cards: NodeListOf<SuggestedPathCardComponent> = this.shadowRoot.querySelectorAll('app-suggested-path-card');
         cards.forEach((card: SuggestedPathCardComponent) => {
             card.addEventListener('suggested-path-selected', (e: CustomEventInit) => {
