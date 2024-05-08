@@ -21,10 +21,15 @@ export class CategoriesPage extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <div class="categories-page">
-                <h1 tabindex="-1">Esplora categorie</h1>
-                <button is="app-menu-btn" aria-label="apri menu">Menu</button>
+                <h1 tabindex="-1" class="categories-page-title">Esplora categorie</h1>
                 <app-tags-wall />
             </div>
+
+            <style>
+                .categories-page-title {
+                    text-align: center;
+                }
+            </style>
             `
             ;
 

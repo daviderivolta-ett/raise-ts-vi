@@ -47,7 +47,7 @@ export class TagsWallComponent extends HTMLElement {
     }
 
     public connectedCallback(): void {
-        this.render();        
+        this.render();
         if (this.tags.length === 0) return;
         this.paginateTags();
         this.setup();
@@ -62,15 +62,66 @@ export class TagsWallComponent extends HTMLElement {
                     <p>Categorie in questa pagina: <span class="tags-list"></span></p>
                 </div>
 
-                <button type="button" class="prev-btn">Precedente</button>
-                <button type="button" class="next-btn">Successiva</button>
+                <div class="pagination-buttons">
+                    <button type="button" class="pagination-btn prev-btn" aria-label="Pagine precedente"><span class="material-symbols-outlined">chevron_left</span> Precedente</button>
+                    <button type="button" class="pagination-btn next-btn" aria-label="Pagina successiva">Successiva <span class="material-symbols-outlined">chevron_right</span></button>
+                </div>
 
                 <div class="tags"></div>
             </div>
 
             <style>
+                button {
+                    cursor: pointer;
+                }
+
+                button[disabled] {
+                    cursor: not-allowed;
+                }
+
+                .pagination-buttons {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .pagination-btn {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
                 .hidden {
                     display: none;
+                }
+
+                .tags {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                }
+
+                button[is="app-tag-chip"] {
+                    width: 100%;
+                    display: block;
+                    color: var(--on-surface);
+                    background-color: var(--surface-container);
+                    border: 1px solid var(--outline);
+                    padding: 8px 8px;
+                    border-radius: var( --border-radius-circle);
+                }
+
+                button[is="app-tag-chip"]:hover {
+                    background-color:  var(--surface-container-highest); 
+                    border-color: var(--primary);  
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
                 }
             </style>
             `
@@ -102,8 +153,10 @@ export class TagsWallComponent extends HTMLElement {
         if (!prevPageBtn) return;
         if (!nextPageBtn) return;
 
-        this.currentPage === 0 ? prevPageBtn.classList.add('hidden') : prevPageBtn.classList.remove('hidden');
-        this.currentPage === this.getPagesNumber() ? nextPageBtn.classList.add('hidden') : nextPageBtn.classList.remove('hidden');
+        // this.currentPage === 0 ? prevPageBtn.classList.add('hidden') : prevPageBtn.classList.remove('hidden');
+        this.currentPage === 0 ? prevPageBtn.setAttribute('disabled', '') : prevPageBtn.removeAttribute('disabled');
+        // this.currentPage === this.getPagesNumber() ? nextPageBtn.classList.add('hidden') : nextPageBtn.classList.remove('hidden');
+        this.currentPage === this.getPagesNumber() ? nextPageBtn.setAttribute('disabled', '') : nextPageBtn.removeAttribute('disabled');
 
         const buttons: TagChipComponent[] = Array.from(this.shadowRoot.querySelectorAll('button[is="app-tag-chip"]'));
         buttons.forEach((button: TagChipComponent) => button.addEventListener('tag-selected', this.handleCheckbox));
@@ -138,7 +191,7 @@ export class TagsWallComponent extends HTMLElement {
         chip.classList.add('chip');
         chip.innerHTML = tag.charAt(0).toUpperCase() + tag.slice(1);
         chip.tag = tag;
-        return chip;     
+        return chip;
     }
 
     private getPagesNumber(): number {
