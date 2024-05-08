@@ -63,7 +63,7 @@ export class TagsWallComponent extends HTMLElement {
                 </div>
 
                 <div class="pagination-buttons">
-                    <button type="button" class="pagination-btn prev-btn" aria-label="Pagine precedente"><span class="material-symbols-outlined">chevron_left</span> Precedente</button>
+                    <button type="button" class="pagination-btn prev-btn" aria-label="Pagina precedente"><span class="material-symbols-outlined">chevron_left</span> Precedente</button>
                     <button type="button" class="pagination-btn next-btn" aria-label="Pagina successiva">Successiva <span class="material-symbols-outlined">chevron_right</span></button>
                 </div>
 
@@ -143,6 +143,7 @@ export class TagsWallComponent extends HTMLElement {
         const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');
         if (!currentPage) return;
         currentPage.innerHTML = `Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}`;
+        currentPage.focus();
 
         const tagsList: HTMLButtonElement | null = this.shadowRoot.querySelector('.tags-list');
         if (!tagsList) return;
@@ -160,8 +161,6 @@ export class TagsWallComponent extends HTMLElement {
 
         const buttons: TagChipComponent[] = Array.from(this.shadowRoot.querySelectorAll('button[is="app-tag-chip"]'));
         buttons.forEach((button: TagChipComponent) => button.addEventListener('tag-selected', this.handleCheckbox));
-
-        currentPage.focus();
     }
 
     private paginateTags(): void {
