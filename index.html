@@ -13,7 +13,8 @@
   <main>
     <app-snackbar role="alert" aria-live="assertive"></app-snackbar>
     <app-router></app-router>
-    <dialog is="app-menu" aria-labelledby="menu-title"></dialog>
+    <!-- <dialog is="app-menu" aria-labelledby="menu-title"></dialog> -->
+    <div is="app-dialog" role="dialog" aria-modal="true" aria-labelledby="menu-title"></div>
   </main>
   <script type="module" src="/src/main.ts"></script>
 </body>

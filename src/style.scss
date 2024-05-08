@@ -155,3 +155,11 @@ body {
 body {
   background-color: var(--surface);
 }
+
+div[is="app-dialog"] {
+  display: none;
+}
+
+div[is="app-dialog"][open] {
+  display: block;
+}
