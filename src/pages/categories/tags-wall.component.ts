@@ -57,8 +57,8 @@ export class TagsWallComponent extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <div class="pagination">
-                <p class="current-page">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
-                <div class="">
+                <div class="current-page-status">
+                    <p class="current-page">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
                     <p>Categorie in questa pagina: <span class="tags-list"></span></p>
                 </div>
 
@@ -107,6 +107,8 @@ export class TagsWallComponent extends HTMLElement {
 
         const buttons: TagChipComponent[] = Array.from(this.shadowRoot.querySelectorAll('button[is="app-tag-chip"]'));
         buttons.forEach((button: TagChipComponent) => button.addEventListener('tag-selected', this.handleCheckbox));
+
+        currentPage.focus();
     }
 
     private paginateTags(): void {
