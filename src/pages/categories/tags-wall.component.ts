@@ -159,7 +159,7 @@ export class TagsWallComponent extends HTMLElement {
         const buttons: TagChipComponent[] = Array.from(this.shadowRoot.querySelectorAll('button[is="app-tag-chip"]'));
         buttons.forEach((button: TagChipComponent) => button.addEventListener('tag-selected', this.handleCheckbox));
 
-        currentPage.focus();
+        currentPage.focus();      
     }
 
     private paginateTags(): void {

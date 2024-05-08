@@ -33,8 +33,8 @@ export class CategoriesPage extends HTMLElement {
             `
             ;
 
-        const title: HTMLHeadingElement | null = this.shadowRoot.querySelector('h1');
-        if (title) title.focus();
+        // const title: HTMLHeadingElement | null = this.shadowRoot.querySelector('h1');
+        // if (title) title.focus();
     }
 
     private setup(): void {
