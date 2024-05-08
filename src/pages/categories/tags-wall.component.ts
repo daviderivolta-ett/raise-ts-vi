@@ -57,14 +57,14 @@ export class TagsWallComponent extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <div class="pagination">
-                <div class="current-page-status">
-                    <p class="current-page">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
+                <div class="current-page-status">                    
                     <p>Categorie in questa pagina: <span class="tags-list"></span></p>
                 </div>
 
                 <div class="pagination-buttons">
-                    <button type="button" class="pagination-btn prev-btn" aria-label="Pagina precedente"><span class="material-symbols-outlined">chevron_left</span> Precedente</button>
-                    <button type="button" class="pagination-btn next-btn" aria-label="Pagina successiva">Successiva <span class="material-symbols-outlined">chevron_right</span></button>
+                    <button type="button" class="pagination-btn prev-btn" aria-label="Pagina precedente"><span class="material-symbols-outlined">chevron_left</span></button>
+                    <p class="current-page">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
+                    <button type="button" class="pagination-btn next-btn" aria-label="Pagina successiva"><span class="material-symbols-outlined">chevron_right</span></button>
                 </div>
 
                 <div class="tags"></div>
@@ -72,26 +72,51 @@ export class TagsWallComponent extends HTMLElement {
 
             <style>
                 *:focus {
-                    outline: 1px solid var(--outline);
+                    outline: 1px solid default;
+                }
+
+                p {
+                    color: var(--on-surface-variant);
                 }
 
                 button {
+                    font-family: 'Inter', Arial, Helvetica, sans-serif;
+                    font-size: 1rem;
                     cursor: pointer;
                 }
 
                 button[disabled] {
                     cursor: not-allowed;
+                    opacity: 0.5;
+                }
+
+                .current-page-status {
+                    text-align: center;
+                }
+
+                .current-page {
+                    text-align: center;
                 }
 
                 .pagination-buttons {
                     display: flex;
                     justify-content: space-between;
+                    align-items: center;
+                    margin: 0 0 8px 0;
                 }
 
                 .pagination-btn {
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    gap: 4px;
+                    min-height: 40px;
+                    min-width: 40px;
+                    color: var(--on-primary);
+                    background-color: var(--primary);
+                    border: 1px solid transparent;
+                    border-radius: var( --border-radius-s);
+                    box-sizing: border-box;
                 }
 
                 .tags {
@@ -107,7 +132,7 @@ export class TagsWallComponent extends HTMLElement {
                     background-color: var(--surface-container);
                     border: 1px solid var(--outline);
                     padding: 8px 8px;
-                    border-radius: var( --border-radius-circle);
+                    border-radius: var( --border-radius-s);
                 }
 
                 button[is="app-tag-chip"]:hover {
@@ -117,6 +142,7 @@ export class TagsWallComponent extends HTMLElement {
 
                 .material-symbols-outlined {
                     font-family: 'Material Symbols Outlined';
+                    font-size: 1.2rem;
                     font-variation-settings:
                         'FILL' 0,
                         'wght' 400,
