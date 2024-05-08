@@ -31,11 +31,11 @@ export class PoiCard extends HTMLElement {
                     <p>${this.poi.name}</p>
                     <p>${Math.round(this.poi.distance!)}m</p>
                 </div>
+                <button type="button" id="info-btn">Vedi</button>
             </div>
 
             <style>
                 .poi-card {
-                    cursor: pointer;
                     border: 1px solid var(--outline);
                 }
 
@@ -44,6 +44,10 @@ export class PoiCard extends HTMLElement {
                     justify-content: space-between;
                     align-items: center;
                 }
+
+                button {
+                    cursor: pointer;
+                }
             </style>
 
             `
@@ -51,7 +55,10 @@ export class PoiCard extends HTMLElement {
     }
 
     private setup(): void {
-        this.addEventListener('click', () => {   
+        const button: HTMLButtonElement | null = this.shadowRoot.querySelector('#info-btn');
+        if (!button) return;
+
+        button.addEventListener('click', () => {   
             this.dispatchEvent(new CustomEvent('poi-selected', { detail: { selectedPoi: this.poi } }));
         });
     }
