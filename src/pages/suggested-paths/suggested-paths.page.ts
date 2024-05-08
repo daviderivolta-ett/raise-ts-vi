@@ -47,12 +47,7 @@ export class SuggestedPathsPage extends HTMLElement {
         if (!list) return;
        
         list.innerHTML = '';
-
-        if (this.paths.length === 0) {
-            let msg: HTMLParagraphElement = document.createElement('p');
-            msg.innerHTML = 'Nessun percorso suggerito per il layer attivato al momento';
-            list.append(msg);
-        }
+        if (this.paths.length === 0) list.append(this.renderEmptyMsg());
 
         this.paths.forEach((path: Path) => {
             let li: HTMLLIElement = document.createElement('li');
@@ -71,6 +66,12 @@ export class SuggestedPathsPage extends HTMLElement {
                 window.location.hash = '/selected-suggested-path';                             
             });
         });
+    }
+
+    private renderEmptyMsg(): HTMLParagraphElement {
+        const msg: HTMLParagraphElement = document.createElement('p');
+        msg.innerHTML = 'Nessun percorso suggerito per il layer attivato al momento';
+        return msg;
     }
 }
 

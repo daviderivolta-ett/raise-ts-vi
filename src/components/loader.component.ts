@@ -23,7 +23,7 @@ export class LoaderComponent extends HTMLElement {
                     position: fixed;
                     top: 0;
                     left: 0;
-                    height: 100vh;
+                    height: 100dvh;
                     width: 100vw;
                     background-color: var(--surface-container);
                     display: flex;
