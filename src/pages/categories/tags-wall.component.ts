@@ -60,6 +60,7 @@ export class TagsWallComponent extends HTMLElement {
             `
             <div class="pagination">
                 <div class="current-page-status">                    
+                    <p>Scegli una categoria per caricare i punti di interesse associati.</p>
                     <p>Categorie in questa pagina: <span class="tags-list"></span></p>
                 </div>
 

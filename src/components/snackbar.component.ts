@@ -32,19 +32,26 @@ export class SnackbarComponent extends HTMLElement {
 
             <style>
                 .snackbar {
-                    position: fixed;
-                    bottom: 0;
+                    position: sticky;
+                    top: 0;
                     left: 0;
                     width: 100%;
-                    background-color: grey;
+                    box-sizing: border-box;
+                    background-color: var(--primary);
+                    color: var(--on-primary);
                 }
-
+                
+                .empty-snackbar {
+                    height: 0;
+                }
+                
                 .info-snackbar {
-                    background-color: blue;
+                    padding: 8px 4%;                    
                 }
-
+                
                 .error-snackbar {
-                    background-color: crimson;
+                    padding: 8px 4%;                   
+
                 }
             </style>
             `
@@ -52,11 +59,16 @@ export class SnackbarComponent extends HTMLElement {
     }
 
     private update(): void {
-        if (this.snackbar.message.length === 0) return;
+        if (this.snackbar.message.length === 0) {
+            const wrapper: HTMLDivElement | null = this.shadowRoot.querySelector('.snackbar');
+            if (!wrapper) return;
+
+            wrapper.classList.add('empty-snackbar');
+            return;
+        }
 
         const message: HTMLParagraphElement | null = this.shadowRoot.querySelector('.snackbar-message');
         if (!message) return;
-        message.innerHTML = '';
         message.innerHTML = this.snackbar.message;
 
         switch (this.snackbar.type) {
@@ -67,34 +79,35 @@ export class SnackbarComponent extends HTMLElement {
                 this.renderInfoSnackbar();
                 break;
         }
-
-        setTimeout(() => this.resetSnackbar(), this.snackbar.duration * 1000);
     }
 
     private renderInfoSnackbar(): void {
         const wrapper: HTMLDivElement | null = this.shadowRoot.querySelector('.snackbar');
         if (!wrapper) return;
 
+        wrapper.classList.remove('empty-snackbar');
         wrapper.classList.add('info-snackbar');
     }
-
+    
     private renderErrorSnackbar(): void {
         const wrapper: HTMLDivElement | null = this.shadowRoot.querySelector('.snackbar');
         if (!wrapper) return;
-
+        
+        wrapper.classList.remove('empty-snackbar');
         wrapper.classList.add('error-snackbar');
     }
 
-    private resetSnackbar(): void {
+    public resetSnackbar(): void {
         const message: HTMLParagraphElement | null = this.shadowRoot.querySelector('.snackbar-message');
         const wrapper: HTMLDivElement | null = this.shadowRoot.querySelector('.snackbar');
 
         if (!message) return;
         if (!wrapper) return;
 
-        // message.innerHTML = '';
+        message.innerHTML = '';
         wrapper.classList.remove('info-snackbar');
         wrapper.classList.remove('error-snackbar');
+        wrapper.classList.add('empty-snackbar');
     }
 }
 
