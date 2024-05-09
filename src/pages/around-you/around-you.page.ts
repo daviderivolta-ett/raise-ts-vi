@@ -5,10 +5,10 @@ import { LayerService } from '../../services/layer.service';
 import { PoiService } from '../../services/poi.service';
 import { PoiCard } from './poi-card.component';
 import { LoaderComponent } from '../../components/loader.component';
-import '../../components/menu.component';
-import './poi-card.component';
 import { SnackbarService } from '../../services/snackbar.service';
 import { SnackbarType } from '../../models/snackbar.model';
+import '../../components/menu.component';
+import './poi-card.component';
 
 export class AroudYouPage extends HTMLElement {
     public shadowRoot: ShadowRoot;

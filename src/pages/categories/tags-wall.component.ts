@@ -66,7 +66,7 @@ export class TagsWallComponent extends HTMLElement {
 
                 <div class="pagination-buttons">
                     <button type="button" class="pagination-btn prev-btn" aria-label="Paginazione precedente"><span class="material-symbols-outlined">chevron_left</span></button>
-                    <p class="current-page">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
+                    <p tabindex="-1" class="current-page">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
                     <button type="button" class="pagination-btn next-btn" aria-label="Paginazione successiva"><span class="material-symbols-outlined">chevron_right</span></button>
                 </div>
 
@@ -75,7 +75,7 @@ export class TagsWallComponent extends HTMLElement {
 
             <style>
                 *:focus {
-                    outline: 1px solid default;
+                    outline: 4px solid crimson;
                 }
 
                 p {
@@ -182,13 +182,21 @@ export class TagsWallComponent extends HTMLElement {
         if (!prevPageBtn) return;
         if (!nextPageBtn) return;
 
-        this.currentPage === 0 ? prevPageBtn.setAttribute('disabled', '') : prevPageBtn.removeAttribute('disabled');
+        // this.currentPage === 0 ? prevPageBtn.setAttribute('disabled', '') : prevPageBtn.removeAttribute('disabled');
+
+        if (this.currentPage === 0) {
+            prevPageBtn.setAttribute('disabled', '');
+            currentPage.focus();
+        } else {
+            prevPageBtn.removeAttribute('disabled');
+        }
+
         this.currentPage === this.getPagesNumber() ? nextPageBtn.setAttribute('disabled', '') : nextPageBtn.removeAttribute('disabled');
 
         const buttons: TagChipComponent[] = Array.from(this.shadowRoot.querySelectorAll('button[is="app-tag-chip"]'));
         buttons.forEach((button: TagChipComponent) => button.addEventListener('tag-selected', this.handleCheckbox));
 
-        currentPage.focus();
+        // currentPage.focus();
     }
 
     private paginateTags(): void {
@@ -232,7 +240,7 @@ export class TagsWallComponent extends HTMLElement {
             SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Paginazione cambiata: pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}. Categorie in questa pagina: ${this.currentPageTags.join(', ')}`);
         }
     }
-
+    
     private nextPage(): void {
         if (this.currentPage < this.getPagesNumber()) {
             this.currentPage++;
