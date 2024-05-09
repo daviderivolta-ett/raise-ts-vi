@@ -46,9 +46,10 @@ export class AroudYouPage extends HTMLElement {
                 <div class="page-header">
                     <h1 class="page-title" tabindex="-1">Punti di interesse</h1>
                     <button is="app-menu-btn" aria-label="apri menu">
-                        <span class="material-symbols-outlined">menu</span>
+                    <span class="material-symbols-outlined">menu</span>
                     </button>
                 </div>
+                <p class="page-desc">Elenco punti di interesse nelle vicinanze.</p>
                 <div class="around-you-features"></div>
             </div>
 
@@ -67,7 +68,7 @@ export class AroudYouPage extends HTMLElement {
                     align-items: center;
                     margin: 0 0 24px 0;
                 }
-
+                
                 button[is="app-menu-btn"] {
                     position: absolute;
                     top: 50%;
@@ -78,6 +79,12 @@ export class AroudYouPage extends HTMLElement {
                     border: none;
                 }
 
+                .page-desc {
+                    text-align: center;
+                    margin: 0 0 24px 0;
+                    color: var(--on-surface-variant);
+                }
+                
                 .page-title {
                     text-align: center;
                     font-size: 1rem;

@@ -28,7 +28,7 @@ export class PoiCard extends HTMLElement {
             <article class="poi-card">
                 <div class="poi-card-info">
                     <h3 class="poi-card-title">${this.poi.name}</h3>
-                    <p class="poi-card-distance">${Math.round(this.poi.distance!)}<span aria-label="metri">m</span></p>
+                    <p class="poi-card-distance" aria-label="${Math.round(this.poi.distance!)} metri">${Math.round(this.poi.distance!)}<span aria-hidden="true">m</span></p>
                 </div>
                 <button type="button" class="info-btn" aria-label="Vedi dettagli punto di interesse">
                     <span class="material-symbols-outlined">chevron_right</span>

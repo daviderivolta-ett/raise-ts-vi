@@ -188,7 +188,7 @@ var Y=Object.defineProperty;var K=(a,e,t)=>e in a?Y(a,e,{enumerable:!0,configura
             <article class="poi-card">
                 <div class="poi-card-info">
                     <h3 class="poi-card-title">${this.poi.name}</h3>
-                    <p class="poi-card-distance">${Math.round(this.poi.distance)}<span aria-label="metri">m</span></p>
+                    <p class="poi-card-distance" aria-label="${Math.round(this.poi.distance)} metri">${Math.round(this.poi.distance)}<span aria-hidden="true">m</span></p>
                 </div>
                 <button type="button" class="info-btn" aria-label="Vedi dettagli punto di interesse">
                     <span class="material-symbols-outlined">chevron_right</span>
@@ -264,9 +264,10 @@ var Y=Object.defineProperty;var K=(a,e,t)=>e in a?Y(a,e,{enumerable:!0,configura
                 <div class="page-header">
                     <h1 class="page-title" tabindex="-1">Punti di interesse</h1>
                     <button is="app-menu-btn" aria-label="apri menu">
-                        <span class="material-symbols-outlined">menu</span>
+                    <span class="material-symbols-outlined">menu</span>
                     </button>
                 </div>
+                <p class="page-desc">Elenco punti di interesse nelle vicinanze.</p>
                 <div class="around-you-features"></div>
             </div>
 
@@ -285,7 +286,7 @@ var Y=Object.defineProperty;var K=(a,e,t)=>e in a?Y(a,e,{enumerable:!0,configura
                     align-items: center;
                     margin: 0 0 24px 0;
                 }
-
+                
                 button[is="app-menu-btn"] {
                     position: absolute;
                     top: 50%;
@@ -296,6 +297,12 @@ var Y=Object.defineProperty;var K=(a,e,t)=>e in a?Y(a,e,{enumerable:!0,configura
                     border: none;
                 }
 
+                .page-desc {
+                    text-align: center;
+                    margin: 0 0 24px 0;
+                    color: var(--on-surface-variant);
+                }
+                
                 .page-title {
                     text-align: center;
                     font-size: 1rem;
