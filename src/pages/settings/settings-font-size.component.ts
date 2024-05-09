@@ -28,14 +28,12 @@ export class SettingsFontSizeComponent extends HTMLElement {
             <div class="component">
                 <h2>Dimensione testo</h2>
                 <label for="text-size">Dimensione testo</label>
-                <input type="range" id="text-size" name="text-size" min="16" max="72" list="font-size-values" value="${this.fontSize}">
+                <input type="range" id="text-size" name="text-size" min="16" max="48" list="font-size-values" value="${this.fontSize}">
                 <datalist id="font-size-values">
                     <option value="16"></option>
                     <option value="24"></option>
                     <option value="36"></option>
                     <option value="48"></option>
-                    <option value="60"></option>
-                    <option value="72"></option>
                 </datalist>
             </div>
             `
