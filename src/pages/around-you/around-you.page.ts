@@ -35,8 +35,9 @@ export class AroudYouPage extends HTMLElement {
         this.pois = GeoGraphicService.instance.orderPoisByDistance(position, this.pois);
         this.render();
         this.setup();
-        SnackbarService.instance.resetSnackbar();
         this.removeLoader();
+        SnackbarService.instance.updateSnackbar(SnackbarType.Info, 'Pagina caricata.');
+        SnackbarService.instance.resetSnackbar();
     }
 
     private render(): void {

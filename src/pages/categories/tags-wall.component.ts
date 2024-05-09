@@ -182,8 +182,8 @@ export class TagsWallComponent extends HTMLElement {
         if (!prevPageBtn) return;
         if (!nextPageBtn) return;
 
-        // this.currentPage === 0 ? prevPageBtn.setAttribute('disabled', '') : prevPageBtn.removeAttribute('disabled');
-        // this.currentPage === this.getPagesNumber() ? nextPageBtn.setAttribute('disabled', '') : nextPageBtn.removeAttribute('disabled');
+        this.currentPage === 0 ? prevPageBtn.setAttribute('disabled', '') : prevPageBtn.removeAttribute('disabled');
+        this.currentPage === this.getPagesNumber() ? nextPageBtn.setAttribute('disabled', '') : nextPageBtn.removeAttribute('disabled');
 
         const buttons: TagChipComponent[] = Array.from(this.shadowRoot.querySelectorAll('button[is="app-tag-chip"]'));
         buttons.forEach((button: TagChipComponent) => button.addEventListener('tag-selected', this.handleCheckbox));
