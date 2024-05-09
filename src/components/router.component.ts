@@ -1,4 +1,5 @@
 import { Route, RouteType } from '../models/route.model';
+import { SnackbarService } from '../services/snackbar.service';
 
 export class Router extends HTMLElement {
     public shadowRoot: ShadowRoot;
@@ -26,6 +27,7 @@ export class Router extends HTMLElement {
     }
 
     private changeRoute(hash: string): void {
+        SnackbarService.instance.resetSnackbar();
         if (!hash) {
             const defaultRoute: Route[] = this.routes.filter((route: Route) => route.type === RouteType.Default);
             defaultRoute ? window.location.hash = '#/' + defaultRoute[0].url : this.sendNotFound();

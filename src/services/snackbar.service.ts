@@ -37,4 +37,8 @@ export class SnackbarService {
         this.live.snackbar = new Snackbar(type, message, duration);
     }
 
+    public resetSnackbar(): void {
+        if (!this.live) return;
+        this.live.resetSnackbar();
+    }
 }

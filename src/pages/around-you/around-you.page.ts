@@ -7,6 +7,8 @@ import { PoiCard } from './poi-card.component';
 import { LoaderComponent } from '../../components/loader.component';
 import '../../components/menu.component';
 import './poi-card.component';
+import { SnackbarService } from '../../services/snackbar.service';
+import { SnackbarType } from '../../models/snackbar.model';
 
 export class AroudYouPage extends HTMLElement {
     public shadowRoot: ShadowRoot;
@@ -28,10 +30,12 @@ export class AroudYouPage extends HTMLElement {
     public async connectedCallback(): Promise<void> {
         this.createLoader();
         const position: GeolocationPosition = await PositionService.instance.getUserPosition();
+        SnackbarService.instance.updateSnackbar(SnackbarType.Info, 'Caricamento...');
         this.pois = await GeoGraphicService.instance.getPoisFromLayers(LayerService.instance.activeLayers);
         this.pois = GeoGraphicService.instance.orderPoisByDistance(position, this.pois);
         this.render();
         this.setup();
+        SnackbarService.instance.resetSnackbar();
         this.removeLoader();
     }
 
