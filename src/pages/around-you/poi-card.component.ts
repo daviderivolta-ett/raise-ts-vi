@@ -25,7 +25,7 @@ export class PoiCard extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <article class="poi-card">
+            <article class="poi-card" aria-label="Punto di interesse">
                 <div class="poi-card-info">
                     <h3 class="poi-card-title">${this.poi.name}</h3>
                     <p class="poi-card-distance" aria-label="${Math.round(this.poi.distance!)} metri">${Math.round(this.poi.distance!)}<span aria-hidden="true">m</span></p>

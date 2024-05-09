@@ -185,7 +185,7 @@ var Y=Object.defineProperty;var K=(a,e,t)=>e in a?Y(a,e,{enumerable:!0,configura
                 </ul>
             </nav>
             `}setup(){this.setupCloseBtn(),this.setupLinkBehaviour()}setupCloseBtn(){const e=this.querySelector("button");e&&e.addEventListener("click",()=>this.close())}setupLinkBehaviour(){const e=this.querySelectorAll("a");e&&e.forEach(t=>{t.addEventListener("click",s=>{s.preventDefault();const n=t.getAttribute("href");n&&(this.close(),window.location.hash=n)})})}}customElements.define("app-menu",tt,{extends:"dialog"});class et extends HTMLElement{constructor(){super();r(this,"shadowRoot");r(this,"_poi",new g);this.shadowRoot=this.attachShadow({mode:"closed"})}get poi(){return this._poi}set poi(t){this._poi=t}connectedCallback(){this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
-            <article class="poi-card">
+            <article class="poi-card" aria-label="Punto di interesse">
                 <div class="poi-card-info">
                     <h3 class="poi-card-title">${this.poi.name}</h3>
                     <p class="poi-card-distance" aria-label="${Math.round(this.poi.distance)} metri">${Math.round(this.poi.distance)}<span aria-hidden="true">m</span></p>
