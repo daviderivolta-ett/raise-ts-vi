@@ -73,6 +73,7 @@ export class AroudYouPage extends HTMLElement {
                     top: 50%;
                     right: 0;
                     transform: translateY(-50%);
+                    color: var(--on-surface);
                     background-color: transparent;
                     border: none;
                 }

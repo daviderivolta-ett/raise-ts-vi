@@ -43,10 +43,12 @@ export class PoiCard extends HTMLElement {
                 }
 
                 .poi-card-title {
+                    font-size: 1rem;
                     margin: 0 0 8px 0;
                 }
 
                 .poi-card-distance {
+                    font-size: .9rem;
                     color: var(--on-surface-variant);
                 }
 
