@@ -32,19 +32,19 @@ export class SettingsContrastComponent extends HTMLElement {
                 <div class="contrast-option-list">
                     <div class="contrast-option">
                         <input type="radio" id="light-contrast" name="contrast" value="light">
-                        <label for="light-contrast">Light</label>
+                        <label for="light-contrast" aria-label="Tema light">Light</label>
                     </div>
                     <div class="contrast-option">
                         <input type="radio" id="dark-contrast" name="contrast" value="dark">
-                        <label for="dark-contrast">Dark</label>
+                        <label for="dark-contrast" aria-label="Tema dark">Dark</label>
                     </div>
                     <div class="contrast-option">
                         <input type="radio" id="light-high-contrast" name="contrast" value="light-high">
-                        <label for="light-high-contrast">Light alto contrasto</label>
+                        <label for="light-high-contrast" aria-label="Tema light ad alto contrasto">Light alto contrasto</label>
                     </div>
                     <div class="contrast-option">
                         <input type="radio" id="dark-high-contrast" name="contrast" value="dark-high">
-                        <label for="dark-high-contrast">Dark alto contrasto</label>
+                        <label for="dark-high-contrast" aria-label="Tema dark ad alto contrasto">Dark alto contrasto</label>
                     </div>
                 </div>
             </div>
