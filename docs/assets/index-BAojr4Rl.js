@@ -73,7 +73,7 @@ var Y=Object.defineProperty;var K=(a,e,t)=>e in a?Y(a,e,{enumerable:!0,configura
 
                 <div class="pagination-buttons">
                     <button type="button" class="pagination-btn prev-btn" aria-label="Pagina precedente"><span class="material-symbols-outlined">chevron_left</span></button>
-                    <p class="current-page">Pagina ${this.currentPage+1} di ${this.getPagesNumber()+1}</p>
+                    <p tabindex="-1" class="current-page">Pagina ${this.currentPage+1} di ${this.getPagesNumber()+1}</p>
                     <button type="button" class="pagination-btn next-btn" aria-label="Pagina successiva"><span class="material-symbols-outlined">chevron_right</span></button>
                 </div>
 
