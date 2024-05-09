@@ -1,5 +1,7 @@
-import './tag-chip.component';
+import { SnackbarType } from '../../models/snackbar.model';
+import { SnackbarService } from '../../services/snackbar.service';
 import { TagChipComponent } from './tag-chip.component';
+import './tag-chip.component';
 
 export class TagsWallComponent extends HTMLElement {
     public shadowRoot: ShadowRoot;
@@ -48,7 +50,7 @@ export class TagsWallComponent extends HTMLElement {
 
     public connectedCallback(): void {
         this.render();
-        if (this.tags.length === 0) return;
+        if (this.tags.length === 0) return;     
         this.paginateTags();
         this.setup();
     }
@@ -62,9 +64,9 @@ export class TagsWallComponent extends HTMLElement {
                 </div>
 
                 <div class="pagination-buttons">
-                    <button type="button" class="pagination-btn prev-btn" aria-label="Pagina precedente"><span class="material-symbols-outlined">chevron_left</span></button>
-                    <p tabindex="-1" class="current-page">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
-                    <button type="button" class="pagination-btn next-btn" aria-label="Pagina successiva"><span class="material-symbols-outlined">chevron_right</span></button>
+                    <button type="button" class="pagination-btn prev-btn" aria-label="Paginazione precedente"><span class="material-symbols-outlined">chevron_left</span></button>
+                    <p class="current-page">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
+                    <button type="button" class="pagination-btn next-btn" aria-label="Paginazione successiva"><span class="material-symbols-outlined">chevron_right</span></button>
                 </div>
 
                 <div class="tags"></div>
@@ -72,7 +74,7 @@ export class TagsWallComponent extends HTMLElement {
 
             <style>
                 *:focus {
-                    outline: 5px solid crimson;
+                    outline: 1px solid default;
                 }
 
                 p {
@@ -185,7 +187,7 @@ export class TagsWallComponent extends HTMLElement {
         const buttons: TagChipComponent[] = Array.from(this.shadowRoot.querySelectorAll('button[is="app-tag-chip"]'));
         buttons.forEach((button: TagChipComponent) => button.addEventListener('tag-selected', this.handleCheckbox));
 
-        currentPage.focus();      
+        currentPage.focus();
     }
 
     private paginateTags(): void {
@@ -226,6 +228,7 @@ export class TagsWallComponent extends HTMLElement {
         if (this.currentPage > 0) {
             this.currentPage--;
             this.paginateTags();
+            SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Paginazione cambiata: pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}`);
         }
     }
 
@@ -233,6 +236,7 @@ export class TagsWallComponent extends HTMLElement {
         if (this.currentPage < this.getPagesNumber()) {
             this.currentPage++;
             this.paginateTags();
+            SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Paginazione cambiata: pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}`);
         }
     }
 
