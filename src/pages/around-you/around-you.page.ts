@@ -36,6 +36,7 @@ export class AroudYouPage extends HTMLElement {
         this.render();
         this.setup();
         this.removeLoader();
+        SnackbarService.instance.resetSnackbar();
         SnackbarService.instance.updateSnackbar(SnackbarType.Info, 'Pagina caricata.');
         SnackbarService.instance.resetSnackbar();
     }
