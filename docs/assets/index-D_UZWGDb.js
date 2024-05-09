@@ -82,7 +82,7 @@ var Y=Object.defineProperty;var K=(a,e,t)=>e in a?Y(a,e,{enumerable:!0,configura
 
             <style>
                 *:focus {
-                    outline: 1px solid default;
+                    outline: 5px solid crimson;
                 }
 
                 p {

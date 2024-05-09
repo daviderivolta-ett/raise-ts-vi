@@ -72,7 +72,7 @@ export class TagsWallComponent extends HTMLElement {
 
             <style>
                 *:focus {
-                    outline: 1px solid default;
+                    outline: 5px solid crimson;
                 }
 
                 p {
