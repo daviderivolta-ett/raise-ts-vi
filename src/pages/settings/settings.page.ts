@@ -101,7 +101,7 @@ export class SettingsPage extends HTMLElement {
         })
 
         applyBtn.addEventListener('click', () => {
-            window.location.href = '/#/around-you'
+            window.location.href = '/around-you'
             SettingService.instance.settings = this.settings;
         });
     }
