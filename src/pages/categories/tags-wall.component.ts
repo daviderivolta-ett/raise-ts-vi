@@ -75,7 +75,7 @@ export class TagsWallComponent extends HTMLElement {
 
             <style>
                 *:focus {
-                    outline: 4px solid crimson;
+                    outline: 1px solid default;
                 }
 
                 p {
@@ -183,15 +183,7 @@ export class TagsWallComponent extends HTMLElement {
         if (!nextPageBtn) return;
 
         // this.currentPage === 0 ? prevPageBtn.setAttribute('disabled', '') : prevPageBtn.removeAttribute('disabled');
-
-        if (this.currentPage === 0) {
-            prevPageBtn.setAttribute('disabled', '');
-            currentPage.focus();
-        } else {
-            prevPageBtn.removeAttribute('disabled');
-        }
-
-        this.currentPage === this.getPagesNumber() ? nextPageBtn.setAttribute('disabled', '') : nextPageBtn.removeAttribute('disabled');
+        // this.currentPage === this.getPagesNumber() ? nextPageBtn.setAttribute('disabled', '') : nextPageBtn.removeAttribute('disabled');
 
         const buttons: TagChipComponent[] = Array.from(this.shadowRoot.querySelectorAll('button[is="app-tag-chip"]'));
         buttons.forEach((button: TagChipComponent) => button.addEventListener('tag-selected', this.handleCheckbox));
