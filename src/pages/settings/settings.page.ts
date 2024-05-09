@@ -44,10 +44,10 @@ export class SettingsPage extends HTMLElement {
                         <span class="material-symbols-outlined">menu</span>
                     </button>
                 </div>
-                <app-settings-contrast></app-settings-contrast>
-                <app-settings-font-size></app-settings-font-size>
-                <app-settings-letter-space></app-settings-letter-space>
-                <app-settings-line-height></app-settings-line-height>
+                <app-settings-contrast class="settings-option"></app-settings-contrast>
+                <app-settings-font-size class="settings-option"></app-settings-font-size>
+                <app-settings-letter-space class="settings-option"></app-settings-letter-space>
+                <app-settings-line-height class="settings-option"></app-settings-line-height>
                 <app-text-test></app-text-test>
                 <button type="button" class="apply-btn">Applica</button>
             </div>
@@ -88,6 +88,11 @@ export class SettingsPage extends HTMLElement {
                     text-align: center;
                     margin: 0 0 24px 0;
                     color: var(--on-surface-variant);
+                }
+
+                .settings-option {
+                    display: block;
+                    margin: 0 0 40px 0;
                 }
 
                 .material-symbols-outlined {
@@ -132,7 +137,7 @@ export class SettingsPage extends HTMLElement {
         });
 
         fontSize.addEventListener('font-size-updated', (e: CustomEventInit) => {
-            this.settings.fontSize = e.detail.fontSize;
+            this.settings.fontSize = e.detail.fontSize;            
             this.update();
         });
 

@@ -12,7 +12,7 @@ export class SettingsFontSizeComponent extends HTMLElement {
     }
 
     public set fontSize(fontSize: number) {
-        this._fontSize = fontSize;        
+        this._fontSize = fontSize;
         this.update();
         this.dispatchEvent(new CustomEvent('font-size-updated', { detail: { fontSize: this.fontSize } }));
     }
@@ -27,14 +27,24 @@ export class SettingsFontSizeComponent extends HTMLElement {
             `
             <div class="settings-font-size">
                 <h2 class="settings-title">Dimensione testo</h2>
-                <label for="text-size">Dimensione testo</label>
-                <input type="range" id="text-size" name="text-size" min="16" max="48" list="font-size-values" value="${this.fontSize}">
-                <datalist id="font-size-values">
-                    <option value="16"></option>
-                    <option value="24"></option>
-                    <option value="36"></option>
-                    <option value="48"></option>
-                </datalist>
+                <div class="font-size-option-list">
+                    <div class="font-size-option">
+                        <input type="radio" id="font-size-s" name="font-size" value="16">
+                        <label for="font-size-s" aria-label="Dimensione font: S">S</label>
+                    </div>
+                    <div class="font-size-option">
+                        <input type="radio" id="font-size-m" name="font-size" value="24">
+                        <label for="font-size-m" aria-label="Dimensione font: M">M</label>
+                    </div>
+                    <div class="font-size-option">
+                        <input type="radio" id="font-size-l" name="font-size" value="36">
+                        <label for="font-size-l" aria-label="Dimensione font: L">L</label>
+                    </div>
+                    <div class="font-size-option">
+                        <input type="radio" id="font-size-xl" name="font-size" value="48">
+                        <label for="font-size-xl" aria-label="Dimensione font: XL">XL</label>
+                    </div>
+                </div>
             </div>
 
             <style>
@@ -46,7 +56,48 @@ export class SettingsFontSizeComponent extends HTMLElement {
 
                 .settings-title {
                     text-align: center;
-                    font-size: 1rem;
+                    font-size: 1.7rem;
+                    margin: 0 0 16px 0;
+                }
+
+                .font-size-option-list {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+
+                .font-size-option {
+                    cursor: pointer;
+                    width: calc(50% - 16px);
+                    min-height: 80px;
+                    margin: 8px;
+                    position: relative;
+                }
+
+                .font-size-option label {
+                    cursor: inherit;
+                    height: 100%;
+                    padding: 16px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    color: var(--on-primary-container);
+                    background-color: var(--primary-container);
+                    border: 1px solid transparent;
+                    border-radius: var( --border-radius-s);
+                    box-sizing: border-box;
+                }
+
+                input[type="radio"] {
+                    opacity: 0;
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                }
+                
+                input[type="radio"]:checked + label {
+                    color: var(--inverse-on-surface);
+                    background-color: var(--inverse-surface);
                 }
             </style>
             `
@@ -54,29 +105,28 @@ export class SettingsFontSizeComponent extends HTMLElement {
     }
 
     private setup(): void {
-        this.handleSlider();
+        this.handleRadioChange();
     }
 
-    private handleSlider(): void {
-        const rangeInput: HTMLInputElement | null = this.shadowRoot.querySelector('input[type="range"]');
-        const dataList = Array.from(this.shadowRoot.querySelectorAll<HTMLDataElement>('#font-size-values option')).map(option => parseFloat(option.value));
-        if (!rangeInput || !dataList) return;
-                
-        rangeInput.addEventListener('input', () => {
-            let currentValue: number = parseFloat(rangeInput.value);
-            const nearest: number = dataList.reduce((prev, curr) => {
-                return (Math.abs(curr - currentValue) < Math.abs(prev - currentValue) ? curr : prev);
-            });
-            currentValue = nearest;
-            rangeInput.value = currentValue.toString();
-            this.fontSize = currentValue;
+    private handleRadioChange(): void {
+        const fontSizeSmallRadio: HTMLInputElement | null = this.shadowRoot.querySelector('#font-size-s');
+        const fontSizeMediumRadio: HTMLInputElement | null = this.shadowRoot.querySelector('#font-size-m');
+        const fontSizeLargeRadio: HTMLInputElement | null = this.shadowRoot.querySelector('#font-size-l');
+        const fontSizeExtraLargeRadio: HTMLInputElement | null = this.shadowRoot.querySelector('#font-size-xl');
+
+        if (!fontSizeSmallRadio || !fontSizeMediumRadio || !fontSizeLargeRadio || !fontSizeExtraLargeRadio) return;
+
+        fontSizeSmallRadio.addEventListener('change', () => this.fontSize = parseInt(fontSizeSmallRadio.value));
+        fontSizeMediumRadio.addEventListener('change', () => this.fontSize = parseInt(fontSizeMediumRadio.value));
+        fontSizeLargeRadio.addEventListener('change', () => this.fontSize = parseInt(fontSizeLargeRadio.value));
+        fontSizeExtraLargeRadio.addEventListener('change', () => this.fontSize = parseInt(fontSizeExtraLargeRadio.value));
+    }
+
+    private update(): void {
+        const radioBtns: HTMLInputElement[] = Array.from(this.shadowRoot.querySelectorAll<HTMLInputElement>('input[name="font-size"]'));
+        radioBtns.forEach((radio: HTMLInputElement) => {
+            if (radio.value === this.fontSize.toString()) radio.checked = true;
         });
-
-    }
-
-    private update(): void {              
-        const slider: HTMLInputElement | null = this.shadowRoot.querySelector('input[type="range"]');
-        if (slider) slider.value = this.fontSize.toString();
     }
 }
 
