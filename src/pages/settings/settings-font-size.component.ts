@@ -37,11 +37,11 @@ export class SettingsFontSizeComponent extends HTMLElement {
                         <label for="font-size-m" aria-label="Dimensione font: M">M</label>
                     </div>
                     <div class="font-size-option">
-                        <input type="radio" id="font-size-l" name="font-size" value="36">
+                        <input type="radio" id="font-size-l" name="font-size" value="32">
                         <label for="font-size-l" aria-label="Dimensione font: L">L</label>
                     </div>
                     <div class="font-size-option">
-                        <input type="radio" id="font-size-xl" name="font-size" value="48">
+                        <input type="radio" id="font-size-xl" name="font-size" value="40">
                         <label for="font-size-xl" aria-label="Dimensione font: XL">XL</label>
                     </div>
                 </div>

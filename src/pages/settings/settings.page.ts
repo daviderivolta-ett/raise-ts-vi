@@ -137,8 +137,9 @@ export class SettingsPage extends HTMLElement {
         });
 
         fontSize.addEventListener('font-size-updated', (e: CustomEventInit) => {
-            this.settings.fontSize = e.detail.fontSize;            
-            this.update();
+            this.settings.fontSize = e.detail.fontSize;    
+            SettingService.instance.settings.fontSize = this.settings.fontSize;
+            SettingService.instance.setFontSize(this.settings.fontSize);
         });
 
         letterSpacing.addEventListener('letter-space-updated', (e: CustomEventInit) => {
