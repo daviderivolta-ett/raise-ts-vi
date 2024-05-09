@@ -27,31 +27,67 @@ export class SettingsContrastComponent extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <div class="component">
-                <h2>Contrasto</h2>
-                <div class="contrast-option">
-                    <input type="radio" id="light-contrast" name="contrast" value="light">
-                    <label for="light-contrast">Light</label>
-                </div>
-                <div class="contrast-option">
-                    <input type="radio" id="dark-contrast" name="contrast" value="dark">
-                    <label for="dark-contrast">Dark</label>
-                </div>
-                <div class="contrast-option">
-                    <input type="radio" id="light-high-contrast" name="contrast" value="light-high">
-                    <label for="light-high-contrast">Light alto contrasto</label>
-                </div>
-                <div class="contrast-option">
-                    <input type="radio" id="dark-high-contrast" name="contrast" value="dark-high">
-                    <label for="dark-high-contrast">Dark alto contrasto</label>
+            <div class="settings-contrast">
+                <h2 class="settings-title">Contrasto</h2>
+                <div class="contrast-option-list">
+                    <div class="contrast-option">
+                        <input type="radio" id="light-contrast" name="contrast" value="light">
+                        <label for="light-contrast">Light</label>
+                    </div>
+                    <div class="contrast-option">
+                        <input type="radio" id="dark-contrast" name="contrast" value="dark">
+                        <label for="dark-contrast">Dark</label>
+                    </div>
+                    <div class="contrast-option">
+                        <input type="radio" id="light-high-contrast" name="contrast" value="light-high">
+                        <label for="light-high-contrast">Light alto contrasto</label>
+                    </div>
+                    <div class="contrast-option">
+                        <input type="radio" id="dark-high-contrast" name="contrast" value="dark-high">
+                        <label for="dark-high-contrast">Dark alto contrasto</label>
+                    </div>
                 </div>
             </div>
 
             <style>
-                .contrast-option {
-                    position: relative;
+                h2,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .settings-title {
+                    text-align: center;
+                    font-size: 1.7rem;
+                    margin: 0 0 16px 0;
+                }
+
+                .contrast-option-list {
                     display: flex;
+                    flex-wrap: wrap;
+                }
+
+                .contrast-option {
+                    cursor: pointer;
+                    width: calc(50% - 16px);
+                    min-height: 80px;
+                    margin: 8px;
+                    position: relative;
+                }
+
+                .contrast-option label {
+                    cursor: inherit;
+                    height: 100%;
+                    padding: 16px;
+                    display: flex;
+                    justify-content: center;
                     align-items: center;
+                    text-align: center;
+                    color: var(--on-primary-container);
+                    background-color: var(--primary-container);
+                    border: 1px solid transparent;
+                    border-radius: var( --border-radius-s);
+                    box-sizing: border-box;
                 }
 
                 input[type="radio"] {
@@ -62,7 +98,8 @@ export class SettingsContrastComponent extends HTMLElement {
                 }
 
                 input[type="radio"]:checked + label {
-                    background-color: crimson;
+                    color: var(--inverse-on-surface);
+                    background-color: var(--inverse-surface);
                 }
             </style>
             `

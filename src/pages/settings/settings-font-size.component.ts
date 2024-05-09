@@ -25,8 +25,8 @@ export class SettingsFontSizeComponent extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <div class="component">
-                <h2>Dimensione testo</h2>
+            <div class="settings-font-size">
+                <h2 class="settings-title">Dimensione testo</h2>
                 <label for="text-size">Dimensione testo</label>
                 <input type="range" id="text-size" name="text-size" min="16" max="48" list="font-size-values" value="${this.fontSize}">
                 <datalist id="font-size-values">
@@ -36,6 +36,19 @@ export class SettingsFontSizeComponent extends HTMLElement {
                     <option value="48"></option>
                 </datalist>
             </div>
+
+            <style>
+                h2,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .settings-title {
+                    text-align: center;
+                    font-size: 1rem;
+                }
+            </style>
             `
             ;
     }
