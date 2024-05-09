@@ -228,7 +228,7 @@ export class TagsWallComponent extends HTMLElement {
         if (this.currentPage > 0) {
             this.currentPage--;
             this.paginateTags();
-            SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Paginazione cambiata: pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}`);
+            SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Paginazione cambiata: pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}. Categorie in questa pagina: ${this.currentPageTags.join(', ')}`);
         }
     }
 
@@ -236,7 +236,7 @@ export class TagsWallComponent extends HTMLElement {
         if (this.currentPage < this.getPagesNumber()) {
             this.currentPage++;
             this.paginateTags();
-            SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Paginazione cambiata: pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}`);
+            SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Paginazione cambiata: pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}. Categorie in questa pagina: ${this.currentPageTags.join(', ')}`);
         }
     }
 

@@ -36,17 +36,15 @@ export class SnackbarComponent extends HTMLElement {
                     bottom: 0;
                     left: 0;
                     width: 100%;
-                    visibility: hidden;
+                    background-color: grey;
                 }
 
                 .info-snackbar {
                     background-color: blue;
-                    visibility: visible;
                 }
 
                 .error-snackbar {
                     background-color: crimson;
-                    visibility: visible;
                 }
             </style>
             `
@@ -58,6 +56,7 @@ export class SnackbarComponent extends HTMLElement {
 
         const message: HTMLParagraphElement | null = this.shadowRoot.querySelector('.snackbar-message');
         if (!message) return;
+        message.innerHTML = '';
         message.innerHTML = this.snackbar.message;
 
         switch (this.snackbar.type) {
@@ -93,7 +92,7 @@ export class SnackbarComponent extends HTMLElement {
         if (!message) return;
         if (!wrapper) return;
 
-        message.innerHTML = '';
+        // message.innerHTML = '';
         wrapper.classList.remove('info-snackbar');
         wrapper.classList.remove('error-snackbar');
     }
