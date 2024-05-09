@@ -70,6 +70,7 @@ export class AroudYouPage extends HTMLElement {
                 }
                 
                 button[is="app-menu-btn"] {
+                    cursor: pointer;
                     position: absolute;
                     top: 50%;
                     right: 0;

@@ -34,10 +34,10 @@ export class PoiCard extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <article class="poi-card" aria-label="Punto di interesse" aria-labelledby="poi-card-title" aria-posinset="${this.position}" tabindex="${this.position}" aria-setsize="-1">
+            <article class="poi-card" aria-labelledby="poi-card-title" aria-posinset="${this.position}" tabindex="${this.position}" aria-setsize="-1">
                 <div class="poi-card-info">
                     <h3 class="poi-card-title" id="poi-card-title">${this.poi.name}</h3>
-                    <p class="poi-card-distance" aria-label="<Distanza da te: ${Math.round(this.poi.distance!)} metri">${Math.round(this.poi.distance!)}<span aria-hidden="true">m</span></p>
+                    <p class="poi-card-distance" aria-label="Distanza da te: ${Math.round(this.poi.distance!)} metri">${Math.round(this.poi.distance!)}<span aria-hidden="true">m</span></p>
                 </div>
                 <button type="button" class="info-btn" aria-label="Vedi dettagli punto di interesse">
                     <span class="material-symbols-outlined">chevron_right</span>
