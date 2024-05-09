@@ -115,8 +115,8 @@ export class TagsWallComponent extends HTMLElement {
                     gap: 4px;
                     min-height: 40px;
                     min-width: 40px;
-                    color: var(--on-primary);
-                    background-color: var(--primary);
+                    color: var(--on-primary-container);
+                    background-color: var(--primary-container);
                     border: 1px solid transparent;
                     border-radius: var( --border-radius-s);
                     box-sizing: border-box;

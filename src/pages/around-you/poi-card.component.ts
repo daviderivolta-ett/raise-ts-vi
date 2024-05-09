@@ -25,21 +25,58 @@ export class PoiCard extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <div class="poi-card">
-                <h3>${this.poi.name}</h3>
+            <article class="poi-card">
                 <div class="poi-card-info">
-                    <p>${this.poi.name}</p>
-                    <p>${Math.round(this.poi.distance!)}m</p>
+                    <h3 class="poi-card-title">${this.poi.name}</h3>
+                    <p class="poi-card-distance">${Math.round(this.poi.distance!)}<span aria-label="metri">m</span></p>
                 </div>
-                <button type="button" id="info-btn">Vedi</button>
-            </div>
+                <button type="button" class="info-btn" aria-label="Vedi dettagli punto di interesse">
+                    <span class="material-symbols-outlined">chevron_right</span>
+                </button>
+            </article>
 
             <style>
-                .poi-card {
-                    border: 1px solid var(--outline);
+                h3,
+                p {
+                    font-weight: 400;
+                    margin: 0;
                 }
 
-                .poi-card-info {
+                .poi-card-title {
+                    margin: 0 0 8px 0;
+                }
+
+                .poi-card-distance {
+                    color: var(--on-surface-variant);
+                }
+
+                .info-btn {
+                    font-family: 'Inter', Arial, Helvetica, sans-serif;
+                    font-size: 1rem;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    min-height: 32px;
+                    min-width: 32px;
+                    color: var(--on-primary-container);
+                    background-color: var(--primary-container);
+                    border: 1px solid transparent;
+                    border-radius: var( --border-radius-s);
+                    box-sizing: border-box;
+                }
+
+                .info-btn:hover {
+                    opacity: 0.75;
+                }
+
+                .poi-card {
+                    background-color: var(--surface-container);
+                    color: var(--on-surface);
+                    border: 1px solid var(--outline);
+                    border-radius: var(--border-radius-s);
+                    padding: 24px;
+                    box-sizing: border-box;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
@@ -48,6 +85,16 @@ export class PoiCard extends HTMLElement {
                 button {
                     cursor: pointer;
                 }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.2rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
             </style>
 
             `
@@ -55,10 +102,10 @@ export class PoiCard extends HTMLElement {
     }
 
     private setup(): void {
-        const button: HTMLButtonElement | null = this.shadowRoot.querySelector('#info-btn');
+        const button: HTMLButtonElement | null = this.shadowRoot.querySelector('.info-btn');
         if (!button) return;
 
-        button.addEventListener('click', () => {   
+        button.addEventListener('click', () => {
             this.dispatchEvent(new CustomEvent('poi-selected', { detail: { selectedPoi: this.poi } }));
         });
     }
