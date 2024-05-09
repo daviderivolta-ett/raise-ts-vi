@@ -50,7 +50,7 @@ export class AroudYouPage extends HTMLElement {
                     </button>
                 </div>
                 <p class="page-desc">Elenco punti di interesse nelle vicinanze.</p>
-                <div class="around-you-features"></div>
+                <section class="around-you-features" role="feed"></section>
             </div>
 
             <style>
@@ -112,9 +112,10 @@ export class AroudYouPage extends HTMLElement {
         const list: HTMLDivElement | null = this.shadowRoot.querySelector('.around-you-features');
         if (!list) return;
 
-        this.pois.forEach((poi: Poi) => {
+        this.pois.forEach((poi: Poi, index: number) => {
             const card: PoiCard = document.createElement('app-poi-card') as PoiCard;
             card.poi = poi;
+            card.position = index + 1;
             list.append(card);
         });
 
