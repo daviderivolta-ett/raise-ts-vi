@@ -73,6 +73,10 @@ export class SettingsPage extends HTMLElement {
                     color: var(--on-surface);
                     background-color: transparent;
                     border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
                 }
 
                 .page-title {

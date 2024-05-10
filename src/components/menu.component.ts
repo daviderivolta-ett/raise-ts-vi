@@ -12,8 +12,12 @@ export class MenuComponent extends HTMLDialogElement {
         this.innerHTML =
             `
             <div class="dialog-content">
-                <button autofocus aria-label="chiudi menu">Chiudi</button>
-                <h2 id="menu-title">Menu</h2>
+                <div class="menu-header">
+                    <h2 class="menu-title">Menu</h2>
+                    <button class="close-menu-btn" aria-label="Chiudi menu" autofocus>
+                        <span class="material-symbols-outlined">close</span>
+                    </button>
+                </div>
                 <nav class="menu" >
                     <ul>
                         <li><a href="/categories">Seleziona categoria</a></li>
@@ -26,10 +30,76 @@ export class MenuComponent extends HTMLDialogElement {
             </div>
 
             <style>
+                h2,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                    color: var(--on-surface);
+                }
+
+                .menu-header {
+                    position: relative;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 0 24px 0;
+                }
+
                 .dialog-content {
+                    position: relative;
                     max-width: 576px;
-                    padding: 0 4%;
                     margin: auto;
+                }
+
+                button.close-menu-btn {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                    color: var(--on-surface);
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
+                }
+
+                .menu-title {
+                    text-align: center;
+                    font-size: 1rem;
+                }
+
+                .menu ul {
+                    margin: 0;
+                    padding: 0;
+                    text-align: center;
+                }
+
+                .menu ul li + li {
+                    margin: 16px 0;
+                }
+
+                .menu a {
+                    color: var(--on-surface-variant);
+                    text-decoration: none;
+                    font-size: 1.4rem;
+                }
+
+                .menu a:hover {
+                    color: var(--primary);
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.2rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
                 }
             </style>
             `
