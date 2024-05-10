@@ -100,7 +100,7 @@ button:focus-visible {
 
 :root {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0rem;
   line-height: 1.15;
   color: var(--on-surface);
@@ -168,7 +168,6 @@ body {
 
 dialog {
   --backdrop-color: var(--surface-container);
-  // --backdrop-color: transparent;
 }
 
 dialog[is="app-menu"] {
@@ -177,7 +176,6 @@ dialog[is="app-menu"] {
   height: 100%;
   padding: 0;
   background-color: var(--surface-container);
-  // background-color: transparent;
   border: none;
 }
 

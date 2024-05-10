@@ -29,7 +29,7 @@ export class SettingsFontSizeComponent extends HTMLElement {
                 <h2 class="settings-title">Dimensione testo</h2>
                 <div class="font-size-option-list">
                     <div class="font-size-option">
-                        <input type="radio" id="font-size-s" name="font-size" value="16">
+                        <input type="radio" id="font-size-s" name="font-size" value="14">
                         <label for="font-size-s" aria-label="Dimensione font: S">S</label>
                     </div>
                     <div class="font-size-option">

@@ -103,7 +103,7 @@ export class PoiPage extends HTMLElement {
                     justify-content: space-between;
                     align-items: center;
                     gap: 8px;
-                    margin: 16px 0 32px 0;
+                    margin: 1.25rem 0 2rem 0;
                 }
 
                 #directions-btn {
@@ -123,9 +123,9 @@ export class PoiPage extends HTMLElement {
                 button {
                     cursor: pointer;
                     font-family: Inter, sans-serif;
-                    font-size: 1rem;
+                    font-size: .8rem;
                     font-weight: 500;
-                    height: 32px;
+                    padding: 8px 0;
                     width: 100%;
                 }
 
@@ -134,7 +134,7 @@ export class PoiPage extends HTMLElement {
                 }
 
                 .property {
-                    margin: 0px 0px 16px;
+                    margin: 0px 0px 1rem;
                 }
 
                 .property-label {
