@@ -4,12 +4,11 @@ import { SettingsContrastComponent } from './settings-contrast.component';
 import { SettingsFontSizeComponent } from './settings-font-size.component';
 import { SettingsLetterSpaceComponent } from './settings-letter-space.component';
 import { SettingsLineHeightComponent } from './settings-line-height.component';
-import { SettingsTextTestComponent } from './settings-text-test.component';
+
 import './settings-contrast.component';
 import './settings-font-size.component';
 import './settings-letter-space.component';
 import './settings-line-height.component';
-import './settings-text-test.component';
 
 export class SettingsPage extends HTMLElement {
     public shadowRoot: ShadowRoot;
@@ -31,7 +30,6 @@ export class SettingsPage extends HTMLElement {
     public connectedCallback(): void {
         this.render();
         this.setup();
-        this.update();
     }
 
     private render(): void {
@@ -48,8 +46,6 @@ export class SettingsPage extends HTMLElement {
                 <app-settings-font-size class="settings-option"></app-settings-font-size>
                 <app-settings-letter-space class="settings-option"></app-settings-letter-space>
                 <app-settings-line-height class="settings-option"></app-settings-line-height>
-                <app-text-test></app-text-test>
-                <button type="button" class="apply-btn">Applica</button>
             </div>
 
             <style>
@@ -117,13 +113,11 @@ export class SettingsPage extends HTMLElement {
         const fontSize: SettingsFontSizeComponent | null = this.shadowRoot.querySelector('app-settings-font-size');
         const letterSpacing: SettingsLetterSpaceComponent | null = this.shadowRoot.querySelector('app-settings-letter-space');
         const lineHeight: SettingsLineHeightComponent | null = this.shadowRoot.querySelector('app-settings-line-height');
-        const applyBtn: HTMLButtonElement | null = this.shadowRoot.querySelector('.apply-btn');
 
         if (!contrast) return;
         if (!fontSize) return;
         if (!letterSpacing) return;
         if (!lineHeight) return;
-        if (!applyBtn) return;
 
         contrast.contrast = this.settings.contrast;
         fontSize.fontSize = this.settings.fontSize;
@@ -134,36 +128,29 @@ export class SettingsPage extends HTMLElement {
             this.settings.contrast = e.detail.contrast;
             SettingService.instance.settings.contrast = this.settings.contrast;
             SettingService.instance.setContrast();
+            SettingService.instance.settings = this.settings;
         });
 
         fontSize.addEventListener('font-size-updated', (e: CustomEventInit) => {
             this.settings.fontSize = e.detail.fontSize;    
             SettingService.instance.settings.fontSize = this.settings.fontSize;
             SettingService.instance.setFontSize(this.settings.fontSize);
+            SettingService.instance.settings = this.settings;
         });
 
         letterSpacing.addEventListener('letter-space-updated', (e: CustomEventInit) => {
             this.settings.letterSpace = e.detail.letterSpace;
             SettingService.instance.settings.letterSpace = this.settings.letterSpace;
             SettingService.instance.setLetterSpace(this.settings.letterSpace);
-            // this.update();
+            SettingService.instance.settings = this.settings;
         });
 
         lineHeight.addEventListener('line-height-updated', (e: CustomEventInit) => {
-            this.settings.lineHeight = e.detail.lineHeight;
-            this.update();
-        })
-
-        applyBtn.addEventListener('click', () => {
-            window.location.hash = '/around-you'
+            this.settings.lineHeight = e.detail.lineHeight;            
+            SettingService.instance.settings.lineHeight = this.settings.lineHeight;
+            SettingService.instance.setLineHeight(this.settings.lineHeight);
             SettingService.instance.settings = this.settings;
         });
-    }
-
-    private update(): void {
-        const testText: SettingsTextTestComponent | null = this.shadowRoot.querySelector('app-text-test');
-        if (!testText) return;
-        testText.settings = this.settings;
     }
 }
 
