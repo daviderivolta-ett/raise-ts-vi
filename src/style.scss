@@ -166,3 +166,19 @@ body {
   margin: auto;
   padding: 24px 4%;
 }
+
+dialog {
+  --backdrop-color: green;
+}
+
+dialog[is="app-menu"] {
+  width: 100%;
+  height: 100%;
+  background-color: var(--surface);
+  border: none;
+  padding: 24px 4%;
+}
+
+dialog[is="app-menu"]::backdrop {
+  background-color: var(--backdrop-color);
+}

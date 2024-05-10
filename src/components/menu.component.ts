@@ -11,17 +11,26 @@ export class MenuComponent extends HTMLDialogElement {
     private render(): void {
         this.innerHTML =
             `
-            <button autofocus aria-label="chiudi menu">Chiudi</button>
-            <h2 id="menu-title">Menu</h2>
-            <nav class="menu" >
-                <ul>
-                    <li><a href="/categories">Seleziona categoria</a></li>
-                    <li><a href="/around-you">Intorno a me</a></li>
-                    <li><a href="/suggested-paths">Percorsi suggeriti</a></li>
-                    <li><a href="/custom-path">Percorsi custom</a></li>
-                    <li><a href="/settings">Impostazioni</a></li>
-                </ul>
-            </nav>
+            <div class="dialog-content">
+                <button autofocus aria-label="chiudi menu">Chiudi</button>
+                <h2 id="menu-title">Menu</h2>
+                <nav class="menu" >
+                    <ul>
+                        <li><a href="/categories">Seleziona categoria</a></li>
+                        <li><a href="/around-you">Intorno a me</a></li>
+                        <li><a href="/suggested-paths">Percorsi suggeriti</a></li>
+                        <li><a href="/custom-path">Percorsi custom</a></li>
+                        <li><a href="/settings">Impostazioni</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <style>
+                .dialog-content {
+                    max-width: 576px;
+                    margin: auto;
+                }
+            </style>
             `
             ;
     }
