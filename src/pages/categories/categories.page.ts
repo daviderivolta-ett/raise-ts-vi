@@ -26,6 +26,10 @@ export class CategoriesPage extends HTMLElement {
             </div>
 
             <style>
+                .categories-page {
+                    padding: 0 4%;
+                }
+
                 .categories-page-title {
                     text-align: center;
                 }

@@ -55,6 +55,10 @@ export class SettingsPage extends HTMLElement {
                     margin: 0;
                 }
 
+                .settings-page {
+                    padding: 0 4%;
+                }
+
                 .page-header {
                     position: relative;
                     height: 40px;
@@ -77,6 +81,8 @@ export class SettingsPage extends HTMLElement {
                     justify-content: center;
                     align-items: center;
                     padding: 0;
+                    height: 40px;
+                    width: 40px;
                 }
 
                 .page-title {

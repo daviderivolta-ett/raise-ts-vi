@@ -14,7 +14,7 @@ export class MenuComponent extends HTMLDialogElement {
             <div class="dialog-content">
                 <div class="menu-header">
                     <h2 class="menu-title">Menu</h2>
-                    <button class="close-menu-btn" aria-label="Chiudi menu" autofocus>
+                    <button type="button" class="close-menu-btn" aria-label="Chiudi menu" autofocus>
                         <span class="material-symbols-outlined">close</span>
                     </button>
                 </div>
@@ -50,6 +50,7 @@ export class MenuComponent extends HTMLDialogElement {
                     position: relative;
                     max-width: 576px;
                     margin: auto;
+                    padding: 0 4%;
                 }
 
                 button.close-menu-btn {
@@ -65,6 +66,8 @@ export class MenuComponent extends HTMLDialogElement {
                     justify-content: center;
                     align-items: center;
                     padding: 0;
+                    height: 40px;
+                    width: 40px;
                 }
 
                 .menu-title {
@@ -76,6 +79,7 @@ export class MenuComponent extends HTMLDialogElement {
                     margin: 0;
                     padding: 0;
                     text-align: center;
+                    list-style-type: none;
                 }
 
                 .menu ul li + li {

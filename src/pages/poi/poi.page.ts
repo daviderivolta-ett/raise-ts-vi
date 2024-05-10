@@ -32,13 +32,127 @@ export class PoiPage extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <div class="poi-page">
-                <h1 tabindex="-1">${this.poi.name}</h1>
-                <button is="app-menu-btn" aria-label="apri menu">Menu</button>
-                <p>${this.poi.name}</p>
-                <button type="button" id="directions-btn">Indicazioni</button>
-                <button type="button" id="add-to-custom-path-btn">Aggiungi</button>
+                <div class="page-header">
+                    <h1 class="page-title" tabindex="-1">Dettaglio punto di interesse</h1>
+                    <button is="app-menu-btn" aria-label="apri menu">
+                        <span class="material-symbols-outlined">menu</span>
+                    </button>
+                </div>
+                <h2 class="poi-name">${this.poi.name}</h2>
+                <p class="poi-category">${this.poi.name}</p>
+                <div class="poi-page-buttons">
+                    <button type="button" id="directions-btn" aria-label="Vedi indicazioni stradali">Indicazioni</button>
+                    <button type="button" id="add-to-custom-path-btn" aria-label="Aggiungi tappa a percorso personalizzato">Aggiungi</button>
+                </div>
                 <div class="poi-page-infos"></div>
             </div>
+
+            <style>
+                h1,
+                h2,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .poi-page {
+                    padding: 0 4%;
+                }
+
+                .page-header {
+                    position: relative;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 0 24px 0;
+                }
+
+                button[is="app-menu-btn"] {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                    color: var(--on-surface);
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
+                    height: 40px;
+                    width: 40px;
+                }
+
+                .page-title {
+                    text-align: center;
+                    font-size: 1rem;
+                }
+
+                .poi-name {
+                    margin: 0 0 8px 0;
+                }
+
+                .poi-category {
+                    color: var(--on-surface-variant);
+                }
+
+                .poi-page-buttons {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 8px;
+                    margin: 16px 0 32px 0;
+                }
+
+                #directions-btn {
+                    background-color: var(--primary);
+                    color: var(--on-primary);
+                    border: 1px solid transparent;
+                    border-radius: var(--border-radius-circle);
+                }
+
+                #add-to-custom-path-btn {
+                    color: var(--on-surface);
+                    background-color: var(--surface-container-high);
+                    border: 1px solid var(--outline);
+                    border-radius: var(--border-radius-circle);
+                }
+
+                button {
+                    cursor: pointer;
+                    font-family: Inter, sans-serif;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    height: 32px;
+                    width: 100%;
+                }
+
+                button:hover {
+                    opacity: .8;
+                }
+
+                .property {
+                    margin: 0px 0px 16px;
+                }
+
+                .property-label {
+                    display: block;
+                    color: var(--on-surface-variant);
+                    margin: 0px 0px 4px;
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.2rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
+            </style>
             `
             ;
 

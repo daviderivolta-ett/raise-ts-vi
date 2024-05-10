@@ -60,6 +60,10 @@ export class AroudYouPage extends HTMLElement {
                     margin: 0;
                 }
 
+                .around-you-page {
+                    padding: 0 4%;
+                }
+
                 .page-header {
                     position: relative;
                     height: 40px;
@@ -78,6 +82,12 @@ export class AroudYouPage extends HTMLElement {
                     color: var(--on-surface);
                     background-color: transparent;
                     border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
+                    height: 40px;
+                    width: 40px;
                 }
                 
                 .page-title {
