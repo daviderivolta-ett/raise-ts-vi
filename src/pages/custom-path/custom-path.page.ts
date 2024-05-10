@@ -39,14 +39,129 @@ export class CustomPathPage extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <div class="custom-path-page">
-                <h1 tabindex="-1">Percorso personalizzato</h1>
-                <button is="app-menu-btn" aria-label="apri menu">Menu</button>
+                <div class="page-header">
+                    <h1 class="page-title" tabindex="-1">Percorso personalizzato</h1>
+                    <button is="app-menu-btn" aria-label="apri menu">
+                        <span class="material-symbols-outlined">menu</span>
+                    </button>
+                </div>
                 <ul class="custom-path-list" aria-label="Tappe presenti nel percorso"></ul>
-                <nav>
-                    <button type="button" id="reorder-pois-btn" aria-label="Riordina punti di interesse">Riordina punti di interesse</button>
-                    <button type="button" id="save-custom-path-btn" aria-label="Salva percorso">Salva percorso</button>
-                </nav>
+                <div class="custom-path-tools-wrapper">
+                    <nav class="custom-path-tools">
+                        <button type="button" id="reorder-pois-btn" class="tool-btn" aria-label="Riordina punti di interesse">
+                            <span class="material-symbols-outlined tool-icon">sort</span>
+                            Riordina punti di interesse
+                        </button>
+                        <button type="button" id="save-custom-path-btn" class="tool-btn" aria-label="Salva percorso">
+                            <span class="material-symbols-outlined tool-icon">bookmark</span>
+                            Salva percorso
+                        </button>
+                    </nav>
+                </div>
             </div>
+
+            <style>
+                h1,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .custom-path-page {
+                    position: relative;
+                    padding: 0 4%;
+                }
+
+                .page-header {
+                    position: relative;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 0 24px 0;
+                }
+
+                button[is="app-menu-btn"] {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                    color: var(--on-surface);
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
+                    height: 40px;
+                    width: 40px;
+                }
+
+                .page-title {
+                    text-align: center;
+                    font-size: 1rem;
+                }
+
+                .custom-path-list {
+                    padding: 0;
+                }
+
+                .empty-msg {
+                    text-align: center;
+                }
+
+                .custom-path-tools-wrapper {
+                    width: 100%;
+                    max-width: 576px;
+                }
+
+                .custom-path-tools {
+                    position: fixed;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 100%;
+                    min-height: 40px;
+                    max-width: inherit;
+                    display: flex;
+                    justify-content: space-between;
+                    background-color: var(--surface-container-high);
+                }
+                
+                button {
+                    cursor: pointer;
+                }
+
+                .tool-btn {
+                    cursor: pointer;
+                    font-family: Inter, sans-serif;
+                    width: 100%;
+                    border: none;
+                    color: var(--on-surface);
+                    background-color: var(--surface-container-high);
+                    font-size: .8rem;
+                    font-weight: 500;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: .5rem;
+                }
+
+                .tool-btn:hover {
+                    color: var(--on-surface-variant);
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.2rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
+            </style>
             `
             ;
 
@@ -63,6 +178,9 @@ export class CustomPathPage extends HTMLElement {
         const list: HTMLDivElement | null = this.shadowRoot.querySelector('.custom-path-list');
         if (!list) return;
         list.innerHTML = '';
+
+        if (this.customPath.pois.length === 0) list.append(this.renderEmptyMsg());
+
         this.customPath.pois.forEach((poi: Poi) => {
             let li: HTMLLIElement = document.createElement('li');
             let card: CustomPathCardComponent = document.createElement('app-custom-path-card') as CustomPathCardComponent;
@@ -107,6 +225,13 @@ export class CustomPathPage extends HTMLElement {
                 PathService.instance.customPath = this.customPath;
             });
         });
+    }
+
+    private renderEmptyMsg(): HTMLParagraphElement {
+        const msg: HTMLParagraphElement = document.createElement('p');
+        msg.classList.add('empty-msg');
+        msg.innerHTML = 'Nessuna tappa attualmente presente nel percorso personalizzato';
+        return msg;
     }
 }
 
