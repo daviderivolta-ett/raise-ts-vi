@@ -168,15 +168,14 @@ body {
 }
 
 dialog {
-  --backdrop-color: green;
+  --backdrop-color: var(--surface-container);
 }
 
 dialog[is="app-menu"] {
   width: 100%;
   height: 100%;
-  background-color: var(--surface);
+  background-color: var(--surface-container);
   border: none;
-  padding: 24px 4%;
 }
 
 dialog[is="app-menu"]::backdrop {

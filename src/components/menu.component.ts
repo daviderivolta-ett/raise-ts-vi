@@ -28,6 +28,7 @@ export class MenuComponent extends HTMLDialogElement {
             <style>
                 .dialog-content {
                     max-width: 576px;
+                    padding: 0 4%;
                     margin: auto;
                 }
             </style>
