@@ -73,7 +73,7 @@ export class PoiCard extends HTMLElement {
                     color: var(--on-primary-container);
                     background-color: var(--primary-container);
                     border: 1px solid transparent;
-                    border-radius: var( --border-radius-s);
+                    border-radius: var( --border-radius-m);
                     box-sizing: border-box;
                 }
 

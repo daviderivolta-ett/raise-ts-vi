@@ -104,7 +104,7 @@ export class AroudYouPage extends HTMLElement {
                 .around-you-features {
                     display: flex;
                     flex-direction: column;
-                    gap: 16px;
+                    gap: 1rem;
                 }
 
                 .material-symbols-outlined {

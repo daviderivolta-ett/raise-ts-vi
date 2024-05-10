@@ -45,7 +45,7 @@ export class CustomPathPage extends HTMLElement {
                         <span class="material-symbols-outlined">menu</span>
                     </button>
                 </div>
-                <ul class="custom-path-list" aria-label="Tappe presenti nel percorso"></ul>
+                <section class="custom-path-list" role="feed"></section>
                 <div class="custom-path-tools-wrapper">
                     <nav class="custom-path-tools">
                         <button type="button" id="reorder-pois-btn" class="tool-btn" aria-label="Riordina punti di interesse">
@@ -104,7 +104,9 @@ export class CustomPathPage extends HTMLElement {
                 }
 
                 .custom-path-list {
-                    padding: 0;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;                   
                 }
 
                 .empty-msg {
@@ -181,12 +183,11 @@ export class CustomPathPage extends HTMLElement {
 
         if (this.customPath.pois.length === 0) list.append(this.renderEmptyMsg());
 
-        this.customPath.pois.forEach((poi: Poi) => {
-            let li: HTMLLIElement = document.createElement('li');
+        this.customPath.pois.forEach((poi: Poi, index: number) => {
             let card: CustomPathCardComponent = document.createElement('app-custom-path-card') as CustomPathCardComponent;
             card.poi = poi;
-            li.append(card);
-            list.append(li);
+            card.position = index + 1;
+            list.append(card);
         });
     }
 
