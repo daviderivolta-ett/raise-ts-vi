@@ -21,17 +21,36 @@ export class CategoriesPage extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <div class="categories-page">
-                <h1 tabindex="-1" class="categories-page-title">Esplora categorie</h1>
+                <div class="page-header">
+                    <h1 tabindex="-1" class="categories-page-title">Esplora categorie</h1>
+                </div>
                 <app-tags-wall />
             </div>
 
             <style>
+                h1,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
                 .categories-page {
+                    position: relative;
                     padding: 0 4%;
+                }
+
+                .page-header {
+                    position: relative;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 0 24px 0;
                 }
 
                 .categories-page-title {
                     text-align: center;
+                    font-size: 1rem;
                 }
             </style>
             `

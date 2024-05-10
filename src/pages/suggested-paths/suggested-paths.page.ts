@@ -34,10 +34,78 @@ export class SuggestedPathsPage extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <div class="suggested-paths-page">
-                <h1 tabindex="-1" autofocus>Percorsi suggeriti</h1>
-                <button is="app-menu-btn" aria-label="apri menu">Menu</button>
-                <ul class="suggested-paths-list" aria-label="Percorsi suggeriti"></ul>
+                <div class="page-header">
+                    <h1 class="page-title" tabindex="-1" autofocus>Percorsi suggeriti</h1>
+                    <button is="app-menu-btn" aria-label="apri menu">
+                    <span class="material-symbols-outlined">menu</span>
+                    </button>
+                </div>
+                <p class="page-desc">Elenco di percorsi suggeriti in base ai layer selezionati.</p>
+                <section class="suggested-paths-list" role="feed" aria-label="Percorsi suggeriti"></section>
             </div>
+
+            <style>
+                h1,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .suggested-paths-page {
+                    position: relative;
+                    padding: 0 4%;
+                }
+                
+                .page-header {
+                    position: relative;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 0 24px 0;
+                }
+
+                .page-desc {
+                    text-align: center;
+                    color: var(--on-surface-variant);
+                }
+
+                button[is="app-menu-btn"] {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                    color: var(--on-surface);
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
+                    height: 40px;
+                    width: 40px;
+                }
+
+                .page-title {
+                    text-align: center;
+                    font-size: 1rem;
+                }
+
+                .suggested-paths-list {
+                    margin: 1.5rem 0;
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.2rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
+            </style>
             `
             ;
     }
@@ -49,12 +117,11 @@ export class SuggestedPathsPage extends HTMLElement {
         list.innerHTML = '';
         if (this.paths.length === 0) list.append(this.renderEmptyMsg());
 
-        this.paths.forEach((path: Path) => {
-            let li: HTMLLIElement = document.createElement('li');
+        this.paths.forEach((path: Path, index: number) => {
             let card: SuggestedPathCardComponent = document.createElement('app-suggested-path-card') as SuggestedPathCardComponent;
             card.path = path;
-            li.append(card);
-            list.append(li);
+            card.position = index;
+            list.append(card);
         });
     }
 

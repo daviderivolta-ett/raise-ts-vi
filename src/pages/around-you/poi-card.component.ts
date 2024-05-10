@@ -107,7 +107,6 @@ export class PoiCard extends HTMLElement {
                         'opsz' 24;
                 }
             </style>
-
             `
             ;
     }

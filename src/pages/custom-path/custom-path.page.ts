@@ -124,11 +124,11 @@ export class CustomPathPage extends HTMLElement {
                     left: 50%;
                     transform: translateX(-50%);
                     width: 100%;
-                    min-height: 40px;
+                    min-height: 64px;
                     max-width: inherit;
                     display: flex;
                     justify-content: space-between;
-                    background-color: var(--surface-container-high);
+                    gap: 1px;
                 }
                 
                 button {
