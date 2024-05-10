@@ -144,7 +144,9 @@ export class SettingsPage extends HTMLElement {
 
         letterSpacing.addEventListener('letter-space-updated', (e: CustomEventInit) => {
             this.settings.letterSpace = e.detail.letterSpace;
-            this.update();
+            SettingService.instance.settings.letterSpace = this.settings.letterSpace;
+            SettingService.instance.setLetterSpace(this.settings.letterSpace);
+            // this.update();
         });
 
         lineHeight.addEventListener('line-height-updated', (e: CustomEventInit) => {
