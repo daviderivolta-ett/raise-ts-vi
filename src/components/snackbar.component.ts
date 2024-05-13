@@ -36,6 +36,7 @@ export class SnackbarComponent extends HTMLElement {
                     top: 0;
                     left: 0;
                     width: 100%;
+                    text-align: center;
                     box-sizing: border-box;
                     background-color: var(--primary);
                     color: var(--on-primary);

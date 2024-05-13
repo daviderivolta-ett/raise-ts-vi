@@ -48,13 +48,11 @@ export class CustomPathPage extends HTMLElement {
                 <section class="custom-path-list" role="feed"></section>
                 <div class="custom-path-tools-wrapper">
                     <nav class="custom-path-tools">
-                        <button type="button" id="reorder-pois-btn" class="tool-btn" aria-label="Riordina punti di interesse">
+                        <button type="button" id="reorder-pois-btn" class="tool-btn" title="Riordina punti di interesse" aria-label="Riordina punti di interesse">
                             <span class="material-symbols-outlined tool-icon">sort</span>
-                            Riordina punti di interesse
                         </button>
-                        <button type="button" id="save-custom-path-btn" class="tool-btn" aria-label="Salva percorso">
+                        <button type="button" id="save-custom-path-btn" class="tool-btn" title="Salva percorso" aria-label="Salva percorso">
                             <span class="material-symbols-outlined tool-icon">bookmark</span>
-                            Salva percorso
                         </button>
                     </nav>
                 </div>
@@ -124,7 +122,7 @@ export class CustomPathPage extends HTMLElement {
                     left: 50%;
                     transform: translateX(-50%);
                     width: 100%;
-                    min-height: 64px;
+                    min-height: 48px;
                     max-width: inherit;
                     display: flex;
                     justify-content: space-between;
@@ -209,6 +207,7 @@ export class CustomPathPage extends HTMLElement {
             const orderedPois: Poi[] = TspService.instance.nearestInsertion(this.customPath.pois, [position.coords.latitude, position.coords.longitude]);
             this.customPath = { ...this.customPath, pois: orderedPois };
             PathService.instance.customPath = this.customPath;
+            SnackbarService.instance.updateSnackbar(SnackbarType.Info, 'Tappe riordinate secondo il percorso ottimale');
         });
     }
 
@@ -224,6 +223,7 @@ export class CustomPathPage extends HTMLElement {
                 let pois: Poi[] = this.customPath.pois.filter((poi: Poi) => poi.uuid !== e.detail.deletedPoi.uuid);
                 this.customPath = { ...this.customPath, pois: pois };
                 PathService.instance.customPath = this.customPath;
+                SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Tappa ${e.detail.deletedPoi.name} rimossa`);
             });
         });
     }
