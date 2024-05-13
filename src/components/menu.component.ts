@@ -18,7 +18,7 @@ export class MenuComponent extends HTMLDialogElement {
                         <span class="material-symbols-outlined">close</span>
                     </button>
                 </div>
-                <nav class="menu" >
+                <nav class="menu" aria-label="menu">
                     <ul>
                         <li><a href="/categories">Seleziona categoria</a></li>
                         <li><a href="/around-you">Intorno a me</a></li>

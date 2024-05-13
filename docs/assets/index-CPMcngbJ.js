@@ -203,7 +203,7 @@ var V=Object.defineProperty;var W=(o,e,t)=>e in o?V(o,e,{enumerable:!0,configura
                         <span class="material-symbols-outlined">close</span>
                     </button>
                 </div>
-                <nav class="menu" >
+                <nav class="menu" aria-label="menu">
                     <ul>
                         <li><a href="/categories">Seleziona categoria</a></li>
                         <li><a href="/around-you">Intorno a me</a></li>
