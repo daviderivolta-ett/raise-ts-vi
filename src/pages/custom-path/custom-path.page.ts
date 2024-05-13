@@ -48,10 +48,10 @@ export class CustomPathPage extends HTMLElement {
                 <section class="custom-path-list" role="feed"></section>
                 <div class="custom-path-tools-wrapper">
                     <nav class="custom-path-tools">
-                        <button type="button" id="reorder-pois-btn" class="tool-btn" title="Riordina punti di interesse" aria-label="Riordina punti di interesse">
+                        <button type="button" id="reorder-pois-btn" class="tool-btn" title="Ottimizza ordine punti di interesse">
                             <span class="material-symbols-outlined tool-icon">sort</span>
                         </button>
-                        <button type="button" id="save-custom-path-btn" class="tool-btn" title="Salva percorso" aria-label="Salva percorso">
+                        <button type="button" id="save-custom-path-btn" class="tool-btn" title="Salva percorso personalizzato">
                             <span class="material-symbols-outlined tool-icon">bookmark</span>
                         </button>
                     </nav>
@@ -207,7 +207,7 @@ export class CustomPathPage extends HTMLElement {
             const orderedPois: Poi[] = TspService.instance.nearestInsertion(this.customPath.pois, [position.coords.latitude, position.coords.longitude]);
             this.customPath = { ...this.customPath, pois: orderedPois };
             PathService.instance.customPath = this.customPath;
-            SnackbarService.instance.updateSnackbar(SnackbarType.Info, 'Tappe riordinate secondo il percorso ottimale');
+            SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Tappe riordinate secondo il percorso ottimale. Ordine attuale: ${this.customPath.pois.map(obj => obj.name).join(', ')}.`);
         });
     }
 
