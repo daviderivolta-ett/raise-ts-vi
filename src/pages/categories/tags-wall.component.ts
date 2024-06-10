@@ -1,7 +1,6 @@
 import { SnackbarType } from '../../models/snackbar.model';
 import { SnackbarService } from '../../services/snackbar.service';
 import { TagChipComponent } from './tag-chip.component';
-import './tag-chip.component';
 
 export class TagsWallComponent extends HTMLElement {
     public shadowRoot: ShadowRoot;
@@ -128,21 +127,6 @@ export class TagsWallComponent extends HTMLElement {
                     gap: 8px;
                 }
 
-                button[is="app-tag-chip"] {
-                    width: 100%;
-                    display: block;
-                    color: var(--on-surface);
-                    background-color: var(--surface-container);
-                    border: 1px solid var(--outline);
-                    padding: 8px 8px;
-                    border-radius: var( --border-radius-s);
-                }
-
-                button[is="app-tag-chip"]:hover {
-                    background-color:  var(--surface-container-highest); 
-                    border-color: var(--primary);  
-                }
-
                 .material-symbols-outlined {
                     font-family: 'Material Symbols Outlined';
                     font-size: 1.2rem;
@@ -185,7 +169,7 @@ export class TagsWallComponent extends HTMLElement {
         this.currentPage === 0 ? prevPageBtn.setAttribute('disabled', '') : prevPageBtn.removeAttribute('disabled');
         this.currentPage === this.getPagesNumber() ? nextPageBtn.setAttribute('disabled', '') : nextPageBtn.removeAttribute('disabled');
 
-        const buttons: TagChipComponent[] = Array.from(this.shadowRoot.querySelectorAll('button[is="app-tag-chip"]'));
+        const buttons: TagChipComponent[] = Array.from(this.shadowRoot.querySelectorAll('app-tag-chip'));
         buttons.forEach((button: TagChipComponent) => button.addEventListener('tag-selected', this.handleCheckbox));
 
         // currentPage.focus();
@@ -214,9 +198,6 @@ export class TagsWallComponent extends HTMLElement {
 
     private createChip(tag: string): TagChipComponent {
         let chip: TagChipComponent = new TagChipComponent();
-        chip.setAttribute('is', 'app-tag-chip');
-        chip.classList.add('chip');
-        chip.innerHTML = tag.charAt(0).toUpperCase() + tag.slice(1);
         chip.tag = tag;
         return chip;
     }

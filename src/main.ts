@@ -19,6 +19,7 @@ import './pages/settings/settings.page';
 import './components/snackbar.component';
 import './components/menu-btn.component';
 import './components/menu.component';
+import './components/bar.component';
 
 // Classes
 import { Router } from './components/router.component';

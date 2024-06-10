@@ -24,7 +24,7 @@ export class LayerService {
     }
 
     public getSavedLayers(): void {        
-        const savedLayersString: string | null = localStorage.getItem('layers');
+        const savedLayersString: string | null = localStorage.getItem('layers');       
         if (!savedLayersString) return;
         const rawSavedLayers: any = JSON.parse(savedLayersString);
         let savedLayers: Layer[] = [];
