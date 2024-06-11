@@ -34,9 +34,6 @@ export class PoiPage extends HTMLElement {
             <div class="poi-page">
                 <div class="page-header">
                     <h1 class="page-title" tabindex="-1">Dettaglio punto di interesse</h1>
-                    <button is="app-menu-btn" aria-label="apri menu">
-                        <span class="material-symbols-outlined">menu</span>
-                    </button>
                 </div>
                 <h2 class="poi-name">${this.poi.name}</h2>
                 <p class="poi-category">${this.poi.name}</p>

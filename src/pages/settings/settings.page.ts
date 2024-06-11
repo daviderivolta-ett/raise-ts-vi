@@ -38,9 +38,6 @@ export class SettingsPage extends HTMLElement {
             <div class="settings-page">
                 <div class="page-header">
                     <h1 class="page-title" tabindex="-1">Impostazioni</h1>
-                    <button is="app-menu-btn" aria-label="apri menu">
-                        <span class="material-symbols-outlined">menu</span>
-                    </button>
                 </div>
                 <app-settings-contrast class="settings-option"></app-settings-contrast>
                 <app-settings-font-size class="settings-option"></app-settings-font-size>

@@ -7,7 +7,6 @@ import { PoiCard } from './poi-card.component';
 import { LoaderComponent } from '../../components/loader.component';
 import { SnackbarService } from '../../services/snackbar.service';
 import { SnackbarType } from '../../models/snackbar.model';
-import '../../components/menu.component';
 import './poi-card.component';
 
 export class AroudYouPage extends HTMLElement {
@@ -45,9 +44,6 @@ export class AroudYouPage extends HTMLElement {
             <div class="around-you-page">
                 <div class="page-header">
                     <h1 class="page-title" tabindex="-1">Punti di interesse</h1>
-                    <button is="app-menu-btn" aria-label="apri menu">
-                        <span class="material-symbols-outlined">menu</span>
-                    </button>
                 </div>
                 <p class="page-desc">Elenco punti di interesse nelle vicinanze.</p>
                 <section class="around-you-features" role="feed"></section>

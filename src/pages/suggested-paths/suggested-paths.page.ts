@@ -36,9 +36,6 @@ export class SuggestedPathsPage extends HTMLElement {
             <div class="suggested-paths-page">
                 <div class="page-header">
                     <h1 class="page-title" tabindex="-1" autofocus>Percorsi suggeriti</h1>
-                    <button is="app-menu-btn" aria-label="apri menu">
-                    <span class="material-symbols-outlined">menu</span>
-                    </button>
                 </div>
                 <p class="page-desc">Elenco di percorsi suggeriti in base ai layer selezionati.</p>
                 <section class="suggested-paths-list" role="feed" aria-label="Percorsi suggeriti"></section>

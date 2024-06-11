@@ -38,9 +38,6 @@ export class SuggestedPathPage extends HTMLElement {
             <div class="suggested-path-page">
                 <div class="page-header">
                     <h1 class="page-title" tabindex="-1">${this.path.name}</h1>
-                    <button is="app-menu-btn" aria-label="apri menu">
-                        <span class="material-symbols-outlined">menu</span>
-                    </button>
                 </div>
                 <section class="suggested-path-list" role="feed"></section>
             </div>
