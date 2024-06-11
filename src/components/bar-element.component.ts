@@ -93,7 +93,7 @@ export class BarElementComponent extends HTMLElement {
             e.preventDefault();
             if (!this.linkEl) return;
             const href: string | null = this.linkEl.getAttribute('href');
-            if (href) window.location.hash = href;
+            if (href) window.location.hash = href
         });
     }
 
