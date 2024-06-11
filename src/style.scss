@@ -164,6 +164,11 @@ body {
   background-color: var(--surface);
   max-width: 576px;
   margin: auto;
+  scrollbar-width: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 app-bar {
