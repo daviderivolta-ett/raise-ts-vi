@@ -88,7 +88,7 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
             `}setup(){this.addEventListener("click",()=>{this.dispatchEvent(new CustomEvent("tag-selected",{detail:{tag:this.tag}}))})}}customElements.define("app-tag-chip",X);class Q extends HTMLElement{constructor(){super();a(this,"shadowRoot");a(this,"_tags",[]);a(this,"_currentPageTags",[]);a(this,"_currentPage",0);a(this,"_tagsPerPage",8);a(this,"handleCheckbox",e=>{const s=e.target;this.dispatchEvent(new CustomEvent("tag-selected",{detail:{tag:s.tag}}))});this.shadowRoot=this.attachShadow({mode:"closed"})}get tags(){return this._tags}set tags(e){this._tags=e,this.connectedCallback()}get currentPageTags(){return this._currentPageTags}set currentPageTags(e){this._currentPageTags=e}get currentPage(){return this._currentPage}set currentPage(e){this._currentPage=e}get tagsPerPage(){return this._tagsPerPage}set tagsPerPage(e){this._tagsPerPage=e}connectedCallback(){this.render(),this.tags.length!==0&&(this.paginateTags(),this.setup())}render(){this.shadowRoot.innerHTML=`
             <div class="pagination">                    
                 <p class="desc">Scegli una categoria per caricare i punti di interesse associati.</p>
-                <p tabindex="-1" class="current-page" aria-live="assertive" role="alert">Pagina ${this.currentPage+1} di ${this.getPagesNumber()+1}</p>
+                <p class="current-page" aria-live="assertive" aria-relevant="all" role="alert">Pagina ${this.currentPage+1} di ${this.getPagesNumber()+1}</p>
 
                 <div class="tags"></div>
 

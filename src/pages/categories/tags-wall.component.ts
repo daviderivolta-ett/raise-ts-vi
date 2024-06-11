@@ -57,7 +57,7 @@ export class TagsWallComponent extends HTMLElement {
             `
             <div class="pagination">                    
                 <p class="desc">Scegli una categoria per caricare i punti di interesse associati.</p>
-                <p tabindex="-1" class="current-page" aria-live="assertive" role="alert">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
+                <p class="current-page" aria-live="assertive" aria-relevant="all" role="alert">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
 
                 <div class="tags"></div>
 
