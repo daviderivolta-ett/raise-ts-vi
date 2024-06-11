@@ -1,5 +1,3 @@
-import { SnackbarType } from '../../models/snackbar.model';
-import { SnackbarService } from '../../services/snackbar.service';
 import { TagChipComponent } from './tag-chip.component';
 
 export class TagsWallComponent extends HTMLElement {
