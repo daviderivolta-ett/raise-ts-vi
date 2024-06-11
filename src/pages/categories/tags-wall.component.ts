@@ -62,7 +62,7 @@ export class TagsWallComponent extends HTMLElement {
                     <p>Scegli una categoria per caricare i punti di interesse associati.</p>
                 </div>
 
-                <p tabindex="-1" class="current-page">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
+                <p tabindex="-1" class="current-page" aria-live="assertive" role="alert">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
 
                 <div class="tags"></div>
 
@@ -135,6 +135,10 @@ export class TagsWallComponent extends HTMLElement {
                         'wght' 400,
                         'GRAD' 0,
                         'opsz' 24;
+                }
+
+                *:focus {
+                    border: 2px solid red;
                 }
             </style>
             `
@@ -213,6 +217,7 @@ export class TagsWallComponent extends HTMLElement {
             // SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Paginazione cambiata: pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}. Categorie in questa pagina: ${this.currentPageTags.join(', ')}`);
 
             const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');
+            console.log(currentPage);            
             if (currentPage) currentPage.focus();
         }
     }
@@ -224,6 +229,7 @@ export class TagsWallComponent extends HTMLElement {
             // SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Paginazione cambiata: pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}. Categorie in questa pagina: ${this.currentPageTags.join(', ')}`);
 
             const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');
+            console.log(currentPage);            
             if (currentPage) currentPage.focus();
         }
     }
