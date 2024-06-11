@@ -11,7 +11,7 @@ export class Router extends HTMLElement {
     }
 
     public connectedCallback(): void {
-        window.addEventListener('hashchange', (): void => {
+        window.addEventListener('hashchange', (): void => {            
             this.checkRoute();
         });
     }
@@ -22,11 +22,11 @@ export class Router extends HTMLElement {
     }
 
     private checkRoute(): void {
-        const hash: string = window.location.hash.slice(2);   
+        const hash: string = window.location.hash.slice(2);           
         this.changeRoute(hash);
     }
 
-    private changeRoute(hash: string): void {
+    private changeRoute(hash: string): void {               
         SnackbarService.instance.resetSnackbar();
         if (!hash) {
             const defaultRoute: Route[] = this.routes.filter((route: Route) => route.type === RouteType.Default);
