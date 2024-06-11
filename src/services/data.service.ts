@@ -34,7 +34,7 @@ export class DataService {
         }
     }
 
-    private async fetchAppData(url: string): Promise<Data> {
+    private async fetchAppData(url: string): Promise<Data> {               
         try {
             const data: Data = await fetch(url).then(res => res.json());
             const categoriesPromises: LayerCategory[] = await Promise.all(data.categories.map(async (category: LayerCategory) => {
