@@ -1,5 +1,3 @@
-import './bar-element.component';
-
 export class BarComponent extends HTMLElement {
     public shadowRoot: ShadowRoot;
 
