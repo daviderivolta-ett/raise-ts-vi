@@ -27,7 +27,7 @@ export class AroudYouPage extends HTMLElement {
     }
 
     public async connectedCallback(): Promise<void> {
-        this.createLoader();
+        // this.createLoader();
         const position: GeolocationPosition = await PositionService.instance.getUserPosition();
         SnackbarService.instance.updateSnackbar(SnackbarType.Info, 'Caricamento...');
         this.pois = await GeoGraphicService.instance.getPoisFromLayers(LayerService.instance.activeLayers);
@@ -140,10 +140,10 @@ export class AroudYouPage extends HTMLElement {
         })
     }
 
-    private createLoader(): void {
-        const loader: LoaderComponent = new LoaderComponent();     
-        document.body.append(loader);
-    }
+    // private createLoader(): void {
+    //     const loader: LoaderComponent = new LoaderComponent();     
+    //     document.body.append(loader);
+    // }
 
     private removeLoader(): void {
         const loader: LoaderComponent | null = document.body.querySelector('app-loader');
