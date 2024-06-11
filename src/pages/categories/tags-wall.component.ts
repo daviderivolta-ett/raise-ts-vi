@@ -47,36 +47,31 @@ export class TagsWallComponent extends HTMLElement {
 
     public connectedCallback(): void {
         this.render();
-        if (this.tags.length === 0) return;
+        if (this.tags.length === 0) return;     
         this.paginateTags();
         this.setup();
     }
 
-    // <p>Categorie in questa pagina: <span class="tags-list"></span></p>
-
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <div class="pagination">
-                <div class="current-page-status">                    
-                    <p>Scegli una categoria per caricare i punti di interesse associati.</p>
-                </div>
-
+            <div class="pagination">                    
+                <p class="desc">Scegli una categoria per caricare i punti di interesse associati.</p>
                 <p tabindex="-1" class="current-page" aria-live="assertive" role="alert">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
 
                 <div class="tags"></div>
 
                 <div class="pagination-buttons">
-                    <button type="button" class="pagination-btn prev-btn" aria-label="Paginazione precedente"><span class="material-symbols-outlined">chevron_left</span></button>
-                    <button type="button" class="pagination-btn next-btn" aria-label="Paginazione successiva"><span class="material-symbols-outlined">chevron_right</span></button>
+                    <button type="button" class="pagination-btn prev-btn" aria-label="Paginazione precedente">
+                        <span class="material-symbols-outlined" aria-hidden="true">chevron_left</span>
+                    </button>
+                    <button type="button" class="pagination-btn next-btn" aria-label="Paginazione successiva">
+                        <span class="material-symbols-outlined" aria-hidden="true">chevron_right</span>
+                    </button>
                 </div>
             </div>
 
             <style>
-                *:focus {
-                    outline: 1px solid default;
-                }
-
                 p {
                     color: var(--on-surface-variant);
                 }
@@ -92,7 +87,7 @@ export class TagsWallComponent extends HTMLElement {
                     opacity: 0.5;
                 }
 
-                .current-page-status {
+                .desc {
                     text-align: center;
                 }
 
@@ -104,7 +99,7 @@ export class TagsWallComponent extends HTMLElement {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    margin: 0 0 8px 0;
+                    margin: 8px 0 0 0;
                 }
 
                 .pagination-btn {
@@ -136,10 +131,6 @@ export class TagsWallComponent extends HTMLElement {
                         'GRAD' 0,
                         'opsz' 24;
                 }
-
-                *:focus {
-                    border: 2px solid red;
-                }
             </style>
             `
             ;
@@ -157,22 +148,9 @@ export class TagsWallComponent extends HTMLElement {
     }
 
     private update(): void {
-        const currentPage: HTMLParagraphElement | null = this.shadowRoot.querySelector('.current-page');
-        if (!currentPage) return;
-        // currentPage.innerHTML = `Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}`; 
-
-        currentPage.textContent = ''; // Pulisce il contenuto corrente
-        setTimeout(() => {
-            currentPage.innerHTML = `Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}`;
-            currentPage.setAttribute('aria-live', 'assertive');
-            currentPage.setAttribute('role', 'alert');
-            currentPage.focus(); // Imposta il focus sul nuovo contenuto
-        }, 0);
-
-
-        const tagsList: HTMLButtonElement | null = this.shadowRoot.querySelector('.tags-list');
-        if (!tagsList) return;
-        tagsList.innerHTML = this.currentPageTags.join(', ');
+        const currentPage: HTMLParagraphElement | null = this.shadowRoot.querySelector('.current-page');       
+        if (!currentPage) return;        
+        currentPage.innerHTML = `Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}`;
 
         const prevPageBtn: HTMLButtonElement | null = this.shadowRoot.querySelector('.prev-btn');
         const nextPageBtn: HTMLButtonElement | null = this.shadowRoot.querySelector('.next-btn');
@@ -184,8 +162,6 @@ export class TagsWallComponent extends HTMLElement {
 
         const buttons: TagChipComponent[] = Array.from(this.shadowRoot.querySelectorAll('app-tag-chip'));
         buttons.forEach((button: TagChipComponent) => button.addEventListener('tag-selected', this.handleCheckbox));
-
-        // currentPage.focus();
     }
 
     private paginateTags(): void {
@@ -225,23 +201,23 @@ export class TagsWallComponent extends HTMLElement {
             this.paginateTags();
             // SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Paginazione cambiata: pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}. Categorie in questa pagina: ${this.currentPageTags.join(', ')}`);
 
-            const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');
+            const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');           
             if (currentPage) currentPage.focus();
         }
     }
-
+    
     private nextPage(): void {
         if (this.currentPage < this.getPagesNumber()) {
             this.currentPage++;
             this.paginateTags();
             // SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Paginazione cambiata: pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}. Categorie in questa pagina: ${this.currentPageTags.join(', ')}`);
 
-            const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');
+            const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');            
             if (currentPage) currentPage.focus();
         }
     }
 
-    private handleCheckbox = (event: Event): void => {
+    private handleCheckbox = (event: Event): void => {       
         const button: TagChipComponent = event.target as TagChipComponent;
         this.dispatchEvent(new CustomEvent('tag-selected', { detail: { tag: button.tag } }));
     }
