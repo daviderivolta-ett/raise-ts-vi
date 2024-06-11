@@ -57,7 +57,7 @@ export class TagsWallComponent extends HTMLElement {
             `
             <div class="pagination">                    
                 <p class="desc">Scegli una categoria per caricare i punti di interesse associati.</p>
-                <p class="current-page" aria-live="assertive" aria-relevant="all" role="alert">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
+                <p class="current-page">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
 
                 <div class="tags"></div>
 
@@ -201,8 +201,8 @@ export class TagsWallComponent extends HTMLElement {
             this.paginateTags();
             // SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Paginazione cambiata: pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}. Categorie in questa pagina: ${this.currentPageTags.join(', ')}`);
 
-            // const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');           
-            // if (currentPage) currentPage.focus();
+            const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');           
+            if (currentPage) currentPage.focus();
         }
     }
     
@@ -212,8 +212,8 @@ export class TagsWallComponent extends HTMLElement {
             this.paginateTags();
             // SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Paginazione cambiata: pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}. Categorie in questa pagina: ${this.currentPageTags.join(', ')}`);
 
-            // const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');            
-            // if (currentPage) currentPage.focus();
+            const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');            
+            if (currentPage) currentPage.focus();
         }
     }
 

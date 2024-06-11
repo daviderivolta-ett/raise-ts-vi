@@ -15,24 +15,24 @@ export class BarComponent extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <nav class="menu" aria-label="menu">
-                <a class="bar-el-link" href="/categories" title="categorie">
+            <nav class="menu" aria-label="menu" role="navigation">
+                <a class="bar-el-link" href="/categories" role="link" tabindex="0" title="categorie">
                     <span class="material-symbols-outlined icon" aria-hidden="true">stacks</span>
                 </a>
 
-                <a class="bar-el-link" href="/around-you" title="intorno a te">
+                <a class="bar-el-link" href="/around-you" role="link" tabindex="0" title="intorno a te">
                     <span class="material-symbols-outlined icon" aria-hidden="true">explore</span>
                 </a>
 
-                <a class="bar-el-link" href="/suggested-paths" title="percorsi suggeriti">
+                <a class="bar-el-link" href="/suggested-paths" role="link" tabindex="0" title="percorsi suggeriti">
                     <span class="material-symbols-outlined icon" aria-hidden="true">directions</span>
                 </a>
 
-                <a class="bar-el-link" href="/custom-path" title="percorso personalizzato">
+                <a class="bar-el-link" href="/custom-path" role="link" tabindex="0" title="percorso personalizzato">
                     <span class="material-symbols-outlined icon" aria-hidden="true">favorite</span>
                 </a>
 
-                <a class="bar-el-link" href="/settings" title="impostazioni">
+                <a class="bar-el-link" href="/settings" role="link" tabindex="0" title="impostazioni">
                     <span class="material-symbols-outlined icon" aria-hidden="true">tune</span>
                 </a>
             </nav>
