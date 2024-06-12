@@ -24,7 +24,7 @@ export class CategoriesPage extends HTMLElement {
                 <div class="page-header">
                     <h1 tabindex="-1" class="categories-page-title">Esplora categorie</h1>
                 </div>
-                <app-tags-wall />
+                <app-tags-wall></app-tags-wall>
             </div>
 
             <style>

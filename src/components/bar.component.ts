@@ -15,25 +15,25 @@ export class BarComponent extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <nav class="menu" aria-label="menu">
-                <a class="bar-el-link" href="/categories" title="categorie">
-                    <span class="material-symbols-outlined icon" aria-hidden="true">stacks</span>
+            <nav class="menu">
+                <a class="bar-el-link" href="/categories" title="Categorie" role="menuitem">
+                    <span class="material-symbols-outlined icon" aria-label="Categorie">stacks</span>
                 </a>
 
-                <a class="bar-el-link" href="/around-you" title="intorno a te">
-                    <span class="material-symbols-outlined icon" aria-hidden="true">explore</span>
+                <a class="bar-el-link" href="/around-you" title="Intorno a te" role="menuitem">
+                    <span class="material-symbols-outlined icon" aria-label="Intorno a te">explore</span>
                 </a>
 
-                <a class="bar-el-link" href="/suggested-paths" title="percorsi suggeriti">
-                    <span class="material-symbols-outlined icon" aria-hidden="true">directions</span>
+                <a class="bar-el-link" href="/suggested-paths" title="Percorsi suggeriti" role="menuitem">
+                    <span class="material-symbols-outlined icon" aria-label="Percorsi suggeriti">directions</span>
                 </a>
 
-                <a class="bar-el-link" href="/custom-path" title="percorso personalizzato">
-                    <span class="material-symbols-outlined icon" aria-hidden="true">favorite</span>
+                <a class="bar-el-link" href="/custom-path" title="Percorso personalizzato" role="menuitem">
+                    <span class="material-symbols-outlined icon" aria-label="Percorso personalizzato">favorite</span>
                 </a>
 
-                <a class="bar-el-link" href="/settings" title="impostazioni">
-                    <span class="material-symbols-outlined icon" aria-hidden="true">tune</span>
+                <a class="bar-el-link" href="/settings" title="Impostazioni" role="menuitem">
+                    <span class="material-symbols-outlined icon" aria-label="Impostazioni">tune</span>
                 </a>
             </nav>
 
@@ -47,6 +47,7 @@ export class BarComponent extends HTMLElement {
                     list-style-type: none;
                     min-height: 48px;
                     background-color: var(--surface-container-high);
+                    border-radius: var(--border-radius-s) var(--border-radius-s) 0 0;
                 }
 
                 .bar-el-link {
@@ -57,7 +58,6 @@ export class BarComponent extends HTMLElement {
                     justify-content: center;
                     flex-direction: column;
                     color: var(--on-surface);
-                    background-color: var(--surface-container-high);
                     font-size: .8rem;
                     width: 100%;
                     flex-grow: 1;

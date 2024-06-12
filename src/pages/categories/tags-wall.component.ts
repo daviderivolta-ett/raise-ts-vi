@@ -57,15 +57,15 @@ export class TagsWallComponent extends HTMLElement {
             `
             <div class="pagination">                    
                 <p class="desc">Scegli una categoria per caricare i punti di interesse associati.</p>
-                <p class="current-page">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
+                <p tabindex="-1" class="current-page">Pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}</p>
 
                 <div class="tags"></div>
 
                 <div class="pagination-buttons">
-                    <button type="button" class="pagination-btn prev-btn" aria-label="Paginazione precedente">
+                    <button type="button" class="pagination-btn prev-btn" aria-label="Pagina precedente">
                         <span class="material-symbols-outlined" aria-hidden="true">chevron_left</span>
                     </button>
-                    <button type="button" class="pagination-btn next-btn" aria-label="Paginazione successiva">
+                    <button type="button" class="pagination-btn next-btn" aria-label="Pagina successiva">
                         <span class="material-symbols-outlined" aria-hidden="true">chevron_right</span>
                     </button>
                 </div>
@@ -156,9 +156,22 @@ export class TagsWallComponent extends HTMLElement {
         const nextPageBtn: HTMLButtonElement | null = this.shadowRoot.querySelector('.next-btn');
         if (!prevPageBtn) return;
         if (!nextPageBtn) return;
+       
+        if (this.currentPage === 0) {
+            prevPageBtn.setAttribute('disabled', '');
+            prevPageBtn.style.visibility = 'hidden';
+        } else {
+            prevPageBtn.removeAttribute('disabled');
+            prevPageBtn.style.visibility = 'visible';
+        }
 
-        this.currentPage === 0 ? prevPageBtn.setAttribute('disabled', '') : prevPageBtn.removeAttribute('disabled');
-        this.currentPage === this.getPagesNumber() ? nextPageBtn.setAttribute('disabled', '') : nextPageBtn.removeAttribute('disabled');
+        if (this.currentPage === this.getPagesNumber()) {
+            nextPageBtn.setAttribute('disabled', '');
+            nextPageBtn.style.visibility = 'hidden';
+        } else {
+            nextPageBtn.removeAttribute('disabled');
+            nextPageBtn.style.visibility = 'visible';
+        }
 
         const buttons: TagChipComponent[] = Array.from(this.shadowRoot.querySelectorAll('app-tag-chip'));
         buttons.forEach((button: TagChipComponent) => button.addEventListener('tag-selected', this.handleCheckbox));
@@ -201,7 +214,7 @@ export class TagsWallComponent extends HTMLElement {
             this.paginateTags();
             // SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Paginazione cambiata: pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}. Categorie in questa pagina: ${this.currentPageTags.join(', ')}`);
 
-            const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');           
+            const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');
             if (currentPage) currentPage.focus();
         }
     }
@@ -212,7 +225,7 @@ export class TagsWallComponent extends HTMLElement {
             this.paginateTags();
             // SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Paginazione cambiata: pagina ${this.currentPage + 1} di ${this.getPagesNumber() + 1}. Categorie in questa pagina: ${this.currentPageTags.join(', ')}`);
 
-            const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');            
+            const currentPage: HTMLButtonElement | null = this.shadowRoot.querySelector('.current-page');
             if (currentPage) currentPage.focus();
         }
     }
