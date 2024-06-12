@@ -98,6 +98,10 @@ export class SuggestedPathsPage extends HTMLElement {
                     margin: 1.5rem 0;
                 }
 
+                .empty {
+                    text-align: center;
+                }
+
                 .material-symbols-outlined {
                     font-family: 'Material Symbols Outlined';
                     font-size: 1.2rem;
@@ -113,7 +117,7 @@ export class SuggestedPathsPage extends HTMLElement {
     }
 
     private update(): void {
-        const list: HTMLUListElement | null = this.shadowRoot.querySelector('.suggested-paths-list');        
+        const list: HTMLElement | null = this.shadowRoot.querySelector('.suggested-paths-list');        
         if (!list) return;
        
         list.innerHTML = '';
@@ -140,7 +144,7 @@ export class SuggestedPathsPage extends HTMLElement {
     private renderEmptyMsg(): HTMLParagraphElement {
         const msg: HTMLParagraphElement = document.createElement('p');
         msg.innerHTML = 'Nessun percorso suggerito per il layer attivato al momento';
-        msg.style.textAlign = 'center';
+        msg.classList.add('empty');
         return msg;
     }
 }
