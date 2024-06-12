@@ -1,4 +1,4 @@
-var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e;var a=(o,t,e)=>(V(o,typeof t!="symbol"?t+"":t,e),e);(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))s(n);new MutationObserver(n=>{for(const r of n)if(r.type==="childList")for(const i of r.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&s(i)}).observe(document,{childList:!0,subtree:!0});function e(n){const r={};return n.integrity&&(r.integrity=n.integrity),n.referrerPolicy&&(r.referrerPolicy=n.referrerPolicy),n.crossOrigin==="use-credentials"?r.credentials="include":n.crossOrigin==="anonymous"?r.credentials="omit":r.credentials="same-origin",r}function s(n){if(n.ep)return;n.ep=!0;const r=e(n);fetch(n.href,r)}})();var S=(o=>(o.Default="default",o.Page="page",o.NotFound="not-found",o))(S||{});class _{constructor(t,e,s){a(this,"url");a(this,"type");a(this,"routing");this.url=t,this.type=e,this.routing=s}}class T{constructor(t,e,s=2){a(this,"type");a(this,"message");a(this,"duration");this.type=t,this.message=e,this.duration=s}static createEmpty(){return new T("info","",2)}}var M=(o=>(o.Error="error",o.Info="info",o))(M||{});const y=class y{constructor(){a(this,"_snackbar",new T(M.Info,""));a(this,"_live",document.body.querySelector("app-snackbar"));if(y._instance)return y._instance;y._instance=this}static get instance(){return y._instance||(y._instance=new y),y._instance}get snackbar(){return this._snackbar}set snackbar(t){this._snackbar=t}get live(){return this._live}set live(t){this._live=t}updateSnackbar(t,e,s=5){this.live&&(this.live.snackbar=new T(t,e,s))}resetSnackbar(){this.live&&this.live.resetSnackbar()}};a(y,"_instance");let k=y;class W extends HTMLElement{constructor(){super();a(this,"shadowRoot");a(this,"routes",[]);this.shadowRoot=this.attachShadow({mode:"closed"})}connectedCallback(){window.addEventListener("hashchange",()=>{this.checkRoute()})}addRoutes(e){this.routes=[...e],this.checkRoute()}checkRoute(){const e=window.location.hash.slice(2);this.changeRoute(e)}changeRoute(e){if(k.instance.resetSnackbar(),e){const s=this.routes.findIndex(n=>n.url===e);this.shadowRoot.innerHTML=this.routes[s]?this.routes[s].routing():this.sendNotFound()}else{const s=this.routes.filter(n=>n.type===S.Default);s?window.location.hash="#/"+s[0].url:this.sendNotFound()}}sendNotFound(){const e=this.routes.filter(s=>s.type===S.NotFound);return e.length===0||(window.location.hash="#/"+e[0].url,this.changeRoute(e[0].url)),"404: Not found"}}customElements.define("app-router",W);class K extends HTMLElement{constructor(){super();a(this,"shadowRoot");this.shadowRoot=this.attachShadow({mode:"closed"})}connectedCallback(){this.render()}render(){this.shadowRoot.innerHTML=`
+var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configurable:!0,writable:!0,value:e}):o[t]=e;var a=(o,t,e)=>(V(o,typeof t!="symbol"?t+"":t,e),e);(function(){const t=document.createElement("link").relList;if(t&&t.supports&&t.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))s(n);new MutationObserver(n=>{for(const r of n)if(r.type==="childList")for(const i of r.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&s(i)}).observe(document,{childList:!0,subtree:!0});function e(n){const r={};return n.integrity&&(r.integrity=n.integrity),n.referrerPolicy&&(r.referrerPolicy=n.referrerPolicy),n.crossOrigin==="use-credentials"?r.credentials="include":n.crossOrigin==="anonymous"?r.credentials="omit":r.credentials="same-origin",r}function s(n){if(n.ep)return;n.ep=!0;const r=e(n);fetch(n.href,r)}})();var x=(o=>(o.Default="default",o.Page="page",o.NotFound="not-found",o))(x||{});class _{constructor(t,e,s){a(this,"url");a(this,"type");a(this,"routing");this.url=t,this.type=e,this.routing=s}}class T{constructor(t,e,s=2){a(this,"type");a(this,"message");a(this,"duration");this.type=t,this.message=e,this.duration=s}static createEmpty(){return new T("info","",2)}}var M=(o=>(o.Error="error",o.Info="info",o))(M||{});const y=class y{constructor(){a(this,"_snackbar",new T(M.Info,""));a(this,"_live",document.body.querySelector("app-snackbar"));if(y._instance)return y._instance;y._instance=this}static get instance(){return y._instance||(y._instance=new y),y._instance}get snackbar(){return this._snackbar}set snackbar(t){this._snackbar=t}get live(){return this._live}set live(t){this._live=t}updateSnackbar(t,e,s=5){this.live&&(this.live.snackbar=new T(t,e,s))}resetSnackbar(){this.live&&this.live.resetSnackbar()}};a(y,"_instance");let k=y;class W extends HTMLElement{constructor(){super();a(this,"shadowRoot");a(this,"routes",[]);this.shadowRoot=this.attachShadow({mode:"closed"})}connectedCallback(){window.addEventListener("hashchange",()=>{this.checkRoute()})}addRoutes(e){this.routes=[...e],this.checkRoute()}checkRoute(){const e=window.location.hash.slice(2);this.changeRoute(e)}changeRoute(e){if(k.instance.resetSnackbar(),e){const s=this.routes.findIndex(n=>n.url===e);this.shadowRoot.innerHTML=this.routes[s]?this.routes[s].routing():this.sendNotFound()}else{const s=this.routes.filter(n=>n.type===x.Default);s?window.location.hash="#/"+s[0].url:this.sendNotFound()}}sendNotFound(){const e=this.routes.filter(s=>s.type===x.NotFound);return e.length===0||(window.location.hash="#/"+e[0].url,this.changeRoute(e[0].url)),"404: Not found"}}customElements.define("app-router",W);class K extends HTMLElement{constructor(){super();a(this,"shadowRoot");this.shadowRoot=this.attachShadow({mode:"closed"})}connectedCallback(){this.render()}render(){this.shadowRoot.innerHTML=`
             <div class="loader">
                 <div id="loader-spin"></div>
                 <p class="loader-text">Caricamento...</p>
@@ -78,6 +78,7 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
                     border: 1px solid var(--outline);
                     padding: 8px 8px;
                     border-radius: var( --border-radius-s);
+                    font-size: 1rem;
                 }
 
                 .tag-chip:hover {
@@ -172,6 +173,11 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
             </div>
 
             <style>
+                :host {
+                    display: block;
+                    padding:  0 0 5rem 0;
+                }
+                
                 h1,
                 p {
                     font-weight: 400;
@@ -280,6 +286,11 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
             </div>
 
             <style>
+                :host {
+                    display: block;
+                    padding:  0 0 5rem 0;
+                }
+                
                 h1,
                 p {
                     font-weight: 400;
@@ -344,7 +355,7 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
                 }
             </style>
             `;const e=this.shadowRoot.querySelector(".around-you-features");if(!e)return;this.pois.forEach((n,r)=>{const i=document.createElement("app-poi-card");i.poi=n,i.position=r+1,e.append(i)});const s=this.shadowRoot.querySelector("h1");s&&s.focus()}setup(){this.shadowRoot.querySelectorAll("app-poi-card").forEach(s=>{s.addEventListener("poi-selected",n=>{H.instance.selectedPoi=n.detail.selectedPoi,window.location.hash="/poi"})})}removeLoader(){const e=document.body.querySelector("app-loader");e&&e.remove()}}customElements.define("page-around-you",te);class z{constructor(t,e){a(this,"name");a(this,"pois");this.name=t,this.pois=e}static createEmpty(){return new z("",[])}}const w=class w{constructor(){a(this,"_customPath",new z("Percorso personalizzato",[]));a(this,"_suggestedPaths",[]);a(this,"_selectedSuggestedPath",new z("",[]));if(w._instance)return w._instance;w._instance=this}static get instance(){return w._instance||(w._instance=new w),w._instance}get customPath(){return this._customPath}set customPath(t){this._customPath=t}get suggestedPaths(){return this._suggestedPaths}set suggestedPaths(t){this._suggestedPaths=t}get selectedSuggestedPath(){return this._selectedSuggestedPath}set selectedSuggestedPath(t){this._selectedSuggestedPath=t,localStorage.setItem("selected-suggested-path",JSON.stringify(this.selectedSuggestedPath))}addPoiToCustomPath(t){if(this.isPoiInCustomPath(t))return;const e={...this.customPath};e.pois.unshift(t),this.customPath={...e}}isPoiInCustomPath(t){return this.customPath.pois.some(e=>e.uuid===t.uuid)}saveCustomPath(){localStorage.setItem("custom-path",JSON.stringify(this.customPath))}getSavedCustomPath(){const t=localStorage.getItem("custom-path");if(!t)return;const e=JSON.parse(t);this._customPath=this.parsePath(e)}parsePath(t){let e=new z(t.name,t.pois);return e.pois=e.pois.map(s=>this.parsePoi(s)),e}parsePoi(t){let e=new m;switch(e.uuid=t.uuid,e.name=t.name,t.type){case l.LineString:t.type=u.LineString;break;case l.Polygon:t.type=u.Polygon;break;case l.MultiPoint:t.type=u.MultiPoint;break;case l.MultiLineString:t.type=u.MultiLineString;break;case l.MultiPolygon:t.type=u.MultiPolygon;break;default:t.type=u.Point;break}e.coordinates=t.coordinates,e.layerName=t.layerName;for(const s in t.props){if(typeof t.props[s]!="object")continue;let n=new F;switch(n.displayName=t.props[s].displayName,n.value=t.props[s].value,t.props[s].type){case"number":n.type=R.Number;break;case"image":n.type=R.Image;break;default:n.type=R.String;break}e.props.push(n)}return t.distance&&(e.distance=t.distance),e}getCsvPaths(t){return new Promise((e,s)=>{let n=0;const r=[],i=[];for(;n<=t;){const c=fetch(`./suggested-paths/${n}.tsv`).then(d=>d.text()).then(d=>{const q=this.parseCsvFile(d);r.push(this.parseCsvPath(q))}).catch(d=>console.error("Errore durante il recupero dei percorsi suggeriti",d));i.push(c),n++}Promise.all(i).then(()=>{this.suggestedPaths=[...r],e()}).catch(c=>s(c))})}parseCsvFile(t){return t.split(`
-`).map(n=>{const r=n.split("	");return{path:r[0],layerName:r[1],id:r[2],name:r[3],latitude:r[4],longitude:r[5],height:r[6],info:r[7]}})}parseCsvPath(t){let e=z.createEmpty();return e.name=t[1].path,t.forEach((s,n)=>{n!==0&&e.pois.push(this.parseCsvPoi(s))}),e}parseCsvPoi(t){let e=new m;return e.layerName=t.layerName,e.name=t.name,e.coordinates=[parseFloat(t.longitude),parseFloat(t.latitude),parseFloat(t.height)],e.type=u.Point,e.uuid=t.id,e.props=this.parseCsvPoiProperties(t.info),e}parseCsvPoiProperties(t){let e=[];return t.split("|").forEach(n=>{let r=new F;r.displayName=n.split(":")[0],r.value=n.split(":")[1].trim(),r.type=R.String,e.push(r)}),e}getSuggestedPaths(t){let e=[];return this.suggestedPaths.forEach(s=>{s.pois.forEach(n=>{t.forEach(r=>{n.layerName===r.layer&&e.push(s)})})}),[...new Set(e)]}getSelectedSuggestedPath(){const t=localStorage.getItem("selected-suggested-path");if(!t)return;const e=JSON.parse(t);this._selectedSuggestedPath=this.parsePath(e)}};a(w,"_instance");let g=w;const x=class x{constructor(){x._instance||(x._instance=this)}static get instance(){return x._instance||(x._instance=new x),x._instance}calculateDistance(t,e){const s=t[0]-e[0],n=t[1]-e[1];return Math.sqrt(s*s+n*n)}nearestInsertion(t,e){const s=[...t];let n=0,r=this.calculateDistance(e,s[0].coordinates);for(let c=1;c<s.length;c++){const d=this.calculateDistance(e,s[c].coordinates);d<r&&(r=d,n=c)}const i=[s.splice(n,1)[0]];for(;s.length>0;){r=Number.MAX_VALUE;let c=0;for(let d=0;d<s.length;d++){const q=this.calculateDistance(i[i.length-1].coordinates,s[d].coordinates);q<r&&(r=q,c=d)}i.push(s.splice(c,1)[0])}return i.reverse()}};a(x,"_instance");let J=x;class se extends HTMLElement{constructor(){super();a(this,"shadowRoot");a(this,"_poi",new m);a(this,"_position",0);this.shadowRoot=this.attachShadow({mode:"closed"})}get poi(){return this._poi}set poi(e){this._poi=e}get position(){return this._position}set position(e){this._position=e}connectedCallback(){this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
+`).map(n=>{const r=n.split("	");return{path:r[0],layerName:r[1],id:r[2],name:r[3],latitude:r[4],longitude:r[5],height:r[6],info:r[7]}})}parseCsvPath(t){let e=z.createEmpty();return e.name=t[1].path,t.forEach((s,n)=>{n!==0&&e.pois.push(this.parseCsvPoi(s))}),e}parseCsvPoi(t){let e=new m;return e.layerName=t.layerName,e.name=t.name,e.coordinates=[parseFloat(t.longitude),parseFloat(t.latitude),parseFloat(t.height)],e.type=u.Point,e.uuid=t.id,e.props=this.parseCsvPoiProperties(t.info),e}parseCsvPoiProperties(t){let e=[];return t.split("|").forEach(n=>{let r=new F;r.displayName=n.split(":")[0],r.value=n.split(":")[1].trim(),r.type=R.String,e.push(r)}),e}getSuggestedPaths(t){let e=[];return this.suggestedPaths.forEach(s=>{s.pois.forEach(n=>{t.forEach(r=>{n.layerName===r.layer&&e.push(s)})})}),[...new Set(e)]}getSelectedSuggestedPath(){const t=localStorage.getItem("selected-suggested-path");if(!t)return;const e=JSON.parse(t);this._selectedSuggestedPath=this.parsePath(e)}};a(w,"_instance");let g=w;const S=class S{constructor(){S._instance||(S._instance=this)}static get instance(){return S._instance||(S._instance=new S),S._instance}calculateDistance(t,e){const s=t[0]-e[0],n=t[1]-e[1];return Math.sqrt(s*s+n*n)}nearestInsertion(t,e){const s=[...t];let n=0,r=this.calculateDistance(e,s[0].coordinates);for(let c=1;c<s.length;c++){const d=this.calculateDistance(e,s[c].coordinates);d<r&&(r=d,n=c)}const i=[s.splice(n,1)[0]];for(;s.length>0;){r=Number.MAX_VALUE;let c=0;for(let d=0;d<s.length;d++){const q=this.calculateDistance(i[i.length-1].coordinates,s[d].coordinates);q<r&&(r=q,c=d)}i.push(s.splice(c,1)[0])}return i.reverse()}};a(S,"_instance");let J=S;class se extends HTMLElement{constructor(){super();a(this,"shadowRoot");a(this,"_poi",new m);a(this,"_position",0);this.shadowRoot=this.attachShadow({mode:"closed"})}get poi(){return this._poi}set poi(e){this._poi=e}get position(){return this._position}set position(e){this._position=e}connectedCallback(){this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
             <article class="custom-path-card" aria-labelledby="custom-path-card-title" aria-posinset="${this.position}" tabindex="${this.position}" aria-setsize="-1">
                 <div class="custom-path-card-info">
                     <h3 class="custom-path-card-title" id="custom-path-card-title">${this.poi.name}</h3>
@@ -446,6 +457,11 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
             </div>
 
             <style>
+                :host {
+                    display: block;
+                    padding:  0 0 5rem 0;
+                }
+                
                 h1,
                 p {
                     font-weight: 400;
@@ -637,6 +653,11 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
             </div>
 
             <style>
+                :host {
+                    display: block;
+                    padding:  0 0 5rem 0;
+                }
+                
                 h1,
                 p {
                     font-weight: 400;
@@ -698,7 +719,7 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
                         'opsz' 24;
                 }
             </style>
-            `}update(){const e=this.shadowRoot.querySelector(".suggested-paths-list");e&&(e.innerHTML="",this.paths.length===0&&e.append(this.renderEmptyMsg()),this.paths.forEach((s,n)=>{let r=document.createElement("app-suggested-path-card");r.path=s,r.position=n,e.append(r)}))}setupCardsBehaviour(){this.shadowRoot.querySelectorAll("app-suggested-path-card").forEach(s=>{s.addEventListener("suggested-path-selected",n=>{g.instance.selectedSuggestedPath=n.detail.selectedSuggestedPath,window.location.hash="/selected-suggested-path"})})}renderEmptyMsg(){const e=document.createElement("p");return e.innerHTML="Nessun percorso suggerito per il layer attivato al momento",e}}customElements.define("page-suggested-paths",ae);class oe extends HTMLElement{constructor(){super();a(this,"shadowRoot");a(this,"_poi",new m);a(this,"_position",0);this.shadowRoot=this.attachShadow({mode:"closed"})}get poi(){return this._poi}set poi(e){this._poi=e}get position(){return this._position}set position(e){this._position=e}connectedCallback(){this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
+            `}update(){const e=this.shadowRoot.querySelector(".suggested-paths-list");e&&(e.innerHTML="",this.paths.length===0&&e.append(this.renderEmptyMsg()),this.paths.forEach((s,n)=>{let r=document.createElement("app-suggested-path-card");r.path=s,r.position=n,e.append(r)}))}setupCardsBehaviour(){this.shadowRoot.querySelectorAll("app-suggested-path-card").forEach(s=>{s.addEventListener("suggested-path-selected",n=>{g.instance.selectedSuggestedPath=n.detail.selectedSuggestedPath,window.location.hash="/selected-suggested-path"})})}renderEmptyMsg(){const e=document.createElement("p");return e.innerHTML="Nessun percorso suggerito per il layer attivato al momento",e.style.textAlign="center",e}}customElements.define("page-suggested-paths",ae);class oe extends HTMLElement{constructor(){super();a(this,"shadowRoot");a(this,"_poi",new m);a(this,"_position",0);this.shadowRoot=this.attachShadow({mode:"closed"})}get poi(){return this._poi}set poi(e){this._poi=e}get position(){return this._position}set position(e){this._position=e}connectedCallback(){this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
             <article class="selected-suggested-path-card" aria-labelledby="selected-suggested-path-card-title" aria-posinset="${this.position}" tabindex="${this.position}" aria-setsize="-1">
                 <div class="selected-suggested-path-card-info">
                     <h3 class="selected-suggested-path-card-title" id="selected-suggested-path-card-title">${this.poi.name}</h3>
@@ -776,6 +797,11 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
             </div>
 
             <style>
+                :host {
+                    display: block;
+                    padding:  0 0 5rem 0;
+                }
+                
                 h1,
                 p {
                     font-weight: 400;
@@ -849,6 +875,11 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
             </div>
 
             <style>
+                :host {
+                    display: block;
+                    padding:  0 0 5rem 0;
+                }
+                
                 h1,
                 h2,
                 p {
@@ -1270,6 +1301,11 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
             </div>
 
             <style>
+                :host {
+                    display: block;
+                    padding:  0 0 5rem 0;
+                }
+                
                 h1,
                 p {
                     font-weight: 400;
@@ -1539,4 +1575,4 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
                         'opsz' 48;
                 }
             </style>
-            `}setup(){this.onLinkClick(),window.addEventListener("hashchange",()=>this.checkCurrentPage())}onLinkClick(){Array.from(this.shadowRoot.querySelectorAll(".bar-el-link")).forEach(s=>{s.addEventListener("click",n=>{n.preventDefault();const r=s.getAttribute("href");r&&(window.location.hash=r)})})}checkCurrentPage(){const e=window.location.hash.slice(2);Array.from(this.shadowRoot.querySelectorAll(".bar-el-link")).forEach(n=>{var r;((r=n.getAttribute("href"))==null?void 0:r.slice(1))===e?(n.classList.add("current"),n.setAttribute("aria-selected","true")):(n.classList.remove("current"),n.setAttribute("aria-selected","false"))})}}customElements.define("app-bar",be);p.instance.getLocalStorageSettings();g.instance.getSavedCustomPath();A.instance.getSavedLayers();const fe=document.querySelector("app-router"),ve=new _("categories",S.Default,()=>"<page-categories />"),Pe=new _("around-you",S.Page,()=>"<page-around-you />"),we=new _("settings",S.Page,()=>"<page-settings />"),Ee=new _("poi",S.Page,()=>"<page-poi />"),Se=new _("custom-path",S.Page,()=>"<page-custom-path />"),xe=new _("suggested-paths",S.Page,()=>"<page-suggested-paths />"),Le=new _("selected-suggested-path",S.Page,()=>"<page-selected-suggested-path />"),ke=[ve,Pe,we,Ee,Se,xe,Le];fe.addRoutes(ke);
+            `}setup(){this.onLinkClick(),window.addEventListener("hashchange",()=>this.checkCurrentPage())}onLinkClick(){Array.from(this.shadowRoot.querySelectorAll(".bar-el-link")).forEach(s=>{s.addEventListener("click",n=>{n.preventDefault();const r=s.getAttribute("href");r&&(window.location.hash=r)})})}checkCurrentPage(){const e=window.location.hash.slice(2);Array.from(this.shadowRoot.querySelectorAll(".bar-el-link")).forEach(n=>{var r;((r=n.getAttribute("href"))==null?void 0:r.slice(1))===e?(n.classList.add("current"),n.setAttribute("aria-selected","true")):(n.classList.remove("current"),n.setAttribute("aria-selected","false"))})}}customElements.define("app-bar",be);p.instance.getLocalStorageSettings();g.instance.getSavedCustomPath();A.instance.getSavedLayers();const fe=document.querySelector("app-router"),ve=new _("categories",x.Default,()=>"<page-categories />"),Pe=new _("around-you",x.Page,()=>"<page-around-you />"),we=new _("settings",x.Page,()=>"<page-settings />"),Ee=new _("poi",x.Page,()=>"<page-poi />"),xe=new _("custom-path",x.Page,()=>"<page-custom-path />"),Se=new _("suggested-paths",x.Page,()=>"<page-suggested-paths />"),Le=new _("selected-suggested-path",x.Page,()=>"<page-selected-suggested-path />"),ke=[ve,Pe,we,Ee,xe,Se,Le];fe.addRoutes(ke);

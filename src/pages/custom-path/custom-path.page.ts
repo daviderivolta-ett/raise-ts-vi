@@ -44,14 +44,14 @@ export class CustomPathPage extends HTMLElement {
                 </div>
                 <section class="custom-path-list" role="feed"></section>
                 <div class="custom-path-tools-wrapper">
-                    <nav class="custom-path-tools">
+                    <div class="custom-path-tools">
                         <button type="button" id="reorder-pois-btn" class="tool-btn" title="Ottimizza ordine punti di interesse">
-                            <span class="material-symbols-outlined tool-icon">sort</span>
+                            <span class="material-symbols-outlined tool-icon" aria-hidden="true">sort</span>
                         </button>
                         <button type="button" id="save-custom-path-btn" class="tool-btn" title="Salva percorso personalizzato">
-                            <span class="material-symbols-outlined tool-icon">bookmark</span>
+                            <span class="material-symbols-outlined tool-icon" aria-hidden="true">bookmark</span>
                         </button>
-                    </nav>
+                    </div>
                 </div>
             </div>
 
@@ -116,13 +116,13 @@ export class CustomPathPage extends HTMLElement {
                 .custom-path-tools-wrapper {
                     width: 100%;
                     max-width: 576px;
+                    position: fixed;
+                    bottom: 50px;
+                    left: 50%;
+                    transform: translateX(-50%);
                 }
 
                 .custom-path-tools {
-                    position: fixed;
-                    bottom: 0;
-                    left: 50%;
-                    transform: translateX(-50%);
                     width: 100%;
                     min-height: 48px;
                     max-width: inherit;
@@ -148,6 +148,7 @@ export class CustomPathPage extends HTMLElement {
                     justify-content: center;
                     align-items: center;
                     gap: .5rem;
+                    border-radius: var(--border-radius-s);
                 }
 
                 .tool-btn:hover {
