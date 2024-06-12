@@ -174,13 +174,13 @@ export class AroudYouPage extends HTMLElement {
 
         switch (type) {
             case 'error':
-                msg.innerText = 'Impossibile trovare punti di interesse nelle vicinanze senza selezionare alcuna categoria.\n\nAndare nella sezione "Categorie" per selezionarne almeno una.';
-                break;        
-            default:
                 msg.innerText = 'Impossibile trovare la tua posizione.\n\nPer mostrare i punti di interesse nelle vicinanze è necessario concedere all\'app l\'autorizzazione ad accedere alla posizione del dispositivo.';
                 break;
+            default:
+                msg.innerText = 'Impossibile trovare punti di interesse nelle vicinanze senza selezionare alcuna categoria.\n\nAndare nella sezione "Categorie" per selezionarne almeno una.';
+                break;
         }
-        
+
         msg.classList.add('message');
         page.appendChild(msg);
     }
