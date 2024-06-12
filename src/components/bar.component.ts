@@ -15,24 +15,24 @@ export class BarComponent extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <nav class="menu">
-                <a class="bar-el-link" href="/categories" title="Categorie" role="menuitem">
+            <nav class="menu" role="tablist">
+                <a class="bar-el-link" href="/categories" title="Categorie" role="tab" aria-selected="false" aria-controls="categories-panel">
                     <span class="material-symbols-outlined icon" aria-label="Categorie">stacks</span>
                 </a>
 
-                <a class="bar-el-link" href="/around-you" title="Intorno a te" role="menuitem">
+                <a class="bar-el-link" href="/around-you" title="Intorno a te" role="tab" aria-selected="false" aria-controls="around-you-panel">
                     <span class="material-symbols-outlined icon" aria-label="Intorno a te">explore</span>
                 </a>
 
-                <a class="bar-el-link" href="/suggested-paths" title="Percorsi suggeriti" role="menuitem">
+                <a class="bar-el-link" href="/suggested-paths" title="Percorsi suggeriti" role="tab" aria-selected="false" aria-controls="suggested-paths-panel">
                     <span class="material-symbols-outlined icon" aria-label="Percorsi suggeriti">directions</span>
                 </a>
 
-                <a class="bar-el-link" href="/custom-path" title="Percorso personalizzato" role="menuitem">
+                <a class="bar-el-link" href="/custom-path" title="Percorso personalizzato" role="tab" aria-selected="false" aria-controls="cusotm-path-panel">
                     <span class="material-symbols-outlined icon" aria-label="Percorso personalizzato">favorite</span>
                 </a>
 
-                <a class="bar-el-link" href="/settings" title="Impostazioni" role="menuitem">
+                <a class="bar-el-link" href="/settings" title="Impostazioni" role="tab" aria-selected="false" aria-controls="settings-panel">
                     <span class="material-symbols-outlined icon" aria-label="Impostazioni">tune</span>
                 </a>
             </nav>
@@ -118,7 +118,13 @@ export class BarComponent extends HTMLElement {
         const hash: string = window.location.hash.slice(2);
         const links: HTMLAnchorElement[] = Array.from(this.shadowRoot.querySelectorAll('.bar-el-link'));
         links.forEach((link: HTMLAnchorElement) => {
-            link.getAttribute('href')?.slice(1) === hash ? link.classList.add('current') : link.classList.remove('current');
+            if (link.getAttribute('href')?.slice(1) === hash) {
+                link.classList.add('current');
+                link.setAttribute('aria-selected', 'true');
+            } else {
+                link.classList.remove('current');        
+                link.setAttribute('aria-selected', 'false');
+            }
         });
     }
 

@@ -29,7 +29,6 @@ export class PoiCard extends HTMLElement {
     public connectedCallback(): void {
         this.render();
         this.setup();
-        this.update();
     }
 
     private render(): void {
@@ -118,12 +117,6 @@ export class PoiCard extends HTMLElement {
         button.addEventListener('click', () => {
             this.dispatchEvent(new CustomEvent('poi-selected', { detail: { selectedPoi: this.poi } }));
         });
-    }
-
-    private update(): void {
-        const title = this.shadowRoot.querySelector('.poi-card-title');
-        if (!title) return;
-        title.setAttribute('aria-label', 'PIPPOPIPPOPIPPO PIPPOPIPPOPIPPOPIPPO');
     }
 }
 
