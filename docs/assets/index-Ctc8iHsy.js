@@ -88,15 +88,15 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
             `}setup(){this.addEventListener("click",()=>{this.dispatchEvent(new CustomEvent("tag-selected",{detail:{tag:this.tag}}))})}}customElements.define("app-tag-chip",X);class Q extends HTMLElement{constructor(){super();a(this,"shadowRoot");a(this,"_tags",[]);a(this,"_currentPageTags",[]);a(this,"_currentPage",0);a(this,"_tagsPerPage",8);a(this,"handleCheckbox",e=>{const s=e.target;this.dispatchEvent(new CustomEvent("tag-selected",{detail:{tag:s.tag}}))});this.shadowRoot=this.attachShadow({mode:"closed"})}get tags(){return this._tags}set tags(e){this._tags=e,this.connectedCallback()}get currentPageTags(){return this._currentPageTags}set currentPageTags(e){this._currentPageTags=e}get currentPage(){return this._currentPage}set currentPage(e){this._currentPage=e}get tagsPerPage(){return this._tagsPerPage}set tagsPerPage(e){this._tagsPerPage=e}connectedCallback(){this.render(),this.tags.length!==0&&(this.paginateTags(),this.setup())}render(){this.shadowRoot.innerHTML=`
             <div class="pagination">                    
                 <p class="desc">Scegli una categoria per caricare i punti di interesse associati.</p>
-                <p class="current-page">Pagina ${this.currentPage+1} di ${this.getPagesNumber()+1}</p>
+                <p tabindex="-1" class="current-page">Pagina ${this.currentPage+1} di ${this.getPagesNumber()+1}</p>
 
                 <div class="tags"></div>
 
                 <div class="pagination-buttons">
-                    <button type="button" class="pagination-btn prev-btn" aria-label="Paginazione precedente">
+                    <button type="button" class="pagination-btn prev-btn" aria-label="Pagina precedente">
                         <span class="material-symbols-outlined" aria-hidden="true">chevron_left</span>
                     </button>
-                    <button type="button" class="pagination-btn next-btn" aria-label="Paginazione successiva">
+                    <button type="button" class="pagination-btn next-btn" aria-label="Pagina successiva">
                         <span class="material-symbols-outlined" aria-hidden="true">chevron_right</span>
                     </button>
                 </div>
@@ -163,12 +163,12 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
                         'opsz' 24;
                 }
             </style>
-            `}setup(){const e=this.shadowRoot.querySelector(".prev-btn"),s=this.shadowRoot.querySelector(".next-btn");e&&s&&(e.addEventListener("click",()=>this.prevPage()),s.addEventListener("click",()=>this.nextPage()))}update(){const e=this.shadowRoot.querySelector(".current-page");if(!e)return;e.innerHTML=`Pagina ${this.currentPage+1} di ${this.getPagesNumber()+1}`;const s=this.shadowRoot.querySelector(".prev-btn"),n=this.shadowRoot.querySelector(".next-btn");if(!s||!n)return;this.currentPage===0?s.setAttribute("disabled",""):s.removeAttribute("disabled"),this.currentPage===this.getPagesNumber()?n.setAttribute("disabled",""):n.removeAttribute("disabled"),Array.from(this.shadowRoot.querySelectorAll("app-tag-chip")).forEach(i=>i.addEventListener("tag-selected",this.handleCheckbox))}paginateTags(){const e=this.currentPage*this.tagsPerPage;let s=e+this.tagsPerPage;s>this.tags.length&&(s=this.tags.length);const n=this.shadowRoot.querySelector(".tags");if(n){n.innerHTML="",this.currentPageTags=[];for(let r=e;r<s;r++){let i=this.tags[r];this.currentPageTags.push(i);let c=this.createChip(i);n.append(c)}this.update()}}createChip(e){let s=new X;return s.tag=e,s}getPagesNumber(){return Math.floor(this.tags.length/this.tagsPerPage)}prevPage(){if(this.currentPage>0){this.currentPage--,this.paginateTags();const e=this.shadowRoot.querySelector(".current-page");e&&e.focus()}}nextPage(){if(this.currentPage<this.getPagesNumber()){this.currentPage++,this.paginateTags();const e=this.shadowRoot.querySelector(".current-page");e&&e.focus()}}}customElements.define("app-tags-wall",Q);class Z extends HTMLElement{constructor(){super();a(this,"shadowRoot");this.shadowRoot=this.attachShadow({mode:"closed"})}async connectedCallback(){await I.instance.getData(),this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
+            `}setup(){const e=this.shadowRoot.querySelector(".prev-btn"),s=this.shadowRoot.querySelector(".next-btn");e&&s&&(e.addEventListener("click",()=>this.prevPage()),s.addEventListener("click",()=>this.nextPage()))}update(){const e=this.shadowRoot.querySelector(".current-page");if(!e)return;e.innerHTML=`Pagina ${this.currentPage+1} di ${this.getPagesNumber()+1}`;const s=this.shadowRoot.querySelector(".prev-btn"),n=this.shadowRoot.querySelector(".next-btn");if(!s||!n)return;this.currentPage===0?(s.setAttribute("disabled",""),s.style.visibility="hidden"):(s.removeAttribute("disabled"),s.style.visibility="visible"),this.currentPage===this.getPagesNumber()?(n.setAttribute("disabled",""),n.style.visibility="hidden"):(n.removeAttribute("disabled"),n.style.visibility="visible"),Array.from(this.shadowRoot.querySelectorAll("app-tag-chip")).forEach(i=>i.addEventListener("tag-selected",this.handleCheckbox))}paginateTags(){const e=this.currentPage*this.tagsPerPage;let s=e+this.tagsPerPage;s>this.tags.length&&(s=this.tags.length);const n=this.shadowRoot.querySelector(".tags");if(n){n.innerHTML="",this.currentPageTags=[];for(let r=e;r<s;r++){let i=this.tags[r];this.currentPageTags.push(i);let c=this.createChip(i);n.append(c)}this.update()}}createChip(e){let s=new X;return s.tag=e,s}getPagesNumber(){return Math.floor(this.tags.length/this.tagsPerPage)}prevPage(){if(this.currentPage>0){this.currentPage--,this.paginateTags();const e=this.shadowRoot.querySelector(".current-page");e&&e.focus()}}nextPage(){if(this.currentPage<this.getPagesNumber()){this.currentPage++,this.paginateTags();const e=this.shadowRoot.querySelector(".current-page");e&&e.focus()}}}customElements.define("app-tags-wall",Q);class Z extends HTMLElement{constructor(){super();a(this,"shadowRoot");this.shadowRoot=this.attachShadow({mode:"closed"})}async connectedCallback(){await I.instance.getData(),this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
             <div class="categories-page">
                 <div class="page-header">
                     <h1 tabindex="-1" class="categories-page-title">Esplora categorie</h1>
                 </div>
-                <app-tags-wall />
+                <app-tags-wall></app-tags-wall>
             </div>
 
             <style>
@@ -1460,25 +1460,25 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
                 }
             </style>
             `}setup(){this.setupCloseBtn(),this.setupLinkBehaviour()}setupCloseBtn(){const t=this.querySelector("button");t&&t.addEventListener("click",()=>this.close())}setupLinkBehaviour(){const t=this.querySelectorAll("a");t&&t.forEach(e=>{e.addEventListener("click",s=>{s.preventDefault();const n=e.getAttribute("href");n&&(this.close(),window.location.hash=n)})})}}customElements.define("app-menu",ye,{extends:"dialog"});class be extends HTMLElement{constructor(){super();a(this,"shadowRoot");this.shadowRoot=this.attachShadow({mode:"closed"})}connectedCallback(){this.render(),this.setup(),this.checkCurrentPage()}render(){this.shadowRoot.innerHTML=`
-            <nav class="menu" aria-label="menu">
-                <a class="bar-el-link" href="/categories" title="categorie">
-                    <span class="material-symbols-outlined icon" aria-hidden="true">stacks</span>
+            <nav class="menu">
+                <a class="bar-el-link" href="/categories" title="Categorie" role="menuitem">
+                    <span class="material-symbols-outlined icon" aria-label="Categorie">stacks</span>
                 </a>
 
-                <a class="bar-el-link" href="/around-you" title="intorno a te">
-                    <span class="material-symbols-outlined icon" aria-hidden="true">explore</span>
+                <a class="bar-el-link" href="/around-you" title="Intorno a te" role="menuitem">
+                    <span class="material-symbols-outlined icon" aria-label="Intorno a te">explore</span>
                 </a>
 
-                <a class="bar-el-link" href="/suggested-paths" title="percorsi suggeriti">
-                    <span class="material-symbols-outlined icon" aria-hidden="true">directions</span>
+                <a class="bar-el-link" href="/suggested-paths" title="Percorsi suggeriti" role="menuitem">
+                    <span class="material-symbols-outlined icon" aria-label="Percorsi suggeriti">directions</span>
                 </a>
 
-                <a class="bar-el-link" href="/custom-path" title="percorso personalizzato">
-                    <span class="material-symbols-outlined icon" aria-hidden="true">favorite</span>
+                <a class="bar-el-link" href="/custom-path" title="Percorso personalizzato" role="menuitem">
+                    <span class="material-symbols-outlined icon" aria-label="Percorso personalizzato">favorite</span>
                 </a>
 
-                <a class="bar-el-link" href="/settings" title="impostazioni">
-                    <span class="material-symbols-outlined icon" aria-hidden="true">tune</span>
+                <a class="bar-el-link" href="/settings" title="Impostazioni" role="menuitem">
+                    <span class="material-symbols-outlined icon" aria-label="Impostazioni">tune</span>
                 </a>
             </nav>
 
@@ -1492,6 +1492,7 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
                     list-style-type: none;
                     min-height: 48px;
                     background-color: var(--surface-container-high);
+                    border-radius: var(--border-radius-s) var(--border-radius-s) 0 0;
                 }
 
                 .bar-el-link {
@@ -1502,7 +1503,6 @@ var U=Object.defineProperty;var V=(o,t,e)=>t in o?U(o,t,{enumerable:!0,configura
                     justify-content: center;
                     flex-direction: column;
                     color: var(--on-surface);
-                    background-color: var(--surface-container-high);
                     font-size: .8rem;
                     width: 100%;
                     flex-grow: 1;
