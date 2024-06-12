@@ -45,6 +45,11 @@ export class PoiPage extends HTMLElement {
             </div>
 
             <style>
+                :host {
+                    display: block;
+                    padding:  0 0 5rem 0;
+                }
+                
                 h1,
                 h2,
                 p {

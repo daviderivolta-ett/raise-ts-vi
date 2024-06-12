@@ -35,6 +35,7 @@ export class TagChipComponent extends HTMLElement {
                     border: 1px solid var(--outline);
                     padding: 8px 8px;
                     border-radius: var( --border-radius-s);
+                    font-size: 1rem;
                 }
 
                 .tag-chip:hover {

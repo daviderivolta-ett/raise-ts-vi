@@ -42,6 +42,11 @@ export class SuggestedPathsPage extends HTMLElement {
             </div>
 
             <style>
+                :host {
+                    display: block;
+                    padding:  0 0 5rem 0;
+                }
+                
                 h1,
                 p {
                     font-weight: 400;
@@ -135,6 +140,7 @@ export class SuggestedPathsPage extends HTMLElement {
     private renderEmptyMsg(): HTMLParagraphElement {
         const msg: HTMLParagraphElement = document.createElement('p');
         msg.innerHTML = 'Nessun percorso suggerito per il layer attivato al momento';
+        msg.style.textAlign = 'center';
         return msg;
     }
 }
