@@ -2,7 +2,7 @@ export class Settings {
     fontSize: number = 16;
     letterSpace: number = 0;
     lineHeight = 1.15;
-    contrast: Contrast = Contrast.LightHigh;
+    contrast: Contrast = Contrast.Dark;
 
     constructor() { }
 }

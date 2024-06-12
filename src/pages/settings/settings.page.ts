@@ -148,6 +148,7 @@ export class SettingsPage extends HTMLElement {
             SettingService.instance.settings.fontSize = this.settings.fontSize;
             SettingService.instance.setFontSize(this.settings.fontSize);
             SettingService.instance.settings = this.settings;
+            console.log(this.settings);            
         });
 
         letterSpacing.addEventListener('letter-space-updated', (e: CustomEventInit) => {
