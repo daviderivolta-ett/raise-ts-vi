@@ -56,7 +56,7 @@ export class CustomPathPage extends HTMLElement {
             <style>
                 :host {
                     display: block;
-                    padding:  0 0 6rem 0;
+                    padding:  0 0 7rem 0;
                 }
                 
                 h1,

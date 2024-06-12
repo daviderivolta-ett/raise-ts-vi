@@ -131,6 +131,14 @@ export class AroudYouPage extends HTMLElement {
             list.append(card);
         });
 
+        if (this.pois.length === 0) {
+            const msg: HTMLParagraphElement = document.createElement('p');
+            msg.innerText = 'Impossibile trovare punti di interesse nelle vicinanze senza selezionare alcuna categoria.\n\nAndare nella sezione "Categorie" per selezionarne una.'
+            msg.style.textAlign = 'center';
+            const section: HTMLElement | null = this.shadowRoot.querySelector('.around-you-features');
+            if (section) section.appendChild(msg);
+        }
+
         const title: HTMLHeadingElement | null = this.shadowRoot.querySelector('h1');
         if (title) title.focus();
     }
@@ -139,7 +147,7 @@ export class AroudYouPage extends HTMLElement {
         const cards: NodeListOf<PoiCard> = this.shadowRoot.querySelectorAll('app-poi-card');
         cards.forEach((card: PoiCard) => {
             card.addEventListener('poi-selected', (e: CustomEventInit) => {
-                PoiService.instance.selectedPoi = e.detail.selectedPoi;             
+                PoiService.instance.selectedPoi = e.detail.selectedPoi;
                 window.location.hash = '/poi';
             });
         })
@@ -155,6 +163,8 @@ export class AroudYouPage extends HTMLElement {
         if (!loader) return;
         loader.remove();
     }
+
+
 }
 
 customElements.define('page-around-you', AroudYouPage);
