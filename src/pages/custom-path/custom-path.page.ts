@@ -43,22 +43,20 @@ export class CustomPathPage extends HTMLElement {
                     <h1 class="page-title" tabindex="-1">Percorso personalizzato</h1>
                 </div>
                 <section class="custom-path-list" role="feed"></section>
-                <div class="custom-path-tools-wrapper">
-                    <div class="custom-path-tools">
-                        <button type="button" id="reorder-pois-btn" class="tool-btn" title="Ottimizza ordine punti di interesse">
-                            <span class="material-symbols-outlined tool-icon" aria-hidden="true">sort</span>
-                        </button>
-                        <button type="button" id="save-custom-path-btn" class="tool-btn" title="Salva percorso personalizzato">
-                            <span class="material-symbols-outlined tool-icon" aria-hidden="true">bookmark</span>
-                        </button>
-                    </div>
+                <div class="custom-path-tools">
+                    <button type="button" id="reorder-pois-btn" class="tool-btn" title="Ottimizza ordine punti di interesse">
+                        <span class="material-symbols-outlined tool-icon" aria-hidden="true">sort</span>
+                    </button>
+                    <button type="button" id="save-custom-path-btn" class="tool-btn" title="Salva percorso personalizzato">
+                        <span class="material-symbols-outlined tool-icon" aria-hidden="true">bookmark</span>
+                    </button>
                 </div>
             </div>
 
             <style>
                 :host {
                     display: block;
-                    padding:  0 0 5rem 0;
+                    padding:  0 0 6rem 0;
                 }
                 
                 h1,
@@ -113,22 +111,17 @@ export class CustomPathPage extends HTMLElement {
                     text-align: center;
                 }
 
-                .custom-path-tools-wrapper {
-                    width: 100%;
-                    max-width: 576px;
-                    position: fixed;
-                    bottom: 50px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                }
-
                 .custom-path-tools {
-                    width: 100%;
-                    min-height: 48px;
-                    max-width: inherit;
+                    position: fixed;
+                    left: 50%;
+                    bottom: calc(3rem + 2px);
+                    transform: translateX(-50%);
                     display: flex;
                     justify-content: space-between;
                     gap: 1px;
+                    width: 100%;
+                    max-width: 576px;
+                    min-height: 3rem;
                 }
                 
                 button {
@@ -157,12 +150,12 @@ export class CustomPathPage extends HTMLElement {
 
                 .material-symbols-outlined {
                     font-family: 'Material Symbols Outlined';
-                    font-size: 1.2rem;
+                    font-size: 1.6rem;
                     font-variation-settings:
                         'FILL' 0,
                         'wght' 400,
                         'GRAD' 0,
-                        'opsz' 24;
+                        'opsz' 48;
                 }
             </style>
             `

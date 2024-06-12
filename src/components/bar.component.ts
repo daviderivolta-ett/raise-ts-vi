@@ -45,7 +45,7 @@ export class BarComponent extends HTMLElement {
                     padding: 0;
                     margin: 0;
                     list-style-type: none;
-                    min-height: 48px;
+                    min-height: 3rem;
                     background-color: var(--surface-container-high);
                     border-radius: var(--border-radius-s) var(--border-radius-s) 0 0;
                 }

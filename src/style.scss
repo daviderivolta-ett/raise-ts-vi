@@ -171,6 +171,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+app-snackbar {
+  display: block;
+}
+
 app-bar {
   position: fixed;
   z-index: 999;
