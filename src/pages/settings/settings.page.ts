@@ -30,7 +30,6 @@ export class SettingsPage extends HTMLElement {
     public connectedCallback(): void {
         this.render();
         this.setup();
-        console.log(this.settings);
     }
 
     private render(): void {

@@ -1,4 +1,6 @@
 import { Route, RouteType } from '../models/route.model';
+import { Contrast, Settings } from '../models/settings.model';
+import { SettingService } from '../services/setting.service';
 import { SnackbarService } from '../services/snackbar.service';
 
 export class Router extends HTMLElement {
@@ -23,12 +25,6 @@ export class Router extends HTMLElement {
 
     private checkRoute(): void {
         const hash: string = window.location.hash.slice(2);
-
-        const params = new URLSearchParams(window.location.search); 
-        params.forEach((value, key) => {
-            console.log(`${key}: ${value}`);
-        });
-
         this.changeRoute(hash);
     }
 
@@ -37,6 +33,7 @@ export class Router extends HTMLElement {
         if (!hash) {
             const defaultRoute: Route[] = this.routes.filter((route: Route) => route.type === RouteType.Default);
             defaultRoute ? window.location.hash = '#/' + defaultRoute[0].url : this.sendNotFound();
+            this.checkParams(window.location.search);
         } else {
             const hashIndex: number = this.routes.findIndex((route: Route) => route.url === hash);
             this.shadowRoot.innerHTML = this.routes[hashIndex] ? this.routes[hashIndex].routing() : this.sendNotFound();
@@ -49,6 +46,35 @@ export class Router extends HTMLElement {
         window.location.hash = '#/' + notFoundRoute[0].url;
         this.changeRoute(notFoundRoute[0].url);
         return '404: Not found';
+    }
+
+    private checkParams(search: string): void {
+        const params = new URLSearchParams(search);
+
+        if (!params.has('user')) return;
+
+        const settings: Settings = new Settings();
+
+        params.forEach((value: string) => {
+            switch (value) {
+                case 'blind':
+                    settings.showSettings = false;
+                    break;
+
+                case 'vi':
+                    settings.contrast = Contrast.Light;
+                    break;
+
+                case 'fine-motor':
+                    settings.fontSize = 32;
+                    break;
+                default:
+                    break;
+            }
+        });
+
+        SettingService.instance.settings = { ...settings };
+
     }
 }
 

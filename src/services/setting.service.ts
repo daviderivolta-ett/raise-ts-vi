@@ -244,6 +244,7 @@ export class SettingService {
         s.fontSize = settings.fontSize;
         s.lineHeight = settings.lineHeight;
         s.letterSpace = settings.letterSpace;
+        s.showSettings = settings.showSettings;
 
         return s;
     }

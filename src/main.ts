@@ -22,9 +22,6 @@ import { SettingService } from './services/setting.service';
 import { PathService } from './services/path.service';
 import { LayerService } from './services/layer.service';
 
-// Settings
-SettingService.instance.getLocalStorageSettings();
-
 // Saved data
 PathService.instance.getSavedCustomPath();
 LayerService.instance.getSavedLayers();
@@ -41,3 +38,6 @@ const suggestedPathRoute: Route = new Route('selected-suggested-path', RouteType
 
 const routes: Route[] = [categoriesRoute, aroundYouRoute, settingsRoute, poiRoute, customPathRoute, suggestedPathsRoute, suggestedPathRoute];
 router.addRoutes(routes);
+
+// Settings
+SettingService.instance.getLocalStorageSettings();
