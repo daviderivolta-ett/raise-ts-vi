@@ -31,9 +31,9 @@ export class Router extends HTMLElement {
     private changeRoute(hash: string): void {
         SnackbarService.instance.resetSnackbar();
         if (!hash) {
+            this.checkParams(window.location.search);
             const defaultRoute: Route[] = this.routes.filter((route: Route) => route.type === RouteType.Default);
             defaultRoute ? window.location.hash = '#/' + defaultRoute[0].url : this.sendNotFound();
-            this.checkParams(window.location.search);
         } else {
             const hashIndex: number = this.routes.findIndex((route: Route) => route.url === hash);
             this.shadowRoot.innerHTML = this.routes[hashIndex] ? this.routes[hashIndex].routing() : this.sendNotFound();
@@ -48,23 +48,20 @@ export class Router extends HTMLElement {
         return '404: Not found';
     }
 
-    private checkParams(search: string): void {
+    private checkParams(search: string): void {       
         const params = new URLSearchParams(search);
-
-        if (!params.has('user')) return;
-
         const settings: Settings = new Settings();
+        let paramsProcessed = false;
 
         params.forEach((value: string) => {
+            paramsProcessed = true;
             switch (value) {
                 case 'blind':
                     settings.showSettings = false;
                     break;
-
                 case 'vi':
-                    settings.contrast = Contrast.Light;
+                    settings.contrast = Contrast.DarkHigh;
                     break;
-
                 case 'fine-motor':
                     settings.fontSize = 32;
                     break;
@@ -73,8 +70,12 @@ export class Router extends HTMLElement {
             }
         });
 
-        SettingService.instance.settings = { ...settings };
+        if (paramsProcessed) {
+            const newUrl = window.location.pathname + window.location.hash;
+            history.replaceState(null, '', newUrl);
+        }
 
+        SettingService.instance.settings = { ...settings };
     }
 }
 

@@ -21,6 +21,7 @@ import { Router } from './components/router.component';
 import { SettingService } from './services/setting.service';
 import { PathService } from './services/path.service';
 import { LayerService } from './services/layer.service';
+import { BarComponent } from './components/bar.component';
 
 // Saved data
 PathService.instance.getSavedCustomPath();
@@ -41,3 +42,6 @@ router.addRoutes(routes);
 
 // Settings
 SettingService.instance.getLocalStorageSettings();
+
+const bar: BarComponent | null = document.querySelector('app-bar');
+if (bar) bar.showSettings = SettingService.instance.settings.showSettings;

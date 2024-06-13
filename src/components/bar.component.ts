@@ -1,7 +1,14 @@
-import { SettingService } from '../services/setting.service';
-
 export class BarComponent extends HTMLElement {
     public shadowRoot: ShadowRoot;
+
+    private _showSettings: boolean = true;
+    public get showSettings(): boolean {
+        return this._showSettings;
+    }
+    public set showSettings(value: boolean) {
+        this._showSettings = value;
+        this.configBar(this.showSettings);
+    }
 
     constructor() {
         super();
@@ -10,7 +17,6 @@ export class BarComponent extends HTMLElement {
 
     public connectedCallback(): void {
         this.render();
-        this.configBar(SettingService.instance.settings.showSettings);
         this.setup();
         this.checkCurrentPage();
     }
@@ -137,7 +143,6 @@ export class BarComponent extends HTMLElement {
             if (!showSettings) settingsLink.style.display = 'none';
         }
     }
-
 }
 
 customElements.define('app-bar', BarComponent);
