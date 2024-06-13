@@ -1,3 +1,5 @@
+import { SettingService } from '../services/setting.service';
+
 export class BarComponent extends HTMLElement {
     public shadowRoot: ShadowRoot;
 
@@ -8,6 +10,7 @@ export class BarComponent extends HTMLElement {
 
     public connectedCallback(): void {
         this.render();
+        this.configBar(SettingService.instance.settings.showSettings);
         this.setup();
         this.checkCurrentPage();
     }
@@ -16,23 +19,23 @@ export class BarComponent extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <nav class="menu" role="tablist">
-                <a class="bar-el-link" href="/categories" title="Categorie" role="tab" aria-selected="false" aria-controls="categories-panel">
+                <a class="bar-el-link categories-link" href="/categories" title="Categorie" role="tab" aria-selected="false" aria-controls="categories-panel">
                     <span class="material-symbols-outlined icon" aria-label="Categorie">stacks</span>
                 </a>
 
-                <a class="bar-el-link" href="/around-you" title="Intorno a te" role="tab" aria-selected="false" aria-controls="around-you-panel">
+                <a class="bar-el-link around-you-link" href="/around-you" title="Intorno a te" role="tab" aria-selected="false" aria-controls="around-you-panel">
                     <span class="material-symbols-outlined icon" aria-label="Intorno a te">explore</span>
                 </a>
 
-                <a class="bar-el-link" href="/suggested-paths" title="Percorsi suggeriti" role="tab" aria-selected="false" aria-controls="suggested-paths-panel">
+                <a class="bar-el-link suggested-paths-link" href="/suggested-paths" title="Percorsi suggeriti" role="tab" aria-selected="false" aria-controls="suggested-paths-panel">
                     <span class="material-symbols-outlined icon" aria-label="Percorsi suggeriti">directions</span>
                 </a>
 
-                <a class="bar-el-link" href="/custom-path" title="Percorso personalizzato" role="tab" aria-selected="false" aria-controls="cusotm-path-panel">
+                <a class="bar-el-link custom-path-link" href="/custom-path" title="Percorso personalizzato" role="tab" aria-selected="false" aria-controls="cusotm-path-panel">
                     <span class="material-symbols-outlined icon" aria-label="Percorso personalizzato">favorite</span>
                 </a>
 
-                <a class="bar-el-link" href="/settings" title="Impostazioni" role="tab" aria-selected="false" aria-controls="settings-panel">
+                <a class="bar-el-link settings-link" href="/settings" title="Impostazioni" role="tab" aria-selected="false" aria-controls="settings-panel">
                     <span class="material-symbols-outlined icon" aria-label="Impostazioni">tune</span>
                 </a>
             </nav>
@@ -122,10 +125,17 @@ export class BarComponent extends HTMLElement {
                 link.classList.add('current');
                 link.setAttribute('aria-selected', 'true');
             } else {
-                link.classList.remove('current');        
+                link.classList.remove('current');
                 link.setAttribute('aria-selected', 'false');
             }
         });
+    }
+
+    private configBar(showSettings: boolean): void {
+        const settingsLink: HTMLAnchorElement | null = this.shadowRoot.querySelector('.settings-link');
+        if (settingsLink) {
+            if (!showSettings) settingsLink.style.display = 'none';
+        }
     }
 
 }

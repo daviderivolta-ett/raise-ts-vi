@@ -124,7 +124,7 @@ export class SettingsFontSizeComponent extends HTMLElement {
 
     private update(): void {
         const radioBtns: HTMLInputElement[] = Array.from(this.shadowRoot.querySelectorAll<HTMLInputElement>('input[name="font-size"]'));
-        radioBtns.forEach((radio: HTMLInputElement) => {
+        radioBtns.forEach((radio: HTMLInputElement) => {                                
             if (radio.value === this.fontSize.toString()) radio.checked = true;
         });
     }

@@ -30,6 +30,7 @@ export class SettingsPage extends HTMLElement {
     public connectedCallback(): void {
         this.render();
         this.setup();
+        console.log(this.settings);
     }
 
     private render(): void {
@@ -147,8 +148,7 @@ export class SettingsPage extends HTMLElement {
             this.settings.fontSize = e.detail.fontSize;    
             SettingService.instance.settings.fontSize = this.settings.fontSize;
             SettingService.instance.setFontSize(this.settings.fontSize);
-            SettingService.instance.settings = this.settings;
-            console.log(this.settings);            
+            SettingService.instance.settings = this.settings;           
         });
 
         letterSpacing.addEventListener('letter-space-updated', (e: CustomEventInit) => {
