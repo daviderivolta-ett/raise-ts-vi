@@ -1501,6 +1501,8 @@ Andare nella sezione "Categorie" per selezionarne almeno una.`;break}n.classList
                     background-color: transparent;
                     border: none;
                     color: var(--on-surface);
+                    background-color: var(--surface-container);
+                    border-radius: var(--border-radius-m);
 
                     &:hover {
                         color: var(--on-surface-variant);
