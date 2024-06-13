@@ -173,13 +173,15 @@ body::-webkit-scrollbar {
 
 app-snackbar {
   display: block;
+  position: sticky;
+  z-index: 999;
 }
 
 app-home {
   position: fixed;
   right: 4%;
   top: 32px;
-  z-index: 999;
+  z-index: 99;
   transform: translateY(-50%);
 }
 
