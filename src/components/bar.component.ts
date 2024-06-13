@@ -42,7 +42,7 @@ export class BarComponent extends HTMLElement {
                 </a>
 
                 <a class="bar-el-link settings-link" href="/settings" title="Impostazioni" role="tab" aria-selected="false" aria-controls="settings-panel">
-                    <span class="material-symbols-outlined icon" aria-label="Impostazioni">tune</span>
+                    <span class="material-symbols-outlined icon" aria-label="Impostazioni">more_vert</span>
                 </a>
             </nav>
 
@@ -57,6 +57,8 @@ export class BarComponent extends HTMLElement {
                     min-height: 3rem;
                     background-color: var(--surface-container-high);
                     border-radius: var(--border-radius-s) var(--border-radius-s) 0 0;
+                    max-width: 576px;
+                    margin: auto;
                 }
 
                 .bar-el-link {
@@ -101,7 +103,7 @@ export class BarComponent extends HTMLElement {
                         'FILL' 0,
                         'wght' 400,
                         'GRAD' 0,
-                        'opsz' 48;
+                        'opsz' 24;
                 }
             </style>
             `

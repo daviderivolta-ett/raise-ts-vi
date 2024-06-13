@@ -1,0 +1,55 @@
+export class HomeBtnComponent extends HTMLElement {
+    public shadowRoot: ShadowRoot;
+
+    constructor() {
+        super();
+        this.shadowRoot = this.attachShadow({ mode: 'closed' });
+    }
+
+    public connectedCallback(): void {
+        this.render();
+        this.setup();
+    }
+
+    private render(): void {
+        this.shadowRoot.innerHTML =
+            `
+            <button type="button" aria-label="Torna alla profilazione">
+                <span class="material-symbols-outlined">apps</span>
+            </button>
+
+            <style>
+                button {
+                    cursor: pointer;
+                    height: 40px;
+                    width: 40px;
+                    background-color: transparent;
+                    border: none;
+                    color: var(--on-surface);
+
+                    &:hover {
+                        color: var(--on-surface-variant);
+                    }
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.6rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
+            </style>
+            `
+            ;
+    }
+
+    private setup(): void {
+        const btn: HTMLButtonElement | null = this.shadowRoot.querySelector('button');
+        if (btn) btn.addEventListener('click', () => window.location.href = 'https://daviderivolta-ett.github.io/raise-app/');
+    }
+}
+
+customElements.define('app-home', HomeBtnComponent);

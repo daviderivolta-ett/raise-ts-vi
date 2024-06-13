@@ -175,6 +175,14 @@ app-snackbar {
   display: block;
 }
 
+app-home {
+  position: fixed;
+  right: 4%;
+  top: 32px;
+  z-index: 999;
+  transform: translateY(-50%);
+}
+
 app-bar {
   position: fixed;
   z-index: 999;
@@ -182,5 +190,5 @@ app-bar {
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  max-width: 576px;
+  background-color: var(--surface-container-high);
 }

@@ -12,9 +12,8 @@ import './pages/selected-suggested-path/selected-suggested-path.page';
 import './pages/poi/poi.page';
 import './pages/settings/settings.page';
 import './components/snackbar.component';
-import './components/menu-btn.component';
-import './components/menu.component';
 import './components/bar.component';
+import './components/home.component';
 
 // Classes
 import { Router } from './components/router.component';
