@@ -1423,6 +1423,7 @@ Andare nella sezione "Categorie" per selezionarne almeno una.`;break}n.classList
                 </a>
 
                 <a class="bar-el-link settings-link" href="/settings" title="Impostazioni" role="tab" aria-selected="false" aria-controls="settings-panel">
+                    <span class="bg"></span>
                     <span class="material-symbols-outlined icon" aria-label="Impostazioni">more_vert</span>
                 </a>
             </nav>
@@ -1443,12 +1444,12 @@ Andare nella sezione "Categorie" per selezionarne almeno una.`;break}n.classList
                 }
 
                 .bar-el-link {
+                    position: relative;
                     cursor: pointer;
                     text-decoration: none;
                     display: flex;
-                    align-items: center;
                     justify-content: center;
-                    flex-direction: column;
+                    align-items: center;
                     color: var(--on-surface);
                     font-size: .8rem;
                     width: 100%;
@@ -1457,18 +1458,18 @@ Andare nella sezione "Categorie" per selezionarne almeno una.`;break}n.classList
                 }
 
                 .icon {
-                    width: 66%;
-                    height: 32%;
+                    width: 88%;
+                    height: 72%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     border-radius: 100px;
+                    z-index: 1;
                 }
 
                 .current .icon {
                     color: var(--on-primary-container);
                     background-color: var(--primary-container);
-                    padding: 8px;
                 }
 
                 .current .material-symbols-outlined {
