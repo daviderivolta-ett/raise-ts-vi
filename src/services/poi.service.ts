@@ -21,11 +21,11 @@ export class PoiService {
 
     public set selectedPoi(selectedPoi: Poi) {
         this._selectedPoi = selectedPoi;
-        localStorage.setItem('selected-poi', JSON.stringify(this.selectedPoi));
+        localStorage.setItem('selected-poi-vi', JSON.stringify(this.selectedPoi));
     }
 
     public getSelectedPoi(): void {
-        const savedSelectedPoiString: string | null = localStorage.getItem('selected-poi');
+        const savedSelectedPoiString: string | null = localStorage.getItem('selected-poi-vi');
         if (!savedSelectedPoiString) return;
         const rawSavedSelectedPoi: any = JSON.parse(savedSelectedPoiString);             
         this._selectedPoi = this.parsePoi(rawSavedSelectedPoi);

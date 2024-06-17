@@ -20,11 +20,11 @@ export class LayerService {
 
     public set activeLayers(activeLayers: Layer[]) {
         this._activeLayers = activeLayers;
-        localStorage.setItem('layers', JSON.stringify(this.activeLayers));
+        localStorage.setItem('layers-vi', JSON.stringify(this.activeLayers));
     }
 
     public getSavedLayers(): void {        
-        const savedLayersString: string | null = localStorage.getItem('layers');       
+        const savedLayersString: string | null = localStorage.getItem('layers-vi');       
         if (!savedLayersString) return;
         const rawSavedLayers: any = JSON.parse(savedLayersString);
         let savedLayers: Layer[] = [];

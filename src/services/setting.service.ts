@@ -28,7 +28,7 @@ export class SettingService {
     }
 
     public getLocalStorageSettings(): void {
-        const localStorageContentString: any = localStorage.getItem('settings');
+        const localStorageContentString: any = localStorage.getItem('settings-vi');
         if (!localStorageContentString) return;
         const localStorageContent: any = JSON.parse(localStorageContentString);
         const settings: Settings = this.parseLocalStorageSettings(localStorageContent);
@@ -36,7 +36,7 @@ export class SettingService {
     }
 
     public setLocalStorageSettings(): void {
-        localStorage.setItem('settings', JSON.stringify(this.settings));
+        localStorage.setItem('settings-vi', JSON.stringify(this.settings));
     }
 
     public setLightContrast(): void {

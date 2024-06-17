@@ -41,7 +41,7 @@ export class PathService {
 
     public set selectedSuggestedPath(selectedSuggestedPath: Path) {
         this._selectedSuggestedPath = selectedSuggestedPath;
-        localStorage.setItem('selected-suggested-path', JSON.stringify(this.selectedSuggestedPath));
+        localStorage.setItem('selected-suggested-path-vi', JSON.stringify(this.selectedSuggestedPath));
     }
 
     public addPoiToCustomPath(poi: Poi): void {
@@ -58,11 +58,11 @@ export class PathService {
     }
 
     public saveCustomPath(): void {
-        localStorage.setItem('custom-path', JSON.stringify(this.customPath));
+        localStorage.setItem('custom-path-vi', JSON.stringify(this.customPath));
     }
 
     public getSavedCustomPath(): void {
-        const savedCustomPathString: string | null = localStorage.getItem('custom-path');
+        const savedCustomPathString: string | null = localStorage.getItem('custom-path-vi');
         if (!savedCustomPathString) return;
         const rawSavedCustomPath: any = JSON.parse(savedCustomPathString);
         this._customPath = this.parsePath(rawSavedCustomPath);
@@ -242,7 +242,7 @@ export class PathService {
     }
 
     public getSelectedSuggestedPath(): void {
-        const savedSelectedSuggestedPath: string | null = localStorage.getItem('selected-suggested-path');
+        const savedSelectedSuggestedPath: string | null = localStorage.getItem('selected-suggested-path-vi');
         if (!savedSelectedSuggestedPath) return;
         const rawSavedSalectedSuggestedPath: any = JSON.parse(savedSelectedSuggestedPath);
         this._selectedSuggestedPath = this.parsePath(rawSavedSalectedSuggestedPath);
