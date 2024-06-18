@@ -26,7 +26,7 @@ export class AroudYouPage extends HTMLElement {
 
     public set pois(pois: Poi[]) {
         this._pois = pois;
-        
+
         if (this.pois.length === 0 && !this.hasrenderedError) {
             this.renderMsg('empty');
             this.hasrenderedError = true;
@@ -154,7 +154,7 @@ export class AroudYouPage extends HTMLElement {
                 this.renderMsg('error');
                 return;
             }
-            console.log(position);            
+            console.log(position);
             let pois: Poi[] = [];
             pois = [...await GeoGraphicService.instance.getPoisFromLayers(LayerService.instance.activeLayers)];
             this.pois = [...GeoGraphicService.instance.orderPoisByDistance(position, pois)];
@@ -162,8 +162,13 @@ export class AroudYouPage extends HTMLElement {
     }
 
     private update(): void {
+        const err: HTMLParagraphElement | null = this.shadowRoot.querySelector('.message');
+        if (err) err.remove();
+
         const list: HTMLElement | null = this.shadowRoot.querySelector('.around-you-features');
         if (!list) return;
+
+        list.innerHTML = '';
 
         this.pois.forEach((poi: Poi, index: number) => {
             const card: PoiCard = document.createElement('app-poi-card') as PoiCard;
