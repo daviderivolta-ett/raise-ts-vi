@@ -8,10 +8,12 @@ import { PoiCard } from './poi-card.component';
 import { SnackbarService } from '../../services/snackbar.service';
 import { SnackbarType } from '../../models/snackbar.model';
 import './poi-card.component';
+import { EventObservable } from '../../observables/event.observable';
 
 export class AroudYouPage extends HTMLElement {
     public shadowRoot: ShadowRoot;
     private _pois: Poi[] = [];
+    private hasrenderedError: boolean = false;
 
     constructor() {
         super();
@@ -24,25 +26,35 @@ export class AroudYouPage extends HTMLElement {
 
     public set pois(pois: Poi[]) {
         this._pois = pois;
+        
+        if (this.pois.length === 0 && !this.hasrenderedError) {
+            this.renderMsg('empty');
+            this.hasrenderedError = true;
+            return;
+        }
+
+        this.update();
+        this.setupCards();
     }
 
     public async connectedCallback(): Promise<void> {
-        // this.createLoader();
         SnackbarService.instance.updateSnackbar(SnackbarType.Info, 'Caricamento...');
         try {
-            const position: GeolocationPosition = await PositionService.instance.getUserPosition();
-            this.pois = await GeoGraphicService.instance.getPoisFromLayers(LayerService.instance.activeLayers);
-            this.pois = GeoGraphicService.instance.orderPoisByDistance(position, this.pois);
+            await PositionService.instance.startWatchingPosition();
             this.render();
             this.setup();
-            if (this.pois.length === 0) this.renderMsg('empty');
         } catch (error) {
             this.render();
             this.renderMsg('error');
         } finally {
-            // this.removeLoader();
             SnackbarService.instance.resetSnackbar();
         }
+    }
+
+    public disconnectedCallback(): void {
+        this.hasrenderedError = false;
+        PositionService.instance.stopWatchingPosition();
+        EventObservable.instance.unsubscribeAll('position-update');
     }
 
     private render(): void {
@@ -132,6 +144,24 @@ export class AroudYouPage extends HTMLElement {
             `
             ;
 
+        const title: HTMLHeadingElement | null = this.shadowRoot.querySelector('h1');
+        if (title) title.focus();
+    }
+
+    private setup(): void {
+        EventObservable.instance.subscribe('position-update', async (position: GeolocationPosition) => {
+            if (!position) {
+                this.renderMsg('error');
+                return;
+            }
+            console.log(position);            
+            let pois: Poi[] = [];
+            pois = [...await GeoGraphicService.instance.getPoisFromLayers(LayerService.instance.activeLayers)];
+            this.pois = [...GeoGraphicService.instance.orderPoisByDistance(position, pois)];
+        });
+    }
+
+    private update(): void {
         const list: HTMLElement | null = this.shadowRoot.querySelector('.around-you-features');
         if (!list) return;
 
@@ -141,19 +171,16 @@ export class AroudYouPage extends HTMLElement {
             card.position = index + 1;
             list.append(card);
         });
-
-        const title: HTMLHeadingElement | null = this.shadowRoot.querySelector('h1');
-        if (title) title.focus();
     }
 
-    private setup(): void {
+    private setupCards(): void {
         const cards: NodeListOf<PoiCard> = this.shadowRoot.querySelectorAll('app-poi-card');
         cards.forEach((card: PoiCard) => {
             card.addEventListener('poi-selected', (e: CustomEventInit) => {
                 PoiService.instance.selectedPoi = e.detail.selectedPoi;
                 window.location.hash = '/poi';
             });
-        })
+        });
     }
 
     // private createLoader(): void {

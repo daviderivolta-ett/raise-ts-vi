@@ -1,6 +1,9 @@
+import { EventObservable } from "../observables/event.observable";
+
 export class PositionService {
     private static _instance: PositionService;
     private _position: GeolocationPosition | null = null;
+    private _watchId: number | null = null;
 
     constructor() {
         if (PositionService._instance) return PositionService._instance;
@@ -18,6 +21,15 @@ export class PositionService {
 
     public set position(position: GeolocationPosition | null) {
         this._position = position;
+        EventObservable.instance.publish('position-update', this.position);
+    }
+
+    public get watchId(): number | null {
+        return this._watchId;
+    }
+
+    public set watchId(watchId: number | null) {
+        this._watchId = watchId;
     }
 
     public async getUserPosition(): Promise<GeolocationPosition> {
@@ -37,5 +49,27 @@ export class PositionService {
         } catch (error) {
             throw error;
         }
+    }
+
+    public async startWatchingPosition(): Promise<void> {
+
+        this.watchId = navigator.geolocation.watchPosition(
+            position => this.position = position as GeolocationPosition,
+            error => {
+                console.error(error);
+                this.position = null;
+            },
+            {
+                enableHighAccuracy: true,
+                timeout: 5000,
+                maximumAge: 0
+            }
+        )
+    }
+
+    public stopWatchingPosition(): void {
+        if (!this.watchId) return;
+        navigator.geolocation.clearWatch(this.watchId);
+        this.watchId = null;
     }
 }
