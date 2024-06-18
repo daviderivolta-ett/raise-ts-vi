@@ -39,16 +39,13 @@ export class AroudYouPage extends HTMLElement {
 
     public async connectedCallback(): Promise<void> {
         SnackbarService.instance.updateSnackbar(SnackbarType.Info, 'Caricamento...');
-        try {
-            await PositionService.instance.startWatchingPosition();
-            this.render();
-            this.setup();
-        } catch (error) {
-            this.render();
-            this.renderMsg('error');
-        } finally {
-            SnackbarService.instance.resetSnackbar();
-        }
+
+        await PositionService.instance.startWatchingPosition();
+        this.render();
+        this.setup();
+
+        SnackbarService.instance.resetSnackbar();
+
     }
 
     public disconnectedCallback(): void {
@@ -154,7 +151,7 @@ export class AroudYouPage extends HTMLElement {
                 this.renderMsg('error');
                 return;
             }
-            console.log(position);
+
             let pois: Poi[] = [];
             pois = [...await GeoGraphicService.instance.getPoisFromLayers(LayerService.instance.activeLayers)];
             this.pois = [...GeoGraphicService.instance.orderPoisByDistance(position, pois)];
@@ -162,6 +159,8 @@ export class AroudYouPage extends HTMLElement {
     }
 
     private update(): void {
+        if (this.pois.length === 0) return;
+        
         const err: HTMLParagraphElement | null = this.shadowRoot.querySelector('.message');
         if (err) err.remove();
 

@@ -52,7 +52,6 @@ export class PositionService {
     }
 
     public async startWatchingPosition(): Promise<void> {
-
         this.watchId = navigator.geolocation.watchPosition(
             position => this.position = position as GeolocationPosition,
             error => {
@@ -60,7 +59,7 @@ export class PositionService {
                 this.position = null;
             },
             {
-                enableHighAccuracy: true,
+                enableHighAccuracy: false,
                 timeout: 5000,
                 maximumAge: 0
             }
