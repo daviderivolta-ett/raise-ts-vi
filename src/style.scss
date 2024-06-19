@@ -1,114 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-/* :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #3178c6aa);
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
-
 :root {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 14px;
   letter-spacing: 0rem;
   line-height: 1.15;
-  color: var(--on-surface);
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   --border-radius-s: 4px;
   --border-radius-m: 8px;
   --border-radius-l: 16px;
   --border-radius-circle: 96px;
+}
+
+.dark {
+  color-scheme: dark;
+  color: var(--on-surface);
 
   --primary: rgb(55, 222, 187);
   --on-primary: rgb(0, 56, 45);
@@ -148,6 +60,138 @@ button:focus-visible {
   --inverse-surface: rgb(214, 227, 255);
   --inverse-on-surface: rgb(0, 48, 99);
   --inverse-primary: rgb(0, 107, 88);
+}
+
+.light {
+  color-scheme: light;
+  color: var(--on-surface);
+
+  --primary: rgb(0, 107, 88);
+  --on-primary: rgb(255, 255, 255);
+  --primary-container: rgb(243, 255, 249);
+  --on-primary-container: rgb(0, 32, 25);
+
+  --secondary: rgb(71, 100, 91);
+  --on-secondary: rgb(255, 255, 255);
+  --secondary-container: rgb(243, 255, 249);
+  --on-secondary-container: rgb(3, 32, 25);
+
+  --tertiary: rgb(59, 99, 122);
+  --on-tertiary: rgb(255, 255, 255);
+  --tertiary-container: rgb(251, 252, 255);
+  --on-tertiary-container: rgb(0, 30, 45);
+
+  --error: rgb(184, 31, 33);
+  --on-error: rgb(255, 255, 255);
+  --error-container: rgb(255, 218, 214);
+  --on-error-container: rgb(65, 0, 3);
+
+  --surface-dim: rgb(201, 218, 255);
+  --surface: rgb(249, 249, 255);
+  --surface-bright: rgb(249, 249, 255);
+
+  --surface-container-lowest: rgb(255, 255, 255);
+  --surface-container-low: rgb(240, 243, 255);
+  --surface-container: rgb(232, 238, 255);
+  --surface-container-high: rgb(223, 232, 255);
+  --surface-container-highest: rgb(214, 227, 255);
+
+  --on-surface: rgb(0, 27, 61);
+  --on-surface-variant: rgb(42, 72, 112);
+  --outline: rgb(92, 120, 163);
+  --outline-variant: rgb(171, 200, 247);
+
+  --inverse-surface: rgb(0, 48, 99);
+  --inverse-on-surface: rgb(236, 240, 255);
+  --inverse-primary: rgb(55, 222, 187);
+}
+
+.dark-high {
+  color-scheme: dark;
+  color: var(--on-surface);
+
+  --primary: rgb(255, 255, 0);
+  --on-primary: rgb(0, 0, 0);
+  --primary-container: rgb(255, 255, 0);
+  --on-primary-container: rgb(0, 0, 0);
+
+  --secondary: rgb(255, 255, 0);
+  --on-secondary: rgb(0, 0, 0);
+  --secondary-container: rgb(255, 255, 0);
+  --on-secondary-container: rgb(0, 0, 0);
+
+  --tertiary: rgb(255, 255, 0);
+  --on-tertiary: rgb(0, 0, 0);
+  --tertiary-container: rgb(255, 255, 0);
+  --on-tertiary-container: rgb(0, 0, 0);
+
+  --error: rgb(255, 255, 0);
+  --on-error: rgb(0, 0, 0);
+  --error-container: rgb(255, 255, 0);
+  --on-error-container: rgb(0, 0, 0);
+
+  --surface-dim: rgb(0, 0, 0);
+  --surface: rgb(0, 0, 0);
+  --surface-bright: rgb(0, 0, 0);
+
+  --surface-container-lowest: rgb(0, 0, 0);
+  --surface-container-low: rgb(0, 0, 0);
+  --surface-container: rgb(0, 0, 0);
+  --surface-container-high: rgb(0, 0, 0);
+  --surface-container-highest: rgb(0, 0, 0);
+
+  --on-surface: rgb(255, 255, 0);
+  --on-surface-variant: rgb(255, 255, 0);
+  --outline: rgb(78, 78, 0);
+  --outline-variant: rgb(78, 78, 0);
+
+  --inverse-surface: rgb(255, 255, 0);
+  --inverse-on-surface: rgb(0, 0, 0);
+  --inverse-primary: rgb(0, 0, 0);
+}
+
+.light-high {
+  color-scheme: light;
+  color: var(--on-surface);
+
+  --primary: rgb(0, 0, 0);
+  --on-primary: rgb(255, 255, 255);
+  --primary-container: rgb(0, 0, 0);
+  --on-primary-container: rgb(255, 255, 255);
+
+  --secondary: rgb(0, 0, 0);
+  --on-secondary: rgb(255, 255, 255);
+  --secondary-container: rgb(0, 0, 0);
+  --on-secondary-container: rgb(255, 255, 255);
+
+  --tertiary: rgb(0, 0, 0);
+  --on-tertiary: rgb(255, 255, 255);
+  --tertiary-container: rgb(0, 0, 0);
+  --on-tertiary-container: rgb(255, 255, 255);
+
+  --error: rgb(0, 0, 0);
+  --on-error: rgb(255, 255, 255);
+  --error-container: rgb(0, 0, 0);
+  --on-error-container: rgb(255, 255, 255);
+
+  --surface-dim: rgb(255, 255, 255);
+  --surface: rgb(255, 255, 255);
+  --surface-bright: rgb(255, 255, 255);
+
+  --surface-container-lowest: rgb(255, 255, 255);
+  --surface-container-low: rgb(255, 255, 255);
+  --surface-container: rgb(255, 255, 255);
+  --surface-container-high: rgb(255, 255, 255);
+  --surface-container-highest: rgb(255, 255, 255);
+
+  --on-surface: rgb(0, 0, 0);
+  --on-surface-variant: rgb(0, 0, 0);
+  --outline: rgb(211, 211, 211);
+  --outline-variant: rgb(211, 211, 211);
+
+  --inverse-surface: rgb(0, 0, 0);
+  --inverse-on-surface: rgb(255, 255, 255);
+  --inverse-primary: rgb(255, 255, 255);
 }
 
 * {

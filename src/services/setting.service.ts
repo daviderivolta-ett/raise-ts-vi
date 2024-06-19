@@ -40,172 +40,31 @@ export class SettingService {
     }
 
     public setLightContrast(): void {
-        document.documentElement.style.setProperty('color-scheme', 'light');
-        document.documentElement.style.setProperty('--primary', 'rgb(0, 107, 88)');
-        document.documentElement.style.setProperty('--on-primary', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--primary-container', 'rgb(243, 255, 249)');
-        document.documentElement.style.setProperty('--on-primary-container', 'rgb(0, 32, 25)');
-
-        document.documentElement.style.setProperty('--secondary', 'rgb(71, 100, 91)');
-        document.documentElement.style.setProperty('--on-secondary', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--secondary-container', 'rgb(243, 255, 249)');
-        document.documentElement.style.setProperty('--on-secondary-container', 'rgb(3, 32, 25)');
-
-        document.documentElement.style.setProperty('--tertiary', 'rgb(59, 99, 122)');
-        document.documentElement.style.setProperty('--on-tertiary', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--tertiary-container', 'rgb(251, 252, 255)');
-        document.documentElement.style.setProperty('--on-tertiary-container', 'rgb(0, 30, 45)');
-
-        document.documentElement.style.setProperty('--error', 'rgb(184, 31, 33)');
-        document.documentElement.style.setProperty('--on-error', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--error-container', 'rgb(255, 218, 214)');
-        document.documentElement.style.setProperty('--on-error-container', 'rgb(65, 0, 3)');
-
-        document.documentElement.style.setProperty('--surface-dim', 'rgb(201, 218, 255)');
-        document.documentElement.style.setProperty('--surface', 'rgb(249, 249, 255)');
-        document.documentElement.style.setProperty('--surface-bright', 'rgb(249, 249, 255)');
-
-        document.documentElement.style.setProperty('--surface-container-lowest', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--surface-container-low', 'rgb(240, 243, 255)');
-        document.documentElement.style.setProperty('--surface-container', 'rgb(232, 238, 255)');
-        document.documentElement.style.setProperty('--surface-container-high', 'rgb(223, 232, 255)');
-        document.documentElement.style.setProperty('--surface-container-highest', 'rgb(214, 227, 255)');
-
-        document.documentElement.style.setProperty('--on-surface', 'rgb(0, 27, 61)');
-        document.documentElement.style.setProperty('--on-surface-variant', 'rgb(42, 72, 112)');
-        document.documentElement.style.setProperty('--outline', 'rgb(92, 120, 163)');
-        document.documentElement.style.setProperty('--outline-variant', 'rgb(171, 200, 247)');
-
-        document.documentElement.style.setProperty('--inverse-surface', 'rgb(0, 48, 99)');
-        document.documentElement.style.setProperty('--inverse-on-surface', 'rgb(236, 240, 255)');
-        document.documentElement.style.setProperty('--inverse-primary', 'rgb(55, 222, 187)');
+        document.body.classList.remove('dark');
+        document.body.classList.remove('dark-high');
+        document.body.classList.remove('light-high');
+        document.body.classList.add('light');
     }
 
     public setDarkContrast(): void {
-        document.documentElement.style.setProperty('color-scheme', 'dark');
-        document.documentElement.style.setProperty('--primary', 'rgb(55, 222, 187)');
-        document.documentElement.style.setProperty('--on-primary', 'rgb(0, 56, 45)');
-        document.documentElement.style.setProperty('--primary-container', 'rgb(0, 81, 66)');
-        document.documentElement.style.setProperty('--on-primary-container', 'rgb(184, 255, 233)');
-
-        document.documentElement.style.setProperty('--secondary', 'rgb(174, 205, 194)');
-        document.documentElement.style.setProperty('--on-secondary', 'rgb(25, 53, 46)');
-        document.documentElement.style.setProperty('--secondary-container', 'rgb(48, 76, 68)');
-        document.documentElement.style.setProperty('--on-secondary-container', 'rgb(202, 233, 222)');
-
-        document.documentElement.style.setProperty('--tertiary', 'rgb(163, 204, 231)');
-        document.documentElement.style.setProperty('--on-tertiary', 'rgb(1, 52, 74)');
-        document.documentElement.style.setProperty('--tertiary-container', 'rgb(33, 75, 98)');
-        document.documentElement.style.setProperty('--on-tertiary-container', 'rgb(197, 231, 255)');
-
-        document.documentElement.style.setProperty('--error', 'rgb(255, 180, 171)');
-        document.documentElement.style.setProperty('--on-error', 'rgb(105, 0, 5)');
-        document.documentElement.style.setProperty('--error-container', 'rgb(147, 0, 10)');
-        document.documentElement.style.setProperty('--on-error-container', 'rgb(255, 218, 214)');
-
-        document.documentElement.style.setProperty('--surface-dim', 'rgb(0, 19, 46)');
-        document.documentElement.style.setProperty('--surface', 'rgb(0, 19, 46)');
-        document.documentElement.style.setProperty('--surface-bright', 'rgb(0, 56, 115)');
-
-        document.documentElement.style.setProperty('--surface-container-lowest', 'rgb(0, 14, 37)');
-        document.documentElement.style.setProperty('--surface-container-low', 'rgb(0, 27, 61)');
-        document.documentElement.style.setProperty('--surface-container', 'rgb(0, 31, 69)');
-        document.documentElement.style.setProperty('--surface-container-high', 'rgb(0, 41, 87)');
-        document.documentElement.style.setProperty('--surface-container-highest', 'rgb(0, 52, 107)');
-
-        document.documentElement.style.setProperty('--on-surface', 'rgb(213, 227, 255)');
-        document.documentElement.style.setProperty('--on-surface-variant', 'rgb(171, 200, 247)');
-        document.documentElement.style.setProperty('--outline', 'rgb(118, 146, 191)');
-        document.documentElement.style.setProperty('--outline-variant', 'rgb(42, 72, 112)');
-
-        document.documentElement.style.setProperty('--inverse-surface', 'rgb(214, 227, 255)');
-        document.documentElement.style.setProperty('--inverse-on-surface', 'rgb(0, 48, 99)');
-        document.documentElement.style.setProperty('--inverse-primary', 'rgb(0, 107, 88)');
+        document.body.classList.remove('light');
+        document.body.classList.remove('light-high');
+        document.body.classList.remove('dark-high');
+        document.body.classList.add('dark');
     }
 
     public setLightHighContrast(): void {
-        document.documentElement.style.setProperty('color-scheme', 'light');
-        document.documentElement.style.setProperty('--primary', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--on-primary', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--primary-container', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--on-primary-container', 'rgb(255, 255, 255)');
-
-        document.documentElement.style.setProperty('--secondary', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--on-secondary', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--secondary-container', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--on-secondary-container', 'rgb(255, 255, 255)');
-
-        document.documentElement.style.setProperty('--tertiary', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--on-tertiary', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--tertiary-container', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--on-tertiary-container', 'rgb(255, 255, 255)');
-
-        document.documentElement.style.setProperty('--error', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--on-error', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--error-container', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--on-error-container', 'rgb(255, 255, 255)');
-
-        document.documentElement.style.setProperty('--surface-dim', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--surface', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--surface-bright', 'rgb(255, 255, 255)');
-
-        document.documentElement.style.setProperty('--surface-container-lowest', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--surface-container-low', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--surface-container', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--surface-container-high', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--surface-container-highest', 'rgb(255, 255, 255)');
-
-        document.documentElement.style.setProperty('--on-surface', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--on-surface-variant', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--outline', 'rgb(211, 211, 211)');
-        document.documentElement.style.setProperty('--outline-variant', 'rgb(211, 211, 211)');
-
-        document.documentElement.style.setProperty('--inverse-surface', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--inverse-on-surface', 'rgb(255, 255, 255)');
-        document.documentElement.style.setProperty('--inverse-primary', 'rgb(255, 255, 255)');
+        document.body.classList.remove('light');
+        document.body.classList.remove('dark');
+        document.body.classList.remove('dark-high');
+        document.body.classList.add('light-high');
     }
 
     public setDarkHighContrast(): void {
-        document.documentElement.style.setProperty('color-scheme', 'dark');
-        document.documentElement.style.setProperty('--primary', 'rgb(255, 255, 0)');
-        document.documentElement.style.setProperty('--on-primary', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--primary-container', 'rgb(255, 255, 0)');
-        document.documentElement.style.setProperty('--on-primary-container', 'rgb(0, 0, 0)');
-
-        document.documentElement.style.setProperty('--secondary', 'rgb(255, 255, 0)');
-        document.documentElement.style.setProperty('--on-secondary', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--secondary-container', 'rgb(255, 255, 0)');
-        document.documentElement.style.setProperty('--on-secondary-container', 'rgb(0, 0, 0)');
-
-        document.documentElement.style.setProperty('--tertiary', 'rgb(255, 255, 0)');
-        document.documentElement.style.setProperty('--on-tertiary', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--tertiary-container', 'rgb(255, 255, 0)');
-        document.documentElement.style.setProperty('--on-tertiary-container', 'rgb(0, 0, 0)');
-
-        document.documentElement.style.setProperty('--error', 'rgb(255, 255, 0)');
-        document.documentElement.style.setProperty('--on-error', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--error-container', 'rgb(255, 255, 0)');
-        document.documentElement.style.setProperty('--on-error-container', 'rgb(0, 0, 0)');
-
-        document.documentElement.style.setProperty('--surface-dim', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--surface', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--surface-bright', 'rgb(0, 0, 0)');
-
-        document.documentElement.style.setProperty('--surface-container-lowest', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--surface-container-low', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--surface-container', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--surface-container-high', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--surface-container-highest', 'rgb(0, 0, 0)');
-
-        document.documentElement.style.setProperty('--on-surface', 'rgb(255, 255, 0)');
-        document.documentElement.style.setProperty('--on-surface-variant', 'rgb(255, 255, 0)');
-        document.documentElement.style.setProperty('--outline', 'rgb(78, 78, 0)');
-        document.documentElement.style.setProperty('--outline-variant', 'rgb(78, 78, 0)');
-
-        document.documentElement.style.setProperty('--inverse-surface', 'rgb(255, 255, 0)');
-        document.documentElement.style.setProperty('--inverse-on-surface', 'rgb(0, 0, 0)');
-        document.documentElement.style.setProperty('--inverse-primary', 'rgb(0, 0, 0)');
-
+        document.body.classList.remove('light');
+        document.body.classList.remove('dark');
+        document.body.classList.remove('light-high');
+        document.body.classList.add('dark-high');
     }
 
     public setFontSize(value: number): void {
