@@ -1076,15 +1076,15 @@ Andare nella sezione "Categorie" per selezionarne almeno una.`;break}n.classList
                         <label for="font-size-s" aria-label="Dimensione font: S">S</label>
                     </div>
                     <div class="font-size-option">
-                        <input type="radio" id="font-size-m" name="font-size" value="24">
+                        <input type="radio" id="font-size-m" name="font-size" value="20">
                         <label for="font-size-m" aria-label="Dimensione font: M">M</label>
                     </div>
                     <div class="font-size-option">
-                        <input type="radio" id="font-size-l" name="font-size" value="32">
+                        <input type="radio" id="font-size-l" name="font-size" value="24">
                         <label for="font-size-l" aria-label="Dimensione font: L">L</label>
                     </div>
                     <div class="font-size-option">
-                        <input type="radio" id="font-size-xl" name="font-size" value="40">
+                        <input type="radio" id="font-size-xl" name="font-size" value="32">
                         <label for="font-size-xl" aria-label="Dimensione font: XL">XL</label>
                     </div>
                 </div>
@@ -1496,8 +1496,8 @@ Andare nella sezione "Categorie" per selezionarne almeno una.`;break}n.classList
             <style>
                 button {
                     cursor: pointer;
-                    height: 40px;
-                    width: 40px;
+                    min-height: 40px;
+                    min-width: 40px;
                     background-color: transparent;
                     border: none;
                     color: var(--on-surface);
