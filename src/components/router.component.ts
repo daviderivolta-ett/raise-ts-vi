@@ -48,7 +48,7 @@ export class Router extends HTMLElement {
         return '404: Not found';
     }
 
-    private checkParams(search: string): void {       
+    private checkParams(search: string): void {
         const params = new URLSearchParams(search);
         const settings: Settings = new Settings();
         let paramsProcessed = false;
@@ -60,10 +60,14 @@ export class Router extends HTMLElement {
                     settings.showSettings = false;
                     break;
                 case 'vi':
+                    settings.fontSize = 24;
                     settings.contrast = Contrast.DarkHigh;
                     break;
                 case 'fine-motor':
-                    settings.fontSize = 32;
+                    settings.fontSize = 24;
+                    break;
+                case 'color-blindness':
+                    settings.contrast = Contrast.DarkHigh;
                     break;
                 default:
                     break;
