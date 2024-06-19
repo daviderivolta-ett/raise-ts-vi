@@ -36,8 +36,8 @@ export class TagChipComponent extends HTMLElement {
                     padding: 8px 8px;
                     border-radius: var( --border-radius-s);
                     font-size: 1rem;
-                    letter-spacing: 1rem;
-                    line-height: 1rem;
+                    letter-spacing: inherit;
+                    line-height: inherit;
                 }
 
                 .tag-chip:hover {
