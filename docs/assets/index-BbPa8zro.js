@@ -79,6 +79,8 @@ var K=Object.defineProperty;var Q=(r,e,t)=>e in r?K(r,e,{enumerable:!0,configura
                     padding: 8px 8px;
                     border-radius: var( --border-radius-s);
                     font-size: 1rem;
+                    letter-spacing: 1rem;
+                    line-height: 1rem;
                 }
 
                 .tag-chip:hover {
@@ -949,6 +951,8 @@ Andare nella sezione "Categorie" per selezionarne almeno una.`;break}a.classList
                     color: var(--on-primary);
                     border: 1px solid transparent;
                     border-radius: var(--border-radius-circle);
+                    letter-spacing: 1rem;
+                    line-height: 1rem;
                 }
 
                 #add-to-custom-path-btn {
@@ -956,6 +960,8 @@ Andare nella sezione "Categorie" per selezionarne almeno una.`;break}a.classList
                     background-color: var(--surface-container-high);
                     border: 1px solid var(--outline);
                     border-radius: var(--border-radius-circle);
+                    letter-spacing: 1rem;
+                    line-height: 1rem;
                 }
 
                 button {

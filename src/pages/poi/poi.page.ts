@@ -113,6 +113,8 @@ export class PoiPage extends HTMLElement {
                     color: var(--on-primary);
                     border: 1px solid transparent;
                     border-radius: var(--border-radius-circle);
+                    letter-spacing: 1rem;
+                    line-height: 1rem;
                 }
 
                 #add-to-custom-path-btn {
@@ -120,6 +122,8 @@ export class PoiPage extends HTMLElement {
                     background-color: var(--surface-container-high);
                     border: 1px solid var(--outline);
                     border-radius: var(--border-radius-circle);
+                    letter-spacing: 1rem;
+                    line-height: 1rem;
                 }
 
                 button {
