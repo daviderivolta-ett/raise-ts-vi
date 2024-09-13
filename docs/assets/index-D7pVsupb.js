@@ -1496,7 +1496,7 @@ Andare nella sezione "Categorie" per selezionarne almeno una.`;break}a.classList
             </style>
             `}setup(){this.onLinkClick(),window.addEventListener("hashchange",()=>this.checkCurrentPage())}onLinkClick(){Array.from(this.shadowRoot.querySelectorAll(".bar-el-link")).forEach(s=>{s.addEventListener("click",a=>{a.preventDefault();const i=s.getAttribute("href");i&&(window.location.hash=i)})})}checkCurrentPage(){const t=window.location.hash.slice(2);Array.from(this.shadowRoot.querySelectorAll(".bar-el-link")).forEach(a=>{var i;((i=a.getAttribute("href"))==null?void 0:i.slice(1))===t?(a.classList.add("current"),a.setAttribute("aria-selected","true")):(a.classList.remove("current"),a.setAttribute("aria-selected","false"))})}configBar(t){const s=this.shadowRoot.querySelector(".settings-link");s&&(t||(s.style.display="none"))}}customElements.define("app-bar",yt);class vt extends HTMLElement{constructor(){super();n(this,"shadowRoot");this.shadowRoot=this.attachShadow({mode:"closed"})}connectedCallback(){this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
             <button type="button" aria-label="Torna alla profilazione">
-                <span class="material-symbols-outlined">apps</span>
+                <span class="material-symbols-outlined">home</span>
             </button>
 
             <style>
