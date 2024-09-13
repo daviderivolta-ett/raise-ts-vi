@@ -15,7 +15,7 @@ export class HomeBtnComponent extends HTMLElement {
         this.shadowRoot.innerHTML =
             `
             <button type="button" aria-label="Torna alla profilazione">
-                <span class="material-symbols-outlined">apps</span>
+                <span class="material-symbols-outlined">home</span>
             </button>
 
             <style>
@@ -50,7 +50,7 @@ export class HomeBtnComponent extends HTMLElement {
 
     private setup(): void {
         const btn: HTMLButtonElement | null = this.shadowRoot.querySelector('button');
-        if (btn) btn.addEventListener('click', () => window.location.href = 'https://daviderivolta-ett.github.io/raise-app/');
+        if (btn) btn.addEventListener('click', () => window.location.href = 'https://ettspa.github.io/raise-webcomponent-webgis/');
     }
 }
 
