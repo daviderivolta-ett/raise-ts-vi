@@ -36,7 +36,7 @@ export class DataService {
 
     private async fetchAppData(url: string): Promise<Data> {               
         try {
-            const data: Data = await fetch(url).then(res => res.json());
+            const data: Data = await fetch(url).then(res => res.json());      
             const categoriesPromises: LayerCategory[] = await Promise.all(data.categories.map(async (category: LayerCategory) => {
                 const groupPromises: LayerGroup[] | string[] = await Promise.all(category.groups.map(async (group: LayerGroup | string) => {
                     if (typeof group === 'string') {

@@ -3,8 +3,8 @@
   "layers": [
     {
       "name": "Impianti sportivi comunali",
-      "layer": "SITGEO:V_IMPIANTI_SPORTIVI",
-      "layer_url_wfs": "./geoJson/impianti-sportivi.geojson",
+      "id": "SITGEO:V_IMPIANTI_SPORTIVI",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_IMPIANTI_SPORTIVI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
       "style": {
         "color": "#aeafd9",
         "opacity": 0.5
@@ -70,15 +70,12 @@
           "display_name": "Pericolo incendio",
           "type": "string"
         }
-      ],
-      "components": [
-        "app-opacity-slider"
       ]
     },
     {
       "name": "Aree ad uso sportivo",
-      "layer": "URBANISTICA:V_VAS_SPORT",
-      "layer_url_wfs": "./geoJson/aree-uso-sportivo.geojson",
+      "id": "URBANISTICA:V_VAS_SPORT",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=URBANISTICA:V_VAS_SPORT&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
       "style": {
         "color": "#79f7fd",
         "opacity": 0.5
@@ -109,9 +106,35 @@
           "display_name": "Categoria",
           "type": "string"
         }
+      ]
+    },
+    {
+      "name": "Comprensori sportivi",
+      "id": "L8814",
+      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2364/wfs/?service=WFS&typeName=L8814&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#79f7ed",
+        "opacity": 0.5
+      },
+      "tags": [
+        "sport"
       ],
-      "components": [
-        "app-opacity-slider"
+      "relevant_properties": [
+        {
+          "property_name": "NOME_COMP",
+          "display_name": "Nome comprensorio",
+          "type": "string"
+        },
+        {
+          "property_name": "POPOLAZ_RES",
+          "display_name": "Popolazione residente",
+          "type": "string"
+        },
+        {
+          "property_name": "COD_COMP",
+          "display_name": "Codice comprensorio",
+          "type": "string"
+        }
       ]
     }
   ]

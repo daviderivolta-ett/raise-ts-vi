@@ -16,7 +16,8 @@ export class GeoGraphicService {
     }
 
     public async createGeoJson(layer: Layer): Promise<any> {
-        const url = `${layer.url}?service=WFS&typeName=${layer.layer}&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326`;
+        // const url = `${layer.url}?service=WFS&typeName=${layer.layer}&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326`;
+        const url: string = layer.url;
         const res: Response = await fetch(url);
         let rawGeoJson: any = await res.json();
         let geoJsonNewProp: any = this.substituteRelevantProperties(rawGeoJson, layer);

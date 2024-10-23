@@ -50,7 +50,7 @@ export class HomeBtnComponent extends HTMLElement {
 
     private setup(): void {
         const btn: HTMLButtonElement | null = this.shadowRoot.querySelector('button');
-        if (btn) btn.addEventListener('click', () => window.location.href = 'https://ettspa.github.io/raise-webcomponent-webgis/');
+        if (btn) btn.addEventListener('click', () => window.location.href = '../');
     }
 }
 

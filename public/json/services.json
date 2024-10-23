@@ -3,8 +3,8 @@
   "layers": [
     {
       "name": "Bagni pubblici",
-      "layer": "SITGEO:V_BAGNI",
-      "layer_url_wfs": "./geoJson/bagni-pubblici.geojson",
+      "id": "SITGEO:V_BAGNI",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_BAGNI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
       "style": {
         "color": "#febfa4",
         "opacity": 0.5
@@ -41,15 +41,12 @@
           "display_name": "Operatività",
           "type": "string"
         }
-      ],
-      "components": [
-        "app-opacity-slider"
       ]
     },
     {
       "name": "Ospedali",
-      "layer": "SITGEO:V_PC_OSPEDALI",
-      "layer_url_wfs": "./geoJson/hospitals.geojson",
+      "id": "SITGEO:V_PC_OSPEDALI",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_PC_OSPEDALI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
       "style": {
         "color": "#6ab58d",
         "opacity": 0.5
@@ -80,16 +77,12 @@
           "display_name": "Tipologia",
           "type": "string"
         }
-      ],
-      "components": [
-        "app-opacity-slider",
-        "app-navigation-btn"
       ]
     },
     {
       "name": "Farmacie",
-      "layer": "L807",
-      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M452/wfs",
+      "id": "L807",
+      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M452/wfs/?service=WFS&typeName=L807&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
       "style": {
         "color": "#cb1648",
         "opacity": 0.5
@@ -115,15 +108,12 @@
           "display_name": "n",
           "type": "number"
         }
-      ],
-      "components": [
-        "app-opacity-slider"
       ]
     },
     {
       "name": "Cinema",
-      "layer": "GEOJSON_CINEMA",
-      "layer_url_wfs": "./geoJson/cinemas.geojson",
+      "id": "GEOJSON_CINEMA",
+      "layer_url_wfs": "./geojson/cinemas.geojson",
       "style": {
         "color": "#b795d2",
         "opacity": 0.5
@@ -144,16 +134,12 @@
           "display_name": "Sito web",
           "type": "string"
         }
-      ],
-      "components": [
-        "app-opacity-slider",
-        "app-navigation-btn"
       ]
     },
     {
       "name": "Teatri",
-      "layer": "GEOJSON_TEATRI",
-      "layer_url_wfs": "./geoJson/theatre.geojson",
+      "id": "GEOJSON_TEATRI",
+      "layer_url_wfs": "./geojson/theatre.geojson",
       "style": {
         "color": "#c06156",
         "opacity": 0.5
@@ -204,16 +190,12 @@
           "display_name": "Sito web",
           "type": "url"
         }
-      ],
-      "components": [
-        "app-opacity-slider",
-        "app-navigation-btn"
       ]
     },
     {
       "name": "Scuole",
-      "layer": "SITGEO:SCUOLE_AGG_GEO",
-      "layer_url_wfs": "./geoJson/schools.geojson",
+      "id": "SITGEO:SCUOLE_AGG_GEO",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:SCUOLE_AGG_GEO&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
       "style": {
         "color": "#97424c",
         "opacity": 0.5
@@ -294,15 +276,12 @@
           "display_name": "Pericolo incendio",
           "type": "string"
         }
-      ],
-      "components": [
-        "app-opacity-slider"
       ]
     },
     {
       "name": "Mercati rionali",
-      "layer": "SITGEO:V_COM_MERCATI",
-      "layer_url_wfs": "./geoJson/mercati-rionali.geojson",
+      "id": "SITGEO:V_COM_MERCATI",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_COM_MERCATI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
       "style": {
         "color": "#37f58e",
         "opacity": 0.5
@@ -338,63 +317,12 @@
           "display_name": "Zona",
           "type": "string"
         }
-      ],
-      "components": [
-        "app-opacity-slider"
-      ]
-    },
-    {
-      "name": "Strutture ricettive turistiche",
-      "layer": "SITGEO:V_RIC_TURISTICHE",
-      "layer_url_wfs": "./geoJson/strutture-ricettive-turistiche.geojson",
-      "style": {
-        "color": "#bf5132",
-        "opacity": 0.5
-      },
-      "tags": [
-        "città",
-        "strada"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "TIPOLOGIA",
-          "display_name": "Tipologia",
-          "type": "string"
-        },
-        {
-          "property_name": "INDIRIZZO",
-          "display_name": "Indirizzo",
-          "type": "string"
-        },
-        {
-          "property_name": "CIVICO",
-          "display_name": "n",
-          "type": "number"
-        },
-        {
-          "property_name": "CLAS",
-          "display_name": "Valutazione",
-          "type": "string"
-        },
-        {
-          "property_name": "CAMERE",
-          "display_name": "Camere",
-          "type": "number"
-        },
-        {
-          "property_name": "LETTI",
-          "display_name": "Letti",
-          "type": "number"
-        }
-      ],
-      "components": [
-        "app-opacity-slider"
       ]
     },
     {
       "name": "Acqua potabile",
-      "layer": "GEOJSON_ACQUA_POTABILE",
-      "layer_url_wfs": "./geoJson/drinking-water.geojson",
+      "id": "GEOJSON_ACQUA_POTABILE",
+      "layer_url_wfs": "./geojson/drinking-water.geojson",
       "style": {
         "color": "#b89da7",
         "opacity": 0.5
@@ -406,15 +334,12 @@
         "potabile",
         "fontane"
       ],
-      "relevant_properties": [],
-      "components": [
-        "app-opacity-slider"
-      ]
+      "relevant_properties": []
     },
     {
       "name": "Camere di sorveglianza",
-      "layer": "GEOJSON_SURVEILLANCE_CAMERAS",
-      "layer_url_wfs": "./geoJson/surveillance-cameras.geojson",
+      "id": "GEOJSON_SURVEILLANCE_CAMERAS",
+      "layer_url_wfs": "./geojson/surveillance-cameras.geojson",
       "style": {
         "color": "#691a40",
         "opacity": 0.5
@@ -424,15 +349,12 @@
         "servizi",
         "sicurezza"
       ],
-      "relevant_properties": [],
-      "components": [
-        "app-opacity-slider"
-      ]
+      "relevant_properties": []
     },
     {
       "name": "ATM",
-      "layer": "GEOJSON_ATM",
-      "layer_url_wfs": "./geoJson/atm.geojson",
+      "id": "GEOJSON_ATM",
+      "layer_url_wfs": "./geojson/atm.geojson",
       "style": {
         "color": "#4bdd99",
         "opacity": 0.5
@@ -448,16 +370,12 @@
           "display_name": "Banca",
           "type": "number"
         }
-      ],
-      "components": [
-        "app-opacity-slider",
-        "app-navigation-btn"
       ]
     },
     {
       "name": "Panchine pubbliche",
-      "layer": "GEOJSON_BENCH",
-      "layer_url_wfs": "./geoJson/benches.geojson",
+      "id": "GEOJSON_BENCH",
+      "layer_url_wfs": "./geojson/benches.geojson",
       "style": {
         "color": "#db2103",
         "opacity": 0.5
@@ -488,10 +406,6 @@
           "display_name": "Descrizione",
           "type": "string"
         }
-      ],
-      "components": [
-        "app-opacity-slider",
-        "app-navigation-btn"
       ]
     }
   ]
