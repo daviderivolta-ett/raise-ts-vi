@@ -1,5 +1,24 @@
 {
     "name": "Strade",
     "layers": [
+        {
+            "name": "Roads/streets",
+            "id": "MEDIATORE:MV_TRACCIATO_STRADALE",
+            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=MEDIATORE:MV_TRACCIATO_STRADALE&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "style": {
+                "color": "#fc9632",
+                "opacity": 1
+            },
+            "tags": [
+                "urban data"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "NOME_VIA",
+                    "display_name": "Street/road name",
+                    "type": "string"
+                }
+            ]
+        }
     ]
 }
