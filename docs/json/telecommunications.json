@@ -10,9 +10,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "servizi",
-        "ospedali"
+        "dati urbani",
+        "servizi"
       ],
       "relevant_properties": [
         {
@@ -28,62 +27,6 @@
         {
           "property_name": "TIPO",
           "display_name": "Tipo",
-          "type": "string"
-        },
-        {
-          "property_name": "MUNICIPIO",
-          "display_name": "Municipio",
-          "type": "number"
-        },
-        {
-          "property_name": "ANNO",
-          "display_name": "Anno installazione",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Impianti telecomunicazione",
-      "id": "L7991",
-      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2196/wms/?service=WFS&typeName=L7991&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
-      "style": {
-        "color": "#e597ca",
-        "opacity": 0.5
-      },
-      "tags": [
-        "città",
-        "servizi",
-        "ospedali"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "d_comune",
-          "display_name": "Comune",
-          "type": "string"
-        },
-        {
-          "property_name": "d_provincia",
-          "display_name": "Provincia",
-          "type": "string"
-        },
-        {
-          "property_name": "d_gestore",
-          "display_name": "Gestore",
-          "type": "string"
-        },
-        {
-          "property_name": "d_sito",
-          "display_name": "Indirizzo",
-          "type": "string"
-        },
-        {
-          "property_name": "localita",
-          "display_name": "Località",
-          "type": "string"
-        },
-        {
-          "property_name": "descrizione",
-          "display_name": "Descrizione",
           "type": "string"
         },
         {

@@ -10,8 +10,7 @@
                 "opacity": 1
             },
             "tags": [
-                "turismo",
-                "pietre d'inciampo"
+                "cultura"
             ],
             "relevant_properties": [
                 {
@@ -40,8 +39,7 @@
                 "opacity": 0.5
             },
             "tags": [
-                "città",
-                "strada"
+                "servizi"
             ],
             "relevant_properties": [
                 {
@@ -85,9 +83,8 @@
                 "opacity": 1
             },
             "tags": [
-                "città",
-                "muro",
-                "storia"
+                "dati urbani",
+                "cultura"
             ],
             "relevant_properties": [
                 {
@@ -111,9 +108,7 @@
                 "opacity": 1
             },
             "tags": [
-                "città",
-                "botteghe",
-                "storiche"
+                "cultura"
             ],
             "relevant_properties": [
                 {
@@ -157,9 +152,7 @@
                 "opacity": 0.5
             },
             "tags": [
-                "città",
-                "botteghe",
-                "storiche"
+                "cultura"
             ],
             "relevant_properties": [
                 {
@@ -233,9 +226,7 @@
                 "opacity": 0.5
             },
             "tags": [
-                "città",
-                "chiese",
-                "culto"
+                "cultura"
             ],
             "relevant_properties": [
                 {

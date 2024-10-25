@@ -10,10 +10,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "servizi",
-        "bagno",
-        "pubblico"
+        "servizi"
       ],
       "relevant_properties": [
         {
@@ -52,9 +49,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "servizi",
-        "ospedali"
+        "salute"
       ],
       "relevant_properties": [
         {
@@ -88,9 +83,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
         "servizi",
-        "farmacie"
+        "salute"
       ],
       "relevant_properties": [
         {
@@ -119,9 +113,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "servizi",
-        "cinema"
+        "cultura",
+        "intrattenimento"
       ],
       "relevant_properties": [
         {
@@ -145,9 +138,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "servizi",
-        "teatri"
+        "cultura",
+        "intrattenimento"
       ],
       "relevant_properties": [
         {
@@ -201,9 +193,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "servizi",
-        "ospedali"
+        "istruzione"
       ],
       "relevant_properties": [
         {
@@ -287,9 +277,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "servizi",
-        "ospedali"
+        "dati urbani",
+        "servizi"
       ],
       "relevant_properties": [
         {
@@ -328,11 +317,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "servizi",
-        "acqua",
-        "potabile",
-        "fontane"
+        "dati urbani",
+        "servizi"
       ],
       "relevant_properties": []
     },
@@ -345,9 +331,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "servizi",
-        "sicurezza"
+        "dati urbani"
       ],
       "relevant_properties": []
     },
@@ -360,9 +344,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "servizi",
-        "sicurezza"
+        "dati urbani",
+        "servizi"
       ],
       "relevant_properties": [
         {
@@ -381,9 +364,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "servizi",
-        "relax"
+        "dati urbani",
+        "servizi"
       ],
       "relevant_properties": [
         {

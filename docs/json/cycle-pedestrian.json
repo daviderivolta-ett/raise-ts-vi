@@ -10,13 +10,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "bicicletta",
-        "ciclabile",
-        "pista",
-        "parcheggio",
-        "sharing",
-        "bike sharing"
+        "mobilità",
+        "servizi"
       ],
       "relevant_properties": [
         {
@@ -35,14 +30,7 @@
         "opacity": 1
       },
       "tags": [
-        "città",
-        "bicicletta",
-        "ciclabile",
-        "percorso",
-        "pista",
-        "sentiero",
-        "sharing",
-        "bike sharing"
+        "mobilità"
       ],
       "relevant_properties": [
         {
@@ -71,9 +59,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "aree",
-        "pedonali"
+        "mobilità",
+        "dati urbani"
       ],
       "relevant_properties": [
         {

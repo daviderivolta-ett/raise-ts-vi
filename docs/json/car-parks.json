@@ -10,9 +10,8 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "parcheggi",
-        "car sharing"
+        "mobilità",
+        "servizi"
       ],
       "relevant_properties": [
         {
@@ -36,9 +35,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "parcheggi",
-        "interscambio"
+        "mobilità"
       ],
       "relevant_properties": [
         {
@@ -62,10 +59,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "parcheggi",
-        "blu area",
-        "ztl"
+        "mobilità"
       ],
       "relevant_properties": [
         {

@@ -10,9 +10,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "servizi",
-        "ospedali"
+        "sport"
       ],
       "relevant_properties": [
         {
@@ -81,9 +79,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "servizi",
-        "ospedali"
+        "sport"
       ],
       "relevant_properties": [
         {
@@ -104,35 +100,6 @@
         {
           "property_name": "CATEGORIA",
           "display_name": "Categoria",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Comprensori sportivi",
-      "id": "L8814",
-      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2364/wfs/?service=WFS&typeName=L8814&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
-      "style": {
-        "color": "#79f7ed",
-        "opacity": 0.5
-      },
-      "tags": [
-        "sport"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "NOME_COMP",
-          "display_name": "Nome comprensorio",
-          "type": "string"
-        },
-        {
-          "property_name": "POPOLAZ_RES",
-          "display_name": "Popolazione residente",
-          "type": "string"
-        },
-        {
-          "property_name": "COD_COMP",
-          "display_name": "Codice comprensorio",
           "type": "string"
         }
       ]

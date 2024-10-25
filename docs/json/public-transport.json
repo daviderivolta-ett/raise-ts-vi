@@ -10,10 +10,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "mezzi pubblici",
-        "amt",
-        "autobus"
+        "mobilità"
       ],
       "relevant_properties": [
         {
@@ -47,10 +44,7 @@
         "opacity": 0.5
       },
       "tags": [
-        "città",
-        "mezzi pubblici",
-        "amt",
-        "metropolitana"
+        "mobilità"
       ],
       "relevant_properties": [
         {
@@ -74,10 +68,7 @@
         "opacity": 1
       },
       "tags": [
-        "città",
-        "mezzi pubblici",
-        "amt",
-        "metropolitana"
+        "mobilità"
       ],
       "relevant_properties": []
     },
@@ -90,8 +81,7 @@
         "opacity": 1
       },
       "tags": [
-        "città",
-        "funicolare"
+        "mobilità"
       ],
       "relevant_properties": [
         {
