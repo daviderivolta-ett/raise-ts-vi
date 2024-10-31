@@ -105,6 +105,37 @@
       ]
     },
     {
+      "name": "Musei, biblioteche, cinema, teatri",
+      "id": "V_COLLETTIVE_GEO",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=V_COLLETTIVE_GEO&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#b795d2",
+        "opacity": 0.5
+      },
+      "tags": [
+        "cultura",
+        "istruzione",
+        "intrattenimento"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "INDIRIZZO",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "DESCRIZIONE",
+          "display_name": "Descrizione",
+          "type": "string"
+        },
+        {
+          "property_name": "DENOMINAZIONE",
+          "display_name": "Denominazione",
+          "type": "string"
+        }
+      ]
+    },
+    {
       "name": "Cinema",
       "id": "GEOJSON_CINEMA",
       "layer_url_wfs": "./geojson/cinemas.geojson",
