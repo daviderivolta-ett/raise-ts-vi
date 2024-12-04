@@ -1,19 +1,19 @@
 import { Poi } from '../../models/poi.model';
+import { SnackbarType } from '../../models/snackbar.model';
+
 import { PositionService } from '../../services/position.service';
 import { GeoGraphicService } from '../../services/geographic.service';
 import { LayerService } from '../../services/layer.service';
 import { PoiService } from '../../services/poi.service';
-import { PoiCard } from './poi-card.component';
-// import { LoaderComponent } from '../../components/loader.component';
 import { SnackbarService } from '../../services/snackbar.service';
-import { SnackbarType } from '../../models/snackbar.model';
-import './poi-card.component';
 import { EventObservable } from '../../observables/event.observable';
+
+import './poi-card.component';
+import { PoiCard } from './poi-card.component';
 
 export class AroudYouPage extends HTMLElement {
     public shadowRoot: ShadowRoot;
     private _pois: Poi[] = [];
-    private _isLoading: boolean = true;
     private hasrenderedError: boolean = false;
 
     constructor() {
@@ -41,7 +41,6 @@ export class AroudYouPage extends HTMLElement {
         await PositionService.instance.startWatchingPosition();
         this.render();
         this.setup();
-
 
         if (LayerService.instance.activeLayers.length === 0) {
             this.renderMsg('empty');
@@ -149,23 +148,16 @@ export class AroudYouPage extends HTMLElement {
     }
 
     private setup(): void {
+        this.renderMsg('loading');
         EventObservable.instance.subscribe('position-update', async (position: GeolocationPosition) => {
-            console.log('position updated');
-            
-            if (this._isLoading) this.renderMsg('loading');
-            this._isLoading = false;
-
             if (!position) {
                 this.renderMsg('error');
                 return;
             }
 
-            let pois: Poi[] = [];
+            let pois: Poi[] = [];  
             pois = [...await GeoGraphicService.instance.getPoisFromLayers(LayerService.instance.activeLayers)];
             this.pois = [...GeoGraphicService.instance.orderPoisByDistance(position, pois)];
-
-            const err: HTMLParagraphElement | null = this.shadowRoot.querySelector('.message');
-            if (err) err.remove();
         });
     }
 
@@ -198,25 +190,20 @@ export class AroudYouPage extends HTMLElement {
         });
     }
 
-    // private createLoader(): void {
-    //     const loader: LoaderComponent = new LoaderComponent();     
-    //     document.body.append(loader);
-    // }
-
-    // private removeLoader(): void {
-    //     const loader: LoaderComponent | null = document.body.querySelector('app-loader');
-    //     if (!loader) return;
-    //     loader.remove();
-    // }
-
     private renderMsg(type: 'loading' | 'empty' | 'error'): void {
         const page: HTMLDivElement | null = this.shadowRoot.querySelector('.around-you-page');
         if (!page) return;
-        const msg: HTMLParagraphElement = document.createElement('p');
+
+        let msg: HTMLParagraphElement | null = this.shadowRoot.querySelector('.message');
+        if (msg) msg.innerHTML = '';
+        else {
+            msg = document.createElement('p');
+            page.appendChild(msg);
+        }
 
         switch (type) {
             case 'loading':
-                msg.innerText = 'Caricamento...'
+                msg.innerHTML = '<app-spinner-loader />';
                 break;
             case 'error':
                 msg.innerText = 'Impossibile trovare la tua posizione.\n\nPer mostrare i punti di interesse nelle vicinanze è necessario concedere all\'app l\'autorizzazione ad accedere alla posizione del dispositivo.';
@@ -227,7 +214,6 @@ export class AroudYouPage extends HTMLElement {
         }
 
         msg.classList.add('message');
-        page.appendChild(msg);
     }
 }
 

@@ -3,7 +3,7 @@ import { Route, RouteType } from './models/route.model';
 
 // Components
 import './components/router.component';
-import './components/loader.component';
+import './components/spinner-loader.component';
 import './pages/categories/categories.page';
 import './pages/around-you/around-you.page';
 import './pages/custom-path/custom-path.page';

@@ -16,35 +16,83 @@ export class GeoGraphicService {
     }
 
     public async createGeoJson(layer: Layer): Promise<any> {
-        const data: any = await this.fetchGeoJsonData(layer);
+        const data: any = await this.fetchGeoJsonDataWithRetry(layer);
+        if (!data) return;
+
         let geoJSON: any = { type: 'FeatureCollection', features: [] };
         if (layer.get) geoJSON = this.createGeoJsonFromLayerWithGetUrl(data, layer);
         if (layer.post) geoJSON = this.createGeoJsonFromLayerWithPostUrl(data, layer);
         geoJSON.features = geoJSON.features.slice(0, 10).map((f: any) => this.parseFeature(f));
+
         return geoJSON;
     }
 
-    private async fetchGeoJsonData(layer: Layer) {
-        if (layer.get) {
-            const url: string = this.createGetUrl(layer);
-            const response: Response = await fetch(url);
-            const data: any = await response.json();
-            return data;
-        } else if (layer.post) {
-            const query: string = this.createPostQuery(layer);
-            const response: Response = await fetch(layer.url, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded'
-                },
-                body: new URLSearchParams({
-                    data: query
-                }).toString()
-            });
-            const data: any = await response.json();
-            return data;
+    private async fetchGeoJsonDataWithRetry(layer: Layer, retries: number = 10, delay: number = 1000) {
+        for (let i = 0; i < retries; i++) {
+            if (layer.get) {
+                const url: string = this.createGetUrl(layer);
+                try {
+                    const response: Response = await fetch(url);
+                    if (!response.ok) throw new Error(`HTTP Error ${response.status}`);
+                    const data: any = await response.json();
+                    return data;
+                } catch (error) {
+                    await new Promise(resolve => setTimeout(resolve, delay));
+                }
+            }
+
+            if (layer.post) {
+                const query: string = this.createPostQuery(layer);
+                const options: RequestInit = {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    },
+                    body: new URLSearchParams({
+                        data: query
+                    }).toString()
+                }
+                try {
+                    const response: Response = await fetch(layer.url, options);
+                    const data: any = await response.json();
+                    return data;
+                } catch (error) {
+                    await new Promise(resolve => setTimeout(resolve, delay));
+                }
+            }
         }
     }
+
+    // private async fetchGeoJsonData(layer: Layer) {
+    //     if (layer.get) {
+    //         const url: string = this.createGetUrl(layer);
+    //         try {
+    //             const response: Response = await fetch(url);
+    //             const data: any = await response.json();
+    //             return data;
+    //         } catch (error) {
+    //             console.error('Errore nel recupero del layer ' + layer.id);
+    //         }
+    //     } else if (layer.post) {
+    //         const query: string = this.createPostQuery(layer);
+    //         const options: RequestInit = {
+    //             method: 'POST',
+    //             headers: {
+    //                 'Content-Type': 'application/x-www-form-urlencoded'
+    //             },
+    //             body: new URLSearchParams({
+    //                 data: query
+    //             }).toString()
+    //         }
+    //         try {
+    //             const response: Response = await fetch(layer.url, options);
+    //             const data: any = await response.json();
+    //             return data;
+    //         } catch (error) {
+    //             console.error('Errore nel recupero del layer ' + layer.id);
+    //         }
+    //     }
+    // }
 
     private createGetUrl(layer: Layer) {
         if (!layer.get) return layer.url;
@@ -257,7 +305,7 @@ export class GeoGraphicService {
         });
         const geoJsons: any = await Promise.all(geoJsonPromises);
         geoJsons.forEach((geoJson: any) => {
-            geoJson.features.forEach((f: Feature) => pois.push(Poi.fromFeature(f)));
+            if (geoJson) geoJson.features.forEach((f: Feature) => pois.push(Poi.fromFeature(f)));
         });
         pois = pois.map((p: Poi) => {
             const layer: Layer | undefined = layers.find((l: Layer) => l.id === p.layerName);
