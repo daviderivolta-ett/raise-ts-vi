@@ -32,7 +32,7 @@ export class SnackbarService {
         this._live = live;
     }
 
-    public updateSnackbar(type: SnackbarType, message: string, duration: number = 5): void {
+    public updateSnackbar(type: SnackbarType, message: string, duration: number = 5): void {       
         if (!this.live) return;
         this.live.snackbar = new Snackbar(type, message, duration);
     }

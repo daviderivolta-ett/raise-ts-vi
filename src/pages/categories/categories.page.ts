@@ -12,8 +12,7 @@ export class CategoriesPage extends HTMLElement {
     }
 
     public async connectedCallback(): Promise<void> {
-        await DataService.instance.getData();
-        console.log(DataService.instance.data);        
+        await DataService.instance.getData();       
         this.render();
         this.setup();
     }

@@ -25,8 +25,7 @@ export class PoiPage extends HTMLElement {
         PoiService.instance.getSelectedPoi();
         this.poi = PoiService.instance.selectedPoi;        
         this.render();
-        this.setup();    
-        console.log(this.poi);                 
+        this.setup();                     
     }
 
     private render(): void {

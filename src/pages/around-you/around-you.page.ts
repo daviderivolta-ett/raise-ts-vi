@@ -13,6 +13,7 @@ import { EventObservable } from '../../observables/event.observable';
 export class AroudYouPage extends HTMLElement {
     public shadowRoot: ShadowRoot;
     private _pois: Poi[] = [];
+    private _isLoading: boolean = true;
     private hasrenderedError: boolean = false;
 
     constructor() {
@@ -20,10 +21,7 @@ export class AroudYouPage extends HTMLElement {
         this.shadowRoot = this.attachShadow({ mode: 'closed' });
     }
 
-    public get pois(): Poi[] {
-        return this._pois;
-    }
-
+    public get pois(): Poi[] { return this._pois }
     public set pois(pois: Poi[]) {
         this._pois = pois;
 
@@ -44,8 +42,13 @@ export class AroudYouPage extends HTMLElement {
         this.render();
         this.setup();
 
-        SnackbarService.instance.resetSnackbar();
 
+        if (LayerService.instance.activeLayers.length === 0) {
+            this.renderMsg('empty');
+            return;
+        }
+
+        SnackbarService.instance.resetSnackbar();
     }
 
     public disconnectedCallback(): void {
@@ -147,25 +150,28 @@ export class AroudYouPage extends HTMLElement {
 
     private setup(): void {
         EventObservable.instance.subscribe('position-update', async (position: GeolocationPosition) => {
+            console.log('position updated');
+            
+            if (this._isLoading) this.renderMsg('loading');
+            this._isLoading = false;
+
             if (!position) {
                 this.renderMsg('error');
-                return;
-            }
-         
-            if (LayerService.instance.activeLayers.length === 0) {
-                this.renderMsg('empty');
                 return;
             }
 
             let pois: Poi[] = [];
             pois = [...await GeoGraphicService.instance.getPoisFromLayers(LayerService.instance.activeLayers)];
-            this.pois = [...GeoGraphicService.instance.orderPoisByDistance(position, pois)];                                  
+            this.pois = [...GeoGraphicService.instance.orderPoisByDistance(position, pois)];
+
+            const err: HTMLParagraphElement | null = this.shadowRoot.querySelector('.message');
+            if (err) err.remove();
         });
     }
 
     private update(): void {
         if (this.pois.length === 0) return;
-        
+
         const err: HTMLParagraphElement | null = this.shadowRoot.querySelector('.message');
         if (err) err.remove();
 
@@ -187,7 +193,6 @@ export class AroudYouPage extends HTMLElement {
         cards.forEach((card: PoiCard) => {
             card.addEventListener('poi-selected', (e: CustomEventInit) => {
                 PoiService.instance.selectedPoi = e.detail.selectedPoi;
-                console.log(e.detail.selectedPoi);   
                 window.location.hash = '/poi';
             });
         });
@@ -204,12 +209,15 @@ export class AroudYouPage extends HTMLElement {
     //     loader.remove();
     // }
 
-    private renderMsg(type: 'empty' | 'error'): void {
+    private renderMsg(type: 'loading' | 'empty' | 'error'): void {
         const page: HTMLDivElement | null = this.shadowRoot.querySelector('.around-you-page');
         if (!page) return;
         const msg: HTMLParagraphElement = document.createElement('p');
 
         switch (type) {
+            case 'loading':
+                msg.innerText = 'Caricamento...'
+                break;
             case 'error':
                 msg.innerText = 'Impossibile trovare la tua posizione.\n\nPer mostrare i punti di interesse nelle vicinanze è necessario concedere all\'app l\'autorizzazione ad accedere alla posizione del dispositivo.';
                 break;
