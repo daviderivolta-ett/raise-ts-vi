@@ -4,10 +4,18 @@
     {
       "name": "Acquedotto storico",
       "id": "CULTURA:V_ACQ_STORICO",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=CULTURA:V_ACQ_STORICO&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "CULTURA:V_ACQ_STORICO",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#33e000",
-        "opacity": 1
+        "opacity": 1,
+        "icon": "⛲"
       },
       "tags": [
         "cultura"
@@ -31,10 +39,18 @@
     {
       "name": "Manufatti storici acquedotto",
       "id": "CULTURA:V_ACQ_MANU_STORICI",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=CULTURA:V_ACQ_MANU_STORICI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "CULTURA:V_ACQ_MANU_STORICI",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#5e0ca8",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "⛲"
       },
       "tags": [
         "cultura"
@@ -69,10 +85,19 @@
     {
       "name": "Area di sosta acquedotto",
       "id": "CULTURA:V_ACQ_AREA_SOSTA",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=CULTURA:V_ACQ_AREA_SOSTA&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "CULTURA:V_ACQ_AREA_SOSTA",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#64896d",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "⛲"
+        
       },
       "tags": [
         "cultura"
@@ -86,10 +111,18 @@
     {
       "name": "Punti di accesso acquedotto",
       "id": "V_ACQ_PTI_ACCESSO",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=V_ACQ_PTI_ACCESSO&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "V_ACQ_PTI_ACCESSO",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#714fc7",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "⛲"
       },
       "tags": [
         "cultura"
@@ -114,10 +147,18 @@
     {
       "name": "Punti di interesse storico acquedotto",
       "id": "CULTURA:V_ACQ_PTI_INT_STORICO",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=CULTURA:V_ACQ_PTI_INT_STORICO&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "CULTURA:V_ACQ_PTI_INT_STORICO",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#5d18f3",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "⛲"
       },
       "tags": [
         "cultura"
@@ -138,10 +179,18 @@
     {
       "name": "Pannelli informativi acquedotto",
       "id": "SITGEO:V_LOCALIZZAZIONE_PANNELLI_INFORMATIVI",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_LOCALIZZAZIONE_PANNELLI_INFORMATIVI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "SITGEO:V_LOCALIZZAZIONE_PANNELLI_INFORMATIVI",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#d356c4",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "⛲"
       },
       "tags": [
         "cultura"

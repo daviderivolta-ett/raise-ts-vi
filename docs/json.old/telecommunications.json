@@ -1,0 +1,45 @@
+{
+  "name": "Telecomunicazioni",
+  "layers": [
+    {
+      "name": "Router FreeWiFiGenova",
+      "id": "SITGEO:WI-FI_URBANO",
+      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:WI-FI_URBANO&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "style": {
+        "color": "#f7cb90",
+        "opacity": 0.5
+      },
+      "tags": [
+        "dati urbani",
+        "servizi"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "NOME",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "SITO",
+          "display_name": "Sito",
+          "type": "string"
+        },
+        {
+          "property_name": "TIPO",
+          "display_name": "Tipo",
+          "type": "string"
+        },
+        {
+          "property_name": "MUNICIPIO",
+          "display_name": "Municipio",
+          "type": "number"
+        },
+        {
+          "property_name": "ANNO",
+          "display_name": "Anno installazione",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

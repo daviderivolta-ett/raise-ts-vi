@@ -36,7 +36,7 @@ export class PoiCard extends HTMLElement {
             `
             <article class="poi-card" aria-labelledby="poi-card-title-${this.position}" aria-posinset="${this.position}" tabindex="${this.position}" aria-setsize="-1">
                 <div class="poi-card-info">
-                    <p class="poi-card-title" id="poi-card-title-${this.position}">${this.poi.name}</p>
+                    <p class="poi-card-title" id="poi-card-title-${this.position}">${this.poi.props.find(p => p.displayName === 'Nome')?.value || this.poi.name}</p>
                     <p class="poi-card-distance" role="text" aria-label="Distanza da te: ${Math.round(this.poi.distance!)} metri">${Math.round(this.poi.distance!)}<span aria-hidden="true">m</span></p>
                 </div>
                 <button type="button" class="info-btn" aria-label="Vedi dettagli punto di interesse">
@@ -114,7 +114,7 @@ export class PoiCard extends HTMLElement {
         const button: HTMLButtonElement | null = this.shadowRoot.querySelector('.info-btn');
         if (!button) return;
 
-        button.addEventListener('click', () => {
+        button.addEventListener('click', () => {         
             this.dispatchEvent(new CustomEvent('poi-selected', { detail: { selectedPoi: this.poi } }));
         });
     }

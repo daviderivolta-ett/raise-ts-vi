@@ -1,0 +1,518 @@
+{
+    "name": "Gastronomia",
+    "layers": [
+        {
+            "name": "Bar",
+            "id": "bar_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "amenity": "bar"
+            },
+            "style": {
+                "color": "#fc9632",
+                "opacity": 1,
+                "icon": "🍹"
+            },
+            "tags": [
+                "gastronomia"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:street",
+                    "display_name": "Indirizzo",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:housenumber",
+                    "display_name": "Numero",
+                    "type": "string"
+                },
+                {
+                    "property_name": "phone",
+                    "display_name": "Telefono",
+                    "type": "string"
+                },
+                {
+                    "property_name": "email",
+                    "display_name": "Email",
+                    "type": "string"
+                },
+                {
+                    "property_name": "cuisine",
+                    "display_name": "Cucina",
+                    "type": "string"
+                },
+                {
+                    "property_name": "indoor_seating",
+                    "display_name": "Posti al chiuso",
+                    "type": "string"
+                },
+                {
+                    "property_name": "outdoor_seating",
+                    "display_name": "Posti all'aperto",
+                    "type": "string"
+                },
+                {
+                    "property_name": "takeaway",
+                    "display_name": "Take away",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Birrerie",
+            "id": "biergarten_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "amenity": "biergarten"
+            },
+            "style": {
+                "color": "#fc9632",
+                "opacity": 1,
+                "icon": "🍻"
+            },
+            "tags": [
+                "gastronomia"
+            ],
+            "relevant_properties": [
+            ]
+        },
+        {
+            "name": "Cafe",
+            "id": "cafe_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "amenity": "cafe"
+            },
+            "style": {
+                "color": "#fc9632",
+                "opacity": 1,
+                "icon": "☕️"
+            },
+            "tags": [
+                "gastronomia"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:street",
+                    "display_name": "Indirizzo",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:housenumber",
+                    "display_name": "Numero",
+                    "type": "string"
+                },
+                {
+                    "property_name": "phone",
+                    "display_name": "Telefono",
+                    "type": "string"
+                },
+                {
+                    "property_name": "email",
+                    "display_name": "Email",
+                    "type": "string"
+                },
+                {
+                    "property_name": "cuisine",
+                    "display_name": "Cucina",
+                    "type": "string"
+                },
+                {
+                    "property_name": "indoor_seating",
+                    "display_name": "Posti al chiuso",
+                    "type": "string"
+                },
+                {
+                    "property_name": "outdoor_seating",
+                    "display_name": "Posti all'aperto",
+                    "type": "string"
+                },
+                {
+                    "property_name": "takeaway",
+                    "display_name": "Take away",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Fast food",
+            "id": "fast_food_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "amenity": "fast_food"
+            },
+            "style": {
+                "color": "#fc9632",
+                "opacity": 1,
+                "icon": "🍔"
+            },
+            "tags": [
+                "gastronomia"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:street",
+                    "display_name": "Indirizzo",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:housenumber",
+                    "display_name": "Numero",
+                    "type": "string"
+                },
+                {
+                    "property_name": "phone",
+                    "display_name": "Telefono",
+                    "type": "string"
+                },
+                {
+                    "property_name": "email",
+                    "display_name": "Email",
+                    "type": "string"
+                },
+                {
+                    "property_name": "cuisine",
+                    "display_name": "Cucina",
+                    "type": "string"
+                },
+                {
+                    "property_name": "indoor_seating",
+                    "display_name": "Posti al chiuso",
+                    "type": "string"
+                },
+                {
+                    "property_name": "outdoor_seating",
+                    "display_name": "Posti all'aperto",
+                    "type": "string"
+                },
+                {
+                    "property_name": "takeaway",
+                    "display_name": "Take away",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Gelaterie",
+            "id": "ice_cream_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "amenity": "ice_cream"
+            },
+            "style": {
+                "color": "#fc9632",
+                "opacity": 1,
+                "icon": "🍦"
+            },
+            "tags": [
+                "gastronomia"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:street",
+                    "display_name": "Indirizzo",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:housenumber",
+                    "display_name": "Numero",
+                    "type": "string"
+                },
+                {
+                    "property_name": "phone",
+                    "display_name": "Telefono",
+                    "type": "string"
+                },
+                {
+                    "property_name": "email",
+                    "display_name": "Email",
+                    "type": "string"
+                },
+                {
+                    "property_name": "cuisine",
+                    "display_name": "Cucina",
+                    "type": "string"
+                },
+                {
+                    "property_name": "indoor_seating",
+                    "display_name": "Posti al chiuso",
+                    "type": "string"
+                },
+                {
+                    "property_name": "outdoor_seating",
+                    "display_name": "Posti all'aperto",
+                    "type": "string"
+                },
+                {
+                    "property_name": "takeaway",
+                    "display_name": "Take away",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Pub",
+            "id": "pub_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "amenity": "pub"
+            },
+            "style": {
+                "color": "#fc9632",
+                "opacity": 1,
+                "icon": "🍺"
+            },
+            "tags": [
+                "gastronomia"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:street",
+                    "display_name": "Indirizzo",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:housenumber",
+                    "display_name": "Numero",
+                    "type": "string"
+                },
+                {
+                    "property_name": "phone",
+                    "display_name": "Telefono",
+                    "type": "string"
+                },
+                {
+                    "property_name": "email",
+                    "display_name": "Email",
+                    "type": "string"
+                },
+                {
+                    "property_name": "cuisine",
+                    "display_name": "Cucina",
+                    "type": "string"
+                },
+                {
+                    "property_name": "indoor_seating",
+                    "display_name": "Posti al chiuso",
+                    "type": "string"
+                },
+                {
+                    "property_name": "outdoor_seating",
+                    "display_name": "Posti all'aperto",
+                    "type": "string"
+                },
+                {
+                    "property_name": "takeaway",
+                    "display_name": "Take away",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Ristoranti",
+            "id": "restaurant_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "amenity": "restaurant"
+            },
+            "style": {
+                "color": "#fc9632",
+                "opacity": 1,
+                "icon": "🍽️"
+            },
+            "tags": [
+                "gastronomia"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:street",
+                    "display_name": "Indirizzo",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:housenumber",
+                    "display_name": "Numero",
+                    "type": "string"
+                },
+                {
+                    "property_name": "phone",
+                    "display_name": "Telefono",
+                    "type": "string"
+                },
+                {
+                    "property_name": "email",
+                    "display_name": "Email",
+                    "type": "string"
+                },
+                {
+                    "property_name": "cuisine",
+                    "display_name": "Cucina",
+                    "type": "string"
+                },
+                {
+                    "property_name": "indoor_seating",
+                    "display_name": "Posti al chiuso",
+                    "type": "string"
+                },
+                {
+                    "property_name": "outdoor_seating",
+                    "display_name": "Posti all'aperto",
+                    "type": "string"
+                },
+                {
+                    "property_name": "takeaway",
+                    "display_name": "Take away",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Panifici",
+            "id": "bakery_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "shop": "bakery"
+            },
+            "style": {
+                "color": "#fc9632",
+                "opacity": 1,
+                "icon": "🍞"
+            },
+            "tags": [
+                "gastronomia"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:street",
+                    "display_name": "Indirizzo",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:housenumber",
+                    "display_name": "Numero",
+                    "type": "string"
+                },
+                {
+                    "property_name": "phone",
+                    "display_name": "Telefono",
+                    "type": "string"
+                },
+                {
+                    "property_name": "email",
+                    "display_name": "Email",
+                    "type": "string"
+                },
+                {
+                    "property_name": "cuisine",
+                    "display_name": "Cucina",
+                    "type": "string"
+                },
+                {
+                    "property_name": "indoor_seating",
+                    "display_name": "Posti al chiuso",
+                    "type": "string"
+                },
+                {
+                    "property_name": "outdoor_seating",
+                    "display_name": "Posti all'aperto",
+                    "type": "string"
+                },
+                {
+                    "property_name": "takeaway",
+                    "display_name": "Take away",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Supermercati",
+            "id": "supermarket_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "shop": "supermarket"
+            },
+            "style": {
+                "color": "#fc9632",
+                "opacity": 1,
+                "icon": "🛒"
+            },
+            "tags": [
+                "servizi",
+                "gastronomia"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                },
+                {
+                    "property_name": "operator",
+                    "display_name": "Operatore",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:street",
+                    "display_name": "Indirizzo",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:housenumber",
+                    "display_name": "Numero",
+                    "type": "string"
+                },
+                {
+                    "property_name": "wheelchair",
+                    "display_name": "Accessbili",
+                    "type": "string"
+                },
+                {
+                    "property_name": "toilets",
+                    "display_name": "Bagni",
+                    "type": "string"
+                },
+                {
+                    "property_name": "toilets:wheelchair",
+                    "display_name": "Bagni per disabili",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
+}

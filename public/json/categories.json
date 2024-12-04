@@ -14,11 +14,9 @@
                 "./json/car-parks.json",
                 "./json/services.json",
                 "./json/sport.json",
-                "./json/telecommunications.json",
-                "./json/architectural-barriers.json",
-                "./json/buildings.json",
                 "./json/roads.json",
-                "./json/borders.json"
+                "./json/borders.json",
+                "./json/telecommunications.json"
             ]
         },
         {
@@ -27,7 +25,12 @@
                 "./json/aqueduct.json",
                 "./json/staglieno-monuments.json",
                 "./json/tourism.json"
-
+            ]
+        },
+        {
+            "name": "Gastronomia",
+            "groups": [
+                "./json/food-beverage.json"
             ]
         }
     ]

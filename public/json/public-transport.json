@@ -4,10 +4,18 @@
     {
       "name": "Fermate AMT",
       "id": "SITGEO:V_MOB_FERMATE_AMT",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_MOB_FERMATE_AMT&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "SITGEO:V_MOB_FERMATE_AMT",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#85499a",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🚌"
       },
       "tags": [
         "mobilità"
@@ -36,12 +44,41 @@
       ]
     },
     {
+      "name": "Tracciato metropolitana",
+      "id": "SITGEO:V_MOB_METROPOLITANA",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "SITGEO:V_MOB_METROPOLITANA",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
+      "style": {
+        "color": "#1b2eb7",
+        "opacity": 1,
+        "icon": "🚉"
+      },
+      "tags": [
+        "mobilità"
+      ],
+      "relevant_properties": []
+    },
+    {
       "name": "Stazioni metropolitana",
       "id": "SITGEO:V_MOB_METROPOLITANA_STAZIONI",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_MOB_METROPOLITANA_STAZIONI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "SITGEO:V_MOB_METROPOLITANA_STAZIONI",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#58a293",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🚇"
       },
       "tags": [
         "mobilità"
@@ -49,7 +86,7 @@
       "relevant_properties": [
         {
           "property_name": "NOME_STAZ",
-          "display_name": "Nome stazione",
+          "display_name": "Nome",
           "type": "string"
         },
         {
@@ -60,25 +97,20 @@
       ]
     },
     {
-      "name": "Tracciato metropolitana",
-      "id": "SITGEO:V_MOB_METROPOLITANA",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_MOB_METROPOLITANA&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
-      "style": {
-        "color": "#1b2eb7",
-        "opacity": 1
-      },
-      "tags": [
-        "mobilità"
-      ],
-      "relevant_properties": []
-    },
-    {
       "name": "Funicolari",
       "id": "L8020",
-      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2201/wfs/?service=WFS&typeName=L8020&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://geoservizi.regione.liguria.it/geoserver/M2201/wfs",
+      "get": {
+        "service": "WFS",
+        "typeName": "L8020",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#493e68",
-        "opacity": 1
+        "opacity": 1,
+        "style": "🚠"
       },
       "tags": [
         "mobilità"

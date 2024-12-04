@@ -4,10 +4,18 @@
     {
       "name": "Impianti sportivi comunali",
       "id": "SITGEO:V_IMPIANTI_SPORTIVI",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_IMPIANTI_SPORTIVI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "SITGEO:V_IMPIANTI_SPORTIVI",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#aeafd9",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🏟️"
       },
       "tags": [
         "sport"
@@ -73,10 +81,18 @@
     {
       "name": "Aree ad uso sportivo",
       "id": "URBANISTICA:V_VAS_SPORT",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=URBANISTICA:V_VAS_SPORT&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "URBANISTICA:V_VAS_SPORT",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#79f7fd",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🏟️"
       },
       "tags": [
         "sport"

@@ -4,10 +4,18 @@
     {
       "name": "Parcheggi Car Sharing",
       "id": "V_MOB_PARKS_CARSHARING",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_MOB_PARKS_CARSHARING&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "SITGEO:V_MOB_PARKS_CARSHARING",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#aaac98",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🚗"
       },
       "tags": [
         "mobilità",
@@ -29,10 +37,18 @@
     {
       "name": "Parcheggi di interscambio",
       "id": "V_MOB_PARKS_INTERSCAMBIO",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=V_MOB_PARKS_INTERSCAMBIO&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "V_MOB_PARKS_INTERSCAMBIO",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#12ca7f",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🅿️"
       },
       "tags": [
         "mobilità"
@@ -53,12 +69,21 @@
     {
       "name": "Blu area",
       "id": "SITGEO:V_MOB_BLUAREA",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_MOB_BLUAREA&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "SITGEO:V_MOB_BLUAREA",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#56f676",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🔵"
       },
       "tags": [
+        "dati urbani",
         "mobilità"
       ],
       "relevant_properties": [

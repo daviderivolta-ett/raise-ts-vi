@@ -234,7 +234,7 @@ export class PathService {
         this.suggestedPaths.forEach((path: Path) => {
             path.pois.forEach((poi: Poi) => {
                 layers.forEach((layer: Layer) => {
-                    if (poi.layerName === layer.layer) paths.push(path);
+                    if (poi.layerName === layer.id) paths.push(path);
                 });
             });
         });

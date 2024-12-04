@@ -1,5 +1,6 @@
 import { FeatureGeometryType } from '../models/feature.model';
 import { Poi, PoiProperty, PoiPropertyType, PoiType } from '../models/poi.model';
+import { LayerService } from './layer.service';
 
 export class PoiService {
     private static _instance: PoiService;
@@ -60,6 +61,7 @@ export class PoiService {
 
         p.coordinates = poi.coordinates;
         p.layerName = poi.layerName;
+        p.layer = LayerService.instance.parseLayer(poi.layer);
 
         for (const key in poi.props) {
             if (typeof poi.props[key] !== 'object') continue;

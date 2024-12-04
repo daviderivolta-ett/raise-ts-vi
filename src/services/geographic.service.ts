@@ -16,16 +16,153 @@ export class GeoGraphicService {
     }
 
     public async createGeoJson(layer: Layer): Promise<any> {
-        // const url = `${layer.url}?service=WFS&typeName=${layer.layer}&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326`;
-        const url: string = layer.url;
-        const res: Response = await fetch(url);
-        let rawGeoJson: any = await res.json();
-        let geoJsonNewProp: any = this.substituteRelevantProperties(rawGeoJson, layer);
-        let geoJsonAddProp: any = this.createFeatureAdditionalProperties(geoJsonNewProp, layer);
-        let geoJson: any = { ...geoJsonAddProp };
-        geoJson.features = geoJson.features.slice(0, 10);
-        geoJson.features = geoJson.features.map((f: any) => this.parseFeature(f));
-        return geoJson;
+        const data: any = await this.fetchGeoJsonData(layer);
+        let geoJSON: any = { type: 'FeatureCollection', features: [] };
+        if (layer.get) geoJSON = this.createGeoJsonFromLayerWithGetUrl(data, layer);
+        if (layer.post) geoJSON = this.createGeoJsonFromLayerWithPostUrl(data, layer);
+        geoJSON.features = geoJSON.features.slice(0, 10).map((f: any) => this.parseFeature(f));
+        return geoJSON;
+    }
+
+    private async fetchGeoJsonData(layer: Layer) {
+        if (layer.get) {
+            const url: string = this.createGetUrl(layer);
+            const response: Response = await fetch(url);
+            const data: any = await response.json();
+            return data;
+        } else if (layer.post) {
+            const query: string = this.createPostQuery(layer);
+            const response: Response = await fetch(layer.url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                },
+                body: new URLSearchParams({
+                    data: query
+                }).toString()
+            });
+            const data: any = await response.json();
+            return data;
+        }
+    }
+
+    private createGetUrl(layer: Layer) {
+        if (!layer.get) return layer.url;
+        const mapOptions: Map<string, any> = new Map(Object.entries(layer.get));
+        const paramsArray: [string, string][] = Array.from(mapOptions, ([key, value]) => [key, String(value)]);
+        const params: URLSearchParams = new URLSearchParams(paramsArray);
+        return `${layer.url}?${params.toString()}`;
+    }
+
+    private createPostQuery(layer: Layer) {
+        const bounds: [number, number, number, number] = [44.3654649485199, 8.70205291300195, 44.499460199499595, 9.026271898848734];
+        let query: string = '[out:json][timeout:20];\n(\n';
+        for (const key in layer.post) {
+            if (layer.post.hasOwnProperty(key)) {
+                const value = layer.post[key];
+                if (value.startsWith("~")) {
+                    query += `nwr[${key}~"${value.slice(1)}"](${bounds[0]},${bounds[1]},${bounds[2]},${bounds[3]});\n`;
+                } else {
+                    query += `nwr[${key}="${value}"](${bounds[0]},${bounds[1]},${bounds[2]},${bounds[3]});\n`;
+                }
+            }
+        }
+        query += `);\nout geom;`
+        return query;
+    }
+
+    private createGeoJsonFromLayerWithGetUrl(json: any, layer: Layer) {
+        let geoJsonNewProp: any = this.substituteRelevantProperties(json, layer);
+        let geoJsonAddProp = this.createFeatureAdditionalProperties(geoJsonNewProp, layer);
+        return geoJsonAddProp;
+    }
+
+    private createGeoJsonFromLayerWithPostUrl(json: any, layer: Layer) {
+        const geoJSON: any = {
+            type: 'FeatureCollection',
+            features: []
+        };
+
+
+        json.elements.forEach((el: any) => {
+            const props: any = {};
+            const elPropertiesKeys: string[] = Object.keys(el.tags);
+            const matchingProperties: LayerProperty[] = layer.relevantProperties.filter((prop: LayerProperty) => elPropertiesKeys.includes(prop.propertyName));
+
+            matchingProperties.forEach((matchingProperty: LayerProperty) => {
+                const matchingKey: string = matchingProperty.propertyName;
+
+                if (el.tags[matchingKey]) {
+                    const prop = {
+                        propertyName: matchingProperty.propertyName,
+                        displayName: matchingProperty.displayName,
+                        type: matchingProperty.type,
+                        value: el.tags[matchingKey]
+                    };
+
+                    props[matchingKey] = prop;
+                }
+            });
+
+            switch (el.type) {
+                case 'node':
+                    geoJSON.features.push(this.createGeoJsonPointFeature(el, props));
+                    break;
+                case 'way':
+                    if (el.nodes && Array.isArray(el.nodes)) {
+                        el.nodes[0] === el.nodes[el.nodes.length - 1] ? geoJSON.features.push(this.createGeoJsonPolygonFeature(el, props)) : geoJSON.features.push(this.createGeoJsonLineStringFeature(el, props));
+                    }
+                    break;
+                case 'relation':
+                    if (el.members && Array.isArray(el.members)) {
+                        el.members.forEach((m: any) => {
+                            if (m.type === 'way') {
+                                geoJSON.features.push(this.createGeoJsonLineStringFeature(m, props))
+                            }
+                        });
+                    }
+
+                    break;
+                default:
+                    break;
+            }
+
+        });
+
+        return this.createFeatureAdditionalProperties(geoJSON, layer);
+    }
+
+    private createGeoJsonPointFeature(element: any, props: Record<string, any>): any {
+        return {
+            type: 'Feature',
+            properties: props,
+            geometry: {
+                type: 'Point',
+                coordinates: [element.lon, element.lat]
+            }
+        }
+    }
+
+    private createGeoJsonPolygonFeature(element: any, props: Record<string, any>): any {
+        return {
+            type: 'Feature',
+            properties: props,
+            geometry: {
+                type: 'Polygon',
+                coordinates: [element.geometry.map((g: any) => [g.lon, g.lat])]
+            }
+        }
+    }
+
+    private createGeoJsonLineStringFeature(element: any, props: Record<string, any>): any {
+        return {
+            type: 'Feature',
+            properties: props,
+            geometry: {
+                type: 'LineString',
+                coordinates: element.geometry.map((g: any) => [g.lon, g.lat])
+            }
+        }
     }
 
     private substituteRelevantProperties(geoJson: any, layer: Layer) {
@@ -52,8 +189,8 @@ export class GeoGraphicService {
     private createFeatureAdditionalProperties(geoJson: any, layer: Layer): any {
         geoJson.features = geoJson.features.map((f: Feature, i: number) => {
             f.properties.name = layer.name + ' ' + i;
-            f.properties.layerName = layer.layer;
-            f.properties.uuid = f.id;
+            f.properties.layerName = layer.id;
+            f.properties.uuid = f.id ? f.id : `${layer.id}-${f.geometry.coordinates.toString()}`;
             return f;
         });
 
@@ -122,6 +259,11 @@ export class GeoGraphicService {
         geoJsons.forEach((geoJson: any) => {
             geoJson.features.forEach((f: Feature) => pois.push(Poi.fromFeature(f)));
         });
+        pois = pois.map((p: Poi) => {
+            const layer: Layer | undefined = layers.find((l: Layer) => l.id === p.layerName);
+            if (layer) p.layer = layer;
+            return p;
+        });
         return pois.filter((poi: Poi) => !GeoGraphicService.instance.isCoordinatesMultidimensional(poi.coordinates));
     }
 
@@ -145,7 +287,6 @@ export class GeoGraphicService {
                 const lat = Array.isArray(poi.coordinates) ? poi.coordinates[1] : poi.coordinates;
                 const lon = Array.isArray(poi.coordinates) ? poi.coordinates[0] : poi.coordinates;
                 const distance = this.haversineDistance(lat as number, lon as number, position.coords.latitude, position.coords.longitude);
-                // const distance = haversine.haversineDistance(lat as number, lon as number, 44.44416497901924, 8.732173415343668);
                 poi.distance = distance;
             }
         });

@@ -32,7 +32,7 @@ export class LayerService {
         this._activeLayers = savedLayers;
     }
 
-    private parseLayer(layer: any): Layer {
+    public parseLayer(layer: any): Layer {
         return new Layer(
             layer.name,
             layer.layer,

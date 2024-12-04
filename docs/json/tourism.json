@@ -4,10 +4,19 @@
         {
             "name": "Pietre d'inciampo",
             "id": "SITGEO:V_LUOGHI_TURISTICI&CQL_FILTER=OGGETTO='PIETRE_INCIAMPO'",
-            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_LUOGHI_TURISTICI&CQL_FILTER=OGGETTO='PIETRE_INCIAMPO'&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+            "get": {
+                "service": "WFS",
+                "typeName": "SITGEO:V_LUOGHI_TURISTICI",
+                "CQL_FILTER": "OGGETTO='PIETRE_INCIAMPO'",
+                "outputFormat": "application/json",
+                "request": "GetFeature",
+                "srsname": "EPSG:4326"
+            },
             "style": {
                 "color": "#ebdb34",
-                "opacity": 1
+                "opacity": 1,
+                "icon": "🔶"
             },
             "tags": [
                 "cultura"
@@ -31,56 +40,20 @@
             ]
         },
         {
-            "name": "Strutture ricettive turistiche",
-            "id": "SITGEO:V_RIC_TURISTICHE",
-            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_RIC_TURISTICHE&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
-            "style": {
-                "color": "#bf5132",
-                "opacity": 0.5
-            },
-            "tags": [
-                "servizi"
-            ],
-            "relevant_properties": [
-                {
-                    "property_name": "TIPOLOGIA",
-                    "display_name": "Tipologia",
-                    "type": "string"
-                },
-                {
-                    "property_name": "INDIRIZZO",
-                    "display_name": "Indirizzo",
-                    "type": "string"
-                },
-                {
-                    "property_name": "CIVICO",
-                    "display_name": "n",
-                    "type": "number"
-                },
-                {
-                    "property_name": "CLAS",
-                    "display_name": "Valutazione",
-                    "type": "string"
-                },
-                {
-                    "property_name": "CAMERE",
-                    "display_name": "Camere",
-                    "type": "number"
-                },
-                {
-                    "property_name": "LETTI",
-                    "display_name": "Letti",
-                    "type": "number"
-                }
-            ]
-        },
-        {
             "name": "MIAGE Cinta muraria",
             "id": "V_CINTA_MURARIA",
-            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=V_CINTA_MURARIA&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+            "get": {
+                "service": "WFS",
+                "typeName": "V_CINTA_MURARIA",
+                "outputFormat": "application/json",
+                "request": "GetFeature",
+                "srsname": "EPSG:4326"
+            },
             "style": {
                 "color": "#00FFFF",
-                "opacity": 1
+                "opacity": 1,
+                "icon": "🏰"
             },
             "tags": [
                 "dati urbani",
@@ -102,10 +75,18 @@
         {
             "name": "Botteghe Storiche",
             "id": "V_BOTTEGHE_STORICHE",
-            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=V_BOTTEGHE_STORICHE&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+            "get": {
+                "service": "WFS",
+                "typeName": "V_BOTTEGHE_STORICHE",
+                "outputFormat": "application/json",
+                "request": "GetFeature",
+                "srsname": "EPSG:4326"
+            },
             "style": {
                 "color": "#DC2124",
-                "opacity": 1
+                "opacity": 1,
+                "icon": "🏪"
             },
             "tags": [
                 "cultura"
@@ -113,7 +94,7 @@
             "relevant_properties": [
                 {
                     "property_name": "TITOLO",
-                    "display_name": "Titolo",
+                    "display_name": "Nome",
                     "type": "string"
                 },
                 {
@@ -146,10 +127,18 @@
         {
             "name": "Palazzi UNESCO di Genova",
             "id": "V_UNESCO_GEOPORT",
-            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=V_UNESCO_GEOPORT&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+            "get": {
+                "service": "WFS",
+                "typeName": "V_UNESCO_GEOPORT",
+                "outputFormat": "application/json",
+                "request": "GetFeature",
+                "srsname": "EPSG:4326"
+            },
             "style": {
                 "color": "#0077D4",
-                "opacity": 0.5
+                "opacity": 0.5,
+                "icon": "🏛️"
             },
             "tags": [
                 "cultura"
@@ -220,10 +209,18 @@
         {
             "name": "Luoghi di culto",
             "id": "V_CULTO_GEO",
-            "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=V_CULTO_GEO&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+            "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+            "get": {
+                "service": "WFS",
+                "typeName": "V_CULTO_GEO",
+                "outputFormat": "application/json",
+                "request": "GetFeature",
+                "srsname": "EPSG:4326"
+            },
             "style": {
                 "color": "#90AEDC",
-                "opacity": 0.5
+                "opacity": 0.5,
+                "icon": "🕍"
             },
             "tags": [
                 "cultura"
@@ -231,7 +228,7 @@
             "relevant_properties": [
                 {
                     "property_name": "DESCRIZIONE",
-                    "display_name": "Nome Descirizione",
+                    "display_name": "Descrizione",
                     "type": "string"
                 },
                 {
@@ -242,6 +239,229 @@
                 {
                     "property_name": "DENOMINAZIONE",
                     "display_name": "Nome",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Spiagge",
+            "id": "beach_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "natural": "beach"
+            },
+            "style": {
+                "color": "#f7fa39",
+                "opacity": 0.5,
+                "icon": "🏖️"
+            },
+            "tags": [
+                "intrattenimento"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                },
+                {
+                    "property_name": "fee",
+                    "display_name": "A pagamento",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Percorsi escursionistici",
+            "id": "hiking_route_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "route": "hiking"
+            },
+            "style": {
+                "color": "#90AEDC",
+                "opacity": 0.5,
+                "icon": "🥾"
+            },
+            "tags": [
+                "mobilità",
+                "intrattenimento",
+                "sport"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                },
+                {
+                    "property_name": "cai:scale",
+                    "display_name": "Difficoltà",
+                    "type": "string"
+                },
+                {
+                    "property_name": "from",
+                    "display_name": "Partenza",
+                    "type": "string"
+                },
+                {
+                    "property_name": "to",
+                    "display_name": "Arrivo",
+                    "type": "string"
+                },
+                {
+                    "property_name": "distance",
+                    "display_name": "Lunghezza",
+                    "type": "string"
+                },
+                {
+                    "property_name": "duration:forward",
+                    "display_name": "Durata (andata)",
+                    "type": "string"
+                },
+                {
+                    "property_name": "duration:backward",
+                    "display_name": "Durata (ritorno)",
+                    "type": "string"
+                },
+                {
+                    "property_name": "symbol:it",
+                    "display_name": "Simbolo",
+                    "type": "string"
+                },
+                {
+                    "property_name": "operator",
+                    "display_name": "Gestito da",
+                    "type": "string"
+                },
+                {
+                    "property_name": "comment",
+                    "display_name": "Note",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Punti panoramici",
+            "id": "viewpoint_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "tourism": "viewpoint"
+            },
+            "style": {
+                "color": "#90AEDC",
+                "opacity": 0.5,
+                "icon": "🏞️"
+            },
+            "tags": [
+                "dati urbani",
+                "servizi"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                },
+                {
+                    "property_name": "wheelchair",
+                    "display_name": "Accessibile",
+                    "type": "string"
+                },
+                {
+                    "property_name": "operator",
+                    "display_name": "Gestito da",
+                    "type": "string"
+                },
+                {
+                    "property_name": "desciption",
+                    "display_name": "Descrizione",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Memoriali",
+            "id": "memorial_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "historic": "memorial"
+            },
+            "style": {
+                "color": "#90AEDC",
+                "opacity": 0.5,
+                "icon": "🏛️"
+            },
+            "tags": [
+                "cultura"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                },
+                {
+                    "property_name": "start_date",
+                    "display_name": "Anno costruzione",
+                    "type": "string"
+                },
+                {
+                    "property_name": "inscription",
+                    "display_name": "Iscrizione",
+                    "type": "string"
+                },
+                {
+                    "property_name": "desciption",
+                    "display_name": "Descrizione",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Statue",
+            "id": "statue_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "artwork_type": "statue"
+            },
+            "style": {
+                "color": "#90AEDC",
+                "opacity": 0.5,
+                "icon": "🗿"
+            },
+            "tags": [
+                "cultura"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                },
+                {
+                    "property_name": "image",
+                    "display_name": "Immagine",
+                    "type": "string"
+                },
+                {
+                    "property_name": "artist_name",
+                    "display_name": "Artista",
+                    "type": "string"
+                },
+                {
+                    "property_name": "start_date",
+                    "display_name": "Anno costruzione",
+                    "type": "string"
+                },
+                {
+                    "property_name": "location",
+                    "display_name": "Luogo",
+                    "type": "string"
+                },
+                {
+                    "property_name": "wheelchair",
+                    "display_name": "Accessibile",
                     "type": "string"
                 }
             ]

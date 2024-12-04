@@ -36,7 +36,7 @@ export class CustomPathCardComponent extends HTMLElement {
             `
             <article class="custom-path-card" aria-labelledby="custom-path-card-title" aria-posinset="${this.position}" tabindex="${this.position}" aria-setsize="-1">
                 <div class="custom-path-card-info">
-                    <h3 class="custom-path-card-title" id="custom-path-card-title">${this.poi.name}</h3>
+                    <h3 class="custom-path-card-title" id="custom-path-card-title">${this.poi.props.find(p => p.displayName === 'Nome')?.value || this.poi.name}</h3>
                 </div>
                 <div class="custom-path-card-buttons">
                     <button type="button" class="poi-delete-btn" aria-label="Elimina tappa">

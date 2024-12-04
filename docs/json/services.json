@@ -4,10 +4,18 @@
     {
       "name": "Bagni pubblici",
       "id": "SITGEO:V_BAGNI",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_BAGNI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "SITGEO:V_BAGNI",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#febfa4",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🚻"
       },
       "tags": [
         "servizi"
@@ -43,10 +51,18 @@
     {
       "name": "Ospedali",
       "id": "SITGEO:V_PC_OSPEDALI",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_PC_OSPEDALI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "SITGEO:V_PC_OSPEDALI",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#6ab58d",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🏥"
       },
       "tags": [
         "salute"
@@ -77,10 +93,18 @@
     {
       "name": "Farmacie",
       "id": "L807",
-      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M452/wfs/?service=WFS&typeName=L807&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://geoservizi.regione.liguria.it/geoserver/M452/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "L807",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#cb1648",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "⚕️"
       },
       "tags": [
         "servizi",
@@ -105,16 +129,91 @@
       ]
     },
     {
-      "name": "Musei, biblioteche, cinema, teatri",
-      "id": "V_COLLETTIVE_GEO",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=V_COLLETTIVE_GEO&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "name": "Musei",
+      "id": "V_COLLETTIVE_GEO_MUSEI",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "V_COLLETTIVE_GEO",
+        "CQL_FILTER": "DESCRIZIONE='MUSEO'",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
-        "color": "#b795d2",
-        "opacity": 0.5
+        "color": "#c06156",
+        "opacity": 0.5,
+        "icon": "🏛️"
       },
       "tags": [
         "cultura",
-        "istruzione",
+        "istruzione"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "INDIRIZZO",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "DENOMINAZIONE",
+          "display_name": "Nome",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Biblioteche",
+      "id": "V_COLLETTIVE_GEO_BIBLIOTECHE",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "V_COLLETTIVE_GEO",
+        "CQL_FILTER": "DESCRIZIONE='BIBLIOTECA MUNICIPALE'",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
+      "style": {
+        "color": "#c06156",
+        "opacity": 0.5,
+        "icon": "📚"
+      },
+      "tags": [
+        "istruzione"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "INDIRIZZO",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "DENOMINAZIONE",
+          "display_name": "Nome",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Cinema",
+      "id": "V_COLLETTIVE_GEO_CINEMA",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "V_COLLETTIVE_GEO",
+        "CQL_FILTER": "DESCRIZIONE='CINEMA'",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
+      "style": {
+        "color": "#b795d2",
+        "opacity": 0.5,
+        "icon": "🎬"
+      },
+      "tags": [
+        "cultura",
         "intrattenimento"
       ],
       "relevant_properties": [
@@ -124,49 +223,28 @@
           "type": "string"
         },
         {
-          "property_name": "DESCRIZIONE",
-          "display_name": "Descrizione",
-          "type": "string"
-        },
-        {
           "property_name": "DENOMINAZIONE",
-          "display_name": "Denominazione",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Cinema",
-      "id": "GEOJSON_CINEMA",
-      "layer_url_wfs": "./geojson/cinemas.geojson",
-      "style": {
-        "color": "#b795d2",
-        "opacity": 0.5
-      },
-      "tags": [
-        "cultura",
-        "intrattenimento"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "name",
           "display_name": "Nome",
-          "type": "string"
-        },
-        {
-          "property_name": "url",
-          "display_name": "Sito web",
           "type": "string"
         }
       ]
     },
     {
       "name": "Teatri",
-      "id": "GEOJSON_TEATRI",
-      "layer_url_wfs": "./geojson/theatre.geojson",
+      "id": "V_COLLETTIVE_GEO_TEATRI",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "V_COLLETTIVE_GEO",
+        "CQL_FILTER": "DESCRIZIONE='TEATRO'",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#c06156",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🎭"
       },
       "tags": [
         "cultura",
@@ -174,54 +252,32 @@
       ],
       "relevant_properties": [
         {
-          "property_name": "name",
+          "property_name": "INDIRIZZO",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "DENOMINAZIONE",
           "display_name": "Nome",
           "type": "string"
-        },
-        {
-          "property_name": "addr:street",
-          "display_name": "Via",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:housenumber",
-          "display_name": "n",
-          "type": "string"
-        },
-        {
-          "property_name": "website",
-          "display_name": "Sito web",
-          "type": "string"
-        },
-        {
-          "property_name": "wikidata",
-          "display_name": "Wikidata",
-          "type": "string"
-        },
-        {
-          "property_name": "P154",
-          "display_name": "Logo",
-          "type": "img"
-        },
-        {
-          "property_name": "P18",
-          "display_name": "Foto",
-          "type": "img"
-        },
-        {
-          "property_name": "P856",
-          "display_name": "Sito web",
-          "type": "url"
         }
       ]
     },
     {
       "name": "Scuole",
       "id": "SITGEO:SCUOLE_AGG_GEO",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:SCUOLE_AGG_GEO&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "SITGEO:SCUOLE_AGG_GEO",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#97424c",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🏫"
       },
       "tags": [
         "istruzione"
@@ -302,10 +358,18 @@
     {
       "name": "Mercati rionali",
       "id": "SITGEO:V_COM_MERCATI",
-      "layer_url_wfs": "https://mappe.comune.genova.it/geoserver/wfs/?service=WFS&typeName=SITGEO:V_COM_MERCATI&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "SITGEO:V_COM_MERCATI",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#37f58e",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🏬"
       },
       "tags": [
         "dati urbani",
@@ -341,11 +405,15 @@
     },
     {
       "name": "Acqua potabile",
-      "id": "GEOJSON_ACQUA_POTABILE",
-      "layer_url_wfs": "./geojson/drinking-water.geojson",
+      "id": "drinking_water_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "drinking_water"
+      },
       "style": {
         "color": "#b89da7",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🚰"
       },
       "tags": [
         "dati urbani",
@@ -355,24 +423,33 @@
     },
     {
       "name": "Camere di sorveglianza",
-      "id": "GEOJSON_SURVEILLANCE_CAMERAS",
-      "layer_url_wfs": "./geojson/surveillance-cameras.geojson",
+      "id": "surveillance_cameras_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "man_made": "surveillance"
+      },
       "style": {
         "color": "#691a40",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "📹"
       },
       "tags": [
-        "dati urbani"
+        "dati urbani",
+        "sicurezza"
       ],
       "relevant_properties": []
     },
     {
       "name": "ATM",
-      "id": "GEOJSON_ATM",
-      "layer_url_wfs": "./geojson/atm.geojson",
+      "id": "atm_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "atm"
+      },
       "style": {
         "color": "#4bdd99",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🏧"
       },
       "tags": [
         "dati urbani",
@@ -387,12 +464,44 @@
       ]
     },
     {
-      "name": "Panchine pubbliche",
-      "id": "GEOJSON_BENCH",
-      "layer_url_wfs": "./geojson/benches.geojson",
+      "name": "Playground",
+      "id": "playground_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "leisure": "playground"
+      },
       "style": {
         "color": "#db2103",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🎠"
+      },
+      "tags": [
+        "intrattenimento"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "wheelchair",
+          "display_name": "Accessibile",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Panchine pubbliche",
+      "id": "bench_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "bench"
+      },
+      "style": {
+        "color": "#db2103",
+        "opacity": 0.5,
+        "icon": "🪑"
       },
       "tags": [
         "dati urbani",
@@ -417,6 +526,1341 @@
         {
           "property_name": "description",
           "display_name": "Descrizione",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Scuole di lingue",
+      "id": "language_school_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "language_school"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🏫"
+      },
+      "tags": [
+        "istruzione"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Vigili del fuoco",
+      "id": "fire_station_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "fire_station"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🚒"
+      },
+      "tags": [
+        "sicurezza"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Polizia",
+      "id": "police_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "police"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "👮‍♂️"
+      },
+      "tags": [
+        "sicurezza"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "operator:short",
+          "display_name": "Operatore",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Telefoni d'emergenza",
+      "id": "emergency_phone_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "emergency": "phone"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "📞"
+      },
+      "tags": [
+        "sicurezza"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        },
+        {
+          "property_name": "covered",
+          "display_name": "Coperto",
+          "type": "string"
+        },
+        {
+          "property_name": "indoor",
+          "display_name": "Al chiuso",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Defibrillatori",
+      "id": "defibrillator_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "emergency": "defibrillator"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "❤️"
+      },
+      "tags": [
+        "sicurezza"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "indoor",
+          "display_name": "Al chiuso",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Cliniche",
+      "id": "clinic_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "clinic"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🏥"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Dottori",
+      "id": "doctors_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "doctors"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🏥"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Dentisti",
+      "id": "dentist_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "dentist"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🦷"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "brand",
+          "display_name": "Brand",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Portelli per bambini",
+      "id": "baby_hatch_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "baby_hatch"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "👶🏽"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Banche del sangue",
+      "id": "blood_bank_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "blood_bank"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🩸"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Donazione del sangue",
+      "id": "blood_donation_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "healthcare": "blood_donation"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "💉"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Casa di cura",
+      "id": "nursing_home_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "nursing_home"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🏡"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Struttura sociale",
+      "id": "social_facility_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "social_facility"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🏢"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Fisioterapisti",
+      "id": "physiotherapist_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "healthcare": "physiotherapist"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "👐"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Psicoterapeuti",
+      "id": "psychotherapist_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "healthcare": "psychotherapist"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🧠"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Centri acustici",
+      "id": "audiologist_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "healthcare": "audiologist"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "👂"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Sale parto",
+      "id": "birthing_centre_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "healthcare": "birthing_centre"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "👶"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Centri dialisi",
+      "id": "dialysis_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "healthcare": "dialysis"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🩺"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Laboratori",
+      "id": "laboratory_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "healthcare": "laboratory"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🔬"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "brand",
+          "display_name": "Brand",
+          "type": "string"
+        },
+        {
+          "property_name": "wheelchair",
+          "display_name": "Accessibile",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Nutrizionisti",
+      "id": "nutrition_counselling_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "healthcare": "nutrition_counselling"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🥗"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "brand",
+          "display_name": "Brand",
+          "type": "string"
+        },
+        {
+          "property_name": "wheelchair",
+          "display_name": "Accessibile",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Optometristi",
+      "id": "optometrist_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "healthcare": "optometrist"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "👁️‍🗨️"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "brand",
+          "display_name": "Brand",
+          "type": "string"
+        },
+        {
+          "property_name": "wheelchair",
+          "display_name": "Accessibile",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Podologi",
+      "id": "podiatrist_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "healthcare": "podiatrist"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "👣"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "brand",
+          "display_name": "Brand",
+          "type": "string"
+        },
+        {
+          "property_name": "wheelchair",
+          "display_name": "Accessibile",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Riabilitazione",
+      "id": "rehabilitation_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "healthcare": "rehabilitation"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🏋️‍♂️"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "brand",
+          "display_name": "Brand",
+          "type": "string"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        },
+        {
+          "property_name": "wheelchair",
+          "display_name": "Accessibile",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Logopedisti",
+      "id": "speech_therapist_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "healthcare": "speech_therapist"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🗣️"
+      },
+      "tags": [
+        "salute"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "brand",
+          "display_name": "Brand",
+          "type": "string"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Banche",
+      "id": "banks_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "bank"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🏦"
+      },
+      "tags": [
+        "servizi"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "brand",
+          "display_name": "Brand",
+          "type": "string"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        },
+        {
+          "property_name": "atm",
+          "display_name": "ATM",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Municipi",
+      "id": "townhall_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "townhall"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🏛️"
+      },
+      "tags": [
+        "dati urbani",
+        "servizi"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "brand",
+          "display_name": "Brand",
+          "type": "string"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        },
+        {
+          "property_name": "atm",
+          "display_name": "ATM",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Hotel",
+      "id": "hotel_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "tourism": "hotel"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🏨"
+      },
+      "tags": [
+        "servizi"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "stars",
+          "display_name": "stelle",
+          "type": "string"
+        },
+        {
+          "property_name": "brand",
+          "display_name": "Brand",
+          "type": "string"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        },
+        {
+          "property_name": "atm",
+          "display_name": "ATM",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Informazioni",
+      "id": "information_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "tourism": "information"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🛈"
+      },
+      "tags": [
+        "dati urbani",
+        "servizi"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "stars",
+          "display_name": "stelle",
+          "type": "string"
+        },
+        {
+          "property_name": "brand",
+          "display_name": "Brand",
+          "type": "string"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        },
+        {
+          "property_name": "atm",
+          "display_name": "ATM",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        },
+        {
+          "property_name": "note",
+          "display_name": "Note",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Castelli",
+      "id": "castle_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "historic": "castle"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🏰"
+      },
+      "tags": [
+        "cultura"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "stars",
+          "display_name": "stelle",
+          "type": "string"
+        },
+        {
+          "property_name": "brand",
+          "display_name": "Brand",
+          "type": "string"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        },
+        {
+          "property_name": "atm",
+          "display_name": "ATM",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        },
+        {
+          "property_name": "note",
+          "display_name": "Note",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Rovine",
+      "id": "ruins_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "historic": "ruins"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "🏛️"
+      },
+      "tags": [
+        "cultura"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "stars",
+          "display_name": "stelle",
+          "type": "string"
+        },
+        {
+          "property_name": "brand",
+          "display_name": "Brand",
+          "type": "string"
+        },
+        {
+          "property_name": "description",
+          "display_name": "Descrizione",
+          "type": "string"
+        },
+        {
+          "property_name": "atm",
+          "display_name": "ATM",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestito da",
+          "type": "string"
+        },
+        {
+          "property_name": "note",
+          "display_name": "Note",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "Stazioni di rifornimento",
+      "id": "gas_station_openstreetmap",
+      "url": "https://overpass-api.de/api/interpreter",
+      "post": {
+        "amenity": "fuel"
+      },
+      "style": {
+        "color": "#90AEDC",
+        "opacity": 0.5,
+        "icon": "⛽"
+      },
+      "tags": [
+        "mobilità"
+      ],
+      "relevant_properties": [
+        {
+          "property_name": "name",
+          "display_name": "Nome",
+          "type": "string"
+        },
+        {
+          "property_name": "brand",
+          "display_name": "Brand",
+          "type": "string"
+        },
+        {
+          "property_name": "operator",
+          "display_name": "Gestore",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:street",
+          "display_name": "Indirizzo",
+          "type": "string"
+        },
+        {
+          "property_name": "addr:housenumber",
+          "display_name": "Numero",
+          "type": "string"
+        },
+        {
+          "property_name": "self_service",
+          "display_name": "Self service",
+          "type": "string"
+        },
+        {
+          "property_name": "fuel:diesel",
+          "display_name": "Diesel",
+          "type": "string"
+        },
+        {
+          "property_name": "fuel:octane_95",
+          "display_name": "Benzina 95 ottani",
+          "type": "string"
+        },
+        {
+          "property_name": "fuel:octane_100",
+          "display_name": "Benzina 100 ottani",
           "type": "string"
         }
       ]

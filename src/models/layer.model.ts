@@ -53,26 +53,32 @@ export enum PropertyType {
 
 export class Layer {
     name: string;
-    layer: string;
+    id: string;
     url: string;
+    post?: Record<string, any>;
+    get?: Record<string, any>;
     style: LayerStyle;
     tags: string[];
     relevantProperties: LayerProperty[];
 
     constructor(
         name: string,
-        layer: string,
+        id: string,
         url: string,
         style: LayerStyle,
         tags: string[],
-        relevantProperties: LayerProperty[]
+        relevantProperties: LayerProperty[],
+        post?: Record<string, any>,
+        get?: Record<string, any>
     ) {
         this.name = name;
-        this.layer = layer;
+        this.id = id;
         this.url = url;
         this.style = style;
         this.tags = tags;
         this.relevantProperties = relevantProperties;
+        if (post) this.post = post;
+        if (get) this.get = get;
     }
 
     static createEmpty(): Layer {

@@ -1,10 +1,12 @@
-import { Feature, FeatureGeometryType } from "./feature.model";
+import { Feature, FeatureGeometryType } from './feature.model';
+import { Layer } from './layer.model';
 
 export class Poi {
     uuid: string = '';
     name: string = '';
     type: PoiType = PoiType.Point;
     coordinates: number[] | number[][] | number[][][] = [];
+    layer: Layer = Layer.createEmpty();
     layerName: string = '';
     props: PoiProperty[] = [];
     distance?: number;

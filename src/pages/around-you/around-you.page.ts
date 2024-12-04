@@ -151,10 +151,15 @@ export class AroudYouPage extends HTMLElement {
                 this.renderMsg('error');
                 return;
             }
+         
+            if (LayerService.instance.activeLayers.length === 0) {
+                this.renderMsg('empty');
+                return;
+            }
 
             let pois: Poi[] = [];
             pois = [...await GeoGraphicService.instance.getPoisFromLayers(LayerService.instance.activeLayers)];
-            this.pois = [...GeoGraphicService.instance.orderPoisByDistance(position, pois)];
+            this.pois = [...GeoGraphicService.instance.orderPoisByDistance(position, pois)];                                  
         });
     }
 
@@ -182,6 +187,7 @@ export class AroudYouPage extends HTMLElement {
         cards.forEach((card: PoiCard) => {
             card.addEventListener('poi-selected', (e: CustomEventInit) => {
                 PoiService.instance.selectedPoi = e.detail.selectedPoi;
+                console.log(e.detail.selectedPoi);   
                 window.location.hash = '/poi';
             });
         });
@@ -208,7 +214,7 @@ export class AroudYouPage extends HTMLElement {
                 msg.innerText = 'Impossibile trovare la tua posizione.\n\nPer mostrare i punti di interesse nelle vicinanze è necessario concedere all\'app l\'autorizzazione ad accedere alla posizione del dispositivo.';
                 break;
             default:
-                msg.innerText = 'Impossibile trovare punti di interesse nelle vicinanze senza selezionare alcuna categoria.\n\nAndare nella sezione "Categorie" per selezionarne almeno una.';
+                msg.innerText = 'Impossibile trovare punti di interesse nelle vicinanze senza selezionare alcuna categoria.\n\nAndare nella sezione "Categorie" e sceglierne una.';
                 break;
         }
 

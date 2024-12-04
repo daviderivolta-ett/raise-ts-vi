@@ -91,8 +91,8 @@ export class DataService {
     private parseLayer(layer: any): Layer {
         return new Layer(
             layer.name,
-            layer.layer,
-            layer.layer_url_wfs,
+            layer.id,
+            layer.url,
             new LayerStyle(layer.style.color, parseFloat(layer.style.opacity)),
             layer.tags,
             layer.relevant_properties.map((property: any) => {
@@ -113,7 +113,9 @@ export class DataService {
                 }
 
                 return p;
-            })
+            }),
+            layer.post ? layer.post : undefined,
+            layer.get ? layer.get : undefined
         );
     }
 

@@ -25,7 +25,8 @@ export class PoiPage extends HTMLElement {
         PoiService.instance.getSelectedPoi();
         this.poi = PoiService.instance.selectedPoi;        
         this.render();
-        this.setup();
+        this.setup();    
+        console.log(this.poi);                 
     }
 
     private render(): void {
@@ -35,8 +36,8 @@ export class PoiPage extends HTMLElement {
                 <div class="page-header">
                     <h1 class="page-title" tabindex="-1">Dettaglio punto di interesse</h1>
                 </div>
-                <h2 class="poi-name">${this.poi.name}</h2>
-                <p class="poi-category">${this.poi.name}</p>
+                <h2 class="poi-name">${this.poi.props.find(p => p.displayName === 'Nome')?.value || this.poi.name}</h2>
+                <p class="poi-category">${this.poi.layer.name}</p>
                 <div class="poi-page-buttons">
                     <button type="button" id="directions-btn" aria-label="Vedi indicazioni stradali">Indicazioni</button>
                     <button type="button" id="add-to-custom-path-btn" aria-label="Aggiungi tappa a percorso personalizzato">Aggiungi</button>

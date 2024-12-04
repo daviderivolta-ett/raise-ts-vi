@@ -4,10 +4,18 @@
     {
       "name": "Alberi monumentali",
       "id": "L9671",
-      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2502/wfs/?service=WFS&typeName=L9671&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://geoservizi.regione.liguria.it/geoserver/M2502/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "L9671",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#57af21",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🌳"
       },
       "tags": [
         "cultura",
@@ -89,10 +97,18 @@
     {
       "name": "Parchi e giardini",
       "id": "L8776",
-      "layer_url_wfs": "https://geoservizi.regione.liguria.it/geoserver/M2342/wfs/?service=WFS&typeName=L8776&outputFormat=application/json&request=GetFeature&srsname=EPSG:4326",
+      "url": "https://geoservizi.regione.liguria.it/geoserver/M2342/wfs/",
+      "get": {
+        "service": "WFS",
+        "typeName": "L8776",
+        "outputFormat": "application/json",
+        "request": "GetFeature",
+        "srsname": "EPSG:4326"
+      },
       "style": {
         "color": "#e302a6",
-        "opacity": 0.5
+        "opacity": 0.5,
+        "icon": "🌿"
       },
       "tags": [
         "ambiente",
