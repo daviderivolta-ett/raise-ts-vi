@@ -24,10 +24,11 @@ import { BarComponent } from './components/bar.component';
 
 main();
 
-function main() {
+async function main() {
     // Saved data
     PathService.instance.getSavedCustomPath();
     LayerService.instance.getSavedLayers();
+    await PathService.instance.getCsvPaths(0);   
 
     // Routing
     const router: Router = document.querySelector('app-router') as Router;

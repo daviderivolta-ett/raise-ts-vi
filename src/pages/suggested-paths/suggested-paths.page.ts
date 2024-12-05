@@ -96,6 +96,9 @@ export class SuggestedPathsPage extends HTMLElement {
 
                 .suggested-paths-list {
                     margin: 1.5rem 0;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
                 }
 
                 .empty {

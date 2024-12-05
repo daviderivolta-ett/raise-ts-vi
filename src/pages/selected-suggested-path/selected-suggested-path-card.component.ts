@@ -36,7 +36,7 @@ export class SelectedSuggestedPathCardComponent extends HTMLElement {
             `
             <article class="selected-suggested-path-card" aria-labelledby="selected-suggested-path-card-title" aria-posinset="${this.position}" tabindex="${this.position}" aria-setsize="-1">
                 <div class="selected-suggested-path-card-info">
-                    <h3 class="selected-suggested-path-card-title" id="selected-suggested-path-card-title">${this.poi.name}</h3>
+                    <h3 class="selected-suggested-path-card-title" id="selected-suggested-path-card-title">${this.poi.props.find(p => p.displayName === 'Nome')?.value || this.poi.name}</h3>
                 </div>
                 <div class="selected-suggested-path-card-buttons">
                     <button type="button" class="poi-info-btn" aria-label="Vedi dettagli punto di interesse">

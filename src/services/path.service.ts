@@ -146,7 +146,7 @@ export class PathService {
             while (index <= fileNumber) {
                 const promise = fetch(`./suggested-paths/${index}.tsv`)
                     .then(res => res.text())
-                    .then(data => {
+                    .then(data => {      
                         const parsedCsv: Record<string, string>[] = this.parseCsvFile(data);
                         paths.push(this.parseCsvPath(parsedCsv));
                     })
