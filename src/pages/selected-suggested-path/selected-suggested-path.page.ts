@@ -42,12 +42,7 @@ export class SuggestedPathPage extends HTMLElement {
                 <section class="suggested-path-list" role="feed"></section>
             </div>
 
-            <style>
-                :host {
-                    display: block;
-                    padding:  0 0 5rem 0;
-                }
-                
+            <style>                
                 h1,
                 p {
                     font-weight: 400;

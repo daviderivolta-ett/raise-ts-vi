@@ -28,15 +28,15 @@ export class DataService {
             return this._data;
         } else {
             let data: Data = await this.fetchAppData(this.CATEGORIES_URL);
-            data = this.parseData(data);
-            this.data = data;
+            data = this.parseData(data);         
+            this.data = data;           
             return data;
         }
     }
 
-    private async fetchAppData(url: string): Promise<Data> {               
+    private async fetchAppData(url: string): Promise<Data> {
         try {
-            const data: Data = await fetch(url).then(res => res.json());      
+            const data: Data = await fetch(url).then(res => res.json());
             const categoriesPromises: LayerCategory[] = await Promise.all(data.categories.map(async (category: LayerCategory) => {
                 const groupPromises: LayerGroup[] | string[] = await Promise.all(category.groups.map(async (group: LayerGroup | string) => {
                     if (typeof group === 'string') {
@@ -83,40 +83,39 @@ export class DataService {
         } else {
             return {
                 name: group.name,
-                layers: group.layers.map((layer: any) => this.parseLayer(layer))
+                layers: group.layers.map((layer: any) => this._parseLayer(layer))
             };
         }
     }
 
-    private parseLayer(layer: any): Layer {
-        return new Layer(
-            layer.name,
-            layer.id,
-            layer.url,
-            new LayerStyle(layer.style.color, parseFloat(layer.style.opacity)),
-            layer.tags,
-            layer.relevant_properties.map((property: any) => {
-                let p: LayerProperty = LayerProperty.createEmpty();
-                p.displayName = property.display_name;
-                p.propertyName = property.property_name;
+    private _parseLayer(layer: any): Layer {        
+        const l: Layer = Layer.createEmpty();
 
-                switch (property.type) {
-                    case 'image':
-                        p.type = PropertyType.Image;
-                        break;
-                    case 'number':
-                        p.type = PropertyType.Number;
-                        break;
-                    default:
-                        p.type = PropertyType.String;
-                        break;
-                }
+        if (layer.id) l.id = layer.id;
+        if (layer.name) l.name = layer.name;
+        if (layer.url) l.url = layer.url;
+        if (layer.get) {
+            l.method = 'get';
+            l.params = { ...layer.get };
+        }
+        if (layer.post) {
+            l.method = 'post';
+            l.params = { ...layer.post };
+        }
+        if (layer.tags) l.tags = [...layer.tags];
+        if (layer.relevant_properties) l.relevantProperties = layer.relevant_properties.map((p: any) => this._parseProperty(p));
 
-                return p;
-            }),
-            layer.post ? layer.post : undefined,
-            layer.get ? layer.get : undefined
-        );
+        return l;
+    }
+
+    private _parseProperty(p: any): LayerProperty {
+        let prop: LayerProperty = LayerProperty.createEmpty();
+
+        if (p.property_name) prop.propertyName = p.property_name;
+        if (p.display_name) prop.displayName = p.display_name;
+        if (p.type) prop.type = p.type;
+
+        return prop;
     }
 
     public getAllTags(data: Data): string[] {
@@ -141,7 +140,7 @@ export class DataService {
 
     public filterLayersByTags(tags: string[]): Layer[] {
         let allLayers: Layer[] = [];
-     
+
         tags.forEach((tag: string) => {
             const layers: Layer[] = this.filterLayersByTag(tag);
             layers.forEach((layer: Layer) => allLayers.push(layer));
@@ -166,4 +165,16 @@ export class DataService {
 
         return layers;
     }
+
+    public getLayerById(id: string): Layer | undefined {
+        for (const category of this.data.categories) {
+            for (const group of category.groups) {
+                if (typeof group === 'string') continue;
+                const layer = group.layers.find((layer: Layer) => layer.id === id);
+                if (layer) return layer;
+            }
+        }
+        return undefined;
+    }
+
 }

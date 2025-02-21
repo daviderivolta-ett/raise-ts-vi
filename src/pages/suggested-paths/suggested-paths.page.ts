@@ -41,12 +41,7 @@ export class SuggestedPathsPage extends HTMLElement {
                 <section class="suggested-paths-list" role="feed" aria-label="Percorsi suggeriti"></section>
             </div>
 
-            <style>
-                :host {
-                    display: block;
-                    padding:  0 0 5rem 0;
-                }
-                
+            <style>                
                 h1,
                 p {
                     font-weight: 400;

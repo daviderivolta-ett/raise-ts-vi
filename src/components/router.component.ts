@@ -34,8 +34,9 @@ export class Router extends HTMLElement {
             this.checkParams(window.location.search);
             const defaultRoute: Route[] = this.routes.filter((route: Route) => route.type === RouteType.Default);
             defaultRoute ? window.location.hash = '#/' + defaultRoute[0].url : this.sendNotFound();
-        } else {
-            const hashIndex: number = this.routes.findIndex((route: Route) => route.url === hash);
+        } else {          
+            const pageUri: string = hash.split('?')[0];
+            const hashIndex: number = this.routes.findIndex((route: Route) => route.url === pageUri);         
             this.shadowRoot.innerHTML = this.routes[hashIndex] ? this.routes[hashIndex].routing() : this.sendNotFound();
         }
     }
@@ -48,12 +49,12 @@ export class Router extends HTMLElement {
         return '404: Not found';
     }
 
-    private checkParams(search: string): void {
+    private checkParams(search: string): void {     
         const params = new URLSearchParams(search);
         const settings: Settings = new Settings();
         let paramsProcessed = false;
 
-        params.forEach((value: string) => {
+        params.forEach((value: string) => {           
             paramsProcessed = true;
             switch (value) {
                 case 'blind':

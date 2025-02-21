@@ -29,7 +29,7 @@ export class BarComponent extends HTMLElement {
                     <span class="material-symbols-outlined icon" aria-label="Categorie">stacks</span>
                 </a>
 
-                <a class="bar-el-link around-you-link" href="/around-you" title="Intorno a te" role="tab" aria-selected="false" aria-controls="around-you-panel">
+                <a class="bar-el-link around-you-link" href="/around-me" title="Intorno a te" role="tab" aria-selected="false" aria-controls="around-you-panel">
                     <span class="material-symbols-outlined icon" aria-label="Intorno a te">explore</span>
                 </a>
 
@@ -120,7 +120,7 @@ export class BarComponent extends HTMLElement {
         links.forEach((link: HTMLAnchorElement) => {
             link.addEventListener('click', (e: Event) => {
                 e.preventDefault();
-                const href: string | null = link.getAttribute('href');
+                const href: string | null = link.getAttribute('href');               
                 if (href) window.location.hash = href;
             });
         });

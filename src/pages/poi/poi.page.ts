@@ -23,7 +23,8 @@ export class PoiPage extends HTMLElement {
 
     public connectedCallback(): void {
         PoiService.instance.getSelectedPoi();
-        this.poi = PoiService.instance.selectedPoi;        
+        this.poi = PoiService.instance.selectedPoi;
+        console.log(this.poi);                
         this.render();
         this.setup();                     
     }
@@ -44,12 +45,7 @@ export class PoiPage extends HTMLElement {
                 <div class="poi-page-infos"></div>
             </div>
 
-            <style>
-                :host {
-                    display: block;
-                    padding:  0 0 5rem 0;
-                }
-                
+            <style>                
                 h1,
                 h2,
                 p {
@@ -201,7 +197,7 @@ export class PoiPage extends HTMLElement {
         const button: HTMLButtonElement | null = this.shadowRoot.querySelector('#directions-btn');
         if (!button) return;
         button.addEventListener('click', () => {
-            const url: string = `https://www.google.it/maps/dir/?api=1&destination=${this.poi.coordinates[1]},${this.poi.coordinates[0]}`;
+            const url: string = `https://www.google.it/maps/dir/?api=1&destination=${this.poi.coordinates[1]},${this.poi.coordinates[0]}&travelmode=walking`;
             window.open(url, '_blank');
         });
     }
@@ -210,7 +206,7 @@ export class PoiPage extends HTMLElement {
         const button: HTMLButtonElement | null = this.shadowRoot.querySelector('#add-to-custom-path-btn');
         if (!button) return;
 
-        button.addEventListener('click', () => {
+        button.addEventListener('click', () => {            
             SnackbarService.instance.updateSnackbar(SnackbarType.Info, `Aggiunto al percorso personalizzato`);
             PathService.instance.addPoiToCustomPath(this.poi);
         });

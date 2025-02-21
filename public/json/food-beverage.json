@@ -9,6 +9,7 @@
                 "amenity": "bar"
             },
             "style": {
+                "type": ["point", "area"],
                 "color": "#fc9632",
                 "opacity": 1,
                 "icon": "🍹"
@@ -65,24 +66,6 @@
             ]
         },
         {
-            "name": "Birrerie",
-            "id": "biergarten_openstreetmap",
-            "url": "https://overpass-api.de/api/interpreter",
-            "post": {
-                "amenity": "biergarten"
-            },
-            "style": {
-                "color": "#fc9632",
-                "opacity": 1,
-                "icon": "🍻"
-            },
-            "tags": [
-                "gastronomia"
-            ],
-            "relevant_properties": [
-            ]
-        },
-        {
             "name": "Cafe",
             "id": "cafe_openstreetmap",
             "url": "https://overpass-api.de/api/interpreter",
@@ -90,6 +73,7 @@
                 "amenity": "cafe"
             },
             "style": {
+                "type": ["point", "area"],
                 "color": "#fc9632",
                 "opacity": 1,
                 "icon": "☕️"
@@ -153,6 +137,7 @@
                 "amenity": "fast_food"
             },
             "style": {
+                "type": ["point", "area"],
                 "color": "#fc9632",
                 "opacity": 1,
                 "icon": "🍔"
@@ -216,6 +201,7 @@
                 "amenity": "ice_cream"
             },
             "style": {
+                "type": ["point", "area"],
                 "color": "#fc9632",
                 "opacity": 1,
                 "icon": "🍦"
@@ -279,6 +265,7 @@
                 "amenity": "pub"
             },
             "style": {
+                "type": ["point", "area"],
                 "color": "#fc9632",
                 "opacity": 1,
                 "icon": "🍺"
@@ -342,6 +329,7 @@
                 "amenity": "restaurant"
             },
             "style": {
+                "type": ["point", "area"],
                 "color": "#fc9632",
                 "opacity": 1,
                 "icon": "🍽️"
@@ -405,6 +393,7 @@
                 "shop": "bakery"
             },
             "style": {
+                "type": ["point", "area"],
                 "color": "#fc9632",
                 "opacity": 1,
                 "icon": "🍞"
@@ -468,6 +457,7 @@
                 "shop": "supermarket"
             },
             "style": {
+                "type": ["point", "area"],
                 "color": "#fc9632",
                 "opacity": 1,
                 "icon": "🛒"

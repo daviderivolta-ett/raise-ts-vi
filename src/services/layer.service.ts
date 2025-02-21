@@ -33,31 +33,16 @@ export class LayerService {
     }
 
     public parseLayer(layer: any): Layer {
-        return new Layer(
-            layer.name,
-            layer.layer,
-            layer.url = layer.url,
-            new LayerStyle(layer.style.color, layer.style.opacity),
-            layer.tags,
-            layer.relevantProperties.map((property: any) => {
-                let p: LayerProperty = LayerProperty.createEmpty();
-                p.displayName = property.displayName;
-                p.propertyName = property.propertyName;
+        const l: Layer = Layer.createEmpty();
 
-                switch (property.type) {
-                    case 'image':
-                        p.type = PropertyType.Image;
-                        break;
-                    case 'number':
-                        p.type = PropertyType.Number;
-                        break;
-                    default:
-                        p.type = PropertyType.String;
-                        break;
-                }
+        if (layer.id) l.id = layer.id;
+        if (layer.name) l.name = layer.name;
+        if (layer.url) l.url = layer.url;
+        if (layer.method) l.method = layer.method;
+        if (layer.params) l.params = {...layer.params};
+        if (layer.tags) l.tags = [...layer.tags];
+        if (layer.relevantProperties) l.relevantProperties = layer.relevantProperties;
 
-                return p;
-            })
-        );
+        return l;
     }
 }

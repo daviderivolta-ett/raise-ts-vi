@@ -41,7 +41,8 @@ export class PositionService {
                     },
                     error => {
                         reject(error);
-                    }
+                    },
+                    { timeout: 5000 }
                 );
             });
             return position;

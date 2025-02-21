@@ -4,8 +4,16 @@ import { Route, RouteType } from './models/route.model';
 // Components
 import './components/router.component';
 import './components/spinner-loader.component';
+//
+import './pages/categories/categories.page.old';
+//
 import './pages/categories/categories.page';
+import './pages/layers/layers.page';
+import './components/paginated-list.component';
+//
 import './pages/around-you/around-you.page';
+//
+import './pages/around-you/around-me.page.page';
 import './pages/custom-path/custom-path.page';
 import './pages/suggested-paths/suggested-paths.page';
 import './pages/selected-suggested-path/selected-suggested-path.page';
@@ -33,14 +41,16 @@ async function main() {
     // Routing
     const router: Router = document.querySelector('app-router') as Router;
     const categoriesRoute: Route = new Route('categories', RouteType.Default, () => '<page-categories />');
+    const layersRoute: Route = new Route('layers', RouteType.Default, () => '<page-layers />');
     const aroundYouRoute: Route = new Route('around-you', RouteType.Page, () => '<page-around-you />');
+    const aroundMeRoute: Route = new Route('around-me', RouteType.Page, () => '<page-around-me />');
     const settingsRoute: Route = new Route('settings', RouteType.Page, () => '<page-settings />');
     const poiRoute: Route = new Route('poi', RouteType.Page, () => '<page-poi />');
     const customPathRoute: Route = new Route('custom-path', RouteType.Page, () => '<page-custom-path />');
     const suggestedPathsRoute: Route = new Route('suggested-paths', RouteType.Page, () => '<page-suggested-paths />');
     const suggestedPathRoute: Route = new Route('selected-suggested-path', RouteType.Page, () => '<page-selected-suggested-path />');
 
-    const routes: Route[] = [categoriesRoute, aroundYouRoute, settingsRoute, poiRoute, customPathRoute, suggestedPathsRoute, suggestedPathRoute];
+    const routes: Route[] = [categoriesRoute, layersRoute, aroundYouRoute, aroundMeRoute, settingsRoute, poiRoute, customPathRoute, suggestedPathsRoute, suggestedPathRoute];
     router.addRoutes(routes);
 
     // Settings

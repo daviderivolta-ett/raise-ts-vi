@@ -31,6 +31,12 @@ export class SnackbarComponent extends HTMLElement {
             </div>
 
             <style>
+                p {
+                    margin: 0;
+                    padding: 16px;
+                    box-sizing: border-box;
+                }
+
                 .snackbar {
                     position: sticky;
                     top: 0;

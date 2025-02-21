@@ -67,12 +67,7 @@ export class AroudYouPage extends HTMLElement {
                 <section class="around-you-features" role="feed"></section>
             </div>
 
-            <style>
-                :host {
-                    display: block;
-                    padding:  0 0 5rem 0;
-                }
-                
+            <style>                
                 h1,
                 p {
                     font-weight: 400;
@@ -162,7 +157,7 @@ export class AroudYouPage extends HTMLElement {
     }
 
     private update(): void {
-        if (this.pois.length === 0) return;
+        if (this.pois.length === 0) return;      
 
         const err: HTMLParagraphElement | null = this.shadowRoot.querySelector('.message');
         if (err) err.remove();
@@ -177,7 +172,7 @@ export class AroudYouPage extends HTMLElement {
             card.poi = poi;
             card.position = index + 1;
             list.append(card);
-        });
+        });    
     }
 
     private setupCards(): void {

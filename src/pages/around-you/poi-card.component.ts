@@ -115,7 +115,7 @@ export class PoiCard extends HTMLElement {
         if (!button) return;
 
         button.addEventListener('click', () => {         
-            this.dispatchEvent(new CustomEvent('poi-selected', { detail: { selectedPoi: this.poi } }));
+            this.dispatchEvent(new CustomEvent('poi-selected', { composed: true, bubbles: true, detail: { selectedPoi: this.poi } }));
         });
     }
 }

@@ -45,12 +45,7 @@ export class SettingsPage extends HTMLElement {
                 <app-settings-line-height class="settings-option"></app-settings-line-height>
             </div>
 
-            <style>
-                :host {
-                    display: block;
-                    padding:  0 0 5rem 0;
-                }
-                
+            <style>                
                 h1,
                 p {
                     font-weight: 400;

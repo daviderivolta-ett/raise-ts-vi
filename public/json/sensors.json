@@ -3,12 +3,14 @@
     "layers": [
         {
             "name": "Sensori San Martino",
-            "id": "SENSORS_SAN_MARTINO",
-            "layer_url_wfs": "./geojson/mock-sensors-locations.geojson",
+            "id": "WEATHER_STATIONS_SAN_MARTINO",
+            "url": "./geojson/san-martino-weather-station.geojson",
+            "get": {},
             "style": {
-                "color": "#1AA7EC",
-                "opacity": 0.5,
-                "icon": "🔵"
+                "type": ["point"],
+                "color": "#f5f10c",
+                "opacity": 1,
+                "icon": "🟡"
             },
             "tags": [
                 "dati urbani"
@@ -39,6 +41,34 @@
                     } 
                 }
             ]
+        },
+        {
+            "name": "Telecamere San Martino",
+            "id": "CAMERAS_SAN_MARTINO",
+            "url": "./geojson/san-martino-cameras.geojson",
+            "get": {},
+            "style": {
+                "type": ["point"],
+                "color": "#1AA7EC",
+                "opacity": 1,
+                "icon": "🔵"
+            },
+            "tags": [
+                "dati urbani"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "id",
+                    "display_name": "id",
+                    "type": "string"
+                },
+                {
+                    "property_name": "active",
+                    "display_name": "Disponibile",
+                    "type": "string"
+                }
+            ],
+            "components": []
         }
     ]
 }

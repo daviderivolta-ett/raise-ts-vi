@@ -52,44 +52,68 @@ export enum PropertyType {
 }
 
 export class Layer {
-    name: string;
-    id: string;
-    url: string;
-    post?: Record<string, any>;
-    get?: Record<string, any>;
-    style: LayerStyle;
-    tags: string[];
-    relevantProperties: LayerProperty[];
+    id: string = '';
+    name: string = '';
+    url: string = '';
+    method: 'get' | 'post' = 'get';
+    params: Record<string, any> = {};
+    tags: string[] = [];
+    relevantProperties: LayerProperty[] = [];
 
-    constructor(
-        name: string,
-        id: string,
-        url: string,
-        style: LayerStyle,
-        tags: string[],
-        relevantProperties: LayerProperty[],
-        post?: Record<string, any>,
-        get?: Record<string, any>
-    ) {
-        this.name = name;
-        this.id = id;
-        this.url = url;
-        this.style = style;
-        this.tags = tags;
-        this.relevantProperties = relevantProperties;
-        if (post) this.post = post;
-        if (get) this.get = get;
-    }
+    constructor() { }
 
     static createEmpty(): Layer {
-        return new Layer(
-            '',
-            '',
-            '',
-            LayerStyle.createEmpty(),
-            [],
-            [LayerProperty.createEmpty()]
-        )
+        return {
+            id: '',
+            name: '',
+            url: '',
+            method: 'get',
+            params: {},
+            tags: [],
+            relevantProperties: []
+        }
     }
-
 }
+
+// export class Layer {
+//     name: string;
+//     id: string;
+//     url: string;
+//     post?: Record<string, any>;
+//     get?: Record<string, any>;
+//     style: LayerStyle;
+//     tags: string[];
+//     relevantProperties: LayerProperty[];
+
+//     constructor(
+//         name: string,
+//         id: string,
+//         url: string,
+//         style: LayerStyle,
+//         tags: string[],
+//         relevantProperties: LayerProperty[],
+//         post?: Record<string, any>,
+//         get?: Record<string, any>
+//     ) {
+//         this.name = name;
+//         this.id = id;
+//         this.url = url;
+//         this.style = style;
+//         this.tags = tags;
+//         this.relevantProperties = relevantProperties;
+//         if (post) this.post = post;
+//         if (get) this.get = get;
+//     }
+
+//     static createEmpty(): Layer {
+//         return new Layer(
+//             '',
+//             '',
+//             '',
+//             LayerStyle.createEmpty(),
+//             [],
+//             [LayerProperty.createEmpty()]
+//         )
+//     }
+
+// }

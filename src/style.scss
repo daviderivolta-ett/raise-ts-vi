@@ -206,13 +206,19 @@ body {
 
 body {
   background-color: var(--surface);
-  max-width: 576px;
-  margin: auto;
+  // max-width: 576px;
+  // margin: auto;
   scrollbar-width: 0;
 }
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
 }
 
 app-snackbar {
@@ -228,12 +234,24 @@ app-home {
   z-index: 99;
 }
 
+app-router {
+  max-width: 576px;
+  width: 100%;
+  margin: auto;
+  flex: 1;
+  padding: 4% 0;
+}
+
 app-bar {
-  position: fixed;
-  z-index: 999;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  // position: fixed;
+  // z-index: 999;
+  // bottom: 0;
+  // left: 50%;
+  // transform: translateX(-50%);
+  // width: 100%;
+  // background-color: var(--surface-container-high);
+  position: sticky;
+  bottom: -1px;
   width: 100%;
   background-color: var(--surface-container-high);
 }

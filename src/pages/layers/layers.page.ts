@@ -1,16 +1,17 @@
-import { Data } from '../../models/layer.model';
+import { Data, Layer } from '../../models/layer.model';
 import { DataService } from '../../services/data.service';
-import { TagChipComponent } from './tag-chip.component';
+import { LayerService } from '../../services/layer.service';
+import { TagChipComponent } from '../categories/tag-chip.component';
 
 // Template
 const template: HTMLTemplateElement = document.createElement('template');
 template.innerHTML =
     `
-    <div class="categories-page">
+    <div class="layers-page">
         <div class="page-header">
-            <h1 tabindex="-1" class="title">Esplora macrocategorie</h1>
+            <h1 tabindex="-1" class="title">Scegli una categoria</h1>
         </div>
-        <p class="desc">Scegli una macrocategoria per conoscere le sue sottocategorie.</p>
+        <p class="desc">Scegli una categoria per cercare i punti di interesse associati.</p>
         <div class="list">
             <paginated-list page-elements="12" current-page="0"></paginated-list>
         </div>
@@ -28,7 +29,7 @@ style.innerHTML =
         margin: 0;
     }
 
-    .categories-page {
+    .layers-page {
         position: relative;
         padding: 0 4%;
     }
@@ -56,12 +57,12 @@ style.innerHTML =
     ;
 
 // Component
-export class CategoriesPage extends HTMLElement {
+export class LayersPage extends HTMLElement {
     public shadowRoot: ShadowRoot;
 
     private _list: HTMLElement;
 
-    private _tags: string[] = [];
+    private _layers: Layer[] = [];
 
     constructor() {
         super();
@@ -74,16 +75,25 @@ export class CategoriesPage extends HTMLElement {
     }
 
     // Getter and setter
-    public set tags(value: string[]) {
-        this._tags = value;
-        this._render();
+    public set layers(value: Layer[]) {
+        this._layers = value;
     }
 
     // Component callbacks
     public async connectedCallback(): Promise<void> {
-        const data: Data = await DataService.instance.getData();
-        this.tags = DataService.instance.getAllTags(data);
+        const hash: string = window.location.hash.slice(2);
+        const params = new URLSearchParams(hash.slice(hash.indexOf('?')));
+        const tag: string | null = params.get('layer');
 
+        if (!tag) {
+            window.location.hash = '/categories';
+            return;
+        }
+
+        await DataService.instance.getData();
+        this.layers = DataService.instance.filterLayersByTag(tag);
+
+        this._render();
         this._setup();
     }
 
@@ -98,10 +108,10 @@ export class CategoriesPage extends HTMLElement {
 
     // Methods
     private _render(): void {
-        this._tags.forEach((tag: string) => {
+        this._layers.forEach((layer: Layer) => {
             const chip: TagChipComponent = new TagChipComponent();
-            chip.id = tag;
-            chip.tag = tag;
+            chip.id = layer.id;
+            chip.tag = layer.name;
             this._list.appendChild(chip);
         });
     }
@@ -112,8 +122,10 @@ export class CategoriesPage extends HTMLElement {
 
     private _onTagSelected = (event: Event): void => {
         const e: CustomEvent = event as CustomEvent;
-        window.location.hash = `/layers?layer=${e.detail.id}`;
+        const layer: Layer | undefined = DataService.instance.getLayerById(e.detail.id);
+        if (layer) LayerService.instance.activeLayers = [layer];
+        window.location.hash = '/around-me';
     }
 }
 
-customElements.define('page-categories', CategoriesPage);
+customElements.define('page-layers', LayersPage);
