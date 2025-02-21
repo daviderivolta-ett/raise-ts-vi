@@ -13,7 +13,7 @@ template.innerHTML =
         </div>
         <p class="desc">Scegli una categoria per cercare i punti di interesse associati.</p>
         <div class="list">
-            <paginated-list page-elements="12" current-page="0"></paginated-list>
+            <paginated-list page-elements="13" current-page="0"></paginated-list>
         </div>
     </div>
     `
@@ -91,7 +91,7 @@ export class LayersPage extends HTMLElement {
         }
 
         await DataService.instance.getData();
-        this.layers = DataService.instance.filterLayersByTag(tag);
+        this.layers = DataService.instance.filterLayersByTag(tag).sort((a, b) => a.name.localeCompare(b.name));
 
         this._render();
         this._setup();

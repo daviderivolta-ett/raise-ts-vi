@@ -12,7 +12,7 @@ template.innerHTML =
         </div>
         <p class="desc">Scegli una macrocategoria per conoscere le sue sottocategorie.</p>
         <div class="list">
-            <paginated-list page-elements="12" current-page="0"></paginated-list>
+            <paginated-list page-elements="13" current-page="0"></paginated-list>
         </div>
     </div>
     `
@@ -82,7 +82,7 @@ export class CategoriesPage extends HTMLElement {
     // Component callbacks
     public async connectedCallback(): Promise<void> {
         const data: Data = await DataService.instance.getData();
-        this.tags = DataService.instance.getAllTags(data);
+        this.tags = DataService.instance.getAllTags(data).sort();
 
         this._setup();
     }

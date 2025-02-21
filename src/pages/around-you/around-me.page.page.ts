@@ -64,6 +64,10 @@ style.innerHTML =
         flex-direction: column;
         gap: 1rem;
     }
+
+    .message {
+        text-align: center;
+    }
     `
     ;
 
@@ -102,7 +106,7 @@ export class AroundMePage extends HTMLElement {
         try {            
             position = await PositionService.instance.getUserPosition();
             const pois: Poi[] = await GeoGraphicService.instance.getPoisFromLayer(LayerService.instance.activeLayers[0]);
-            this.pois = GeoGraphicService.instance.orderPoisByDistance(position, pois);          
+            this.pois = GeoGraphicService.instance.orderPoisByDistance(position, pois);                   
             if (this._pois.length === 0) this._updateMsg('empty');
         } catch (error) {
             this._updateMsg('error');
@@ -110,7 +114,7 @@ export class AroundMePage extends HTMLElement {
             this._render();
             this._setup();
 
-            this._updateMsg();
+            if (this._pois.length !== 0) this._updateMsg();
             SnackbarService.instance.resetSnackbar();
         }
     }
@@ -156,7 +160,7 @@ export class AroundMePage extends HTMLElement {
                 this._message.innerText = 'Impossibile trovare la tua posizione.\n\nPer mostrare i punti di interesse nelle vicinanze è necessario concedere all\'app l\'autorizzazione ad accedere alla posizione del dispositivo.';
                 break;
             case 'empty':
-                this._message.innerText = 'Impossibile trovare punti di interesse nelle vicinanze senza selezionare alcuna categoria.\n\nAndare nella sezione "Categorie" e sceglierne una.';
+                this._message.innerText = 'Sembra non ci siano punti di interesse per la categoria selezionata.\n\nAndare nella sezione "Categorie" e sceglierne un\'altra.';
                 break;
             default:
                 break;

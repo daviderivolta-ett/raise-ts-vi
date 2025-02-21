@@ -1,6 +1,6 @@
 import { Feature, FeatureGeometry, FeatureGeometryType } from '../models/feature.model';
 import { Layer, LayerProperty } from '../models/layer.model';
-import { Poi } from '../models/poi.model';
+import { Poi, PoiType } from '../models/poi.model';
 
 export class GeoGraphicService {
     private static _instance: GeoGraphicService;
@@ -302,37 +302,41 @@ export class GeoGraphicService {
         let geoJSON: any;
         if (layer.method === 'get') geoJSON = this._createGeoJsonFromLayerWithGetUrl(data, layer);
         if (layer.method === 'post') geoJSON = this._createGeoJsonFromLayerWithPostUrl(data, layer);
-        return geoJSON.features.slice(0, 20).map((f: any) => this._parseFeature(f, layer));
+        return geoJSON.features.slice(0, 20).map((f: any) => this._parseFeature(f, layer)).filter((p: Poi) => p.type === PoiType.Point);
     }
 
-    private _parseFeature(feature: GeoJSON.Feature, layer: Layer): Poi {    
+    private _parseFeature(feature: GeoJSON.Feature, layer: Layer): Poi {
         let p: Poi = new Poi();
-    
+
         if (feature.properties && feature.properties.uuid) p.uuid = feature.properties.uuid;
         if (feature.properties && feature.properties.customName) p.name = feature.properties.customName;
         if (feature.properties && feature.properties.layerId) p.layerName = feature.properties.layerId;
         if (feature.properties && feature.properties.props) p.props = [...feature.properties.props];
-    
+
         p.layer = layer;
-    
+
         if (feature.geometry) {
             switch (feature.geometry.type) {
                 case 'Point':
                     p.coordinates = feature.geometry.coordinates;
+                    p.type = PoiType.Point;
                     break;
                 case 'LineString':
                     p.coordinates = feature.geometry.coordinates;
+                    p.type = PoiType.LineString;
                     break;
                 case 'Polygon':
                     p.coordinates = feature.geometry.coordinates;
+                    p.type = PoiType.Polygon;
                     break;
                 default:
                     console.warn(`Unsupported geometry type: ${feature.geometry.type}`);
+                    p.type = PoiType.Polygon;
             }
         }
-    
+        
         return p;
-    }    
+    }
 
     public async fetchLayerData(layer: Layer): Promise<any> {
         switch (layer.method) {
@@ -428,7 +432,7 @@ export class GeoGraphicService {
 
             });
         }
-        
+
         return geoJSON;
     }
 

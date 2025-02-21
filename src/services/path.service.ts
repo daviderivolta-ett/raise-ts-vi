@@ -143,11 +143,11 @@ export class PathService {
             const paths: Path[] = [];
             const promises: Promise<any>[] = [];
 
-            while (index <= fileNumber) {
+            while (index < fileNumber) {               
                 const promise = fetch(`./suggested-paths/${index}.tsv`)
                     .then(res => res.text())
-                    .then(data => {      
-                        const parsedCsv: Record<string, string>[] = this.parseCsvFile(data);
+                    .then(data => {                            
+                        const parsedCsv: Record<string, string>[] = this.parseCsvFile(data);                       
                         paths.push(this.parseCsvPath(parsedCsv));
                     })
                     .catch(error => console.error('Errore durante il recupero dei percorsi suggeriti', error))
@@ -186,13 +186,13 @@ export class PathService {
         return data;
     }
 
-    private parseCsvPath(data: Record<string, string>[]): Path {
-        let path: Path = Path.createEmpty();
+    private parseCsvPath(data: Record<string, string>[]): Path {       
+        let path: Path = Path.createEmpty();     
 
         path.name = data[1].path;
 
         data.forEach((d: Record<string, string>, index) => {
-            if (index === 0) return;
+            if (index === 0) return;         
             path.pois.push(this.parseCsvPoi(d));
         });
 
@@ -201,12 +201,12 @@ export class PathService {
 
     private parseCsvPoi(data: Record<string, string>): Poi {
         let poi: Poi = new Poi();
-
+       
         poi.layerName = data.layerName;
         poi.name = data.name;
         poi.coordinates = [parseFloat(data.longitude), parseFloat(data.latitude), parseFloat(data.height)];
         poi.type = PoiType.Point;
-        poi.uuid = data.id;
+        poi.uuid = data.id;       
         poi.props = this.parseCsvPoiProperties(data.info);
 
         return poi;
@@ -214,7 +214,7 @@ export class PathService {
 
     private parseCsvPoiProperties(data: string): PoiProperty[] {
         let properties: PoiProperty[] = [];
-
+       
         const props: string[] = data.split('|');
 
         props.forEach((prop: string) => {
