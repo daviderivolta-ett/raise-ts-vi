@@ -1,4 +1,4 @@
-import { Data, Layer, LayerCategory, LayerGroup, LayerProperty, LayerStyle, PropertyType } from '../models/layer.model';
+import { Data, Layer, LayerCategory, LayerGroup, LayerProperty } from '../models/layer.model';
 
 export class DataService {
     private static _instance: DataService;

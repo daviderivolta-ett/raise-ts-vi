@@ -1,4 +1,4 @@
-import { Data, Layer } from '../../models/layer.model';
+import { Layer } from '../../models/layer.model';
 import { DataService } from '../../services/data.service';
 import { LayerService } from '../../services/layer.service';
 import { TagChipComponent } from '../categories/tag-chip.component';
@@ -99,11 +99,6 @@ export class LayersPage extends HTMLElement {
 
     public disconnectedCallback(): void {
         this.removeEventListener('tag-selected', this._onTagSelected);
-    }
-
-    static observedAttributes: string[] = [];
-    public attributeChangedCallback(name: string, oldValue: string, newValue: string): void {
-
     }
 
     // Methods

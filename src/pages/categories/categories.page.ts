@@ -91,11 +91,6 @@ export class CategoriesPage extends HTMLElement {
         this.removeEventListener('tag-selected', this._onTagSelected);
     }
 
-    static observedAttributes: string[] = [];
-    public attributeChangedCallback(name: string, oldValue: string, newValue: string): void {
-
-    }
-
     // Methods
     private _render(): void {
         this._tags.forEach((tag: string) => {

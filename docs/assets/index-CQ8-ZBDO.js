@@ -1,0 +1,1517 @@
+var ot=Object.defineProperty;var rt=(o,e,t)=>e in o?ot(o,e,{enumerable:!0,configurable:!0,writable:!0,value:t}):o[e]=t;var n=(o,e,t)=>(rt(o,typeof e!="symbol"?e+"":e,t),t);(function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const i of document.querySelectorAll('link[rel="modulepreload"]'))s(i);new MutationObserver(i=>{for(const a of i)if(a.type==="childList")for(const r of a.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&s(r)}).observe(document,{childList:!0,subtree:!0});function t(i){const a={};return i.integrity&&(a.integrity=i.integrity),i.referrerPolicy&&(a.referrerPolicy=i.referrerPolicy),i.crossOrigin==="use-credentials"?a.credentials="include":i.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function s(i){if(i.ep)return;i.ep=!0;const a=t(i);fetch(i.href,a)}})();var g=(o=>(o.Default="default",o.Page="page",o.NotFound="not-found",o))(g||{});class E{constructor(e,t,s){n(this,"url");n(this,"type");n(this,"routing");this.url=e,this.type=t,this.routing=s}}class F{constructor(){n(this,"fontSize",14);n(this,"letterSpace",0);n(this,"lineHeight",1.15);n(this,"contrast","dark");n(this,"showSettings",!0)}}var f=(o=>(o.Light="light",o.Dark="dark",o.LightHigh="light-high",o.DarkHigh="dark-high",o))(f||{});const b=class b{constructor(){n(this,"_settings",new F);if(b._instance)return b._instance;b._instance=this}get settings(){return this._settings}set settings(e){this._settings=e,this.setFontSize(this.settings.fontSize),this.setLetterSpace(this.settings.letterSpace),this.setLineHeight(this.settings.lineHeight),this.setContrast(),this.setLocalStorageSettings()}static get instance(){return b._instance||(b._instance=new b),b._instance}getLocalStorageSettings(){const e=localStorage.getItem("settings-vi");if(!e)return;const t=JSON.parse(e),s=this.parseLocalStorageSettings(t);this.settings={...s}}setLocalStorageSettings(){localStorage.setItem("settings-vi",JSON.stringify(this.settings))}setLightContrast(){document.body.classList.remove("dark"),document.body.classList.remove("dark-high"),document.body.classList.remove("light-high"),document.body.classList.add("light")}setDarkContrast(){document.body.classList.remove("light"),document.body.classList.remove("light-high"),document.body.classList.remove("dark-high"),document.body.classList.add("dark")}setLightHighContrast(){document.body.classList.remove("light"),document.body.classList.remove("dark"),document.body.classList.remove("dark-high"),document.body.classList.add("light-high")}setDarkHighContrast(){document.body.classList.remove("light"),document.body.classList.remove("dark"),document.body.classList.remove("light-high"),document.body.classList.add("dark-high")}setFontSize(e){document.documentElement.style.setProperty("font-size",e.toString()+"px")}setContrast(){switch(this.settings.contrast){case f.Light:this.setLightContrast();break;case f.Dark:this.setDarkContrast();break;case f.LightHigh:this.setLightHighContrast();break;default:this.setDarkHighContrast();break}}setLetterSpace(e){document.documentElement.style.setProperty("letter-spacing",e.toString()+"rem")}setLineHeight(e){document.documentElement.style.setProperty("line-height",e.toString())}parseLocalStorageSettings(e){let t=new F;return t.contrast=e.contrast,t.fontSize=e.fontSize,t.lineHeight=e.lineHeight,t.letterSpace=e.letterSpace,t.showSettings=e.showSettings,t}};n(b,"_instance");let p=b;class T{constructor(e,t,s=2){n(this,"type");n(this,"message");n(this,"duration");this.type=e,this.message=t,this.duration=s}static createEmpty(){return new T("info","",2)}}var H=(o=>(o.Error="error",o.Info="info",o))(H||{});const v=class v{constructor(){n(this,"_snackbar",new T(H.Info,""));n(this,"_live",document.body.querySelector("app-snackbar"));if(v._instance)return v._instance;v._instance=this}static get instance(){return v._instance||(v._instance=new v),v._instance}get snackbar(){return this._snackbar}set snackbar(e){this._snackbar=e}get live(){return this._live}set live(e){this._live=e}updateSnackbar(e,t,s=5){this.live&&(this.live.snackbar=new T(e,t,s))}resetSnackbar(){this.live&&this.live.resetSnackbar()}};n(v,"_instance");let z=v;class ct extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"routes",[]);this.shadowRoot=this.attachShadow({mode:"closed"})}connectedCallback(){window.addEventListener("hashchange",()=>{this.checkRoute()})}addRoutes(t){this.routes=[...t],this.checkRoute()}checkRoute(){const t=window.location.hash.slice(2);this.changeRoute(t)}changeRoute(t){if(z.instance.resetSnackbar(),t){const s=t.split("?")[0],i=this.routes.findIndex(a=>a.url===s);this.shadowRoot.innerHTML=this.routes[i]?this.routes[i].routing():this.sendNotFound()}else{this.checkParams(window.location.search);const s=this.routes.filter(i=>i.type===g.Default);s?window.location.hash="#/"+s[0].url:this.sendNotFound()}}sendNotFound(){const t=this.routes.filter(s=>s.type===g.NotFound);return t.length===0||(window.location.hash="#/"+t[0].url,this.changeRoute(t[0].url)),"404: Not found"}checkParams(t){const s=new URLSearchParams(t),i=new F;let a=!1;if(s.forEach(r=>{switch(a=!0,r){case"blind":i.showSettings=!1;break;case"vi":i.fontSize=24,i.contrast=f.DarkHigh;break;case"fine-motor":i.fontSize=24;break;case"color-blindness":i.contrast=f.DarkHigh;break}}),a){const r=window.location.pathname+window.location.hash;history.replaceState(null,"",r)}p.instance.settings={...i}}}customElements.define("app-router",ct);const W=document.createElement("template");W.innerHTML=`
+    <div class="loader">
+        <div class="loader__spinner"></div>
+        <p class="loader__msg">Caricamento...</p>
+    </div>
+    `;const X=document.createElement("style");X.innerHTML=`
+    .loader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .loader__spinner {
+        bottom: 24px;
+        width: 32px;
+        height: 32px;
+        margin: 16px;
+        border-radius: 50%;
+        animation: rotate 1s linear infinite;
+    }
+
+    .loader__spinner::before {
+        content: "";
+        box-sizing: border-box;
+        position: absolute;
+        inset: 0px;
+        border-radius: 50%;
+        border: 3px solid var(--on-surface);
+        animation: prixClipFix 2s linear infinite;
+    }
+
+    @keyframes rotate {
+        100% {
+            transform: rotate(360deg)
+        }
+    }
+                
+    @keyframes prixClipFix {
+        0% {
+            clip-path: polygon(50% 50%, 0 0, 0 0, 0 0, 0 0, 0 0)
+        }    
+        25% {
+            clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 0, 100% 0, 100% 0)
+        }    
+        50% {
+            clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%)
+        }    
+        75% {
+            clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%)
+        }    
+        100% {
+            clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0)
+        }
+    }
+    `;class lt extends HTMLElement{constructor(){super();n(this,"shadowRoot");this.shadowRoot=this.attachShadow({mode:"open"}),this.shadowRoot.appendChild(W.content.cloneNode(!0)),this.shadowRoot.appendChild(X.cloneNode(!0))}}customElements.define("app-spinner-loader",lt);class U{constructor(e,t,s){n(this,"propertyName");n(this,"displayName");n(this,"type");this.propertyName=e,this.displayName=t,this.type=s}static createEmpty(){return new U("","","string")}}class ${constructor(){n(this,"id","");n(this,"name","");n(this,"url","");n(this,"method","get");n(this,"params",{});n(this,"tags",[]);n(this,"relevantProperties",[])}static createEmpty(){return{id:"",name:"",url:"",method:"get",params:{},tags:[],relevantProperties:[]}}}const w=class w{constructor(){n(this,"CATEGORIES_URL","./json/categories.json");n(this,"_data",{categories:[]});if(w._instance)return w._instance;w._instance=this}static get instance(){return w._instance||(w._instance=new w),w._instance}get data(){return this._data}set data(e){this._data=e}async getData(){if(this.data.categories.length!==0)return this._data;{let e=await this.fetchAppData(this.CATEGORIES_URL);return e=this.parseData(e),this.data=e,e}}async fetchAppData(e){try{const t=await fetch(e).then(i=>i.json()),s=await Promise.all(t.categories.map(async i=>{const a=await Promise.all(i.groups.map(async r=>{if(typeof r=="string")try{const c=await fetch(r);if(c.ok)return c.json();throw new Error("Errore durante il recupero dei dati.")}catch(c){return console.error(c),null}else return r}));return i.groups=a,i}));return{...t,categories:s}}catch(t){throw console.error("Errore durante il recupero dei dati JSON.",t),t}}parseData(e){return{categories:e.categories.map(s=>({name:s.name,groups:s.groups.map(i=>this.parseGroup(i))}))}}parseGroup(e){return Array.isArray(e)?e:{name:e.name,layers:e.layers.map(t=>this._parseLayer(t))}}_parseLayer(e){const t=$.createEmpty();return e.id&&(t.id=e.id),e.name&&(t.name=e.name),e.url&&(t.url=e.url),e.get&&(t.method="get",t.params={...e.get}),e.post&&(t.method="post",t.params={...e.post}),e.tags&&(t.tags=[...e.tags]),e.relevant_properties&&(t.relevantProperties=e.relevant_properties.map(s=>this._parseProperty(s))),t}_parseProperty(e){let t=U.createEmpty();return e.property_name&&(t.propertyName=e.property_name),e.display_name&&(t.displayName=e.display_name),e.type&&(t.type=e.type),t}getAllTags(e){let t=[];return e.categories.map(i=>{i.groups.map(a=>{typeof a!="string"&&a.layers.map(r=>{r.tags.map(c=>{t.push(c)})})})}),[...new Set(t)]}filterLayersByTags(e){let t=[];return e.forEach(i=>{this.filterLayersByTag(i).forEach(r=>t.push(r))}),[...new Set(t)]}filterLayersByTag(e){let t=[];return t=this.data.categories.flatMap(s=>s.groups.flatMap(i=>typeof i=="string"?[$.createEmpty()]:i.layers.filter(a=>a.tags.some(r=>r.includes(e))))),t}getLayerById(e){for(const t of this.data.categories)for(const s of t.groups){if(typeof s=="string")continue;const i=s.layers.find(a=>a.id===e);if(i)return i}}};n(w,"_instance");let I=w;class J extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_tag","");this.shadowRoot=this.attachShadow({mode:"closed"})}get tag(){return this._tag}set tag(t){this._tag=t}connectedCallback(){this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
+            <button type="button" class="tag-chip">${this.tag.charAt(0).toUpperCase()+this.tag.slice(1)}</button>
+
+            <style>
+                .tag-chip {
+                    cursor: pointer;
+                    width: 100%;
+                    display: block;
+                    color: var(--on-surface);
+                    background-color: var(--surface-container);
+                    border: 1px solid var(--outline);
+                    padding: 8px 8px;
+                    border-radius: var( --border-radius-s);
+                    font-size: 1rem;
+                    letter-spacing: inherit;
+                    line-height: inherit;
+                }
+
+                .tag-chip:hover {
+                    background-color:  var(--surface-container-highest); 
+                    border-color: var(--primary);  
+                }
+            </style>
+            `}setup(){this.addEventListener("click",()=>{this.dispatchEvent(new CustomEvent("tag-selected",{bubbles:!0,composed:!0,detail:{id:this.id}}))})}}customElements.define("app-tag-chip",J);const Y=document.createElement("template");Y.innerHTML=`
+    <div class="categories-page">
+        <div class="page-header">
+            <h1 tabindex="-1" class="title">Esplora macrocategorie</h1>
+        </div>
+        <p class="desc">Scegli una macrocategoria per conoscere le sue sottocategorie.</p>
+        <div class="list">
+            <paginated-list page-elements="13" current-page="0"></paginated-list>
+        </div>
+    </div>
+    `;const Q=document.createElement("style");Q.innerHTML=`
+    h1,
+    p {
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .categories-page {
+        position: relative;
+        padding: 0 4%;
+    }
+
+    .page-header {
+        position: relative;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 24px 0;
+    }
+        
+    .title {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .desc {
+        text-align: center;
+        color: var(--on-surface-variant);
+        margin: 0 0 24px 0;
+    }
+    `;class dt extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_list");n(this,"_tags",[]);n(this,"_onTagSelected",t=>{const s=t;window.location.hash=`/layers?layer=${s.detail.id}`});this.shadowRoot=this.attachShadow({mode:"open"}),this.shadowRoot.appendChild(Y.content.cloneNode(!0)),this.shadowRoot.appendChild(Q.cloneNode(!0)),this._list=this.shadowRoot.querySelector("paginated-list")}set tags(t){this._tags=t,this._render()}async connectedCallback(){const t=await I.instance.getData();this.tags=I.instance.getAllTags(t).sort(),this._setup()}disconnectedCallback(){this.removeEventListener("tag-selected",this._onTagSelected)}_render(){this._tags.forEach(t=>{const s=new J;s.id=t,s.tag=t,this._list.appendChild(s)})}_setup(){this.addEventListener("tag-selected",this._onTagSelected)}}customElements.define("page-categories",dt);const S=class S{constructor(){n(this,"_activeLayers",[]);if(S._instance)return S._instance;S._instance=this}static get instance(){return S._instance||(S._instance=new S),S._instance}get activeLayers(){return this._activeLayers}set activeLayers(e){this._activeLayers=e,localStorage.setItem("layers-vi",JSON.stringify(this.activeLayers))}getSavedLayers(){const e=localStorage.getItem("layers-vi");if(!e)return;const t=JSON.parse(e);let s=[];s=t.map(i=>this.parseLayer(i)),this._activeLayers=s}parseLayer(e){const t=$.createEmpty();return e.id&&(t.id=e.id),e.name&&(t.name=e.name),e.url&&(t.url=e.url),e.method&&(t.method=e.method),e.params&&(t.params={...e.params}),e.tags&&(t.tags=[...e.tags]),e.relevantProperties&&(t.relevantProperties=e.relevantProperties),t}};n(S,"_instance");let N=S;const K=document.createElement("template");K.innerHTML=`
+    <div class="layers-page">
+        <div class="page-header">
+            <h1 tabindex="-1" class="title">Scegli una categoria</h1>
+        </div>
+        <p class="desc">Scegli una categoria per cercare i punti di interesse associati.</p>
+        <div class="list">
+            <paginated-list page-elements="13" current-page="0"></paginated-list>
+        </div>
+    </div>
+    `;const Z=document.createElement("style");Z.innerHTML=`
+    h1,
+    p {
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .layers-page {
+        position: relative;
+        padding: 0 4%;
+    }
+
+    .page-header {
+        position: relative;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 24px 0;
+    }
+        
+    .title {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .desc {
+        text-align: center;
+        color: var(--on-surface-variant);
+        margin: 0 0 24px 0;
+    }
+    `;class pt extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_list");n(this,"_layers",[]);n(this,"_onTagSelected",t=>{const s=t,i=I.instance.getLayerById(s.detail.id);i&&(N.instance.activeLayers=[i]),window.location.hash="/around-me"});this.shadowRoot=this.attachShadow({mode:"open"}),this.shadowRoot.appendChild(K.content.cloneNode(!0)),this.shadowRoot.appendChild(Z.cloneNode(!0)),this._list=this.shadowRoot.querySelector("paginated-list")}set layers(t){this._layers=t}async connectedCallback(){const t=window.location.hash.slice(2),i=new URLSearchParams(t.slice(t.indexOf("?"))).get("layer");if(!i){window.location.hash="/categories";return}await I.instance.getData(),this.layers=I.instance.filterLayersByTag(i).sort((a,r)=>a.name.localeCompare(r.name)),this._render(),this._setup()}disconnectedCallback(){this.removeEventListener("tag-selected",this._onTagSelected)}_render(){this._layers.forEach(t=>{const s=new J;s.id=t.id,s.tag=t.name,this._list.appendChild(s)})}_setup(){this.addEventListener("tag-selected",this._onTagSelected)}}customElements.define("page-layers",pt);const V=document.createElement("template");V.innerHTML=`
+    <div class="paginated-list">
+        <div class="list">
+            <slot></slot>
+        </div>
+        <div class="pagination">
+            <button type="button" class="pagination-btn prev-btn" aria-label="Pagina precedente">
+                <span class="material-symbols-outlined" aria-hidden="true">chevron_left</span>
+            </button>
+            <button type="button" class="pagination-btn next-btn" aria-label="Pagina successiva">
+                <span class="material-symbols-outlined" aria-hidden="true">chevron_right</span>
+            </button>
+        </div>
+    </div>
+    `;const tt=document.createElement("style");tt.innerHTML=`
+    button {
+        cursor: pointer;
+        font-family: 'Inter', Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+
+        &[disabled] {
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .pagination {
+        display: none;
+        margin: 8px 0 0 0;
+    }
+
+    .pagination--visible {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pagination-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        min-height: 40px;
+        min-width: 40px;
+        color: var(--on-primary-container);
+        background-color: var(--primary-container);
+        border: 1px solid transparent;
+        border-radius: var( --border-radius-s);
+        box-sizing: border-box;
+
+        &:hover {
+            opacity: .8;
+        }
+    }
+
+    .material-symbols-outlined {
+        font-family: 'Material Symbols Outlined';
+        font-size: 1.2rem;
+        font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+    }
+    `;class et extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_slot");n(this,"_slottedElements",[]);n(this,"_pagination");n(this,"_prevBtn");n(this,"_nextBtn");n(this,"_hasPagination",!1);n(this,"_pageElements",10);n(this,"_currentPage",0);this.shadowRoot=this.attachShadow({mode:"open"}),this.shadowRoot.appendChild(V.content.cloneNode(!0)),this.shadowRoot.appendChild(tt.cloneNode(!0)),this._slot=this.shadowRoot.querySelector("slot"),this._pagination=this.shadowRoot.querySelector(".pagination"),this._prevBtn=this.shadowRoot.querySelector(".prev-btn"),this._nextBtn=this.shadowRoot.querySelector(".next-btn")}get hasPagination(){return this._hasPagination}set hasPagination(t){this._hasPagination=t}set pageElements(t){this._pageElements=t,this._checkPagination()}set currentPage(t){this._currentPage=t,this._changePage(t)}connectedCallback(){this._setup()}disconnectedCallback(){}attributeChangedCallback(t,s,i){t==="page-elements"&&i!==s&&(this.pageElements=parseInt(i)),t==="current-page"&&i!==s&&(parseInt(i)>=0&&parseInt(i)<=this._getPagesNumber()?this.currentPage=parseInt(i):parseInt(i)<0?this.setAttribute("current-page","0"):this.setAttribute("current-page",`${this._getPagesNumber()}`))}_setup(){this._slot.onslotchange=()=>this._onSlotChange(),this._prevBtn.onclick=()=>this._onPrevClick(),this._nextBtn.onclick=()=>this._onNextClick()}_onSlotChange(){this._checkPagination(),this._checkBtnStatus(),this._paginateElements(this._currentPage)}_onPrevClick(){this.setAttribute("current-page",JSON.stringify(this._currentPage-1))}_onNextClick(){this.setAttribute("current-page",JSON.stringify(this._currentPage+1))}_checkPagination(){this._slottedElements=this._slot.assignedElements(),this._slottedElements.length>=this._pageElements?this._pagination.classList.add("pagination--visible"):this._pagination.classList.remove("pagination--visible")}_changePage(t){this._checkBtnStatus(),this._paginateElements(t)}_getPagesNumber(){return Math.floor(this._slottedElements.length/this._pageElements)}_checkBtnStatus(){this._prevBtn.disabled=this._currentPage===0,this._nextBtn.disabled=this._currentPage===this._getPagesNumber()}_paginateElements(t){const s=t*this._pageElements,i=Math.min(s+this._pageElements,this._slottedElements.length);this._slottedElements.forEach(a=>{const r=a;r.style.display="none"});for(let a=s;a<i;a++){const r=this._slottedElements[a];r.style.display=""}}}n(et,"observedAttributes",["page-elements","current-page"]);customElements.define("paginated-list",et);var h=(o=>(o.Point="Point",o.LineString="LineString",o.Polygon="Polygon",o.MultiPoint="MultiPoint",o.MultiLineString="MultiLineString",o.MultiPolygon="MultiPolygon",o))(h||{});class y{constructor(){n(this,"uuid","");n(this,"name","");n(this,"type","Point");n(this,"coordinates",[]);n(this,"layer",$.createEmpty());n(this,"layerName","");n(this,"props",[]);n(this,"distance")}static fromFeature(e){const t=new y;switch(t.uuid=e.properties.uuid,t.name=e.properties.name,e.geometry.type){case h.LineString:t.type="LineString";break;case h.Polygon:t.type="Polygon";break;case h.MultiPoint:t.type="MultiPoint";break;case h.MultiLineString:t.type="MultiLineString";break;case h.MultiPolygon:t.type="MultiPolygon";break;default:t.type="Point";break}t.coordinates=e.geometry.coordinates,t.layerName=e.properties.layerName;for(const s in e.properties){if(typeof e.properties[s]!="object")continue;let i=new B;switch(i.displayName=e.properties[s].displayName,i.value=e.properties[s].value,e.properties[s].type){case"number":i.type="number";break;case"image":i.type="image";break;default:i.type="string";break}t.props.push(i)}return t}}var d=(o=>(o.Point="Point",o.LineString="LineString",o.Polygon="Polygon",o.MultiPoint="MultiPoint",o.MultiLineString="MultiLineString",o.MultiPolygon="MultiPolygon",o))(d||{});class B{constructor(){n(this,"displayName","");n(this,"type","string");n(this,"value","")}}var C=(o=>(o.String="string",o.Image="image",o.Number="number",o))(C||{});const m=class m{constructor(){if(m._instance)return m._instance;m._instance=this}static get instance(){return m._instance||(m._instance=new m),m._instance}async getPoisFromLayer(e){const t=await this.fetchLayerData(e);let s;return e.method==="get"&&(s=this._createGeoJsonFromLayerWithGetUrl(t,e)),e.method==="post"&&(s=this._createGeoJsonFromLayerWithPostUrl(t,e)),s.features.slice(0,20).map(i=>this._parseFeature(i,e)).filter(i=>i.type===d.Point)}_parseFeature(e,t){let s=new y;if(e.properties&&e.properties.uuid&&(s.uuid=e.properties.uuid),e.properties&&e.properties.customName&&(s.name=e.properties.customName),e.properties&&e.properties.layerId&&(s.layerName=e.properties.layerId),e.properties&&e.properties.props&&(s.props=[...e.properties.props]),s.layer=t,e.geometry)switch(e.geometry.type){case"Point":s.coordinates=e.geometry.coordinates,s.type=d.Point;break;case"LineString":s.coordinates=e.geometry.coordinates,s.type=d.LineString;break;case"Polygon":s.coordinates=e.geometry.coordinates,s.type=d.Polygon;break;default:console.warn(`Unsupported geometry type: ${e.geometry.type}`),s.type=d.Polygon}return s}async fetchLayerData(e){switch(e.method){case"get":const t=this._createGetUrl(e);try{const i=await fetch(t);if(i.ok)return await i.json();throw new Error("Errore nel recupero dei dati del layer")}catch{throw new Error("Errore nel recupero dei dati del layer")}case"post":const s=this._createPostQuery(e);try{const i=await fetch(e.url,{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:new URLSearchParams({data:s}).toString()});if(i.ok)return await i.json();throw new Error("Errore nel recupero dei dati del layer")}catch{throw new Error("Errore nel recupero dei dati del layer")}}}_createGetUrl(e){const t=new Map(Object.entries(e.params)),s=Array.from(t,([a,r])=>[a,String(r)]),i=new URLSearchParams(s);return`${e.url}?${i.toString()}`}_createPostQuery(e){const t=[44.3654649485199,8.70205291300195,44.499460199499595,9.026271898848734];let s=`[out:json][timeout:20];
+(
+`;for(const i in e.params)if(e.params.hasOwnProperty(i)){const a=e.params[i];a.startsWith("~")?s+=`nwr["${i}"~"${a.slice(1)}"](${t[0]},${t[1]},${t[2]},${t[3]});
+`:s+=`nwr["${i}"="${a}"](${t[0]},${t[1]},${t[2]},${t[3]});
+`}return s+=`);
+out geom;`,s}_createGeoJsonFromLayerWithGetUrl(e,t){let s={type:"FeatureCollection",features:[]};return e.features&&Array.isArray(e.features)&&(s.features=e.features.map((i,a)=>{let r={customName:i.properties.name?i.properties.name:`${t.name} ${a}`,layerId:t.id,uuid:this._createFeatureUuid(t.id,i),props:this._createFeatureProps(i.properties,t.relevantProperties)};return{...i,properties:r}})),s}_createFeatureUuid(e,t){const s=i=>i.toString().replace(/\D/g,"");switch(t.geometry.type){case"Point":const i=t.geometry.coordinates[0]+t.geometry.coordinates[1];return e+s(i);case"LineString":const a=t.geometry.coordinates[0][0]+t.geometry.coordinates[0][1];return e+s(a);case"Polygon":const r=t.geometry.coordinates[0][0][0]+t.geometry.coordinates[0][0][1];return e+s(r);case"MultiPoint":const c=t.geometry.coordinates[0][0]+t.geometry.coordinates[0][1];return e+s(c);case"MultiLineString":const l=t.geometry.coordinates[0][0][0]+t.geometry.coordinates[0][0][1];return e+s(l);case"MultiPolygon":const _=t.geometry.coordinates[0][0][0][0]+t.geometry.coordinates[0][0][0][1];return e+s(_);case"GeometryCollection":return e+this._createFeatureUuid(e,{type:"Feature",geometry:t.geometry.geometries[0]});default:return""}}_createFeatureProps(e,t){return Object.keys(e).map(s=>{const i=t.find(a=>a.propertyName===s);return i&&e[s]!==void 0&&e[s]!==null?{propertyName:i.propertyName,displayName:i.displayName,type:i.type,value:e[s]}:null}).filter(s=>s!==null)}_createGeoJsonFromLayerWithPostUrl(e,t){const s={type:"FeatureCollection",features:[]};for(const i of e.elements)switch(i.type){case"node":s.features.push(this._createGeoJsonPointFeature(i,t));break}return s}_createGeoJsonPointFeature(e,t){return{type:"Feature",properties:{customName:e.tags.name?e.tags.name:`${t.name}`,layerId:t.id,uuid:this._createFeatureUuid(t.id,{type:"Feature",properties:{},geometry:{type:"Point",coordinates:[e.lon,e.lat]}}),props:this._createFeatureProps(e.tags,t.relevantProperties)},geometry:{type:"Point",coordinates:[e.lon,e.lat]}}}orderPoisByDistance(e,t){return t.forEach(s=>{if(!m.instance.isCoordinatesMultidimensional(s.coordinates)){const i=Array.isArray(s.coordinates)?s.coordinates[1]:s.coordinates,a=Array.isArray(s.coordinates)?s.coordinates[0]:s.coordinates,r=this.haversineDistance(i,a,e.coords.latitude,e.coords.longitude);s.distance=r}}),t.sort((s,i)=>s.distance&&i.distance?s.distance-i.distance:0),t}isCoordinatesMultidimensional(e){if(!Array.isArray(e))return!1;for(let t=0;t<e.length;t++)if(Array.isArray(e[t]))return!0;return!1}haversineDistance(e,t,s,i){const a=e*Math.PI/180,r=s*Math.PI/180,l=(i-t)*Math.PI/180;return Math.acos(Math.sin(a)*Math.sin(r)+Math.cos(a)*Math.cos(r)*Math.cos(l))*6371e3}};n(m,"_instance");let q=m;const x=class x{constructor(){n(this,"_selectedPoi",new y);if(x._instance)return x._instance;x._instance=this}static get instance(){return x._instance||(x._instance=new x),x._instance}get selectedPoi(){return this._selectedPoi}set selectedPoi(e){this._selectedPoi=e,localStorage.setItem("selected-poi-vi",JSON.stringify(this.selectedPoi))}getSelectedPoi(){const e=localStorage.getItem("selected-poi-vi");if(!e)return;const t=JSON.parse(e);this._selectedPoi=this.parsePoi(t)}parsePoi(e){let t=new y;switch(t.uuid=e.uuid,t.name=e.name,e.type){case h.LineString:e.type=d.LineString;break;case h.Polygon:e.type=d.Polygon;break;case h.MultiPoint:e.type=d.MultiPoint;break;case h.MultiLineString:e.type=d.MultiLineString;break;case h.MultiPolygon:e.type=d.MultiPolygon;break;default:e.type=d.Point;break}t.coordinates=e.coordinates,t.layerName=e.layerName,t.layer=N.instance.parseLayer(e.layer);for(const s in e.props){if(typeof e.props[s]!="object")continue;let i=new B;switch(i.displayName=e.props[s].displayName,i.value=e.props[s].value,e.props[s].type){case"number":i.type=C.Number;break;case"image":i.type=C.Image;break;default:i.type=C.String;break}t.props.push(i)}return e.distance&&(t.distance=e.distance),t}};n(x,"_instance");let A=x;const L=class L{constructor(){n(this,"listeners",{});if(L._instance)return L._instance;L._instance=this}static get instance(){return L._instance||(L._instance=new L),L._instance}subscribe(e,t){this.listeners[e]||(this.listeners[e]=[]),this.listeners[e].push(t)}unsubscribe(e,t){this.listeners[e]&&(this.listeners[e]=this.listeners[e].filter(s=>s!==t))}unsubscribeAll(e){delete this.listeners[e]}publish(e,t){this.listeners[e]&&this.listeners[e].forEach(s=>s(t))}};n(L,"_instance");let j=L;const P=class P{constructor(){n(this,"_position",null);n(this,"_watchId",null);if(P._instance)return P._instance;P._instance=this}static get instance(){return P._instance||(P._instance=new P),P._instance}get position(){return this._position}set position(e){this._position=e,j.instance.publish("position-update",this.position)}get watchId(){return this._watchId}set watchId(e){this._watchId=e}async getUserPosition(){try{return await new Promise((t,s)=>{navigator.geolocation.getCurrentPosition(i=>{t(i)},i=>{s(i)},{timeout:5e3})})}catch(e){throw e}}async startWatchingPosition(){this.watchId=navigator.geolocation.watchPosition(e=>this.position=e,e=>{console.error(e),this.position=null},{enableHighAccuracy:!1,timeout:5e3,maximumAge:0})}stopWatchingPosition(){this.watchId&&(navigator.geolocation.clearWatch(this.watchId),this.watchId=null)}};n(P,"_instance");let D=P;class st extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_poi",new y);n(this,"_position",0);this.shadowRoot=this.attachShadow({mode:"closed"})}get poi(){return this._poi}set poi(t){this._poi=t}get position(){return this._position}set position(t){this._position=t}connectedCallback(){this.render(),this.setup()}render(){var t;this.shadowRoot.innerHTML=`
+            <article class="poi-card" aria-labelledby="poi-card-title-${this.position}" aria-posinset="${this.position}" tabindex="${this.position}" aria-setsize="-1">
+                <div class="poi-card-info">
+                    <p class="poi-card-title" id="poi-card-title-${this.position}">${((t=this.poi.props.find(s=>s.displayName==="Nome"))==null?void 0:t.value)||this.poi.name}</p>
+                    <p class="poi-card-distance" role="text" aria-label="Distanza da te: ${Math.round(this.poi.distance)} metri">${Math.round(this.poi.distance)}<span aria-hidden="true">m</span></p>
+                </div>
+                <button type="button" class="info-btn" aria-label="Vedi dettagli punto di interesse">
+                    <span class="material-symbols-outlined">chevron_right</span>
+                </button>
+            </article>
+
+            <style>
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .poi-card-title {
+                    font-size: 1rem;
+                    margin: 0 0 8px 0;
+                }
+
+                .poi-card-distance {
+                    font-size: .9rem;
+                    color: var(--on-surface-variant);
+                }
+
+                .info-btn {
+                    font-family: 'Inter', Arial, Helvetica, sans-serif;
+                    font-size: 1rem;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    min-height: 32px;
+                    min-width: 32px;
+                    color: var(--on-primary-container);
+                    background-color: var(--primary-container);
+                    border: 1px solid transparent;
+                    border-radius: var( --border-radius-m);
+                    box-sizing: border-box;
+                }
+
+                .info-btn:hover {
+                    opacity: 0.75;
+                }
+
+                .poi-card {
+                    background-color: var(--surface-container);
+                    color: var(--on-surface);
+                    border: 1px solid var(--outline);
+                    border-radius: var(--border-radius-s);
+                    padding: 24px;
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                button {
+                    cursor: pointer;
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.2rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
+            </style>
+            `}setup(){const t=this.shadowRoot.querySelector(".info-btn");t&&t.addEventListener("click",()=>{this.dispatchEvent(new CustomEvent("poi-selected",{composed:!0,bubbles:!0,detail:{selectedPoi:this.poi}}))})}}customElements.define("app-poi-card",st);const it=document.createElement("template");it.innerHTML=`
+    <div class="around-me-page">
+        <div class="page-header">
+            <h1 tabindex="-1" class="title">Punti di interesse</h1>
+        </div>
+        <p class="desc">Elenco punti di interesse nelle vicinanze</p>
+        <section class="around-you-features" role="feed"></section>
+        <div class="message"></div>
+    </div>
+    `;const at=document.createElement("style");at.innerHTML=`
+    h1,
+    p {
+        font-weight: 400;
+        margin: 0;
+    }
+    
+    .around-me-page {
+        position: relative;
+        padding: 0 4%;
+    }
+
+    .page-header {
+        position: relative;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 24px 0;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .desc {
+        text-align: center;
+        color: var(--on-surface-variant);
+        margin: 0 0 24px 0;
+    }
+
+    .around-you-features {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .message {
+        text-align: center;
+    }
+    `;class ht extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_heading");n(this,"_list");n(this,"_message");n(this,"_pois",[]);n(this,"_onPoiSelected",t=>{const s=t;A.instance.selectedPoi=s.detail.selectedPoi,window.location.hash="/poi"});this.shadowRoot=this.attachShadow({mode:"open"}),this.shadowRoot.appendChild(it.content.cloneNode(!0)),this.shadowRoot.appendChild(at.cloneNode(!0)),this._heading=this.shadowRoot.querySelector(".title"),this._list=this.shadowRoot.querySelector(".around-you-features"),this._message=this.shadowRoot.querySelector(".message")}set pois(t){this._pois=t}async connectedCallback(){z.instance.updateSnackbar(H.Info,"Caricamento..."),this._updateMsg("loading");let t=null;try{t=await D.instance.getUserPosition();const s=await q.instance.getPoisFromLayer(N.instance.activeLayers[0]);this.pois=q.instance.orderPoisByDistance(t,s),this._pois.length===0&&this._updateMsg("empty")}catch{this._updateMsg("error")}finally{this._render(),this._setup(),this._pois.length!==0&&this._updateMsg(),z.instance.resetSnackbar()}}disconnectedCallback(){this.removeEventListener("poi-selected",this._onPoiSelected)}async _render(){this._heading.innerHTML=this._pois[0]?this._pois[0].layer.name:"Punti di interesse",this._list.innerHTML="",this._pois.forEach((t,s)=>{const i=new st;i.poi=t,i.position=s+1,this._list.appendChild(i)})}_setup(){this.addEventListener("poi-selected",this._onPoiSelected)}_updateMsg(t){switch(this._message.innerHTML="",t){case"loading":this._message.innerHTML="<app-spinner-loader />";break;case"error":this._message.innerText=`Impossibile trovare la tua posizione.
+
+Per mostrare i punti di interesse nelle vicinanze è necessario concedere all'app l'autorizzazione ad accedere alla posizione del dispositivo.`;break;case"empty":this._message.innerText=`Sembra non ci siano punti di interesse per la categoria selezionata.
+
+Andare nella sezione "Categorie" e sceglierne un'altra.`;break}}}customElements.define("page-around-me",ht);class M{constructor(e,t){n(this,"name");n(this,"pois");this.name=e,this.pois=t}static createEmpty(){return new M("",[])}}const k=class k{constructor(){n(this,"_customPath",new M("Percorso personalizzato",[]));n(this,"_suggestedPaths",[]);n(this,"_selectedSuggestedPath",new M("",[]));if(k._instance)return k._instance;k._instance=this}static get instance(){return k._instance||(k._instance=new k),k._instance}get customPath(){return this._customPath}set customPath(e){this._customPath=e}get suggestedPaths(){return this._suggestedPaths}set suggestedPaths(e){this._suggestedPaths=e}get selectedSuggestedPath(){return this._selectedSuggestedPath}set selectedSuggestedPath(e){this._selectedSuggestedPath=e,localStorage.setItem("selected-suggested-path-vi",JSON.stringify(this.selectedSuggestedPath))}addPoiToCustomPath(e){if(this.isPoiInCustomPath(e))return;const t={...this.customPath};t.pois.unshift(e),this.customPath={...t}}isPoiInCustomPath(e){return this.customPath.pois.some(t=>t.uuid===e.uuid)}saveCustomPath(){localStorage.setItem("custom-path-vi",JSON.stringify(this.customPath))}getSavedCustomPath(){const e=localStorage.getItem("custom-path-vi");if(!e)return;const t=JSON.parse(e);this._customPath=this.parsePath(t)}parsePath(e){let t=new M(e.name,e.pois);return t.pois=t.pois.map(s=>this.parsePoi(s)),t}parsePoi(e){let t=new y;switch(t.uuid=e.uuid,t.name=e.name,e.type){case h.LineString:e.type=d.LineString;break;case h.Polygon:e.type=d.Polygon;break;case h.MultiPoint:e.type=d.MultiPoint;break;case h.MultiLineString:e.type=d.MultiLineString;break;case h.MultiPolygon:e.type=d.MultiPolygon;break;default:e.type=d.Point;break}t.coordinates=e.coordinates,t.layerName=e.layerName;for(const s in e.props){if(typeof e.props[s]!="object")continue;let i=new B;switch(i.displayName=e.props[s].displayName,i.value=e.props[s].value,e.props[s].type){case"number":i.type=C.Number;break;case"image":i.type=C.Image;break;default:i.type=C.String;break}t.props.push(i)}return e.distance&&(t.distance=e.distance),t}getCsvPaths(e){return new Promise((t,s)=>{let i=0;const a=[],r=[];for(;i<e;){const c=fetch(`./suggested-paths/${i}.tsv`).then(l=>l.text()).then(l=>{const _=this.parseCsvFile(l);a.push(this.parseCsvPath(_))}).catch(l=>console.error("Errore durante il recupero dei percorsi suggeriti",l));r.push(c),i++}Promise.all(r).then(()=>{this.suggestedPaths=[...a],t()}).catch(c=>s(c))})}parseCsvFile(e){return e.split(`
+`).map(i=>{const a=i.split("	");return{path:a[0],layerName:a[1],id:a[2],name:a[3],latitude:a[4],longitude:a[5],height:a[6],info:a[7]}})}parseCsvPath(e){let t=M.createEmpty();return t.name=e[1].path,e.forEach((s,i)=>{i!==0&&t.pois.push(this.parseCsvPoi(s))}),t}parseCsvPoi(e){let t=new y;return t.layerName=e.layerName,t.name=e.name,t.coordinates=[parseFloat(e.longitude),parseFloat(e.latitude),parseFloat(e.height)],t.type=d.Point,t.uuid=e.id,t.props=this.parseCsvPoiProperties(e.info),t}parseCsvPoiProperties(e){let t=[];return e.split("|").forEach(i=>{let a=new B;a.displayName=i.split(":")[0],a.value=i.split(":")[1].trim(),a.type=C.String,t.push(a)}),t}getSuggestedPaths(e){let t=[];return this.suggestedPaths.forEach(s=>{s.pois.forEach(i=>{e.forEach(a=>{i.layerName===a.id&&t.push(s)})})}),[...new Set(t)]}getSelectedSuggestedPath(){const e=localStorage.getItem("selected-suggested-path-vi");if(!e)return;const t=JSON.parse(e);this._selectedSuggestedPath=this.parsePath(t)}};n(k,"_instance");let u=k;const R=class R{constructor(){R._instance||(R._instance=this)}static get instance(){return R._instance||(R._instance=new R),R._instance}calculateDistance(e,t){const s=e[0]-t[0],i=e[1]-t[1];return Math.sqrt(s*s+i*i)}nearestInsertion(e,t){const s=[...e];let i=0,a=this.calculateDistance(t,s[0].coordinates);for(let c=1;c<s.length;c++){const l=this.calculateDistance(t,s[c].coordinates);l<a&&(a=l,i=c)}const r=[s.splice(i,1)[0]];for(;s.length>0;){a=Number.MAX_VALUE;let c=0;for(let l=0;l<s.length;l++){const _=this.calculateDistance(r[r.length-1].coordinates,s[l].coordinates);_<a&&(a=_,c=l)}r.push(s.splice(c,1)[0])}return r.reverse()}};n(R,"_instance");let O=R;class ut extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_poi",new y);n(this,"_position",0);this.shadowRoot=this.attachShadow({mode:"closed"})}get poi(){return this._poi}set poi(t){this._poi=t}get position(){return this._position}set position(t){this._position=t}connectedCallback(){this.render(),this.setup()}render(){var t;this.shadowRoot.innerHTML=`
+            <article class="custom-path-card" aria-labelledby="custom-path-card-title" aria-posinset="${this.position}" tabindex="${this.position}" aria-setsize="-1">
+                <div class="custom-path-card-info">
+                    <h3 class="custom-path-card-title" id="custom-path-card-title">${((t=this.poi.props.find(s=>s.displayName==="Nome"))==null?void 0:t.value)||this.poi.name}</h3>
+                </div>
+                <div class="custom-path-card-buttons">
+                    <button type="button" class="poi-delete-btn" aria-label="Elimina tappa">
+                        <span class="material-symbols-outlined">close</span>
+                    </button>
+                    <button type="button" class="poi-info-btn" aria-label="Vedi dettagli punto di interesse">
+                        <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                </div>
+            </article>
+
+            <style>
+                h3,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .custom-path-card {
+                    background-color: var(--surface-container);
+                    color: var(--on-surface);
+                    border: 1px solid var(--outline);
+                    border-radius: var(--border-radius-m);
+                    padding: 24px;
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                button {
+                    font-family: 'Inter', Arial, Helvetica, sans-serif;
+                    font-size: 1rem;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    min-height: 32px;
+                    min-width: 32px;
+                    box-sizing: border-box;
+                    border-radius: var( --border-radius-s);
+                }
+
+                button:hover {
+                    opacity: .8;
+                }
+
+                .custom-path-card-buttons {
+                    display: flex;
+                    gap: .5rem;
+                }
+
+                .poi-info-btn {
+                    color: var(--on-primary-container);
+                    background-color: var(--primary-container);
+                    border: 1px solid transparent;
+                }
+
+                .poi-delete-btn {
+                    color: var(--on-surface);
+                    background-color: var(--surface-container);
+                    border: 1px solid transparent;
+                }
+
+                .poi-delete-btn:hover {
+                    background-color: var(--surface-container-high);
+                    color: var(--on-surface-variant);
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.2rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
+            </style>
+            `}setup(){this.setupPoiInfoBtn(),this.setupPoiDeleteBtn()}setupPoiInfoBtn(){const t=this.shadowRoot.querySelector(".poi-info-btn");t&&t.addEventListener("click",()=>{this.dispatchEvent(new CustomEvent("poi-selected",{detail:{selectedPoi:this.poi}}))})}setupPoiDeleteBtn(){const t=this.shadowRoot.querySelector(".poi-delete-btn");t&&t.addEventListener("click",()=>{this.dispatchEvent(new CustomEvent("poi-deleted",{detail:{deletedPoi:this.poi}}))})}}customElements.define("app-custom-path-card",ut);class gt extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_customPath",{...u.instance.customPath});this.shadowRoot=this.attachShadow({mode:"closed"})}get customPath(){return this._customPath}set customPath(t){this._customPath=t,this.update(),this.setupCardsBeahviour()}connectedCallback(){this.render(),this.update(),this.setup(),this.setupCardsBeahviour()}render(){this.shadowRoot.innerHTML=`
+            <div class="custom-path-page">
+                <div class="page-header">
+                    <h1 class="page-title" tabindex="-1">Percorso personalizzato</h1>
+                </div>
+                <section class="custom-path-list" role="feed"></section>
+                <div class="custom-path-tools">
+                    <button type="button" id="reorder-pois-btn" class="tool-btn" title="Ottimizza ordine punti di interesse">
+                        <span class="material-symbols-outlined tool-icon" aria-hidden="true">sort</span>
+                    </button>
+                    <button type="button" id="save-custom-path-btn" class="tool-btn" title="Salva percorso personalizzato">
+                        <span class="material-symbols-outlined tool-icon" aria-hidden="true">bookmark</span>
+                    </button>
+                </div>
+            </div>
+
+            <style>                
+                h1,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .custom-path-page {
+                    position: relative;
+                    padding: 0 4%;
+                }
+
+                .page-header {
+                    position: relative;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 0 24px 0;
+                }
+
+                button[is="app-menu-btn"] {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                    color: var(--on-surface);
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
+                    height: 40px;
+                    width: 40px;
+                }
+
+                .page-title {
+                    text-align: center;
+                    font-size: 1rem;
+                }
+
+                .custom-path-list {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;                   
+                }
+
+                .empty-msg {
+                    text-align: center;
+                }
+
+                .custom-path-tools {
+                    position: fixed;
+                    left: 50%;
+                    bottom: calc(3rem + 2px);
+                    transform: translateX(-50%);
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 1px;
+                    width: 100%;
+                    max-width: 576px;
+                    min-height: 3rem;
+                }
+                
+                button {
+                    cursor: pointer;
+                }
+
+                .tool-btn {
+                    cursor: pointer;
+                    font-family: Inter, sans-serif;
+                    width: 100%;
+                    border: none;
+                    color: var(--on-surface);
+                    background-color: var(--surface-container-high);
+                    font-size: .8rem;
+                    font-weight: 500;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: .5rem;
+                    border-radius: var(--border-radius-s);
+                }
+
+                .tool-btn:hover {
+                    color: var(--on-surface-variant);
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.6rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
+            </style>
+            `;const t=this.shadowRoot.querySelector("h1");t&&t.focus()}setup(){this.setupSaveCustomPathBtn(),this.setupReorderPoisBtn()}update(){const t=this.shadowRoot.querySelector(".custom-path-list");t&&(t.innerHTML="",this.customPath.pois.length===0&&t.append(this.renderEmptyMsg()),this.customPath.pois.forEach((s,i)=>{let a=document.createElement("app-custom-path-card");a.poi=s,a.position=i+1,t.append(a)}))}setupSaveCustomPathBtn(){const t=this.shadowRoot.querySelector("#save-custom-path-btn");t&&t.addEventListener("click",()=>{u.instance.saveCustomPath(),z.instance.updateSnackbar(H.Info,"Percorso personalizzato salvato")})}setupReorderPoisBtn(){const t=this.shadowRoot.querySelector("#reorder-pois-btn");t&&t.addEventListener("click",async()=>{let s=await D.instance.getUserPosition();if(!s)return;const i=O.instance.nearestInsertion(this.customPath.pois,[s.coords.latitude,s.coords.longitude]);this.customPath={...this.customPath,pois:i},u.instance.customPath=this.customPath,z.instance.updateSnackbar(H.Info,`Tappe riordinate secondo il percorso ottimale. Ordine attuale: ${this.customPath.pois.map(a=>a.name).join(", ")}.`)})}setupCardsBeahviour(){this.shadowRoot.querySelectorAll("app-custom-path-card").forEach(s=>{s.addEventListener("poi-selected",i=>{A.instance.selectedPoi=i.detail.selectedPoi,window.location.hash="/poi"}),s.addEventListener("poi-deleted",i=>{let a=this.customPath.pois.filter(r=>r.uuid!==i.detail.deletedPoi.uuid);this.customPath={...this.customPath,pois:a},u.instance.customPath=this.customPath,z.instance.updateSnackbar(H.Info,`Tappa ${i.detail.deletedPoi.name} rimossa`)})})}renderEmptyMsg(){const t=document.createElement("p");return t.classList.add("empty-msg"),t.innerHTML="Nessuna tappa attualmente presente nel percorso personalizzato",t}}customElements.define("page-custom-path",gt);class mt extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_path",M.createEmpty());n(this,"_position",0);this.shadowRoot=this.attachShadow({mode:"closed"})}get path(){return this._path}set path(t){this._path=t}get position(){return this._position}set position(t){this._position=t}connectedCallback(){this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
+            <article class="suggested-path-card" aria-labelledby="suggested-path-card-title" aria-posinset="${this.position}" tabindex="${this.position}" aria-setsize="-1">
+                <div class="poi-card-info">
+                    <h3 class="suggested-path-card-title">${this.path.name}</h3>
+                    <p class="suggested-path-card-length" aria-label="Tappe in questo percorso: ${this.path.pois.length}">${this.path.pois.length} tappe</p>
+                </div>
+                <button type="button" class="path-info-btn" aria-label="Apri percorso suggerito: ${this.path.name}">
+                    <span class="material-symbols-outlined">chevron_right</span>
+                </button>
+            </article>
+
+            <style>
+                h3,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .suggested-path-card-title {
+                    font-size: 1rem;
+                    margin: 0 0 8px 0;
+                }
+
+                .suggested-path-card-lenght {
+                    font-size: .9rem;
+                    color: var(--on-surface-variant);
+                }
+
+                .path-info-btn {
+                    font-family: 'Inter', Arial, Helvetica, sans-serif;
+                    font-size: 1rem;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    min-height: 32px;
+                    min-width: 32px;
+                    color: var(--on-primary-container);
+                    background-color: var(--primary-container);
+                    border: 1px solid transparent;
+                    border-radius: var( --border-radius-m);
+                    box-sizing: border-box;
+                }
+
+                .path-info-btn:hover {
+                    opacity: 0.75;
+                }
+
+                .suggested-path-card {
+                    background-color: var(--surface-container);
+                    color: var(--on-surface);
+                    border: 1px solid var(--outline);
+                    border-radius: var(--border-radius-m);
+                    padding: 24px;
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                .suggested-path-card-length {
+                    color: var(--on-surface-variant);
+                }
+
+                button {
+                    cursor: pointer;
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.2rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
+            </style>
+            `}setup(){this.setupPoiInfoBtn()}setupPoiInfoBtn(){const t=this.shadowRoot.querySelector(".path-info-btn");t&&t.addEventListener("click",()=>{this.dispatchEvent(new CustomEvent("suggested-path-selected",{detail:{selectedSuggestedPath:this.path}}))})}}customElements.define("app-suggested-path-card",mt);class ft extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_paths",[]);this.shadowRoot=this.attachShadow({mode:"closed"})}get paths(){return this._paths}set paths(t){this._paths=t,this.update(),this.setupCardsBehaviour()}async connectedCallback(){await u.instance.getCsvPaths(1),this.render(),this.paths=u.instance.getSuggestedPaths(N.instance.activeLayers)}render(){this.shadowRoot.innerHTML=`
+            <div class="suggested-paths-page">
+                <div class="page-header">
+                    <h1 class="page-title" tabindex="-1" autofocus>Percorsi suggeriti</h1>
+                </div>
+                <p class="page-desc">Elenco di percorsi suggeriti in base ai layer selezionati.</p>
+                <section class="suggested-paths-list" role="feed" aria-label="Percorsi suggeriti"></section>
+            </div>
+
+            <style>                
+                h1,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .suggested-paths-page {
+                    position: relative;
+                    padding: 0 4%;
+                }
+                
+                .page-header {
+                    position: relative;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 0 24px 0;
+                }
+
+                .page-desc {
+                    text-align: center;
+                    color: var(--on-surface-variant);
+                }
+
+                button[is="app-menu-btn"] {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                    color: var(--on-surface);
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
+                    height: 40px;
+                    width: 40px;
+                }
+
+                .page-title {
+                    text-align: center;
+                    font-size: 1rem;
+                }
+
+                .suggested-paths-list {
+                    margin: 1.5rem 0;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                }
+
+                .empty {
+                    text-align: center;
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.2rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
+            </style>
+            `}update(){const t=this.shadowRoot.querySelector(".suggested-paths-list");t&&(t.innerHTML="",this.paths.length===0&&t.append(this.renderEmptyMsg()),this.paths.forEach((s,i)=>{let a=document.createElement("app-suggested-path-card");a.path=s,a.position=i,t.append(a)}))}setupCardsBehaviour(){this.shadowRoot.querySelectorAll("app-suggested-path-card").forEach(s=>{s.addEventListener("suggested-path-selected",i=>{u.instance.selectedSuggestedPath=i.detail.selectedSuggestedPath,window.location.hash="/selected-suggested-path"})})}renderEmptyMsg(){const t=document.createElement("p");return t.innerHTML="Nessun percorso suggerito per il layer attivato al momento",t.classList.add("empty"),t}}customElements.define("page-suggested-paths",ft);class yt extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_poi",new y);n(this,"_position",0);this.shadowRoot=this.attachShadow({mode:"closed"})}get poi(){return this._poi}set poi(t){this._poi=t}get position(){return this._position}set position(t){this._position=t}connectedCallback(){this.render(),this.setup()}render(){var t;this.shadowRoot.innerHTML=`
+            <article class="selected-suggested-path-card" aria-labelledby="selected-suggested-path-card-title" aria-posinset="${this.position}" tabindex="${this.position}" aria-setsize="-1">
+                <div class="selected-suggested-path-card-info">
+                    <h3 class="selected-suggested-path-card-title" id="selected-suggested-path-card-title">${((t=this.poi.props.find(s=>s.displayName==="Nome"))==null?void 0:t.value)||this.poi.name}</h3>
+                    <p class="selected-suggested-path-card-distance" role="text" aria-label="Distanza da te: ${Math.round(this.poi.distance||0)} metri">
+                        <span class="distance">${Math.round(this.poi.distance||0)}</span>
+                        <span aria-hidden="true">m</span>
+                    </p>
+                </div>
+                <div class="selected-suggested-path-card-buttons">
+                    <button type="button" class="poi-info-btn" aria-label="Vedi dettagli punto di interesse">
+                        <span class="material-symbols-outlined">chevron_right</span>
+                    </button>
+                </div>
+            </article>
+
+            <style>
+                h3,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .selected-suggested-path-card {
+                    background-color: var(--surface-container);
+                    color: var(--on-surface);
+                    border: 1px solid var(--outline);
+                    border-radius: var(--border-radius-m);
+                    padding: 24px;
+                    box-sizing: border-box;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                .selected-suggested-path-card-distance {
+                    font-size: .9rem;
+                    color: var(--on-surface-variant);
+                    margin: 8px 0 0 0;
+                }
+
+                button {
+                    font-family: 'Inter', Arial, Helvetica, sans-serif;
+                    font-size: 1rem;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    min-height: 32px;
+                    min-width: 32px;
+                    box-sizing: border-box;
+                    border-radius: var( --border-radius-s);
+                }
+
+                button:hover {
+                    opacity: .8;
+                }
+
+                .selected-suggested-path-card-buttons {
+                    display: flex;
+                    gap: .5rem;
+                }
+
+                .poi-info-btn {
+                    color: var(--on-primary-container);
+                    background-color: var(--primary-container);
+                    border: 1px solid transparent;
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.2rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
+            </style>
+            `}setup(){this.setupPoiInfoBtn()}setupPoiInfoBtn(){const t=this.shadowRoot.querySelector(".poi-info-btn");t&&t.addEventListener("click",()=>{this.dispatchEvent(new CustomEvent("poi-selected",{detail:{selectedPoi:this.poi}}))})}}customElements.define("app-selected-suggested-path-card",yt);class bt extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_path",new M("",[]));this.shadowRoot=this.attachShadow({mode:"closed"})}get path(){return this._path}set path(t){this._path=t,this.update(),this.setupCardsBehaviour()}async connectedCallback(){this.render(),u.instance.getSelectedSuggestedPath(),this.path=u.instance.selectedSuggestedPath}render(){this.shadowRoot.innerHTML=`
+            <div class="suggested-path-page">
+                <div class="page-header">
+                    <h1 class="page-title" tabindex="-1"></h1>
+                </div>
+                <section class="suggested-path-list" role="feed"></section>
+            </div>
+
+            <style>                
+                h1,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .suggested-path-page {
+                    position: relative;
+                    padding: 0 4%;
+                }
+
+                .page-header {
+                    position: relative;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 0 24px 0;
+                }
+
+                button[is="app-menu-btn"] {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                    color: var(--on-surface);
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
+                    height: 40px;
+                    width: 40px;
+                }
+
+                .page-title {
+                    text-align: center;
+                    font-size: 1rem;
+                }
+
+                .suggested-path-list {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;                   
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.2rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
+            </style>
+            `}async update(){const t=this.shadowRoot.querySelector("h1");t&&(t.innerHTML=this.path.name,t.focus());const s=this.shadowRoot.querySelector(".suggested-path-list");if(!s)return;let i=[...this.path.pois];s.innerHTML="";let a=null;try{a=await D.instance.getUserPosition(),i=[...q.instance.orderPoisByDistance(a,this.path.pois)]}catch{console.error("Errore nel riordinare i punti di interesse in base alla distanza")}i.forEach((r,c)=>{let l=document.createElement("app-selected-suggested-path-card");l.poi=r,l.position=c+1,s.append(l)})}setupCardsBehaviour(){this.shadowRoot.querySelectorAll("app-selected-suggested-path-card").forEach(s=>{s.addEventListener("poi-selected",i=>{A.instance.selectedPoi=i.detail.selectedPoi,window.location.hash="/poi"})})}}customElements.define("page-selected-suggested-path",bt);class vt extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_poi",new y);this.shadowRoot=this.attachShadow({mode:"closed"})}get poi(){return this._poi}set poi(t){this._poi=t}connectedCallback(){A.instance.getSelectedPoi(),this.poi=A.instance.selectedPoi,console.log(this.poi),this.render(),this.setup()}render(){var s;this.shadowRoot.innerHTML=`
+            <div class="poi-page">
+                <div class="page-header">
+                    <h1 class="page-title" tabindex="-1">Dettaglio punto di interesse</h1>
+                </div>
+                <h2 class="poi-name">${((s=this.poi.props.find(i=>i.displayName==="Nome"))==null?void 0:s.value)||this.poi.name}</h2>
+                <p class="poi-category">${this.poi.layer.name}</p>
+                <div class="poi-page-buttons">
+                    <button type="button" id="directions-btn" aria-label="Vedi indicazioni stradali">Indicazioni</button>
+                    <button type="button" id="add-to-custom-path-btn" aria-label="Aggiungi tappa a percorso personalizzato">Aggiungi</button>
+                </div>
+                <div class="poi-page-infos"></div>
+            </div>
+
+            <style>                
+                h1,
+                h2,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .poi-page {
+                    padding: 0 4%;
+                }
+
+                .page-header {
+                    position: relative;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 0 24px 0;
+                }
+
+                button[is="app-menu-btn"] {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                    color: var(--on-surface);
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
+                    height: 40px;
+                    width: 40px;
+                }
+
+                .page-title {
+                    text-align: center;
+                    font-size: 1rem;
+                }
+
+                .poi-name {
+                    margin: 0 0 8px 0;
+                }
+
+                .poi-category {
+                    color: var(--on-surface-variant);
+                }
+
+                .poi-page-buttons {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 8px;
+                    margin: 1.25rem 0 2rem 0;
+                }
+
+                #directions-btn {
+                    background-color: var(--primary);
+                    color: var(--on-primary);
+                    border: 1px solid transparent;
+                    border-radius: var(--border-radius-circle);
+                    letter-spacing: inherit;
+                    line-height: inherit;
+                }
+
+                #add-to-custom-path-btn {
+                    color: var(--on-surface);
+                    background-color: var(--surface-container-high);
+                    border: 1px solid var(--outline);
+                    border-radius: var(--border-radius-circle);
+                    letter-spacing: inherit;
+                    line-height: inherit;
+                }
+
+                button {
+                    cursor: pointer;
+                    font-family: Inter, sans-serif;
+                    font-size: .8rem;
+                    font-weight: 500;
+                    padding: 8px 0;
+                    width: 100%;
+                }
+
+                button:hover {
+                    opacity: .8;
+                }
+
+                .property {
+                    margin: 0px 0px 1rem;
+                }
+
+                .property-label {
+                    display: block;
+                    color: var(--on-surface-variant);
+                    margin: 0px 0px 4px;
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.2rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
+            </style>
+            `;const t=this.shadowRoot.querySelector("h1");t&&t.focus(),this.renderInfo()}renderInfo(){const t=this.shadowRoot.querySelector(".poi-page-infos");t&&this.poi.props.forEach(s=>{const i=this.renderTopic(s);t.appendChild(i)})}renderTopic(t){const s=document.createElement("div");s.classList.add("property");const i=document.createElement("label");i.classList.add("property-label"),i.innerHTML=t.displayName;const a=document.createElement("p");return a.classList.add("property-value"),t.value!==""?a.innerHTML=t.value:a.innerHTML="-",s.appendChild(i),s.appendChild(a),s}setup(){this.setupDirectionsBtn(),this.setupAddToCustomPathBtn()}setupDirectionsBtn(){const t=this.shadowRoot.querySelector("#directions-btn");t&&t.addEventListener("click",()=>{const s=`https://www.google.it/maps/dir/?api=1&destination=${this.poi.coordinates[1]},${this.poi.coordinates[0]}&travelmode=walking`;window.open(s,"_blank")})}setupAddToCustomPathBtn(){const t=this.shadowRoot.querySelector("#add-to-custom-path-btn");t&&t.addEventListener("click",()=>{z.instance.updateSnackbar(H.Info,"Aggiunto al percorso personalizzato"),u.instance.addPoiToCustomPath(this.poi)})}}customElements.define("page-poi",vt);class wt extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_contrast",f.LightHigh);this.shadowRoot=this.attachShadow({mode:"closed"})}get contrast(){return this._contrast}set contrast(t){this._contrast=t,this.update(),this.dispatchEvent(new CustomEvent("contrast-updated",{detail:{contrast:this.contrast}}))}connectedCallback(){this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
+            <div class="settings-contrast">
+                <h2 class="settings-title">Contrasto</h2>
+                <div class="contrast-option-list">
+                    <div class="contrast-option">
+                        <input type="radio" id="light-contrast" name="contrast" value="light">
+                        <label for="light-contrast" aria-label="Tema light">Light</label>
+                    </div>
+                    <div class="contrast-option">
+                        <input type="radio" id="dark-contrast" name="contrast" value="dark">
+                        <label for="dark-contrast" aria-label="Tema dark">Dark</label>
+                    </div>
+                    <div class="contrast-option">
+                        <input type="radio" id="light-high-contrast" name="contrast" value="light-high">
+                        <label for="light-high-contrast" aria-label="Tema light ad alto contrasto">Light alto contrasto</label>
+                    </div>
+                    <div class="contrast-option">
+                        <input type="radio" id="dark-high-contrast" name="contrast" value="dark-high">
+                        <label for="dark-high-contrast" aria-label="Tema dark ad alto contrasto">Dark alto contrasto</label>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                h2,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .settings-title {
+                    text-align: center;
+                    font-size: 1.7rem;
+                    margin: 0 0 16px 0;
+                }
+
+                .contrast-option-list {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+
+                .contrast-option {
+                    cursor: pointer;
+                    width: calc(50% - 16px);
+                    min-height: 80px;
+                    margin: 8px;
+                    position: relative;
+                }
+
+                .contrast-option label {
+                    cursor: inherit;
+                    height: 100%;
+                    padding: 16px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    color: var(--on-primary-container);
+                    background-color: var(--primary-container);
+                    border: 1px solid transparent;
+                    border-radius: var( --border-radius-s);
+                    box-sizing: border-box;
+                }
+
+                input[type="radio"] {
+                    opacity: 0;
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                }
+
+                input[type="radio"]:checked + label {
+                    color: var(--inverse-on-surface);
+                    background-color: var(--inverse-surface);
+                }
+            </style>
+            `}setup(){this.handleRadioChange()}handleRadioChange(){const t=this.shadowRoot.querySelector("#light-contrast"),s=this.shadowRoot.querySelector("#dark-contrast"),i=this.shadowRoot.querySelector("#light-high-contrast"),a=this.shadowRoot.querySelector("#dark-high-contrast");!t||!s||!i||!a||(t.addEventListener("change",()=>this.contrast=f.Light),s.addEventListener("change",()=>this.contrast=f.Dark),i.addEventListener("change",()=>this.contrast=f.LightHigh),a.addEventListener("change",()=>this.contrast=f.DarkHigh))}update(){Array.from(this.shadowRoot.querySelectorAll('input[name="contrast"]')).forEach(s=>{s.value===this.contrast&&(s.checked=!0)})}}customElements.define("app-settings-contrast",wt);class St extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_fontSize",16);this.shadowRoot=this.attachShadow({mode:"closed"})}get fontSize(){return this._fontSize}set fontSize(t){this._fontSize=t,this.update(),this.dispatchEvent(new CustomEvent("font-size-updated",{detail:{fontSize:this.fontSize}}))}connectedCallback(){this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
+            <div class="settings-font-size">
+                <h2 class="settings-title">Dimensione testo</h2>
+                <div class="font-size-option-list">
+                    <div class="font-size-option">
+                        <input type="radio" id="font-size-s" name="font-size" value="14">
+                        <label for="font-size-s" aria-label="Dimensione font: S">S</label>
+                    </div>
+                    <div class="font-size-option">
+                        <input type="radio" id="font-size-m" name="font-size" value="20">
+                        <label for="font-size-m" aria-label="Dimensione font: M">M</label>
+                    </div>
+                    <div class="font-size-option">
+                        <input type="radio" id="font-size-l" name="font-size" value="24">
+                        <label for="font-size-l" aria-label="Dimensione font: L">L</label>
+                    </div>
+                    <div class="font-size-option">
+                        <input type="radio" id="font-size-xl" name="font-size" value="32">
+                        <label for="font-size-xl" aria-label="Dimensione font: XL">XL</label>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                h2,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .settings-title {
+                    text-align: center;
+                    font-size: 1.7rem;
+                    margin: 0 0 16px 0;
+                }
+
+                .font-size-option-list {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+
+                .font-size-option {
+                    cursor: pointer;
+                    width: calc(50% - 16px);
+                    min-height: 80px;
+                    margin: 8px;
+                    position: relative;
+                }
+
+                .font-size-option label {
+                    cursor: inherit;
+                    height: 100%;
+                    padding: 16px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    color: var(--on-primary-container);
+                    background-color: var(--primary-container);
+                    border: 1px solid transparent;
+                    border-radius: var( --border-radius-s);
+                    box-sizing: border-box;
+                }
+
+                input[type="radio"] {
+                    opacity: 0;
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                }
+                
+                input[type="radio"]:checked + label {
+                    color: var(--inverse-on-surface);
+                    background-color: var(--inverse-surface);
+                }
+            </style>
+            `}setup(){this.handleRadioChange()}handleRadioChange(){const t=this.shadowRoot.querySelector("#font-size-s"),s=this.shadowRoot.querySelector("#font-size-m"),i=this.shadowRoot.querySelector("#font-size-l"),a=this.shadowRoot.querySelector("#font-size-xl");!t||!s||!i||!a||(t.addEventListener("change",()=>this.fontSize=parseInt(t.value)),s.addEventListener("change",()=>this.fontSize=parseInt(s.value)),i.addEventListener("change",()=>this.fontSize=parseInt(i.value)),a.addEventListener("change",()=>this.fontSize=parseInt(a.value)))}update(){Array.from(this.shadowRoot.querySelectorAll('input[name="font-size"]')).forEach(s=>{s.value===this.fontSize.toString()&&(s.checked=!0)})}}customElements.define("app-settings-font-size",St);class xt extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_letterSpace",0);this.shadowRoot=this.attachShadow({mode:"closed"})}get letterSpace(){return this._letterSpace}set letterSpace(t){this._letterSpace=t,this.update(),this.dispatchEvent(new CustomEvent("letter-space-updated",{detail:{letterSpace:this.letterSpace}}))}connectedCallback(){this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
+            <div class="settings-letter-space">
+                <h2 class="settings-title">Spaziatura testo</h2>
+                <div class="letter-space-option-list">
+                    <div class="letter-space-option">
+                        <input type="radio" id="letter-space-s" name="letter-spacing" value="0">
+                        <label for="letter-space-s" aria-label="Spaziatura testo: S">S</label>
+                    </div>
+                    <div class="letter-space-option">
+                        <input type="radio" id="letter-space-m" name="letter-spacing" value="25">
+                        <label for="letter-space-m" aria-label="Spaziatura testo: M">M</label>
+                    </div>
+                    <div class="letter-space-option">
+                        <input type="radio" id="letter-space-l" name="letter-spacing" value="50">
+                        <label for="letter-space-l" aria-label="Spaziatura testo: L">L</label>
+                    </div>
+                    <div class="letter-space-option">
+                        <input type="radio" id="letter-space-xl" name="letter-spacing" value="75">
+                        <label for="letter-space-xl" aria-label="Spaziatura testo: XL">XL</label>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                h2,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .settings-title {
+                    text-align: center;
+                    font-size: 1.7rem;
+                    margin: 0 0 16px 0;
+                }
+
+                .letter-space-option-list {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+
+                .letter-space-option {
+                    cursor: pointer;
+                    width: calc(50% - 16px);
+                    min-height: 80px;
+                    margin: 8px;
+                    position: relative;
+                }
+
+                .letter-space-option label {
+                    cursor: inherit;
+                    height: 100%;
+                    padding: 16px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    color: var(--on-primary-container);
+                    background-color: var(--primary-container);
+                    border: 1px solid transparent;
+                    border-radius: var( --border-radius-s);
+                    box-sizing: border-box;
+                }
+
+                input[type="radio"] {
+                    opacity: 0;
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                }
+                
+                input[type="radio"]:checked + label {
+                    color: var(--inverse-on-surface);
+                    background-color: var(--inverse-surface);
+                }
+            </style>
+            `}setup(){this.handleRadioChange()}handleRadioChange(){const t=this.shadowRoot.querySelector("#letter-space-s"),s=this.shadowRoot.querySelector("#letter-space-m"),i=this.shadowRoot.querySelector("#letter-space-l"),a=this.shadowRoot.querySelector("#letter-space-xl");!t||!s||!i||!a||(t.addEventListener("change",()=>this.letterSpace=parseInt(t.value)/100),s.addEventListener("change",()=>this.letterSpace=parseInt(s.value)/100),i.addEventListener("change",()=>this.letterSpace=parseInt(i.value)/100),a.addEventListener("change",()=>this.letterSpace=parseInt(a.value)/100))}update(){Array.from(this.shadowRoot.querySelectorAll('input[name="letter-spacing"]')).forEach(s=>{s.value===(this.letterSpace*100).toString()&&(s.checked=!0)})}}customElements.define("app-settings-letter-space",xt);class Lt extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_lineHeight",1.15);this.shadowRoot=this.attachShadow({mode:"closed"})}get lineHeight(){return this._lineHeight}set lineHeight(t){this._lineHeight=t,this.update(),this.dispatchEvent(new CustomEvent("line-height-updated",{detail:{lineHeight:this.lineHeight}}))}connectedCallback(){this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
+            <div class="settings-line-height">
+                <h2 class="settings-title">Altezza testo</h2>
+                <div class="line-height-option-list">
+                    <div class="line-height-option">
+                        <input type="radio" id="line-height-s" name="line-height" value="115">
+                        <label for="line-height-s" aria-label="Altezza testo: S">S</label>
+                    </div>
+                    <div class="line-height-option">
+                        <input type="radio" id="line-height-m" name="line-height" value="150">
+                        <label for="line-height-m" aria-label="Altezza testo: M">M</label>
+                    </div>
+                    <div class="line-height-option">
+                        <input type="radio" id="line-height-l" name="line-height" value="175">
+                        <label for="line-height-l" aria-label="Altezza testo: L">L</label>
+                    </div>
+                    <div class="line-height-option">
+                        <input type="radio" id="line-height-xl" name="line-height" value="200">
+                        <label for="line-height-xl" aria-label="Altezza testo: XL">XL</label>
+                    </div>
+                </div>
+            </div>
+
+            <style>
+                h2,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .settings-title {
+                    text-align: center;
+                    font-size: 1.7rem;
+                    margin: 0 0 16px 0;
+                }
+
+                .line-height-option-list {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+
+                .line-height-option {
+                    cursor: pointer;
+                    width: calc(50% - 16px);
+                    min-height: 80px;
+                    margin: 8px;
+                    position: relative;
+                }
+
+                .line-height-option label {
+                    cursor: inherit;
+                    height: 100%;
+                    padding: 16px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    color: var(--on-primary-container);
+                    background-color: var(--primary-container);
+                    border: 1px solid transparent;
+                    border-radius: var( --border-radius-s);
+                    box-sizing: border-box;
+                }
+
+                input[type="radio"] {
+                    opacity: 0;
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                }
+                
+                input[type="radio"]:checked + label {
+                    color: var(--inverse-on-surface);
+                    background-color: var(--inverse-surface);
+                }
+            </style>
+            `}setup(){this.handleRadioChange()}handleRadioChange(){const t=this.shadowRoot.querySelector("#line-height-s"),s=this.shadowRoot.querySelector("#line-height-m"),i=this.shadowRoot.querySelector("#line-height-l"),a=this.shadowRoot.querySelector("#line-height-xl");!t||!s||!i||!a||(t.addEventListener("change",()=>this.lineHeight=parseInt(t.value)/100),s.addEventListener("change",()=>this.lineHeight=parseInt(s.value)/100),i.addEventListener("change",()=>this.lineHeight=parseInt(i.value)/100),a.addEventListener("change",()=>this.lineHeight=parseInt(a.value)/100))}update(){Array.from(this.shadowRoot.querySelectorAll('input[name="line-height"]')).forEach(s=>{s.value===Math.round(this.lineHeight*100).toString()&&(s.checked=!0)})}}customElements.define("app-settings-line-height",Lt);class Pt extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_settings",{...p.instance.settings});this.shadowRoot=this.attachShadow({mode:"closed"})}get settings(){return this._settings}set settings(t){this._settings=t}connectedCallback(){this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
+            <div class="settings-page">
+                <div class="page-header">
+                    <h1 class="page-title" tabindex="-1">Impostazioni</h1>
+                </div>
+                <app-settings-contrast class="settings-option"></app-settings-contrast>
+                <app-settings-font-size class="settings-option"></app-settings-font-size>
+                <app-settings-letter-space class="settings-option"></app-settings-letter-space>
+                <app-settings-line-height class="settings-option"></app-settings-line-height>
+            </div>
+
+            <style>                
+                h1,
+                p {
+                    font-weight: 400;
+                    margin: 0;
+                }
+
+                .settings-page {
+                    padding: 0 4%;
+                }
+
+                .page-header {
+                    position: relative;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 0 24px 0;
+                }
+                
+                button[is="app-menu-btn"] {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    transform: translateY(-50%);
+                    color: var(--on-surface);
+                    background-color: transparent;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0;
+                    height: 40px;
+                    width: 40px;
+                }
+
+                .page-title {
+                    text-align: center;
+                    font-size: 1rem;
+                }
+
+                .page-desc {
+                    text-align: center;
+                    margin: 0 0 24px 0;
+                    color: var(--on-surface-variant);
+                }
+
+                .settings-option {
+                    display: block;
+                    margin: 0 0 40px 0;
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.2rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
+            </style>
+            `;const t=this.shadowRoot.querySelector("h1");t&&t.focus()}setup(){const t=this.shadowRoot.querySelector("app-settings-contrast"),s=this.shadowRoot.querySelector("app-settings-font-size"),i=this.shadowRoot.querySelector("app-settings-letter-space"),a=this.shadowRoot.querySelector("app-settings-line-height");t&&s&&i&&a&&(t.contrast=this.settings.contrast,s.fontSize=this.settings.fontSize,a.lineHeight=this.settings.lineHeight,i.letterSpace=this.settings.letterSpace,t.addEventListener("contrast-updated",r=>{this.settings.contrast=r.detail.contrast,p.instance.settings.contrast=this.settings.contrast,p.instance.setContrast(),p.instance.settings=this.settings}),s.addEventListener("font-size-updated",r=>{this.settings.fontSize=r.detail.fontSize,p.instance.settings.fontSize=this.settings.fontSize,p.instance.setFontSize(this.settings.fontSize),p.instance.settings=this.settings}),i.addEventListener("letter-space-updated",r=>{this.settings.letterSpace=r.detail.letterSpace,p.instance.settings.letterSpace=this.settings.letterSpace,p.instance.setLetterSpace(this.settings.letterSpace),p.instance.settings=this.settings}),a.addEventListener("line-height-updated",r=>{this.settings.lineHeight=r.detail.lineHeight,p.instance.settings.lineHeight=this.settings.lineHeight,p.instance.setLineHeight(this.settings.lineHeight),p.instance.settings=this.settings}))}}customElements.define("page-settings",Pt);class kt extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_snackbar",T.createEmpty());this.shadowRoot=this.attachShadow({mode:"closed"})}get snackbar(){return this._snackbar}set snackbar(t){this._snackbar=t,this.update()}connectedCallback(){this.render(),this.update()}render(){this.shadowRoot.innerHTML=`
+            <div class="snackbar">
+                <p class="snackbar-message"></p>
+            </div>
+
+            <style>
+                p {
+                    margin: 0;
+                    padding: 16px;
+                    box-sizing: border-box;
+                }
+
+                .snackbar {
+                    position: sticky;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    text-align: center;
+                    box-sizing: border-box;
+                    background-color: var(--primary);
+                    color: var(--on-primary);
+                }
+                
+                .empty-snackbar {
+                    height: 0;
+                }
+                
+                .info-snackbar {
+                    padding: 8px 4%;                    
+                }
+                
+                .error-snackbar {
+                    padding: 8px 4%;                   
+
+                }
+            </style>
+            `}update(){if(this.snackbar.message.length===0){const s=this.shadowRoot.querySelector(".snackbar");if(!s)return;s.classList.add("empty-snackbar");return}const t=this.shadowRoot.querySelector(".snackbar-message");if(t)switch(t.innerHTML=this.snackbar.message,this.snackbar.type){case H.Error:this.renderErrorSnackbar();break;default:this.renderInfoSnackbar();break}}renderInfoSnackbar(){const t=this.shadowRoot.querySelector(".snackbar");t&&(t.classList.remove("empty-snackbar"),t.classList.add("info-snackbar"))}renderErrorSnackbar(){const t=this.shadowRoot.querySelector(".snackbar");t&&(t.classList.remove("empty-snackbar"),t.classList.add("error-snackbar"))}resetSnackbar(){const t=this.shadowRoot.querySelector(".snackbar-message"),s=this.shadowRoot.querySelector(".snackbar");t&&s&&(t.innerHTML="",s.classList.remove("info-snackbar"),s.classList.remove("error-snackbar"),s.classList.add("empty-snackbar"))}}customElements.define("app-snackbar",kt);class _t extends HTMLElement{constructor(){super();n(this,"shadowRoot");n(this,"_showSettings",!0);this.shadowRoot=this.attachShadow({mode:"closed"})}get showSettings(){return this._showSettings}set showSettings(t){this._showSettings=t,this.configBar(this.showSettings)}connectedCallback(){this.render(),this.setup(),this.checkCurrentPage()}render(){this.shadowRoot.innerHTML=`
+            <nav class="menu" role="tablist">
+                <a class="bar-el-link categories-link" href="/categories" title="Categorie" role="tab" aria-selected="false" aria-controls="categories-panel">
+                    <span class="material-symbols-outlined icon" aria-label="Categorie">stacks</span>
+                </a>
+
+                <a class="bar-el-link around-you-link" href="/around-me" title="Intorno a te" role="tab" aria-selected="false" aria-controls="around-you-panel">
+                    <span class="material-symbols-outlined icon" aria-label="Intorno a te">explore</span>
+                </a>
+
+                <a class="bar-el-link suggested-paths-link" href="/suggested-paths" title="Percorsi suggeriti" role="tab" aria-selected="false" aria-controls="suggested-paths-panel">
+                    <span class="material-symbols-outlined icon" aria-label="Percorsi suggeriti">directions</span>
+                </a>
+
+                <a class="bar-el-link custom-path-link" href="/custom-path" title="Percorso personalizzato" role="tab" aria-selected="false" aria-controls="cusotm-path-panel">
+                    <span class="material-symbols-outlined icon" aria-label="Percorso personalizzato">favorite</span>
+                </a>
+
+                <a class="bar-el-link settings-link" href="/settings" title="Impostazioni" role="tab" aria-selected="false" aria-controls="settings-panel">
+                    <span class="bg"></span>
+                    <span class="material-symbols-outlined icon" aria-label="Impostazioni">more_vert</span>
+                </a>
+            </nav>
+
+            <style>
+                .menu {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: stretch;
+                    padding: 0;
+                    margin: 0;
+                    list-style-type: none;
+                    min-height: 3rem;
+                    background-color: var(--surface-container-high);
+                    border-radius: var(--border-radius-s) var(--border-radius-s) 0 0;
+                    max-width: 576px;
+                    margin: auto;
+                }
+
+                .bar-el-link {
+                    position: relative;
+                    cursor: pointer;
+                    text-decoration: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: var(--on-surface);
+                    font-size: .8rem;
+                    width: 100%;
+                    flex-grow: 1;
+                    text-align: center;
+                }
+
+                .icon {
+                    width: 88%;
+                    height: 72%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 100px;
+                    z-index: 1;
+                }
+
+                .current .icon {
+                    color: var(--on-primary-container);
+                    background-color: var(--primary-container);
+                }
+
+                .current .material-symbols-outlined {
+                    font-variation-settings:
+                        'FILL' 1,
+                        'opsz' 20;
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.6rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
+            </style>
+            `}setup(){this.onLinkClick(),window.addEventListener("hashchange",()=>this.checkCurrentPage())}onLinkClick(){Array.from(this.shadowRoot.querySelectorAll(".bar-el-link")).forEach(s=>{s.addEventListener("click",i=>{i.preventDefault();const a=s.getAttribute("href");a&&(window.location.hash=a)})})}checkCurrentPage(){const t=window.location.hash.slice(2);Array.from(this.shadowRoot.querySelectorAll(".bar-el-link")).forEach(i=>{var a;((a=i.getAttribute("href"))==null?void 0:a.slice(1))===t?(i.classList.add("current"),i.setAttribute("aria-selected","true")):(i.classList.remove("current"),i.setAttribute("aria-selected","false"))})}configBar(t){const s=this.shadowRoot.querySelector(".settings-link");s&&(t||(s.style.display="none"))}}customElements.define("app-bar",_t);class Et extends HTMLElement{constructor(){super();n(this,"shadowRoot");this.shadowRoot=this.attachShadow({mode:"closed"})}connectedCallback(){this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
+            <button type="button" aria-label="Torna alla profilazione">
+                <span class="material-symbols-outlined">home</span>
+            </button>
+
+            <style>
+                button {
+                    cursor: pointer;
+                    min-height: 40px;
+                    min-width: 40px;
+                    background-color: transparent;
+                    border: none;
+                    color: var(--on-surface);
+                    background-color: var(--surface-container);
+                    border-radius: var(--border-radius-m);
+
+                    &:hover {
+                        color: var(--on-surface-variant);
+                    }
+                }
+
+                .material-symbols-outlined {
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.6rem;
+                    font-variation-settings:
+                        'FILL' 0,
+                        'wght' 400,
+                        'GRAD' 0,
+                        'opsz' 24;
+                }
+            </style>
+            `}setup(){const t=this.shadowRoot.querySelector("button");t&&t.addEventListener("click",()=>window.location.href="../")}}customElements.define("app-home",Et);Rt();async function Rt(){u.instance.getSavedCustomPath(),N.instance.getSavedLayers();const o=document.querySelector("app-router"),e=new E("categories",g.Default,()=>"<page-categories />"),t=new E("layers",g.Default,()=>"<page-layers />"),s=new E("around-you",g.Page,()=>"<page-around-you />"),i=new E("around-me",g.Page,()=>"<page-around-me />"),a=new E("settings",g.Page,()=>"<page-settings />"),r=new E("poi",g.Page,()=>"<page-poi />"),c=new E("custom-path",g.Page,()=>"<page-custom-path />"),l=new E("suggested-paths",g.Page,()=>"<page-suggested-paths />"),_=new E("selected-suggested-path",g.Page,()=>"<page-selected-suggested-path />"),nt=[e,t,s,i,a,r,c,l,_];o.addRoutes(nt),p.instance.getLocalStorageSettings();const G=document.querySelector("app-bar");G&&(G.showSettings=p.instance.settings.showSettings)}

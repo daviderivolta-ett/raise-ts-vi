@@ -13,6 +13,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#aaac98",
         "opacity": 0.5,
         "icon": "🚗"
@@ -46,6 +47,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#12ca7f",
         "opacity": 0.5,
         "icon": "🅿️"
@@ -78,6 +80,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["border"],
         "color": "#56f676",
         "opacity": 0.5,
         "icon": "🔵"

@@ -10,7 +10,6 @@ import './selected-suggested-path-card.component';
 export class SuggestedPathPage extends HTMLElement {
     public shadowRoot: ShadowRoot;
     private _path: Path = new Path('', []);
-    private _pois: Poi[] = [];
 
     constructor() {
         super();

@@ -13,6 +13,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#aeafd9",
         "opacity": 0.5,
         "icon": "🏟️"
@@ -90,6 +91,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["area"],
         "color": "#79f7fd",
         "opacity": 0.5,
         "icon": "🏟️"

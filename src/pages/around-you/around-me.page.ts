@@ -125,11 +125,6 @@ export class AroundMePage extends HTMLElement {
         this.removeEventListener('poi-selected', this._onPoiSelected);
     }
 
-    static observedAttributes: string[] = [];
-    public attributeChangedCallback(name: string, oldValue: string, newValue: string): void {
-
-    }
-
     // Methods
     private async _render(): Promise<void> {        
         this._heading.innerHTML = this._pois[0] ? this._pois[0].layer.name : 'Punti di interesse';

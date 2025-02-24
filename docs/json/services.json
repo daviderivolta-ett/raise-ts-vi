@@ -13,9 +13,17 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#febfa4",
         "opacity": 0.5,
-        "icon": "🚻"
+        "icon": "🚻",
+        "colorLevels": {
+          "key": "ACCESSIBILE",
+          "colors": {
+              "SI": "green",
+              "NO": "red"
+          }
+      }
       },
       "tags": [
         "servizi"
@@ -60,6 +68,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#6ab58d",
         "opacity": 0.5,
         "icon": "🏥"
@@ -102,6 +111,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#cb1648",
         "opacity": 0.5,
         "icon": "⚕️"
@@ -141,6 +151,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#c06156",
         "opacity": 0.5,
         "icon": "🏛️"
@@ -175,6 +186,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#c06156",
         "opacity": 0.5,
         "icon": "📚"
@@ -208,6 +220,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#b795d2",
         "opacity": 0.5,
         "icon": "🎬"
@@ -242,6 +255,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#c06156",
         "opacity": 0.5,
         "icon": "🎭"
@@ -275,6 +289,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#97424c",
         "opacity": 0.5,
         "icon": "🏫"
@@ -367,6 +382,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#37f58e",
         "opacity": 0.5,
         "icon": "🏬"
@@ -411,6 +427,7 @@
         "amenity": "drinking_water"
       },
       "style": {
+        "type": ["point"],
         "color": "#b89da7",
         "opacity": 0.5,
         "icon": "🚰"
@@ -429,6 +446,7 @@
         "man_made": "surveillance"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#691a40",
         "opacity": 0.5,
         "icon": "📹"
@@ -447,6 +465,7 @@
         "amenity": "atm"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#4bdd99",
         "opacity": 0.5,
         "icon": "🏧"
@@ -471,6 +490,7 @@
         "leisure": "playground"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#db2103",
         "opacity": 0.5,
         "icon": "🎠"
@@ -499,6 +519,7 @@
         "amenity": "bench"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#db2103",
         "opacity": 0.5,
         "icon": "🪑"
@@ -531,29 +552,6 @@
       ]
     },
     {
-      "name": "Scuole di lingue",
-      "id": "language_school_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "language_school"
-      },
-      "style": {
-        "color": "#90AEDC",
-        "opacity": 0.5,
-        "icon": "🏫"
-      },
-      "tags": [
-        "istruzione"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "name",
-          "display_name": "Nome",
-          "type": "string"
-        }
-      ]
-    },
-    {
       "name": "Vigili del fuoco",
       "id": "fire_station_openstreetmap",
       "url": "https://overpass-api.de/api/interpreter",
@@ -561,6 +559,7 @@
         "amenity": "fire_station"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🚒"
@@ -584,6 +583,7 @@
         "amenity": "police"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "👮‍♂️"
@@ -622,6 +622,7 @@
         "emergency": "phone"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "📞"
@@ -660,6 +661,7 @@
         "emergency": "defibrillator"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "❤️"
@@ -703,6 +705,7 @@
         "amenity": "clinic"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏥"
@@ -741,9 +744,10 @@
         "amenity": "doctors"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
-        "icon": "🏥"
+        "icon": "👨‍⚕️"
       },
       "tags": [
         "salute"
@@ -779,6 +783,7 @@
         "amenity": "dentist"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🦷"
@@ -817,6 +822,7 @@
         "amenity": "baby_hatch"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "👶🏽"
@@ -838,29 +844,6 @@
       ]
     },
     {
-      "name": "Banche del sangue",
-      "id": "blood_bank_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "blood_bank"
-      },
-      "style": {
-        "color": "#90AEDC",
-        "opacity": 0.5,
-        "icon": "🩸"
-      },
-      "tags": [
-        "salute"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "name",
-          "display_name": "Nome",
-          "type": "string"
-        }
-      ]
-    },
-    {
       "name": "Donazione del sangue",
       "id": "blood_donation_openstreetmap",
       "url": "https://overpass-api.de/api/interpreter",
@@ -868,6 +851,7 @@
         "healthcare": "blood_donation"
       },
       "style": {
+        "type": ["point","area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "💉"
@@ -896,6 +880,7 @@
         "amenity": "nursing_home"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏡"
@@ -929,224 +914,10 @@
         "amenity": "social_facility"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏢"
-      },
-      "tags": [
-        "salute"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "name",
-          "display_name": "Nome",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:street",
-          "display_name": "Indirizzo",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:housenumber",
-          "display_name": "Numero",
-          "type": "string"
-        },
-        {
-          "property_name": "operator",
-          "display_name": "Gestito da",
-          "type": "string"
-        },
-        {
-          "property_name": "description",
-          "display_name": "Descrizione",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Fisioterapisti",
-      "id": "physiotherapist_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "healthcare": "physiotherapist"
-      },
-      "style": {
-        "color": "#90AEDC",
-        "opacity": 0.5,
-        "icon": "👐"
-      },
-      "tags": [
-        "salute"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "name",
-          "display_name": "Nome",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:street",
-          "display_name": "Indirizzo",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:housenumber",
-          "display_name": "Numero",
-          "type": "string"
-        },
-        {
-          "property_name": "operator",
-          "display_name": "Gestito da",
-          "type": "string"
-        },
-        {
-          "property_name": "description",
-          "display_name": "Descrizione",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Psicoterapeuti",
-      "id": "psychotherapist_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "healthcare": "psychotherapist"
-      },
-      "style": {
-        "color": "#90AEDC",
-        "opacity": 0.5,
-        "icon": "🧠"
-      },
-      "tags": [
-        "salute"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "name",
-          "display_name": "Nome",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:street",
-          "display_name": "Indirizzo",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:housenumber",
-          "display_name": "Numero",
-          "type": "string"
-        },
-        {
-          "property_name": "operator",
-          "display_name": "Gestito da",
-          "type": "string"
-        },
-        {
-          "property_name": "description",
-          "display_name": "Descrizione",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Centri acustici",
-      "id": "audiologist_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "healthcare": "audiologist"
-      },
-      "style": {
-        "color": "#90AEDC",
-        "opacity": 0.5,
-        "icon": "👂"
-      },
-      "tags": [
-        "salute"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "name",
-          "display_name": "Nome",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:street",
-          "display_name": "Indirizzo",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:housenumber",
-          "display_name": "Numero",
-          "type": "string"
-        },
-        {
-          "property_name": "operator",
-          "display_name": "Gestito da",
-          "type": "string"
-        },
-        {
-          "property_name": "description",
-          "display_name": "Descrizione",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Sale parto",
-      "id": "birthing_centre_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "healthcare": "birthing_centre"
-      },
-      "style": {
-        "color": "#90AEDC",
-        "opacity": 0.5,
-        "icon": "👶"
-      },
-      "tags": [
-        "salute"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "name",
-          "display_name": "Nome",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:street",
-          "display_name": "Indirizzo",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:housenumber",
-          "display_name": "Numero",
-          "type": "string"
-        },
-        {
-          "property_name": "operator",
-          "display_name": "Gestito da",
-          "type": "string"
-        },
-        {
-          "property_name": "description",
-          "display_name": "Descrizione",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Centri dialisi",
-      "id": "dialysis_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "healthcare": "dialysis"
-      },
-      "style": {
-        "color": "#90AEDC",
-        "opacity": 0.5,
-        "icon": "🩺"
       },
       "tags": [
         "salute"
@@ -1187,6 +958,7 @@
         "healthcare": "laboratory"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🔬"
@@ -1223,183 +995,6 @@
       ]
     },
     {
-      "name": "Nutrizionisti",
-      "id": "nutrition_counselling_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "healthcare": "nutrition_counselling"
-      },
-      "style": {
-        "color": "#90AEDC",
-        "opacity": 0.5,
-        "icon": "🥗"
-      },
-      "tags": [
-        "salute"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "name",
-          "display_name": "Nome",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:street",
-          "display_name": "Indirizzo",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:housenumber",
-          "display_name": "Numero",
-          "type": "string"
-        },
-        {
-          "property_name": "brand",
-          "display_name": "Brand",
-          "type": "string"
-        },
-        {
-          "property_name": "wheelchair",
-          "display_name": "Accessibile",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Optometristi",
-      "id": "optometrist_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "healthcare": "optometrist"
-      },
-      "style": {
-        "color": "#90AEDC",
-        "opacity": 0.5,
-        "icon": "👁️‍🗨️"
-      },
-      "tags": [
-        "salute"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "name",
-          "display_name": "Nome",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:street",
-          "display_name": "Indirizzo",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:housenumber",
-          "display_name": "Numero",
-          "type": "string"
-        },
-        {
-          "property_name": "brand",
-          "display_name": "Brand",
-          "type": "string"
-        },
-        {
-          "property_name": "wheelchair",
-          "display_name": "Accessibile",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Podologi",
-      "id": "podiatrist_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "healthcare": "podiatrist"
-      },
-      "style": {
-        "color": "#90AEDC",
-        "opacity": 0.5,
-        "icon": "👣"
-      },
-      "tags": [
-        "salute"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "name",
-          "display_name": "Nome",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:street",
-          "display_name": "Indirizzo",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:housenumber",
-          "display_name": "Numero",
-          "type": "string"
-        },
-        {
-          "property_name": "brand",
-          "display_name": "Brand",
-          "type": "string"
-        },
-        {
-          "property_name": "wheelchair",
-          "display_name": "Accessibile",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Riabilitazione",
-      "id": "rehabilitation_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "healthcare": "rehabilitation"
-      },
-      "style": {
-        "color": "#90AEDC",
-        "opacity": 0.5,
-        "icon": "🏋️‍♂️"
-      },
-      "tags": [
-        "salute"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "name",
-          "display_name": "Nome",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:street",
-          "display_name": "Indirizzo",
-          "type": "string"
-        },
-        {
-          "property_name": "addr:housenumber",
-          "display_name": "Numero",
-          "type": "string"
-        },
-        {
-          "property_name": "brand",
-          "display_name": "Brand",
-          "type": "string"
-        },
-        {
-          "property_name": "description",
-          "display_name": "Descrizione",
-          "type": "string"
-        },
-        {
-          "property_name": "wheelchair",
-          "display_name": "Accessibile",
-          "type": "string"
-        }
-      ]
-    },
-    {
       "name": "Logopedisti",
       "id": "speech_therapist_openstreetmap",
       "url": "https://overpass-api.de/api/interpreter",
@@ -1407,6 +1002,7 @@
         "healthcare": "speech_therapist"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🗣️"
@@ -1455,6 +1051,7 @@
         "amenity": "bank"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏦"
@@ -1508,6 +1105,7 @@
         "amenity": "townhall"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏛️"
@@ -1562,6 +1160,7 @@
         "tourism": "hotel"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏨"
@@ -1620,6 +1219,7 @@
         "tourism": "information"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🛈"
@@ -1684,6 +1284,7 @@
         "historic": "castle"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏰"
@@ -1747,6 +1348,7 @@
         "historic": "ruins"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏛️"
@@ -1810,6 +1412,7 @@
         "amenity": "fuel"
       },
       "style": {
+        "type": ["point", "area"],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "⛽"

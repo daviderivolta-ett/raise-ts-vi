@@ -13,6 +13,7 @@
                 "srsname": "EPSG:4326"
             },
             "style": {
+                "type": ["line"],
                 "color": "#fc9632",
                 "opacity": 1
             },

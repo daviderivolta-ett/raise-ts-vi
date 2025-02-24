@@ -1,4 +1,4 @@
-import { Layer, LayerProperty, LayerStyle, PropertyType } from '../models/layer.model';
+import { Layer } from '../models/layer.model';
 
 export class LayerService {
     private static _instance: LayerService;

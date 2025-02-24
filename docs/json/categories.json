@@ -16,7 +16,8 @@
                 "./json/sport.json",
                 "./json/roads.json",
                 "./json/borders.json",
-                "./json/telecommunications.json"
+                "./json/telecommunications.json",
+                "./json/peba.json"
             ]
         },
         {

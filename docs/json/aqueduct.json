@@ -13,6 +13,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["line"],
         "color": "#33e000",
         "opacity": 1,
         "icon": "⛲"
@@ -48,6 +49,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#5e0ca8",
         "opacity": 0.5,
         "icon": "⛲"
@@ -94,6 +96,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#64896d",
         "opacity": 0.5,
         "icon": "⛲"
@@ -120,6 +123,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#714fc7",
         "opacity": 0.5,
         "icon": "⛲"
@@ -156,6 +160,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#5d18f3",
         "opacity": 0.5,
         "icon": "⛲"
@@ -188,6 +193,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#d356c4",
         "opacity": 0.5,
         "icon": "⛲"

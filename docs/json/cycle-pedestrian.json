@@ -13,6 +13,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#51fa67",
         "opacity": 0.5,
         "icon": "🚲"
@@ -41,9 +42,17 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["line"],
         "color": "#51b6b0",
         "opacity": 1,
-        "icon": "🚲"
+        "icon": "🚲",
+        "colorLevels": {
+          "key": "STATO",
+          "colors": {
+              "ESISTENTE": "green",
+              "IN ESECUZIONE-PROGRAMMAZIONE": "yellow"
+          }
+      }
       },
       "tags": [
         "mobilità"
@@ -78,6 +87,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["area"],
         "color": "#b3e27d",
         "opacity": 0.5,
         "icon": "🚶"

@@ -1,0 +1,440 @@
+{
+    "name": "Accessibilità",
+    "layers": [
+        {
+            "name": "Aree accessibilità motoria",
+            "id": "SITGEO:V_PEBA_OGGETTI_FUNZ_MOT",
+            "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+            "get": {
+                "service": "WFS",
+                "typeName": "SITGEO:V_PEBA_OGGETTI_FUNZ",
+                "outputFormat": "application/json",
+                "request": "GetFeature",
+                "srsname": "EPSG:4326"
+            },
+            "style": {
+                "type": [
+                    "area"
+                ],
+                "color": "#85499a",
+                "opacity": 0.5,
+                "icon": "♿",
+                "colorLevels": {
+                    "key": "GRADO_ACC_MOTORIA",
+                    "colors": {
+                        "ACCESSIBILE": "green",
+                        "PARZIALMENTE ACCESSIBILE": "yellow",
+                        "PARZIALMENTE INACCESSIBILE": "orange",
+                        "NON ACCESSIBILE": "red"
+                    }
+                }
+            },
+            "tags": [
+                "accessibilità"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "GID",
+                    "display_name": "GID",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ID_MUNICIPIO",
+                    "display_name": "ID municipio",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ID_AMBITO",
+                    "display_name": "ID ambito",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ID_OGGETTO",
+                    "display_name": "ID oggetto",
+                    "type": "string"
+                },
+                {
+                    "property_name": "TIPO_OGGETTO",
+                    "display_name": "Tipo oggetto",
+                    "type": "string"
+                },
+                {
+                    "property_name": "INDIRIZZO",
+                    "display_name": "Indirizzo",
+                    "type": "string"
+                },
+                {
+                    "property_name": "CATEGORIA_FUNZIONE",
+                    "display_name": "Categoria funzione",
+                    "type": "string"
+                },
+                {
+                    "property_name": "DESC_FUNZIONE",
+                    "display_name": "Descrizione funzione",
+                    "type": "string"
+                },
+                {
+                    "property_name": "DATA_SCHEDA",
+                    "display_name": "Data scheda",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ID_FUNZIONE",
+                    "display_name": "ID funzione",
+                    "type": "string"
+                },
+                {
+                    "property_name": "CRIT_MOTORIA",
+                    "display_name": "Criticità motoria",
+                    "type": "string"
+                },
+                {
+                    "property_name": "GRADO_ACC_MOTORIA",
+                    "display_name": "Grado accesibilità motoria",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Aree accessibilità sensoriale",
+            "id": "SITGEO:V_PEBA_OGGETTI_FUNZ_SEN",
+            "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+            "get": {
+                "service": "WFS",
+                "typeName": "SITGEO:V_PEBA_OGGETTI_FUNZ",
+                "outputFormat": "application/json",
+                "request": "GetFeature",
+                "srsname": "EPSG:4326"
+            },
+            "style": {
+                "type": [
+                    "area"
+                ],
+                "color": "#85499a",
+                "opacity": 0.5,
+                "icon": "♿",
+                "colorLevels": {
+                    "key": "GRADO_ACC_SENSORIALE",
+                    "colors": {
+                        "ACCESSIBILE": "green",
+                        "PARZIALMENTE ACCESSIBILE": "yellow",
+                        "PARZIALMENTE INACCESSIBILE": "orange",
+                        "NON ACCESSIBILE": "red"
+                    }
+                }
+            },
+            "tags": [
+                "accessibilità"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "GID",
+                    "display_name": "GID",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ID_MUNICIPIO",
+                    "display_name": "ID municipio",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ID_AMBITO",
+                    "display_name": "ID ambito",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ID_OGGETTO",
+                    "display_name": "ID oggetto",
+                    "type": "string"
+                },
+                {
+                    "property_name": "TIPO_OGGETTO",
+                    "display_name": "Tipo oggetto",
+                    "type": "string"
+                },
+                {
+                    "property_name": "INDIRIZZO",
+                    "display_name": "Indirizzo",
+                    "type": "string"
+                },
+                {
+                    "property_name": "CATEGORIA_FUNZIONE",
+                    "display_name": "Categoria funzione",
+                    "type": "string"
+                },
+                {
+                    "property_name": "DESC_FUNZIONE",
+                    "display_name": "Descrizione funzione",
+                    "type": "string"
+                },
+                {
+                    "property_name": "DATA_SCHEDA",
+                    "display_name": "Data scheda",
+                    "type": "string"
+                },
+                {
+                    "property_name": "ID_FUNZIONE",
+                    "display_name": "ID funzione",
+                    "type": "string"
+                },
+                {
+                    "property_name": "CRIT_SENSORIALE",
+                    "display_name": "Criticità sensoriale",
+                    "type": "string"
+                },
+                {
+                    "property_name": "GRADO_ACC_SENSORIALE",
+                    "display_name": "Grado accesibilità sensoriale",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Percorsi accessibilità motoria",
+            "id": "SITGEO:V_PEBA_PERCORSI_FUNZ_MOT",
+            "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+            "get": {
+                "service": "WFS",
+                "typeName": "SITGEO:V_PEBA_PERCORSI_FUNZ",
+                "outputFormat": "application/json",
+                "request": "GetFeature",
+                "srsname": "EPSG:4326"
+            },
+            "style": {
+                "type": [
+                    "line"
+                ],
+                "color": "#85499a",
+                "opacity": 0.5,
+                "icon": "♿",
+                "colorLevels": {
+                    "key": "GRADO_ACC_MOTORIA",
+                    "colors": {
+                        "ACCESSIBILE": "green",
+                        "PARZIALMENTE ACCESSIBILE": "yellow",
+                        "PARZIALMENTE INACCESSIBILE": "orange",
+                        "NON ACCESSIBILE": "red"
+                    }
+                }
+            },
+            "tags": [
+                "accessibilità"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "ID_MUNICIPIO",
+                    "display_name": "Id municipio",
+                    "type": "string"
+                },
+                {
+                    "property_name": "DATA_SCHEDA",
+                    "display_name": "Data scheda",
+                    "type": "string"
+                },
+                {
+                    "property_name": "CRIT_MOTORIA",
+                    "display_name": "Criticità motoria",
+                    "type": "string"
+                },
+                {
+                    "property_name": "GRADO_ACC_MOTORIA",
+                    "display_name": "Grado accesibilità motoria",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Percorsi accessibilità sensoriale",
+            "id": "SITGEO:V_PEBA_PERCORSI_FUNZ_SEN",
+            "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+            "get": {
+                "service": "WFS",
+                "typeName": "SITGEO:V_PEBA_PERCORSI_FUNZ",
+                "outputFormat": "application/json",
+                "request": "GetFeature",
+                "srsname": "EPSG:4326"
+            },
+            "style": {
+                "type": [
+                    "line"
+                ],
+                "color": "#85499a",
+                "opacity": 0.5,
+                "icon": "♿",
+                "colorLevels": {
+                    "key": "GRADO_ACC_SENSORIALE",
+                    "colors": {
+                        "ACCESSIBILE": "green",
+                        "PARZIALMENTE ACCESSIBILE": "yellow",
+                        "PARZIALMENTE INACCESSIBILE": "orange",
+                        "NON ACCESSIBILE": "red"
+                    }
+                }
+            },
+            "tags": [
+                "accessibilità"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "ID_MUNICIPIO",
+                    "display_name": "Id municipio",
+                    "type": "string"
+                },
+                {
+                    "property_name": "DATA_SCHEDA",
+                    "display_name": "Data scheda",
+                    "type": "string"
+                },
+                {
+                    "property_name": "CRIT_SENSORIALE",
+                    "display_name": "Criticità sensoriale",
+                    "type": "string"
+                },
+                {
+                    "property_name": "GRADO_ACC_SENSORIALE",
+                    "display_name": "Grado accesibilità sensoriale",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Semafori con segnale sonoro",
+            "id": "traffic_light_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "traffic_signals:sound": "yes"
+            },
+            "style": {
+                "type": [
+                    "point"
+                ],
+                "color": "#db2103",
+                "opacity": 1,
+                "icon": "🚦"
+            },
+            "tags": [
+                "accessibilità"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "tactile_paving",
+                    "display_name": "Pavimentazione tattile",
+                    "type": "string"
+                },
+                {
+                    "property_name": "traffic_signals:sound",
+                    "display_name": "Avviso sonoro",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "Punti accessibili con carrozzina",
+            "id": "wheelchair_openstreetmap",
+            "url": "https://overpass-api.de/api/interpreter",
+            "post": {
+                "wheelchair": "yes"
+            },
+            "style": {
+                "type": [
+                    "point",
+                    "line",
+                    "area"
+                ],
+                "color": "#002957",
+                "opacity": 1,
+                "icon": "♿"
+            },
+            "tags": [
+                "accessibilità"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:street",
+                    "display_name": "Indirizzo",
+                    "type": "string"
+                },
+                {
+                    "property_name": "addr:housenumber",
+                    "display_name": "Numero",
+                    "type": "string"
+                },
+                {
+                    "property_name": "phone",
+                    "display_name": "Telefono",
+                    "type": "string"
+                },
+                {
+                    "property_name": "email",
+                    "display_name": "Email",
+                    "type": "string"
+                },
+                {
+                    "property_name": "cuisine",
+                    "display_name": "Cucina",
+                    "type": "string"
+                },
+                {
+                    "property_name": "indoor_seating",
+                    "display_name": "Posti al chiuso",
+                    "type": "string"
+                },
+                {
+                    "property_name": "outdoor_seating",
+                    "display_name": "Posti all'aperto",
+                    "type": "string"
+                },
+                {
+                    "property_name": "takeaway",
+                    "display_name": "Take away",
+                    "type": "string"
+                },
+                {
+                    "property_name": "brand",
+                    "display_name": "Brand",
+                    "type": "string"
+                },
+                {
+                    "property_name": "description",
+                    "display_name": "Descrizione",
+                    "type": "string"
+                },
+                {
+                    "property_name": "operator",
+                    "display_name": "Gestito da",
+                    "type": "string"
+                },
+                {
+                    "property_name": "self_service",
+                    "display_name": "Self service",
+                    "type": "string"
+                },
+                {
+                    "property_name": "fuel:diesel",
+                    "display_name": "Diesel",
+                    "type": "string"
+                },
+                {
+                    "property_name": "fuel:octane_95",
+                    "display_name": "Benzina 95 ottani",
+                    "type": "string"
+                },
+                {
+                    "property_name": "fuel:octane_100",
+                    "display_name": "Benzina 100 ottani",
+                    "type": "string"
+                },
+                {
+                    "property_name": "note",
+                    "display_name": "Note",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
+}

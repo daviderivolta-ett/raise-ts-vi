@@ -13,6 +13,7 @@
         "srsname": "EPSG:4326"
       },
       "style": {
+        "type": ["point"],
         "color": "#7ae8fe",
         "opacity": 0.5,
         "icon": "🏛️"
