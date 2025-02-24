@@ -37,6 +37,10 @@ export class SelectedSuggestedPathCardComponent extends HTMLElement {
             <article class="selected-suggested-path-card" aria-labelledby="selected-suggested-path-card-title" aria-posinset="${this.position}" tabindex="${this.position}" aria-setsize="-1">
                 <div class="selected-suggested-path-card-info">
                     <h3 class="selected-suggested-path-card-title" id="selected-suggested-path-card-title">${this.poi.props.find(p => p.displayName === 'Nome')?.value || this.poi.name}</h3>
+                    <p class="selected-suggested-path-card-distance" role="text" aria-label="Distanza da te: ${Math.round(this.poi.distance || 0)} metri">
+                        <span class="distance">${Math.round(this.poi.distance || 0)}</span>
+                        <span aria-hidden="true">m</span>
+                    </p>
                 </div>
                 <div class="selected-suggested-path-card-buttons">
                     <button type="button" class="poi-info-btn" aria-label="Vedi dettagli punto di interesse">
@@ -62,6 +66,12 @@ export class SelectedSuggestedPathCardComponent extends HTMLElement {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                }
+
+                .selected-suggested-path-card-distance {
+                    font-size: .9rem;
+                    color: var(--on-surface-variant);
+                    margin: 8px 0 0 0;
                 }
 
                 button {

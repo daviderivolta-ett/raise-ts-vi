@@ -75,6 +75,7 @@ style.innerHTML =
 export class AroundMePage extends HTMLElement {
     public shadowRoot: ShadowRoot;
 
+    private _heading: HTMLHeadingElement;
     private _list: HTMLElement;
     private _message: HTMLDivElement;
 
@@ -87,6 +88,7 @@ export class AroundMePage extends HTMLElement {
         this.shadowRoot.appendChild(template.content.cloneNode(true));
         this.shadowRoot.appendChild(style.cloneNode(true));
 
+        this._heading = this.shadowRoot.querySelector('.title') as HTMLHeadingElement;
         this._list = this.shadowRoot.querySelector('.around-you-features') as HTMLElement;
         this._message = this.shadowRoot.querySelector('.message') as HTMLDivElement;
     }
@@ -130,6 +132,7 @@ export class AroundMePage extends HTMLElement {
 
     // Methods
     private async _render(): Promise<void> {        
+        this._heading.innerHTML = this._pois[0] ? this._pois[0].layer.name : 'Punti di interesse';
         this._list.innerHTML = '';
         this._pois.forEach((poi: Poi, index: number) => {
             const card: PoiCard = new PoiCard();

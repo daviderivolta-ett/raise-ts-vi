@@ -13,7 +13,7 @@ import './components/paginated-list.component';
 //
 import './pages/around-you/around-you.page';
 //
-import './pages/around-you/around-me.page.page';
+import './pages/around-you/around-me.page';
 import './pages/custom-path/custom-path.page';
 import './pages/suggested-paths/suggested-paths.page';
 import './pages/selected-suggested-path/selected-suggested-path.page';

@@ -1,35 +1,33 @@
 import { Path } from '../../models/path.model';
 import { Poi } from '../../models/poi.model';
+import { GeoGraphicService } from '../../services/geographic.service';
 import { PathService } from '../../services/path.service';
 import { PoiService } from '../../services/poi.service';
+import { PositionService } from '../../services/position.service';
 import { SelectedSuggestedPathCardComponent } from './selected-suggested-path-card.component';
 import './selected-suggested-path-card.component';
 
 export class SuggestedPathPage extends HTMLElement {
     public shadowRoot: ShadowRoot;
     private _path: Path = new Path('', []);
+    private _pois: Poi[] = [];
 
     constructor() {
         super();
         this.shadowRoot = this.attachShadow({ mode: 'closed' });
     }
 
-    public get path(): Path {
-        return this._path;
-    }
-
+    public get path(): Path { return this._path }
     public set path(path: Path) {
         this._path = path;
         this.update();
-        this.setupCardsBeahviour();
+        this.setupCardsBehaviour();
     }
 
-    public connectedCallback(): void {
-        PathService.instance.getSelectedSuggestedPath();
-        this.path = PathService.instance.selectedSuggestedPath;        
+    public async connectedCallback(): Promise<void> {
         this.render();
-        this.update();
-        this.setupCardsBeahviour();
+        PathService.instance.getSelectedSuggestedPath();
+        this.path = PathService.instance.selectedSuggestedPath;
     }
 
     private render(): void {
@@ -37,7 +35,7 @@ export class SuggestedPathPage extends HTMLElement {
             `
             <div class="suggested-path-page">
                 <div class="page-header">
-                    <h1 class="page-title" tabindex="-1">${this.path.name}</h1>
+                    <h1 class="page-title" tabindex="-1"></h1>
                 </div>
                 <section class="suggested-path-list" role="feed"></section>
             </div>
@@ -103,17 +101,31 @@ export class SuggestedPathPage extends HTMLElement {
             </style>
             `
             ;
-
-        const title: HTMLHeadingElement | null = this.shadowRoot.querySelector('h1');
-        if (title) title.focus();
     }
 
-    private update(): void {
+    private async update(): Promise<void> {
+        const title: HTMLHeadingElement | null = this.shadowRoot.querySelector('h1');
+        if (title) {
+            title.innerHTML = this.path.name;
+            title.focus();
+        }
+
         const list: HTMLDivElement | null = this.shadowRoot.querySelector('.suggested-path-list');
         if (!list) return;
 
+        let pois: Poi[] = [...this.path.pois];
+
         list.innerHTML = '';
-        this.path.pois.forEach((poi: Poi, index: number) => {
+
+        let position: GeolocationPosition | null = null;
+        try {
+            position = await PositionService.instance.getUserPosition();
+            pois = [...GeoGraphicService.instance.orderPoisByDistance(position, this.path.pois)];
+        } catch (error) {
+            console.error('Errore nel riordinare i punti di interesse in base alla distanza');            
+        }
+
+        pois.forEach((poi: Poi, index: number) => {
             let card: SelectedSuggestedPathCardComponent = document.createElement('app-selected-suggested-path-card') as SelectedSuggestedPathCardComponent;
             card.poi = poi;
             card.position = index + 1;
@@ -121,10 +133,10 @@ export class SuggestedPathPage extends HTMLElement {
         });
     }
 
-    private setupCardsBeahviour(): void {
+    private setupCardsBehaviour(): void {
         const cards: NodeListOf<SelectedSuggestedPathCardComponent> = this.shadowRoot.querySelectorAll('app-selected-suggested-path-card');
         cards.forEach((card: SelectedSuggestedPathCardComponent) => {
-            card.addEventListener('poi-selected', (e: CustomEventInit) => {                
+            card.addEventListener('poi-selected', (e: CustomEventInit) => {
                 PoiService.instance.selectedPoi = e.detail.selectedPoi;
                 window.location.hash = '/poi';
             });
