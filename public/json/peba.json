@@ -192,14 +192,8 @@
         {
             "name": "Percorsi accessibilità motoria",
             "id": "SITGEO:V_PEBA_PERCORSI_FUNZ_MOT",
-            "url": "https://mappe.comune.genova.it/geoserver/wfs/",
-            "get": {
-                "service": "WFS",
-                "typeName": "SITGEO:V_PEBA_PERCORSI_FUNZ",
-                "outputFormat": "application/json",
-                "request": "GetFeature",
-                "srsname": "EPSG:4326"
-            },
+            "url": "./geojson/sitgeo_v_peba_percorsi_funz_sen.geojson",
+            "get": {},
             "style": {
                 "type": [
                     "line"
@@ -246,14 +240,8 @@
         {
             "name": "Percorsi accessibilità sensoriale",
             "id": "SITGEO:V_PEBA_PERCORSI_FUNZ_SEN",
-            "url": "https://mappe.comune.genova.it/geoserver/wfs/",
-            "get": {
-                "service": "WFS",
-                "typeName": "SITGEO:V_PEBA_PERCORSI_FUNZ",
-                "outputFormat": "application/json",
-                "request": "GetFeature",
-                "srsname": "EPSG:4326"
-            },
+            "url": "./geojson/sitgeo_v_peba_percorsi_funz_sen.geojson",
+            "get": {},
             "style": {
                 "type": [
                     "line"
