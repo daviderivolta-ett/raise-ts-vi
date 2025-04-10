@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "camera_1",
+                "active": true
+            },
+            "geometry": {
+                "coordinates": [
+                    8.974602825110424,
+                    44.40922393737142
+                ],
+                "type": "Point"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "camera_2",
+                "active": true
+            },
+            "geometry": {
+                "coordinates": [
+                    8.970664692944695,
+                    44.40760874014677
+                ],
+                "type": "Point"
+            }
+        }
+    ]
+}

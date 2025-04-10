@@ -4,10 +4,10 @@
     {
       "name": "Fermate AMT",
       "id": "SITGEO:V_MOB_FERMATE_AMT",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "SITGEO:V_MOB_FERMATE_AMT",
+        "typeName": "aitek:SITGEO_V_MOB_FERMATE_AMT",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
@@ -45,34 +45,12 @@
       ]
     },
     {
-      "name": "Tracciato metropolitana",
-      "id": "SITGEO:V_MOB_METROPOLITANA",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
-      "get": {
-        "service": "WFS",
-        "typeName": "SITGEO:V_MOB_METROPOLITANA",
-        "outputFormat": "application/json",
-        "request": "GetFeature",
-        "srsname": "EPSG:4326"
-      },
-      "style": {
-        "type": ["line"],
-        "color": "#1b2eb7",
-        "opacity": 1,
-        "icon": "🚉"
-      },
-      "tags": [
-        "mobilità"
-      ],
-      "relevant_properties": []
-    },
-    {
       "name": "Stazioni metropolitana",
       "id": "SITGEO:V_MOB_METROPOLITANA_STAZIONI",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "SITGEO:V_MOB_METROPOLITANA_STAZIONI",
+        "typeName": "aitek:SITGEO_V_MOB_METROPOLITANA_STAZIONI",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
@@ -94,44 +72,6 @@
         },
         {
           "property_name": "STATO",
-          "display_name": "Stato",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Funicolari",
-      "id": "L8020",
-      "url": "https://geoservizi.regione.liguria.it/geoserver/M2201/wfs",
-      "get": {
-        "service": "WFS",
-        "typeName": "L8020",
-        "outputFormat": "application/json",
-        "request": "GetFeature",
-        "srsname": "EPSG:4326"
-      },
-      "style": {
-        "type": ["line"],
-        "color": "#493e68",
-        "opacity": 1,
-        "style": "🚠"
-      },
-      "tags": [
-        "mobilità"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "DEF_SEDE",
-          "display_name": "Sede",
-          "type": "number"
-        },
-        {
-          "property_name": "DEF_LIVELLO",
-          "display_name": "Livello",
-          "type": "string"
-        },
-        {
-          "property_name": "DEF_STATO",
           "display_name": "Stato",
           "type": "string"
         }

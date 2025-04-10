@@ -1,0 +1,633 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap533575387",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9004049,
+                    44.4571338
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "DAE Matitone",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap533182185",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "DAE Matitone"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9069724,
+                    44.4112461
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap5345140189999999",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9677458,
+                    44.4836561
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap533735799",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9568492,
+                    44.4167307
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Municipio VII Ponente",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap531795059",
+                "props": [
+                    {
+                        "propertyName": "indoor",
+                        "displayName": "Al chiuso",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Municipio VII Ponente"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.751565,
+                    44.4279409
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap532019244",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "59"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Pra'"
+                    },
+                    {
+                        "propertyName": "indoor",
+                        "displayName": "Al chiuso",
+                        "type": "string",
+                        "value": "no"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7744633,
+                    44.4274611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap533671809",
+                "props": [
+                    {
+                        "propertyName": "indoor",
+                        "displayName": "Al chiuso",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9547807,
+                    44.4124002
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap53207923900000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7775832,
+                    44.4303407
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap53206704",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7774254,
+                    44.4292786
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap532063975",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7772779,
+                    44.4291196
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap533130665",
+                "props": [
+                    {
+                        "propertyName": "indoor",
+                        "displayName": "Al chiuso",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8755606,
+                    44.4375059
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap533474135",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.933339,
+                    44.4140745
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap53372999",
+                "props": [
+                    {
+                        "propertyName": "indoor",
+                        "displayName": "Al chiuso",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Centro commerciale l'Aquilone"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8999766,
+                    44.4730224
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap533681641",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9597379,
+                    44.4084262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap533226471",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.893465,
+                    44.4291821
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap53350744600000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9311409,
+                    44.4196037
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap53360711300000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9464547,
+                    44.4142566
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap53364151199999995",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9740693,
+                    44.3900819
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "DAE Ikea",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap533069517",
+                "props": [
+                    {
+                        "propertyName": "indoor",
+                        "displayName": "Al chiuso",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "DAE Ikea"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "IKEA Italia Retail Srl"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8838079,
+                    44.4231438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap53358554299999994",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9454527,
+                    44.4131016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap533645109",
+                "props": [
+                    {
+                        "propertyName": "indoor",
+                        "displayName": "Al chiuso",
+                        "type": "string",
+                        "value": "no"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Croce Rossa Italiana di Ceranesi"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8901086,
+                    44.4744023
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap533441816",
+                "props": [
+                    {
+                        "propertyName": "indoor",
+                        "displayName": "Al chiuso",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9328497,
+                    44.4113319
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Aeroporto",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap532654605",
+                "props": [
+                    {
+                        "propertyName": "indoor",
+                        "displayName": "Al chiuso",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Aeroporto"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8504365,
+                    44.415024
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap533526785",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.862431,
+                    44.4902475
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap53335062",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9248691,
+                    44.4101929
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap533755946",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9011221,
+                    44.4744725
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap53206904099999996",
+                "props": [
+                    {
+                        "propertyName": "indoor",
+                        "displayName": "Al chiuso",
+                        "type": "string",
+                        "value": "no"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7793346,
+                    44.4275695
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap53346935699999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.937337,
+                    44.4095987
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap533745538",
+                "props": [
+                    {
+                        "propertyName": "indoor",
+                        "displayName": "Al chiuso",
+                        "type": "string",
+                        "value": "no"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9579097,
+                    44.4166441
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap53334144499999994",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9398862,
+                    44.3942583
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Defibrillatori",
+                "layerId": "defibrillator_openstreetmap",
+                "uuid": "defibrillator_openstreetmap533415798",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9272152,
+                    44.4143646
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,2537 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533716362",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9565668,
+                    44.4150694
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533754771",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9805358,
+                    44.3949413
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53360523900000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9531898,
+                    44.4073341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53353405300000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9477363,
+                    44.405669
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53343259100000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9478372,
+                    44.3954219
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533867213",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9836775,
+                    44.4030438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533692979",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9647272,
+                    44.4045707
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53359131600000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9507581,
+                    44.4083735
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533699808",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9469889,
+                    44.4229919
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533416908",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9347124,
+                    44.4069784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533398168",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9233089,
+                    44.4165079
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53302051399999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8889923,
+                    44.4130591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533671038",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9504674,
+                    44.4166364
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533409305",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9356251,
+                    44.4053054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53348787200000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9385522,
+                    44.410235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533605855",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9567151,
+                    44.4038704
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap534034105",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9781217,
+                    44.4252888
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53360526199999995",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9380155,
+                    44.4225107
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533609327",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9384125,
+                    44.4225202
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533607153",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9381762,
+                    44.4225391
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533361499",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9384036,
+                    44.3977463
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533334371",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9274859,
+                    44.4059512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53382658799999994",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9568702,
+                    44.4257886
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53366462999999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9497015,
+                    44.4167615
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533461282",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9017788,
+                    44.4443494
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap534096002",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0030826,
+                    44.4065176
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53374922",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9827957,
+                    44.3921263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap532959934",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8808145,
+                    44.4151789
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533106466",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9002006,
+                    44.410446
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533128658",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9032548,
+                    44.409611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Banca Unicredit",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533463777",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9416096,
+                    44.4047681
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533731711",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8995637,
+                    44.4736074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53340762299999994",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9334473,
+                    44.407315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Varco Cairoli",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533432075",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9300183,
+                    44.4131892
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533815695",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.984902,
+                    44.3966675
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53221156900000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7961541,
+                    44.4250028
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53339817599999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9334724,
+                    44.4063452
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533398734",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9334809,
+                    44.4063925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533408524",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9344533,
+                    44.4063991
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533408575",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9343757,
+                    44.4064818
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533401108",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9335914,
+                    44.4065194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533405731",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9337914,
+                    44.4067817
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533404807",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9336454,
+                    44.4068353
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53340386099999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9334164,
+                    44.4069697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533403999",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9332835,
+                    44.4071164
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533423286",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9350007,
+                    44.4073279
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53342277300000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9348968,
+                    44.4073805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53341130899999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9336414,
+                    44.4074895
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533421607",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9346336,
+                    44.4075271
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53341946799999995",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9343971,
+                    44.4075497
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533429793",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9353441,
+                    44.4076352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53343022600000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9353836,
+                    44.407639
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap5334356029999999",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9358179,
+                    44.4077424
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533428627",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9350573,
+                    44.4078054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap5334376949999999",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9358823,
+                    44.4078872
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533435592",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9356626,
+                    44.4078966
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533427121",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9348033,
+                    44.4079088
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533435968",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.935656,
+                    44.4079408
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533436315",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.935656,
+                    44.4079755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533435511",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9354797,
+                    44.4080714
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533420861",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9340053,
+                    44.4080808
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533427789",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9346454,
+                    44.4081335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53342599",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9344533,
+                    44.4081457
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533419662",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9338092,
+                    44.408157
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533431477",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9349889,
+                    44.4081588
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533423546",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9341408,
+                    44.4082138
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533427494",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9345257,
+                    44.4082237
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53344585800000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9362587,
+                    44.4083271
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533429813",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9346533,
+                    44.408328
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53343278",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9349218,
+                    44.4083562
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533420009",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9336362,
+                    44.4083647
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533421434",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9337434,
+                    44.4084
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533420741",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9336737,
+                    44.4084004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53342089",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9336651,
+                    44.4084239
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533420762",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9336368,
+                    44.4084394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533445574",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9360508,
+                    44.4085066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53342653399999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9341204,
+                    44.408533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533426186",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9340612,
+                    44.4085574
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533428062",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.934152,
+                    44.4086542
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533428896",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9341809,
+                    44.4087087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533441161",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9351902,
+                    44.4089259
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533450709",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.935136,
+                    44.4099349
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533451367",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9348399,
+                    44.4102968
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53345273399999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9346044,
+                    44.410669
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533450338",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9342958,
+                    44.410738
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53345224800000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9343219,
+                    44.4109029
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533443351",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9332574,
+                    44.4110777
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533455297",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9344168,
+                    44.4111129
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53343292600000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9318948,
+                    44.4113978
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533429274",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9315079,
+                    44.4114195
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533427007",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9311158,
+                    44.4115849
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533424748",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9303866,
+                    44.4120882
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533391237",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9264008,
+                    44.4127229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533398851",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9269136,
+                    44.4129715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533404868",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.927268,
+                    44.4132188
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53343032199999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.929601,
+                    44.4134312
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap5334305140000001",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9296155,
+                    44.4134359
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533421818",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.928697,
+                    44.4134848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53342910100000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9294037,
+                    44.4135064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533414361",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9279128,
+                    44.4135233
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533433972",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9298682,
+                    44.413529
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53343440400000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9298879,
+                    44.4135525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533425655",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9288723,
+                    44.4136932
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533375263",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9235592,
+                    44.4139671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533421781",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.928197,
+                    44.4139811
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53342662499999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.928672,
+                    44.4139905
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533392258",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9249995,
+                    44.4142263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533370295",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9227925,
+                    44.414237
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533373815",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9229544,
+                    44.4144271
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533364217",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.93271,
+                    44.4037117
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53308784100000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9011871,
+                    44.407597
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533809442",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9847872,
+                    44.396157
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533965154",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8983995,
+                    44.4981159
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533408824",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9256702,
+                    44.4152122
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53404071200000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0196825,
+                    44.3843887
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53391632200000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9016062,
+                    44.490026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53380949599999994",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8984183,
+                    44.4825313
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533744498",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9040399,
+                    44.4704099
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533510134",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9460767,
+                    44.4049367
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533467943",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9460306,
+                    44.4007637
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Varco Raibetta",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533372489",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9289147,
+                    44.4083342
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53345338999999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9345972,
+                    44.4107418
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533397748",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9286721,
+                    44.4111027
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533339436",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9273132,
+                    44.4066304
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "varco del Campo",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533401575",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9272467,
+                    44.4129108
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Varco Grazie",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533336646",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9285652,
+                    44.4050994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Varco San Giorgio",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533359815",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9285323,
+                    44.4074492
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Varco Cavour",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53334426",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9278299,
+                    44.4065961
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap5333977",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9334484,
+                    44.4063216
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533878204",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9006792,
+                    44.4871412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap531759712",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7457157,
+                    44.4302555
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap531759431",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7457535,
+                    44.4301896
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53175788",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7456234,
+                    44.4301646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53176068",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7457584,
+                    44.4303096
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Varco Lomellini",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533428055",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9294792,
+                    44.4133263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533420508",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9335807,
+                    44.4084701
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53342018800000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9335178,
+                    44.408501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533930058",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9023858,
+                    44.49062
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap53348721",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9372416,
+                    44.4114794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533101167",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9052232,
+                    44.4048935
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533086138",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9040912,
+                    44.4045226
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Portineria",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533732557",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9052438,
+                            44.4680119
+                        ],
+                        [
+                            8.9053501,
+                            44.4679772
+                        ],
+                        [
+                            8.9054748,
+                            44.4679365
+                        ],
+                        [
+                            8.9054556,
+                            44.4679066
+                        ],
+                        [
+                            8.9054183,
+                            44.4678483
+                        ],
+                        [
+                            8.9051873,
+                            44.4679236
+                        ],
+                        [
+                            8.9052438,
+                            44.4680119
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533773751",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9058213,
+                            44.4715538
+                        ],
+                        [
+                            8.9058055,
+                            44.4715557
+                        ],
+                        [
+                            8.9057914,
+                            44.471566
+                        ],
+                        [
+                            8.905781,
+                            44.4715808
+                        ],
+                        [
+                            8.9057767,
+                            44.4715971
+                        ],
+                        [
+                            8.9057817,
+                            44.4716112
+                        ],
+                        [
+                            8.9058089,
+                            44.4716114
+                        ],
+                        [
+                            8.905837,
+                            44.4716009
+                        ],
+                        [
+                            8.9058508,
+                            44.4715925
+                        ],
+                        [
+                            8.9058588,
+                            44.4715822
+                        ],
+                        [
+                            8.9058578,
+                            44.471571
+                        ],
+                        [
+                            8.9058669,
+                            44.4715629
+                        ],
+                        [
+                            8.9058353,
+                            44.4715444
+                        ],
+                        [
+                            8.9058213,
+                            44.4715538
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533874779",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9910352,
+                            44.3964427
+                        ],
+                        [
+                            8.9910576,
+                            44.3964546
+                        ],
+                        [
+                            8.9910751,
+                            44.3964542
+                        ],
+                        [
+                            8.9910898,
+                            44.3964431
+                        ],
+                        [
+                            8.9910858,
+                            44.39643
+                        ],
+                        [
+                            8.9910623,
+                            44.3964175
+                        ],
+                        [
+                            8.9910416,
+                            44.3964165
+                        ],
+                        [
+                            8.9910281,
+                            44.3964297
+                        ],
+                        [
+                            8.9910352,
+                            44.3964427
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533100791",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8976898,
+                            44.4123893
+                        ],
+                        [
+                            8.8977202,
+                            44.4123796
+                        ],
+                        [
+                            8.8976891,
+                            44.4123297
+                        ],
+                        [
+                            8.8976587,
+                            44.4123394
+                        ],
+                        [
+                            8.8976898,
+                            44.4123893
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533103496",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8968748,
+                            44.4134748
+                        ],
+                        [
+                            8.8969034,
+                            44.4134728
+                        ],
+                        [
+                            8.8968983,
+                            44.4134372
+                        ],
+                        [
+                            8.8968698,
+                            44.4134393
+                        ],
+                        [
+                            8.8968748,
+                            44.4134748
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Camere di sorveglianza",
+                "layerId": "surveillance_cameras_openstreetmap",
+                "uuid": "surveillance_cameras_openstreetmap533973829",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8986683,
+                            44.4987146
+                        ],
+                        [
+                            8.8987166,
+                            44.498705
+                        ],
+                        [
+                            8.8987006,
+                            44.4986641
+                        ],
+                        [
+                            8.8986524,
+                            44.4986737
+                        ],
+                        [
+                            8.8986683,
+                            44.4987146
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

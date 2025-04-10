@@ -4,26 +4,28 @@
     {
       "name": "Bagni pubblici",
       "id": "SITGEO:V_BAGNI",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "SITGEO:V_BAGNI",
+        "typeName": "aitek:SITGEO_V_BAGNI",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
       },
       "style": {
-        "type": ["point"],
+        "type": [
+          "point"
+        ],
         "color": "#febfa4",
         "opacity": 0.5,
         "icon": "🚻",
         "colorLevels": {
           "key": "ACCESSIBILE",
           "colors": {
-              "SI": "green",
-              "NO": "red"
+            "SI": "green",
+            "NO": "red"
           }
-      }
+        }
       },
       "tags": [
         "servizi"
@@ -59,16 +61,18 @@
     {
       "name": "Ospedali",
       "id": "SITGEO:V_PC_OSPEDALI",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "SITGEO:V_PC_OSPEDALI",
+        "typeName": "aitek:SITGEO_V_PC_OSPEDALI",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
       },
       "style": {
-        "type": ["point"],
+        "type": [
+          "point"
+        ],
         "color": "#6ab58d",
         "opacity": 0.5,
         "icon": "🏥"
@@ -102,16 +106,18 @@
     {
       "name": "Farmacie",
       "id": "L807",
-      "url": "https://geoservizi.regione.liguria.it/geoserver/M452/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "L807",
+        "typeName": "aitek:M452_L807",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
       },
       "style": {
-        "type": ["point"],
+        "type": [
+          "point"
+        ],
         "color": "#cb1648",
         "opacity": 0.5,
         "icon": "⚕️"
@@ -141,17 +147,19 @@
     {
       "name": "Musei",
       "id": "V_COLLETTIVE_GEO_MUSEI",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "V_COLLETTIVE_GEO",
+        "typeName": "aitek:SITGEO_V_COLLETTIVE_GEO",
         "CQL_FILTER": "DESCRIZIONE='MUSEO'",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
       },
       "style": {
-        "type": ["point"],
+        "type": [
+          "point"
+        ],
         "color": "#c06156",
         "opacity": 0.5,
         "icon": "🏛️"
@@ -176,17 +184,19 @@
     {
       "name": "Biblioteche",
       "id": "V_COLLETTIVE_GEO_BIBLIOTECHE",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "V_COLLETTIVE_GEO",
+        "typeName": "aitek:SITGEO_V_COLLETTIVE_GEO",
         "CQL_FILTER": "DESCRIZIONE='BIBLIOTECA MUNICIPALE'",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
       },
       "style": {
-        "type": ["point"],
+        "type": [
+          "point"
+        ],
         "color": "#c06156",
         "opacity": 0.5,
         "icon": "📚"
@@ -210,17 +220,19 @@
     {
       "name": "Cinema",
       "id": "V_COLLETTIVE_GEO_CINEMA",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "V_COLLETTIVE_GEO",
+        "typeName": "aitek:SITGEO_V_COLLETTIVE_GEO",
         "CQL_FILTER": "DESCRIZIONE='CINEMA'",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
       },
       "style": {
-        "type": ["point"],
+        "type": [
+          "point"
+        ],
         "color": "#b795d2",
         "opacity": 0.5,
         "icon": "🎬"
@@ -245,17 +257,19 @@
     {
       "name": "Teatri",
       "id": "V_COLLETTIVE_GEO_TEATRI",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "V_COLLETTIVE_GEO",
+        "typeName": "aitek:SITGEO_V_COLLETTIVE_GEO",
         "CQL_FILTER": "DESCRIZIONE='TEATRO'",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
       },
       "style": {
-        "type": ["point"],
+        "type": [
+          "point"
+        ],
         "color": "#c06156",
         "opacity": 0.5,
         "icon": "🎭"
@@ -280,16 +294,18 @@
     {
       "name": "Scuole",
       "id": "SITGEO:SCUOLE_AGG_GEO",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "SITGEO:SCUOLE_AGG_GEO",
+        "typeName": "aitek:SITGEO_SCUOLE_AGG_GEO",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
       },
       "style": {
-        "type": ["point"],
+        "type": [
+          "point"
+        ],
         "color": "#97424c",
         "opacity": 0.5,
         "icon": "🏫"
@@ -373,16 +389,19 @@
     {
       "name": "Mercati rionali",
       "id": "SITGEO:V_COM_MERCATI",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "SITGEO:V_COM_MERCATI",
+        "typeName": "aitek:SITGEO_V_COM_MERCATI",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
       },
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#37f58e",
         "opacity": 0.5,
         "icon": "🏬"
@@ -422,12 +441,12 @@
     {
       "name": "Acqua potabile",
       "id": "drinking_water_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "drinking_water"
-      },
+      "url": "./geojson/drinking_water.geojson",
+      "get": {},
       "style": {
-        "type": ["point"],
+        "type": [
+          "point"
+        ],
         "color": "#b89da7",
         "opacity": 0.5,
         "icon": "🚰"
@@ -441,12 +460,13 @@
     {
       "name": "Camere di sorveglianza",
       "id": "surveillance_cameras_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "man_made": "surveillance"
-      },
+      "url": "./geojson/surveillance_cameras.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#691a40",
         "opacity": 0.5,
         "icon": "📹"
@@ -460,12 +480,13 @@
     {
       "name": "ATM",
       "id": "atm_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "atm"
-      },
+      "url": "./geojson/atm.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#4bdd99",
         "opacity": 0.5,
         "icon": "🏧"
@@ -485,12 +506,13 @@
     {
       "name": "Playground",
       "id": "playground_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "leisure": "playground"
-      },
+      "url": "./geojson/playground.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#db2103",
         "opacity": 0.5,
         "icon": "🎠"
@@ -514,12 +536,13 @@
     {
       "name": "Panchine pubbliche",
       "id": "bench_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "bench"
-      },
+      "url": "./geojson/bench.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#db2103",
         "opacity": 0.5,
         "icon": "🪑"
@@ -554,12 +577,13 @@
     {
       "name": "Vigili del fuoco",
       "id": "fire_station_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "fire_station"
-      },
+      "url": "./geojson/fire_station.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🚒"
@@ -578,12 +602,13 @@
     {
       "name": "Polizia",
       "id": "police_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "police"
-      },
+      "url": "./geojson/police_station.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "👮‍♂️"
@@ -617,12 +642,13 @@
     {
       "name": "Telefoni d'emergenza",
       "id": "emergency_phone_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "emergency": "phone"
-      },
+      "url": "./geojson/emergency_phone.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "📞"
@@ -656,12 +682,13 @@
     {
       "name": "Defibrillatori",
       "id": "defibrillator_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "emergency": "defibrillator"
-      },
+      "url": "./geojson/defibrillator.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "❤️"
@@ -700,12 +727,13 @@
     {
       "name": "Cliniche",
       "id": "clinic_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "clinic"
-      },
+      "url": "./geojson/clinic.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏥"
@@ -739,12 +767,13 @@
     {
       "name": "Dottori",
       "id": "doctors_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "doctors"
-      },
+      "url": "./geojson/doctor.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "👨‍⚕️"
@@ -778,12 +807,13 @@
     {
       "name": "Dentisti",
       "id": "dentist_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "dentist"
-      },
+      "url": "./geojson/dentist.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🦷"
@@ -817,12 +847,13 @@
     {
       "name": "Portelli per bambini",
       "id": "baby_hatch_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "baby_hatch"
-      },
+      "url": "./geojson/baby_hatch.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "👶🏽"
@@ -846,12 +877,13 @@
     {
       "name": "Donazione del sangue",
       "id": "blood_donation_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "healthcare": "blood_donation"
-      },
+      "url": "./geojson/blood_donation.geojson",
+      "get": {},
       "style": {
-        "type": ["point","area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "💉"
@@ -875,12 +907,13 @@
     {
       "name": "Casa di cura",
       "id": "nursing_home_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "nursing_home"
-      },
+      "url": "./geojson/nursing_home.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏡"
@@ -909,12 +942,13 @@
     {
       "name": "Struttura sociale",
       "id": "social_facility_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "social_facility"
-      },
+      "url": "./geojson/social_facility.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏢"
@@ -953,12 +987,13 @@
     {
       "name": "Laboratori",
       "id": "laboratory_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "healthcare": "laboratory"
-      },
+      "url": "./geojson/laboratory.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🔬"
@@ -997,12 +1032,13 @@
     {
       "name": "Logopedisti",
       "id": "speech_therapist_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "healthcare": "speech_therapist"
-      },
+      "url": "./geojson/speech_terapist.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🗣️"
@@ -1046,12 +1082,13 @@
     {
       "name": "Banche",
       "id": "banks_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "bank"
-      },
+      "url": "./geojson/bank.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏦"
@@ -1100,12 +1137,13 @@
     {
       "name": "Municipi",
       "id": "townhall_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "townhall"
-      },
+      "url": "./geojson/town_hall.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏛️"
@@ -1155,12 +1193,13 @@
     {
       "name": "Hotel",
       "id": "hotel_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "tourism": "hotel"
-      },
+      "url": "./geojson/hotel.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏨"
@@ -1214,12 +1253,13 @@
     {
       "name": "Informazioni",
       "id": "information_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "tourism": "information"
-      },
+      "url": "./geojson/info_point.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🛈"
@@ -1279,12 +1319,13 @@
     {
       "name": "Castelli",
       "id": "castle_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "historic": "castle"
-      },
+      "url": "./geojson/castle.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏰"
@@ -1343,12 +1384,13 @@
     {
       "name": "Rovine",
       "id": "ruins_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "historic": "ruins"
-      },
+      "url": "./geojson/ruin.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "🏛️"
@@ -1407,12 +1449,13 @@
     {
       "name": "Stazioni di rifornimento",
       "id": "gas_station_openstreetmap",
-      "url": "https://overpass-api.de/api/interpreter",
-      "post": {
-        "amenity": "fuel"
-      },
+      "url": "./geojson/gas_station.geojson",
+      "get": {},
       "style": {
-        "type": ["point", "area"],
+        "type": [
+          "point",
+          "area"
+        ],
         "color": "#90AEDC",
         "opacity": 0.5,
         "icon": "⛽"

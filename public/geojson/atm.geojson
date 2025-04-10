@@ -1,0 +1,2234 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53370639",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.957646,
+                    44.412993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53367773799999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9600216,
+                    44.4077522
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Intesa Sanpaolo",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533520458",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Intesa Sanpaolo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9479218,
+                    44.404124
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53341405300000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9349521,
+                    44.4064532
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533480044",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9434787,
+                    44.4045257
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533385485",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9223082,
+                    44.4162403
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533581214",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9522966,
+                    44.4058248
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533435546",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9479374,
+                    44.3956172
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533231729",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8927035,
+                    44.4304694
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533634259",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9523858,
+                    44.4110401
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap532995716",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8889134,
+                    44.4106582
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Postamat",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53363179",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Postamat"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.902324,
+                    44.460855
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533862588",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9664498,
+                    44.419809
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533180824",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9069511,
+                    44.4111313
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Intesa Sanpaolo",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533424339",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Intesa Sanpaolo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9303511,
+                    44.4120828
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "UniCredit Bank",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53338971199999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "UniCredit Bank"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9297567,
+                    44.4092145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap5334557890000001",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9327389,
+                    44.41284
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533506818",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9313193,
+                    44.4193625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53347886",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9482836,
+                    44.3996024
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap534322241",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9882701,
+                    44.443954
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap5340206",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0169248,
+                    44.3851352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53372115699999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9761676,
+                    44.3959481
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533842307",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.996026,
+                    44.3882047
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533789649",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9861013,
+                    44.3928636
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533953504",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0008631,
+                    44.3944873
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533883015",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.985957,
+                    44.4023445
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533736508",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9575678,
+                    44.416083
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533678628",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9496665,
+                    44.4181963
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53406986399999994",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.964057,
+                    44.4429294
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap534374272",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9827743,
+                    44.4546529
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53383591499999994",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9768139,
+                    44.4067776
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53343522300000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9300183,
+                    44.413504
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Genova 24",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533457304",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Genova 24"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9359403,
+                    44.4097901
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533398107",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9293317,
+                    44.410479
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53343883000000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9204605,
+                    44.4234225
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53308889300000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8986178,
+                    44.4102715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533274328",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8921132,
+                    44.4353196
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53302216599999994",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8810489,
+                    44.4211677
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap534609098",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0116766,
+                    44.4492332
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Popolare di Sondrio",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533441142",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Popolare di Sondrio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9351658,
+                    44.4089484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53348613400000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9421808,
+                    44.4064326
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533470485",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.934616,
+                    44.4124325
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533449231",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8948212,
+                    44.4501019
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap532789358",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.855645,
+                    44.4232908
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533610848",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9474186,
+                    44.4136662
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Postamat",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53179359700000006",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Postamat"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7513975,
+                    44.4279622
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Banca Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap532741167",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Banca Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.849703,
+                    44.4244137
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap532821428",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8516029,
+                    44.4305399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533859146",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9664232,
+                    44.4194914
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533662963",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9526045,
+                    44.4136918
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Postamat",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap532128778",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Postamat"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7851647,
+                    44.4277131
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "BNL",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53309822999999994",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "BNL"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9011989,
+                    44.4086241
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533086379",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9000037,
+                    44.4086342
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533820724",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9698245,
+                    44.4122479
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533630231",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9643356,
+                    44.3986875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533471618",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9219662,
+                    44.4251956
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Postamat",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap532971505",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Postamat"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8761662,
+                    44.4209843
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533512981",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9265435,
+                    44.4247546
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53269779",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8460059,
+                    44.4237731
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap532756758",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8519023,
+                    44.4237735
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53280650300000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8482155,
+                    44.4324348
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap532552537",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8289445,
+                    44.4263092
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Postamat",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533205049",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Postamat"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9068669,
+                    44.413638
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Bper Banca",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533872394",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Bper Banca"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9911934,
+                    44.396046
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533352642",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9283569,
+                    44.4069073
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533043988",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8879552,
+                    44.4164436
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533137483",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8960349,
+                    44.4177134
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Postamat",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap534516397",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Postamat"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.968139,
+                    44.4835007
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Postamat",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533205012",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Postamat"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8801712,
+                    44.44033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53243631500000006",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.81701,
+                    44.4266215
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Poste",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap5337889440000001",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Poste"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9568173,
+                    44.4220771
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "BPER",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53340691",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "BPER"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8939057,
+                    44.4467853
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533037663",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8815419,
+                    44.4222244
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Postamat",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533455085",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Postamat"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9014495,
+                    44.444059
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "UBI Banca",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533370577",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "UBI Banca"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9221921,
+                    44.4148656
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533279772",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8925405,
+                    44.4354367
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap532942709",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8807175,
+                    44.4135534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap532536804",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8385342,
+                    44.4151462
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533318275",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9230363,
+                    44.4087912
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533845448",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9752,
+                    44.4093448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533613397",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9584318,
+                    44.4029079
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap532886598",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8627386,
+                    44.4259212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53343781199999995",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9359048,
+                    44.4078764
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533395597",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.935009,
+                    44.4045507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533575246",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9446016,
+                    44.412923
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Postamat",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap534004383",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Postamat"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9230595,
+                    44.4773788
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "UniCredit Bank",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap532743809",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "UniCredit Bank"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8492261,
+                    44.4251548
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap5328823",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8720757,
+                    44.4161543
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Monte Paschi Siena",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533063941",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Monte Paschi Siena"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8947059,
+                    44.4116882
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53372673999999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9003393,
+                    44.4723347
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Postamat",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap532972878",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Postamat"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.876241,
+                    44.4210468
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "BPER Banca",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap531805127",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "BPER Banca"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7522866,
+                    44.4282261
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Banco Desio",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap532096787",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Banco Desio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.78229,
+                    44.4273887
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "CryptoLocalATM C/o Ottico Rattaro",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53238908",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "CryptoLocalATM C/o Ottico Rattaro"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.814064,
+                    44.424844
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53265637100000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.850627,
+                    44.4150101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "UniCredit Bank",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533654971",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "UniCredit Bank"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9582755,
+                    44.4072216
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Postamat",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap531935237",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Postamat"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7481856,
+                    44.4453381
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap53372514100000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8995766,
+                    44.4729375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carige",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533429455",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Carige"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9343768,
+                    44.4085687
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533519938",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.946187,
+                    44.4058068
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "BPER Banca",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap531803912",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "BPER Banca"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7522485,
+                    44.4281427
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Bitcoin ATM - Shitcoins.club",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533543824",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Banca",
+                        "type": "number",
+                        "value": "Bitcoin ATM - Shitcoins.club"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9492792,
+                    44.4051032
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ATM",
+                "layerId": "atm_openstreetmap",
+                "uuid": "atm_openstreetmap533387661",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9219209,
+                    44.4168452
+                ]
+            }
+        }
+    ]
+}

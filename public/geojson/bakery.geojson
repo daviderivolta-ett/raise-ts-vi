@@ -1,0 +1,5679 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53370357899999995",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "29 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Benvenuto Cellini"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9581732,
+                    44.4121847
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Olmo",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534307067",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Olmo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9775089,
+                    44.4531978
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Giannini",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533646308",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Giannini"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9576675,
+                    44.4069633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Tognoni",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533672817",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Tognoni"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9468337,
+                    44.420448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cooper",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533672457",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cooper"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9598,
+                    44.4074457
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Angolo del pane",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533719457",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "5a rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Aldo Manuzio"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Angolo del pane"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010 8994065"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9643581,
+                    44.4075876
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Antico forno Borgo Pila",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533519735",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Antico forno Borgo Pila"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9491546,
+                    44.4028189
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifico",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533766706",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panifico"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9669317,
+                    44.4097389
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533815632",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.97628,
+                    44.4052832
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Fonnesu",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533809355",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Sturla"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Fonnesu"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9758639,
+                    44.4050716
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pane amore e fantasia",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533610574",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pane amore e fantasia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9531477,
+                    44.4079097
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Priano SBK Panificio Pasticceria",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53175664",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "76 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Carlo Camozzini"
+                    },
+                    {
+                        "propertyName": "email",
+                        "displayName": "Email",
+                        "type": "string",
+                        "value": "prianosbk@virgilio.it"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Priano SBK Panificio Pasticceria"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010 6136477"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7471444,
+                    44.4285196
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La bottega del pane pugliese",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533401294",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "74 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via del Campo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La bottega del pane pugliese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9273012,
+                    44.4128282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Via del Campo",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap5334088",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Via del Campo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.928709,
+                    44.412171
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Grissineria - Delizie del mulino",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533644065",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Grissineria - Delizie del mulino"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9520389,
+                    44.4123676
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533634459",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Canevari"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.952271,
+                    44.4111749
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53367956400000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9749824,
+                    44.392974
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534056025",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.021864,
+                    44.3837385
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533023315",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8902797,
+                    44.4120518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Le Fornarine",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53350253",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Le Fornarine"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9564674,
+                    44.3937856
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pizza Sbrano",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533482013",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "98"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Carlo Barabino"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pizza Sbrano"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9479035,
+                    44.4002978
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533676102",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9542013,
+                    44.4134089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il Fornaio",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533398741",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il Fornaio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9275687,
+                    44.4123054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Battaglino",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533666445",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "7 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Terralba"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Battaglino"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9597075,
+                    44.406937
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53370302800000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9564597,
+                    44.4138431
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Pasticceria Giancarlo e Rita",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53371893",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "373 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Corso Sardegna"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Pasticceria Giancarlo e Rita"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9570012,
+                    44.4148918
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53359933999999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9522333,
+                    44.4077007
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533610192",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9535068,
+                    44.4075124
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533613496",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9541517,
+                    44.4071979
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il Forno di Via Torti",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap5336965",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il Forno di Via Torti"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9623747,
+                    44.4072753
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Sapeto",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53389390000000006",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Sapeto"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9813801,
+                    44.4080099
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533974564",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9883012,
+                    44.4091552
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533553759",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9473499,
+                    44.408026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533757145",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9568124,
+                    44.4189021
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53374591699999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9584518,
+                    44.4161399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533807177",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9625662,
+                    44.4181515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Sapore di pane",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533882938",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Sapore di pane"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9680193,
+                    44.4202745
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Genovese",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533867985",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9668563,
+                    44.4199422
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Al Forno",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533590708",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "24 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Albaro"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Al Forno"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010 363315"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9587905,
+                    44.4002803
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Piombi",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532979504",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Piombi"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8866764,
+                    44.411274
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Spiga d'Oro",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53340001799999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Spiga d'Oro"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9388222,
+                    44.4011796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533634159",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8893161,
+                    44.4740998
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Grano Tenero",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53338517800000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Grano Tenero"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9186175,
+                    44.4199003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Titti",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533344135",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Titti"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9150137,
+                    44.4193998
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533432411",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9200901,
+                    44.423151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Antico Forno Ursida",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53339334699999995",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "15 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di Porta Soprana"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Antico Forno Ursida"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9329602,
+                    44.4063745
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Pasticceria Pagnotta",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533387318",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Pasticceria Pagnotta"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9164804,
+                    44.4222514
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio del Lagaccio",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53336951799999994",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "54 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via del Lagaccio"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio del Lagaccio"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 0108696918"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9185933,
+                    44.4183585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il Forno di San Nicola",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53350859299999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il Forno di San Nicola"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9309108,
+                    44.4199485
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Palmieri",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533478315",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "91 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via della Libertà"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Palmieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9481444,
+                    44.3996871
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533570586",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9381596,
+                    44.418899
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533271717",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9126979,
+                    44.4144738
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53333329",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8957885,
+                    44.4375405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Fratelli Corona",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533225912",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Fratelli Corona"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.893454,
+                    44.4291372
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533473247",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9346426,
+                    44.4126821
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "L'Isola del Pane",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap5334536490000001",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "47r"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Camillo Finocchiaro Aprile"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "L'Isola del Pane"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9461647,
+                    44.3992002
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap5336385",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9562549,
+                    44.4075951
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Rolla",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534358769",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "123 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Molassana"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Rolla"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010 8361409"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9815499,
+                    44.454327
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La Spiga d'Oro",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53337827700000005",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "6 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Corsica"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La Spiga d'Oro"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9367214,
+                    44.4011063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Alimentari",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53389684",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "21 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Edera"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Alimentari"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9704108,
+                    44.4192732
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Pasticceria I gemelli",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap5343481800000001",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Pasticceria I gemelli"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9782775,
+                    44.4565405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pane e Tulipani",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534334822",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pane e Tulipani"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9795736,
+                    44.4539086
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "O fornà da Doia Leccaje da Doia",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534530071",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Struppa"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "O fornà da Doia Leccaje da Doia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0052953,
+                    44.4477118
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533109727",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8985489,
+                    44.4124238
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53304719199999994",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8899462,
+                    44.414773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Antico Forno della Casana",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533419117",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "21"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Antico Forno della Casana"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9328295,
+                    44.4090822
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Focacceria",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533714806",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Focacceria"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9556727,
+                    44.4158079
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Casareccio",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53371090499999994",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Casareccio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9555775,
+                    44.415513
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533426518",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9294842,
+                    44.4131676
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Sapore del Peccato",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53367993",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Sapore del Peccato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9531013,
+                    44.4148917
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Fonnesu",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53338805300000004",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "35 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Corsica"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Fonnesu"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9372863,
+                    44.401519
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533764941",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9707323,
+                    44.4057618
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533836377",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9768232,
+                    44.4068145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533596253",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9525017,
+                    44.4071236
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Amore di Pane",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532691319",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Amore di Pane"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8428245,
+                    44.4263074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532450891",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Ignazio Pallavicini"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8191888,
+                    44.4259003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53246230999999995",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "57"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Giovanni Opisso"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8197145,
+                    44.4265165
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Max",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533711726",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Max"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9606045,
+                    44.4105681
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Voglia di Pane",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533718809",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Voglia di Pane"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9603824,
+                    44.4114985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53354185",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9515723,
+                    44.4026127
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Stefani",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533765614",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Stefani"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.970658,
+                    44.4059034
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Campo di grano",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53387030800000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Campo di grano"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.983971,
+                    44.4030598
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Spiga d'oro",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533892326",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "764n"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Corso Europa"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Spiga d'oro"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010 3760695"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.990161,
+                    44.3990716
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pane Piuma",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53381489699999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Ragazzi del 99"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pane Piuma"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.981376,
+                    44.4001137
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Valentino",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53372381100000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Valentino"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9561039,
+                    44.4162772
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pasticceria Panificio Sapore di pane",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53369057100000006",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pasticceria Panificio Sapore di pane"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9584668,
+                    44.4105903
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio I quattro mori",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533722504",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio I quattro mori"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9548851,
+                    44.4173653
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53371008800000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9532298,
+                    44.417779
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pasticceria Il nuovo forno",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53336257100000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pasticceria Il nuovo forno"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9289458,
+                    44.4073113
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53388068700000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9828863,
+                    44.4051824
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Elaborato",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap5333004029999999",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Elaborato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8968265,
+                    44.4332138
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533255853",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8938898,
+                    44.4316955
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533415227",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8939133,
+                    44.4476094
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533225656",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.893254,
+                    44.4293116
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533227642",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8932237,
+                    44.4295405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Macrì",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533661984",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Macrì"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9743591,
+                    44.3918393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532423116",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8155707,
+                    44.4267409
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Di Cara",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap5324622050000001",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Parma"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Di Cara"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8204515,
+                    44.425769
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53239262700000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8145437,
+                    44.424719
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532628976",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8352064,
+                    44.4276912
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Focaccia e...",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533711503",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Focaccia e..."
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.966525,
+                    44.4046253
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Da u Tappe",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533198681",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Da u Tappe"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8798509,
+                    44.4400172
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "L'antico forno della Casana",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533425577",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "26 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Luccoli"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "L'antico forno della Casana"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9330332,
+                    44.4095245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533647218",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9668692,
+                    44.3978526
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Pasticceria Diego",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533588022",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Pasticceria Diego"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9451856,
+                    44.4136166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Teglia",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533446225",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "6 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Battistino Rivara"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Teglia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8945004,
+                    44.4501221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dal Fornaio",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533450772",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "81"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Carlo Linneo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Dal Fornaio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9014386,
+                    44.4436386
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532390922",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "75 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Martiri della Libertà"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.812167,
+                    44.4269252
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53366202400000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9521482,
+                    44.4140542
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Cantore",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533082564",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Cantore"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8972969,
+                    44.4109595
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Pasticceria Gaggero",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533079302",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "19 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Luigi Dottesio"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Pasticceria Gaggero"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8984425,
+                    44.4094877
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Vecchio forno Fossati",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53361356900000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Vecchio forno Fossati"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9475411,
+                    44.4138158
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il Forno del Borgo",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533568168",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "10 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via del Falcone"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il Forno del Borgo"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010886696"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9490912,
+                    44.4077256
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rivendita Il Forno del Borgo",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53357108",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "8n"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Canevari"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Rivendita Il Forno del Borgo"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010886696"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9494438,
+                    44.4076642
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532993701",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8868109,
+                    44.4125592
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Tognoni",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533610401",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Tognoni"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9660416,
+                    44.3949985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pasticceria Raffaela",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53407578599999994",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pasticceria Raffaela"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9640873,
+                    44.4434913
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Focacceria Tumioli",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533385583",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "37"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Molo Ponte Morosini"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Focacceria Tumioli"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9262039,
+                    44.4123544
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532841576",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8665204,
+                    44.4176372
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio-focacceria Franco",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532884522",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio-focacceria Franco"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8726124,
+                    44.4158398
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pintori Dolce e salato",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53287440700000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pintori Dolce e salato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8713003,
+                    44.4161404
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Gianni",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53289213000000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Gianni"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8737162,
+                    44.4154968
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Maria",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53285824000000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Maria"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8703392,
+                    44.4154848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pik Nik",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53339982",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "73 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Gramsci"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pik Nik"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010 8605292"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9269641,
+                    44.4130179
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Bruzzone",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533596973",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Bruzzone"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.90283,
+                    44.4568673
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La casa del pane",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533383123",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "19 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Santa Maria in Via Lata"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La casa del pane"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9359223,
+                    44.40239
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il Genovino",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533383171",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "21 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di Sottoripa"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il Genovino"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9292831,
+                    44.409034
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Focacceria San Vincenzo",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533506001",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "61a rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Vincenzo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Focacceria San Vincenzo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9436156,
+                    44.4069845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Mario",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533506529",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "59a rosso,61 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Vincenzo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Mario"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010580619"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9436753,
+                    44.4069776
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il Forno",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533509169",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il Forno"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9439942,
+                    44.4069227
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il Punto",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533390026",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il Punto"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9293542,
+                    44.4096484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cornaglia",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532401768",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cornaglia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8125242,
+                    44.4276526
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio ligure",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53349901700000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio ligure"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9530606,
+                    44.3968411
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53346696",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9515435,
+                    44.3951525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "panificio rebora",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53214937",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "panificio rebora"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7873569,
+                    44.4275801
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cioi Panificio Pasticceria",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532015342",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cioi Panificio Pasticceria"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010 6196000"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7739501,
+                    44.4275841
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Claretta",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533416177",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "12 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via della Posta Vecchia"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Claretta"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9309875,
+                    44.4106302
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rocco",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532141541",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Rocco"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7871091,
+                    44.427045
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap531845627",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7556611,
+                    44.4289016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La Casa del Pane",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533579206",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La Casa del Pane"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9005446,
+                    44.457376
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Pasticceria Pedullà",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533644006",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Pasticceria Pedullà"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9565739,
+                    44.4078267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534462751",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.997377,
+                    44.4488981
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pane e Tulipani",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533438231",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "75"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via dei Macelli di Soziglia"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pane e Tulipani"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 0108178841"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9337131,
+                    44.41011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Nadia",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534359033",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Nadia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9813879,
+                    44.4545154
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Antico Forno Patrone",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53337834199999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "72 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di Ravecca"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Antico Forno Patrone"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 0102511093"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9331318,
+                    44.4047024
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "l'Arte del Pane",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534046368",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "l'Arte del Pane"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0197354,
+                    44.3849014
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Non solo pane",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53287142",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Non solo pane"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8714262,
+                    44.4157158
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533273425",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9074975,
+                    44.419845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Focaccia e dintorni",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533380956",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "56 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di Canneto il Curto"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Focaccia e dintorni"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010 2472154"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9297246,
+                    44.408371
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Focacceria Genovese",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533408143",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "9 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Fossatello"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Focacceria Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9289917,
+                    44.4118226
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Le Fornarine",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53364525",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "38 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Monte Zovetto"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Le Fornarine"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.964262,
+                    44.400263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cooper",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533631825",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Ettore Perosio"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cooper"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 0100983125"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9647492,
+                    44.3984333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "U furnu de Utri",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap531789886",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "6 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Carlo Camozzini"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "U furnu de Utri"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010 6121315"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7506585,
+                    44.4283301
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio '900",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53370811",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio '900"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9484895,
+                    44.4223215
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap531878728",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.758314,
+                    44.4295588
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Marinetta",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap531813354",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Marinetta"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7524042,
+                    44.4289312
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dolce e salato",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532710498",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "248"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Sestri"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Dolce e salato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8452507,
+                    44.4257991
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio S. Rita",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53348305599999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio S. Rita"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9419542,
+                    44.4063514
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La boutique della focaccia",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533618682",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La boutique della focaccia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.95378,
+                    44.4080882
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La Forneria",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53348768500000006",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "28 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Colombo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La Forneria"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.942598,
+                    44.4061705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Pasticceria Focacceria Travaglini",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533780682",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "12r"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Vittorino Era"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Pasticceria Focacceria Travaglini"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9830061,
+                    44.3950621
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Focacceria Gastronomia Lo Spuntino di Castelletto",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533488056",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Focacceria Gastronomia Lo Spuntino di Castelletto"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9339794,
+                    44.4148262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Campora",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53399780699999994",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "107"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Giacomo Poirè"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Campora"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9221228,
+                    44.4776579
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio da Giò",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534018126",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "42"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Giacomo Poirè"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio da Giò"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.924561,
+                    44.4772516
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Piga",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533843351",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Piga"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9010059,
+                    44.4833292
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534166052",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9689764,
+                    44.4476288
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Dolce Vita",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap5340799559999999",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "29 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Murcarolo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Dolce Vita"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0249195,
+                    44.3830761
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533337853",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9272557,
+                    44.4065296
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533569833",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9004671,
+                    44.4565162
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio pasticceria Antica Genova",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53338883100000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio pasticceria Antica Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9300416,
+                    44.4088415
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio L'Arte del Pane",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534660146",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio L'Arte del Pane"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0161352,
+                    44.4498794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Focaccia e Dintorni",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533388673",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "21"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Lorenzo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Focaccia e Dintorni"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010 2461824"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9315114,
+                    44.4073559
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534017127",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Piacenza"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9624965,
+                    44.4392162
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Forno della Stazione",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534002534",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Forno della Stazione"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9050649,
+                    44.4951885
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Zangaro",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533356984",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "6 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di San Bernardo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Zangaro"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9287996,
+                    44.4068988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pan per focaccia",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap5333790260000001",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "22 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Lorenzo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pan per focaccia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9297061,
+                    44.4081965
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53341833699999995",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "25 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Lomellini"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9293814,
+                    44.4124523
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio pasticceria La bontà del grano",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53367945500000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio pasticceria La bontà del grano"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.960557,
+                    44.4073885
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il forno di Ghia",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533486136",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "39 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Galata"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il forno di Ghia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.942834,
+                    44.4057796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pasticceria Focacceria Le Delizie",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533605658",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pasticceria Focacceria Le Delizie"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9015114,
+                    44.4590544
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "A Pestun' A'",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533653375",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "9r"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Boccadasse"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "A Pestun' A'"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9747002,
+                    44.3906373
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Focacceria",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533377868",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "11 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Innocenzo Quarto"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Focacceria"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9354153,
+                    44.4023715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532803991",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.851558,
+                    44.4288411
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53330142300000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8923934,
+                    44.4377489
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Crumbit la focacceria",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53302245899999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Crumbit la focacceria"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.889033,
+                    44.4132129
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534178608",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9210271,
+                    44.4968337
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio focacceria Garibaldi",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533261043",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio focacceria Garibaldi"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8925162,
+                    44.4335881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Priano Panificio Pasticceria",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53176674600000005",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "69 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Carlo Camozzini"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Priano Panificio Pasticceria"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010 6136333"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7480241,
+                    44.4286505
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Briciole di tradizione",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53291008700000006",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Briciole di tradizione"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8747455,
+                    44.4162632
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Battaglia",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532743203",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "1r"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Francesco Baracca"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Battaglia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.849475,
+                    44.4248453
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio Briciole di tradizione",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532850358",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio Briciole di tradizione"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8709761,
+                    44.4140597
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Into Canto",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533427947",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Into Canto"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9400349,
+                    44.4027598
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "le bontà del grano",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53344981399999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "le bontà del grano"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9298764,
+                    44.415105
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Sansò",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53342908200000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Sansò"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.936939,
+                    44.4059692
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il Fornaio",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533388239",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il Fornaio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9263925,
+                    44.4124314
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "PAN Retrò",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533474925",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "PAN Retrò"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9330653,
+                    44.4144272
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Simonitti",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532784497",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Simonitti"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.855122,
+                    44.4233277
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La Bottega Del Pane",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53375787100000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La Bottega Del Pane"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9809538,
+                    44.3948333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Scotto",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532451143",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Scotto"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8178381,
+                    44.4272762
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53343871299999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9251296,
+                    44.4187417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Da Ferrando",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53402149099999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Da Ferrando"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9042701,
+                    44.497879
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dolce Forno",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53346587799999995",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "115r"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via della Libertà"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Dolce Forno"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9477351,
+                    44.3988527
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dolce Vita",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53350369099999995",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "74 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Vincenzo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Dolce Vita"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010 580619"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9434194,
+                    44.4069497
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Forno",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53347896899999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Forno"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9282682,
+                    44.4196287
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Al posto giusto",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533468453",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Al posto giusto"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9404621,
+                    44.4063832
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53299009600000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8870306,
+                    44.411979
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Mexi",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53395500399999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Mexi"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.000986,
+                    44.3945144
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Merenderia",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533066587",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Merenderia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8966786,
+                    44.4099801
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533068081",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8967219,
+                    44.4100862
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panificio S. Rita",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533480601",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panificio S. Rita"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9418258,
+                    44.4062343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533034536",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8920059,
+                    44.4114477
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Laura",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532074147",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Laura"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7788121,
+                    44.4286026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Battaglia",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532060776",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Battaglia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.778669,
+                    44.4274086
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il forno delle delizie",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap531832046",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il forno delle delizie"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7543123,
+                    44.4288923
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pan Bon",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53355207199999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pan Bon"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9534992,
+                    44.401708
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Speedy Pizza",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533478255",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Colombo"
+                    },
+                    {
+                        "propertyName": "cuisine",
+                        "displayName": "Cucina",
+                        "type": "string",
+                        "value": "pizza"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Speedy Pizza"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010 5292164"
+                    },
+                    {
+                        "propertyName": "takeaway",
+                        "displayName": "Take away",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9412553,
+                    44.4065702
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dolce e Salato",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap532782357",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Dolce e Salato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8548246,
+                    44.4234111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dolce e Salato",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap53364566499999995",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Corso Sardegna"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Dolce e Salato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.954294,
+                    44.4102725
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gianluca e Fabrizio",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533584623",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "14r"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Renato Livraghi"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gianluca e Fabrizio"
+                    },
+                    {
+                        "propertyName": "phone",
+                        "displayName": "Telefono",
+                        "type": "string",
+                        "value": "+39 010 7453530"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9008968,
+                    44.4575655
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il Pane di Casagrande",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533863836",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "86 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Isonzo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il Pane di Casagrande"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9834777,
+                    44.4029059
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533390025",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9295707,
+                    44.4094318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il Fornaio",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap533780243",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il Fornaio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9856148,
+                    44.3924095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Da Cupido",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534005577",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Da Cupido"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9045439,
+                            44.4960138
+                        ],
+                        [
+                            8.9043905,
+                            44.4959771
+                        ],
+                        [
+                            8.9043809,
+                            44.4959976
+                        ],
+                        [
+                            8.9043702,
+                            44.4960204
+                        ],
+                        [
+                            8.9045229,
+                            44.496058
+                        ],
+                        [
+                            8.9045439,
+                            44.4960138
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panifici",
+                "layerId": "bakery_openstreetmap",
+                "uuid": "bakery_openstreetmap534013267",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.902049,
+                            44.4992777
+                        ],
+                        [
+                            8.9021099,
+                            44.4991884
+                        ],
+                        [
+                            8.9018408,
+                            44.4990955
+                        ],
+                        [
+                            8.9018089,
+                            44.4991338
+                        ],
+                        [
+                            8.9018497,
+                            44.4991479
+                        ],
+                        [
+                            8.9018163,
+                            44.4991971
+                        ],
+                        [
+                            8.902049,
+                            44.4992777
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

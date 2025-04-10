@@ -1,0 +1,1773 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap5328528729999999",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8440342,
+                    44.4412531
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap532850875",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8440857,
+                    44.4410018
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap532864149",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8443786,
+                    44.4420363
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap53187992300000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7085421,
+                    44.4794502
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Neviera",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap533983899",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Neviera"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9430778,
+                    44.4553121
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Mura della Darsena",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap533383561",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Mura della Darsena"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9259685,
+                    44.4123876
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Antica cartiera Savoi",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap53202545400000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Antica cartiera Savoi"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7056395,
+                    44.4969059
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Trincee - Trenches",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap53423287",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Trincee - Trenches"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9673535,
+                    44.4559335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Presa Acquedotto",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap534057881",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Presa Acquedotto"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9565586,
+                    44.4492295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Tubi in marmo dell'Acquedotto Storico",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap534330042",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Tubi in marmo dell'Acquedotto Storico"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9802789,
+                    44.4527253
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap53185763900000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7045534,
+                    44.4812105
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Libera collina di Castello",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap533350796",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Libera collina di Castello"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9300432,
+                    44.4050364
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ex cave argillite",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap534276667",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ex cave argillite"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0129677,
+                    44.414699
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap532846615",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8440436,
+                    44.4406179
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine Batteria Pianderlino",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap53385958099999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Rovine Batteria Pianderlino"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9696849,
+                    44.4162732
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Neviera",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap53387609100000006",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Neviera"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9338004,
+                    44.4538087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Chiostro di Sant'Andrea",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap53340581799999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Chiostro di Sant'Andrea"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9348616,
+                            44.4057202
+                        ],
+                        [
+                            8.9349395,
+                            44.4057567
+                        ],
+                        [
+                            8.9350248,
+                            44.4056636
+                        ],
+                        [
+                            8.9349469,
+                            44.4056271
+                        ],
+                        [
+                            8.9348616,
+                            44.4057202
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Torre di Granarolo",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap53340977200000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Torre di Granarolo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9101725,
+                            44.4308047
+                        ],
+                        [
+                            8.9102099,
+                            44.4308034
+                        ],
+                        [
+                            8.9102538,
+                            44.4308145
+                        ],
+                        [
+                            8.9102815,
+                            44.4308324
+                        ],
+                        [
+                            8.9102941,
+                            44.430847
+                        ],
+                        [
+                            8.9103038,
+                            44.4308728
+                        ],
+                        [
+                            8.9103006,
+                            44.4308926
+                        ],
+                        [
+                            8.9102988,
+                            44.4309039
+                        ],
+                        [
+                            8.910281,
+                            44.4309274
+                        ],
+                        [
+                            8.9102518,
+                            44.4309456
+                        ],
+                        [
+                            8.9102169,
+                            44.4309552
+                        ],
+                        [
+                            8.910191,
+                            44.4309564
+                        ],
+                        [
+                            8.9101414,
+                            44.4309456
+                        ],
+                        [
+                            8.9101131,
+                            44.4309282
+                        ],
+                        [
+                            8.9100982,
+                            44.4309109
+                        ],
+                        [
+                            8.9100892,
+                            44.430885
+                        ],
+                        [
+                            8.9100931,
+                            44.4308584
+                        ],
+                        [
+                            8.9101003,
+                            44.4308453
+                        ],
+                        [
+                            8.9101225,
+                            44.4308239
+                        ],
+                        [
+                            8.9101537,
+                            44.4308091
+                        ],
+                        [
+                            8.9101725,
+                            44.4308047
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap53392268200000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9357192,
+                            44.456549
+                        ],
+                        [
+                            8.9357533,
+                            44.4565909
+                        ],
+                        [
+                            8.9358624,
+                            44.4565458
+                        ],
+                        [
+                            8.9358448,
+                            44.456524
+                        ],
+                        [
+                            8.9358284,
+                            44.4565038
+                        ],
+                        [
+                            8.9357192,
+                            44.456549
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Chiesa di Santa Maria in Passione",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap533351959",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Chiesa di Santa Maria in Passione"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9299125,
+                            44.4052834
+                        ],
+                        [
+                            8.9298105,
+                            44.4052531
+                        ],
+                        [
+                            8.9298988,
+                            44.4051013
+                        ],
+                        [
+                            8.9299935,
+                            44.4051294
+                        ],
+                        [
+                            8.9300009,
+                            44.4051316
+                        ],
+                        [
+                            8.9299634,
+                            44.4051959
+                        ],
+                        [
+                            8.9299125,
+                            44.4052834
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polveriera",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap533451959",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polveriera"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9147278,
+                            44.4304681
+                        ],
+                        [
+                            8.9148568,
+                            44.4303789
+                        ],
+                        [
+                            8.9147015,
+                            44.4302607
+                        ],
+                        [
+                            8.9146458,
+                            44.4302936
+                        ],
+                        [
+                            8.914558,
+                            44.4303456
+                        ],
+                        [
+                            8.9146465,
+                            44.4304076
+                        ],
+                        [
+                            8.9147278,
+                            44.4304681
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap534187886",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9952868,
+                            44.4235018
+                        ],
+                        [
+                            8.9953625,
+                            44.4235961
+                        ],
+                        [
+                            8.99551,
+                            44.4235545
+                        ],
+                        [
+                            8.9953992,
+                            44.4234524
+                        ],
+                        [
+                            8.9952868,
+                            44.4235018
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap534160771",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9938042,
+                            44.4222729
+                        ],
+                        [
+                            8.9938192,
+                            44.4221768
+                        ],
+                        [
+                            8.9939791,
+                            44.4221896
+                        ],
+                        [
+                            8.9939641,
+                            44.4222857
+                        ],
+                        [
+                            8.9938042,
+                            44.4222729
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap534167014",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9942021,
+                            44.4224993
+                        ],
+                        [
+                            8.9943048,
+                            44.4225086
+                        ],
+                        [
+                            8.9943087,
+                            44.4224872
+                        ],
+                        [
+                            8.9943471,
+                            44.4224907
+                        ],
+                        [
+                            8.9943603,
+                            44.4224164
+                        ],
+                        [
+                            8.9942191,
+                            44.4224036
+                        ],
+                        [
+                            8.9942021,
+                            44.4224993
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap534181484",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.995053,
+                            44.4230954
+                        ],
+                        [
+                            8.9951189,
+                            44.4231514
+                        ],
+                        [
+                            8.9952353,
+                            44.4231322
+                        ],
+                        [
+                            8.9952515,
+                            44.4230616
+                        ],
+                        [
+                            8.9951747,
+                            44.4230259
+                        ],
+                        [
+                            8.9950863,
+                            44.4230487
+                        ],
+                        [
+                            8.995053,
+                            44.4230954
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap534159401",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9935558,
+                            44.4223843
+                        ],
+                        [
+                            8.9936979,
+                            44.4224417
+                        ],
+                        [
+                            8.9937596,
+                            44.4223785
+                        ],
+                        [
+                            8.9935719,
+                            44.4223115
+                        ],
+                        [
+                            8.9935558,
+                            44.4223843
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap534176608",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9946863,
+                            44.4229745
+                        ],
+                        [
+                            8.9947555,
+                            44.4231124
+                        ],
+                        [
+                            8.9948826,
+                            44.4230604
+                        ],
+                        [
+                            8.9947781,
+                            44.422942
+                        ],
+                        [
+                            8.9946863,
+                            44.4229745
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap534162659",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9937794,
+                            44.4224865
+                        ],
+                        [
+                            8.9938333,
+                            44.4224326
+                        ],
+                        [
+                            8.9939784,
+                            44.4225066
+                        ],
+                        [
+                            8.9939246,
+                            44.4225605
+                        ],
+                        [
+                            8.9937794,
+                            44.4224865
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap53418833899999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9951568,
+                            44.4236771
+                        ],
+                        [
+                            8.9950549,
+                            44.4235576
+                        ],
+                        [
+                            8.9951758,
+                            44.4235126
+                        ],
+                        [
+                            8.9953022,
+                            44.4236323
+                        ],
+                        [
+                            8.9951568,
+                            44.4236771
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ponte di Sant'Agata",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap533587011",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ponte di Sant'Agata"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9505596,
+                            44.4081415
+                        ],
+                        [
+                            8.9509772,
+                            44.407996
+                        ],
+                        [
+                            8.950953,
+                            44.4079634
+                        ],
+                        [
+                            8.9505207,
+                            44.4081075
+                        ],
+                        [
+                            8.9505596,
+                            44.4081415
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap533365578",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9274822,
+                            44.4090756
+                        ],
+                        [
+                            8.9273473,
+                            44.4090244
+                        ],
+                        [
+                            8.9274088,
+                            44.408967
+                        ],
+                        [
+                            8.9274822,
+                            44.4090756
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa del Boia",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap53333959",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa del Boia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9277085,
+                            44.4062505
+                        ],
+                        [
+                            8.9277673,
+                            44.406247
+                        ],
+                        [
+                            8.9278081,
+                            44.4062446
+                        ],
+                        [
+                            8.9277927,
+                            44.4061647
+                        ],
+                        [
+                            8.9277101,
+                            44.4061808
+                        ],
+                        [
+                            8.9277085,
+                            44.4062505
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap5322401240000001",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.7993603,
+                            44.4246521
+                        ],
+                        [
+                            8.7995736,
+                            44.4246187
+                        ],
+                        [
+                            8.799684,
+                            44.4245936
+                        ],
+                        [
+                            8.799817,
+                            44.4245709
+                        ],
+                        [
+                            8.7998674,
+                            44.4245374
+                        ],
+                        [
+                            8.7998621,
+                            44.4244811
+                        ],
+                        [
+                            8.7998409,
+                            44.4244598
+                        ],
+                        [
+                            8.7997989,
+                            44.4244536
+                        ],
+                        [
+                            8.7996605,
+                            44.4244007
+                        ],
+                        [
+                            8.799463,
+                            44.4244133
+                        ],
+                        [
+                            8.7994131,
+                            44.4244487
+                        ],
+                        [
+                            8.7994261,
+                            44.4244811
+                        ],
+                        [
+                            8.7993614,
+                            44.4245912
+                        ],
+                        [
+                            8.7993583,
+                            44.4245965
+                        ],
+                        [
+                            8.7993272,
+                            44.424595
+                        ],
+                        [
+                            8.799319,
+                            44.4246617
+                        ],
+                        [
+                            8.7993603,
+                            44.4246521
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap533350934",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9300345,
+                            44.4050589
+                        ],
+                        [
+                            8.9299398,
+                            44.4050308
+                        ],
+                        [
+                            8.9298988,
+                            44.4051013
+                        ],
+                        [
+                            8.9299935,
+                            44.4051294
+                        ],
+                        [
+                            8.9300345,
+                            44.4050589
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap533352181",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9300087,
+                            44.4052094
+                        ],
+                        [
+                            8.9299634,
+                            44.4051959
+                        ],
+                        [
+                            8.9299125,
+                            44.4052834
+                        ],
+                        [
+                            8.9299578,
+                            44.4052968
+                        ],
+                        [
+                            8.9299951,
+                            44.4052326
+                        ],
+                        [
+                            8.9300087,
+                            44.4052094
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap533353132",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9301258,
+                            44.4051874
+                        ],
+                        [
+                            8.9302754,
+                            44.4049087
+                        ],
+                        [
+                            8.9302051,
+                            44.4048894
+                        ],
+                        [
+                            8.9300555,
+                            44.4051682
+                        ],
+                        [
+                            8.9301258,
+                            44.4051874
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rovine",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap533352277",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9299951,
+                            44.4052326
+                        ],
+                        [
+                            8.9301286,
+                            44.4052723
+                        ],
+                        [
+                            8.9301553,
+                            44.4052264
+                        ],
+                        [
+                            8.9300218,
+                            44.4051868
+                        ],
+                        [
+                            8.9300087,
+                            44.4052094
+                        ],
+                        [
+                            8.9299951,
+                            44.4052326
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ponte di Sant'Agata",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap533614606",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ponte di Sant'Agata"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9539502,
+                            44.4075104
+                        ],
+                        [
+                            8.9543579,
+                            44.4075028
+                        ],
+                        [
+                            8.9543579,
+                            44.4075468
+                        ],
+                        [
+                            8.9539663,
+                            44.4075564
+                        ],
+                        [
+                            8.9539502,
+                            44.4075104
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ruderi dell'Abbazia di Cassinelle",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap533150842",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ruderi dell'Abbazia di Cassinelle"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8566269,
+                            44.4584573
+                        ],
+                        [
+                            8.8566943,
+                            44.458506
+                        ],
+                        [
+                            8.8568166,
+                            44.4584145
+                        ],
+                        [
+                            8.8568482,
+                            44.4584328
+                        ],
+                        [
+                            8.8569069,
+                            44.4583953
+                        ],
+                        [
+                            8.8570533,
+                            44.4584853
+                        ],
+                        [
+                            8.8571037,
+                            44.4584456
+                        ],
+                        [
+                            8.8569671,
+                            44.4583545
+                        ],
+                        [
+                            8.856906,
+                            44.4582875
+                        ],
+                        [
+                            8.8568576,
+                            44.4582955
+                        ],
+                        [
+                            8.8566269,
+                            44.4584573
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Mura di San Tommaso",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap533358728",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Mura di San Tommaso"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9195553,
+                            44.4163175
+                        ],
+                        [
+                            8.9195085,
+                            44.4162263
+                        ],
+                        [
+                            8.9195435,
+                            44.4162171
+                        ],
+                        [
+                            8.9195666,
+                            44.4162103
+                        ],
+                        [
+                            8.9197054,
+                            44.4162156
+                        ],
+                        [
+                            8.9197047,
+                            44.4162692
+                        ],
+                        [
+                            8.9195904,
+                            44.4163083
+                        ],
+                        [
+                            8.9195553,
+                            44.4163175
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Chiesa sconsacrata di Via Campodonico",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap53364997100000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Chiesa sconsacrata di Via Campodonico"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9050018,
+                            44.4599953
+                        ],
+                        [
+                            8.9050138,
+                            44.4599782
+                        ],
+                        [
+                            8.9050182,
+                            44.459954
+                        ],
+                        [
+                            8.9049952,
+                            44.459947
+                        ],
+                        [
+                            8.9049647,
+                            44.4599384
+                        ],
+                        [
+                            8.9049516,
+                            44.4599478
+                        ],
+                        [
+                            8.9049035,
+                            44.45994
+                        ],
+                        [
+                            8.9048773,
+                            44.4599486
+                        ],
+                        [
+                            8.9048741,
+                            44.4599564
+                        ],
+                        [
+                            8.9048926,
+                            44.4599719
+                        ],
+                        [
+                            8.9049385,
+                            44.4599782
+                        ],
+                        [
+                            8.9049483,
+                            44.4599891
+                        ],
+                        [
+                            8.9049723,
+                            44.4599945
+                        ],
+                        [
+                            8.9049865,
+                            44.4599984
+                        ],
+                        [
+                            8.9050018,
+                            44.4599953
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Miniera Alberto Olaf",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap533781069",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Miniera Alberto Olaf"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9341338,
+                            44.4439731
+                        ],
+                        [
+                            8.9340989,
+                            44.4439635
+                        ],
+                        [
+                            8.934115,
+                            44.4439195
+                        ],
+                        [
+                            8.9341499,
+                            44.4439329
+                        ],
+                        [
+                            8.9341338,
+                            44.4439731
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Torre Monte Moro",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap53333004599999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Torre Monte Moro"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9039941,
+                            44.4290105
+                        ],
+                        [
+                            8.9039702,
+                            44.4290253
+                        ],
+                        [
+                            8.9039548,
+                            44.4290449
+                        ],
+                        [
+                            8.9039498,
+                            44.4290672
+                        ],
+                        [
+                            8.9039557,
+                            44.4290893
+                        ],
+                        [
+                            8.9039719,
+                            44.4291087
+                        ],
+                        [
+                            8.9039964,
+                            44.4291229
+                        ],
+                        [
+                            8.9040262,
+                            44.4291303
+                        ],
+                        [
+                            8.9040577,
+                            44.42913
+                        ],
+                        [
+                            8.9040872,
+                            44.429122
+                        ],
+                        [
+                            8.9041111,
+                            44.4291073
+                        ],
+                        [
+                            8.9041265,
+                            44.4290876
+                        ],
+                        [
+                            8.9041316,
+                            44.4290653
+                        ],
+                        [
+                            8.9041256,
+                            44.4290432
+                        ],
+                        [
+                            8.9041095,
+                            44.4290238
+                        ],
+                        [
+                            8.9040993,
+                            44.4290179
+                        ],
+                        [
+                            8.904085,
+                            44.4290096
+                        ],
+                        [
+                            8.9040552,
+                            44.4290022
+                        ],
+                        [
+                            8.9040236,
+                            44.4290025
+                        ],
+                        [
+                            8.9039941,
+                            44.4290105
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Torre delle bombe",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap5332943469999999",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Torre delle bombe"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9014505,
+                            44.4279842
+                        ],
+                        [
+                            8.9014942,
+                            44.4279444
+                        ],
+                        [
+                            8.9014239,
+                            44.4279046
+                        ],
+                        [
+                            8.9013536,
+                            44.4279084
+                        ],
+                        [
+                            8.901355,
+                            44.4279482
+                        ],
+                        [
+                            8.9013987,
+                            44.4279776
+                        ],
+                        [
+                            8.9014505,
+                            44.4279842
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polveriera",
+                "layerId": "ruins_openstreetmap",
+                "uuid": "ruins_openstreetmap53324529999999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polveriera"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9001282,
+                            44.4244018
+                        ],
+                        [
+                            8.9002156,
+                            44.4243287
+                        ],
+                        [
+                            8.9000151,
+                            44.4241947
+                        ],
+                        [
+                            8.8999298,
+                            44.4242845
+                        ],
+                        [
+                            8.9001282,
+                            44.4244018
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

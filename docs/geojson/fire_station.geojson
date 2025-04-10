@@ -1,0 +1,500 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gruppo Comunale Volontari PC e AIB di Genova",
+                "layerId": "fire_station_openstreetmap",
+                "uuid": "fire_station_openstreetmap531975463",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gruppo Comunale Volontari PC e AIB di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7665241,
+                    44.4310222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Vigili del Fuoco - Distaccamento Cittadino Bolzaneto",
+                "layerId": "fire_station_openstreetmap",
+                "uuid": "fire_station_openstreetmap533575869",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Vigili del Fuoco - Distaccamento Cittadino Bolzaneto"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9004351,
+                            44.4571518
+                        ],
+                        [
+                            8.900569,
+                            44.4571176
+                        ],
+                        [
+                            8.900538,
+                            44.4570556
+                        ],
+                        [
+                            8.9004914,
+                            44.4569625
+                        ],
+                        [
+                            8.9004692,
+                            44.4569181
+                        ],
+                        [
+                            8.9003353,
+                            44.4569522
+                        ],
+                        [
+                            8.9003856,
+                            44.4570529
+                        ],
+                        [
+                            8.9004351,
+                            44.4571518
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Reparto volo di Genova",
+                "layerId": "fire_station_openstreetmap",
+                "uuid": "fire_station_openstreetmap532577262",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Reparto volo di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8432277,
+                            44.4144985
+                        ],
+                        [
+                            8.8431399,
+                            44.4142633
+                        ],
+                        [
+                            8.8437765,
+                            44.4141421
+                        ],
+                        [
+                            8.8438642,
+                            44.4143773
+                        ],
+                        [
+                            8.8432277,
+                            44.4144985
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Distaccamento Aeroportuale di Genova - Aeroporto C. Colombo",
+                "layerId": "fire_station_openstreetmap",
+                "uuid": "fire_station_openstreetmap532572423",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Distaccamento Aeroportuale di Genova - Aeroporto C. Colombo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8430896,
+                            44.4141527
+                        ],
+                        [
+                            8.8430396,
+                            44.4140221
+                        ],
+                        [
+                            8.8424384,
+                            44.4141394
+                        ],
+                        [
+                            8.8424766,
+                            44.4142394
+                        ],
+                        [
+                            8.8424883,
+                            44.41427
+                        ],
+                        [
+                            8.8428658,
+                            44.4141964
+                        ],
+                        [
+                            8.8430896,
+                            44.4141527
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Distaccamento Aeroportuale di Genova - Aeroporto C. Colombo",
+                "layerId": "fire_station_openstreetmap",
+                "uuid": "fire_station_openstreetmap53256716",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Distaccamento Aeroportuale di Genova - Aeroporto C. Colombo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8424766,
+                            44.4142394
+                        ],
+                        [
+                            8.8417309,
+                            44.4143849
+                        ],
+                        [
+                            8.8417204,
+                            44.4143869
+                        ],
+                        [
+                            8.8416642,
+                            44.4142398
+                        ],
+                        [
+                            8.8424204,
+                            44.4140923
+                        ],
+                        [
+                            8.8424384,
+                            44.4141394
+                        ],
+                        [
+                            8.8424766,
+                            44.4142394
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Vigili del Fuoco - Distaccamento Cittadino Genova Est",
+                "layerId": "fire_station_openstreetmap",
+                "uuid": "fire_station_openstreetmap533944143",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Vigili del Fuoco - Distaccamento Cittadino Genova Est"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9601976,
+                            44.4342167
+                        ],
+                        [
+                            8.9600429,
+                            44.4342797
+                        ],
+                        [
+                            8.9602315,
+                            44.4345158
+                        ],
+                        [
+                            8.9603862,
+                            44.4344528
+                        ],
+                        [
+                            8.9601976,
+                            44.4342167
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Vigili del Fuoco - Distaccamento Cittadino Multedo",
+                "layerId": "fire_station_openstreetmap",
+                "uuid": "fire_station_openstreetmap53251816000000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Vigili del Fuoco - Distaccamento Cittadino Multedo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8267403,
+                            44.4250757
+                        ],
+                        [
+                            8.8264221,
+                            44.4250861
+                        ],
+                        [
+                            8.8264281,
+                            44.4251803
+                        ],
+                        [
+                            8.8264317,
+                            44.4252364
+                        ],
+                        [
+                            8.8264323,
+                            44.4252458
+                        ],
+                        [
+                            8.8264478,
+                            44.4252453
+                        ],
+                        [
+                            8.8266347,
+                            44.4252392
+                        ],
+                        [
+                            8.8266461,
+                            44.425418
+                        ],
+                        [
+                            8.8267619,
+                            44.4254142
+                        ],
+                        [
+                            8.8267482,
+                            44.4251999
+                        ],
+                        [
+                            8.8267465,
+                            44.4251727
+                        ],
+                        [
+                            8.8267403,
+                            44.4250757
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Vigili del Fuoco - Comando Provinciale di Genova",
+                "layerId": "fire_station_openstreetmap",
+                "uuid": "fire_station_openstreetmap533144171",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Vigili del Fuoco - Comando Provinciale di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        8.905464,
+                        44.4089531
+                    ],
+                    [
+                        8.9054589,
+                        44.4086499
+                    ],
+                    [
+                        8.9055978,
+                        44.4086488
+                    ],
+                    [
+                        8.9055931,
+                        44.4085378
+                    ],
+                    [
+                        8.9059944,
+                        44.4084663
+                    ],
+                    [
+                        8.9061611,
+                        44.4089482
+                    ],
+                    [
+                        8.9060924,
+                        44.4090146
+                    ],
+                    [
+                        8.9060134,
+                        44.4089931
+                    ],
+                    [
+                        8.906009,
+                        44.4090456
+                    ],
+                    [
+                        8.9057831,
+                        44.4090452
+                    ],
+                    [
+                        8.9057829,
+                        44.4090343
+                    ],
+                    [
+                        8.9056175,
+                        44.4090449
+                    ],
+                    [
+                        8.9054859,
+                        44.4089529
+                    ],
+                    [
+                        8.905464,
+                        44.4089531
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Vigili del Fuoco - Comando Provinciale di Genova",
+                "layerId": "fire_station_openstreetmap",
+                "uuid": "fire_station_openstreetmap533143193",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Vigili del Fuoco - Comando Provinciale di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        8.9052182,
+                        44.4091011
+                    ],
+                    [
+                        8.9053852,
+                        44.4092089
+                    ],
+                    [
+                        8.9056295,
+                        44.4092114
+                    ],
+                    [
+                        8.9056315,
+                        44.4092419
+                    ],
+                    [
+                        8.9063089,
+                        44.4092355
+                    ],
+                    [
+                        8.9063091,
+                        44.4091443
+                    ],
+                    [
+                        8.9064106,
+                        44.4090547
+                    ],
+                    [
+                        8.9065274,
+                        44.4090327
+                    ],
+                    [
+                        8.9062606,
+                        44.4082709
+                    ],
+                    [
+                        8.9061913,
+                        44.4082325
+                    ],
+                    [
+                        8.9052028,
+                        44.4084061
+                    ],
+                    [
+                        8.905151,
+                        44.4084247
+                    ],
+                    [
+                        8.9051689,
+                        44.4084641
+                    ],
+                    [
+                        8.9052103,
+                        44.4085552
+                    ],
+                    [
+                        8.9052182,
+                        44.4091011
+                    ]
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,738 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Vitaldent",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap53345413799999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "56 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Antonio Cecchi"
+                    },
+                    {
+                        "propertyName": "brand",
+                        "displayName": "Brand",
+                        "type": "string",
+                        "value": "Vitaldent"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Vitaldent"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9475809,
+                    44.3978329
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dentisti",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533875063",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9799028,
+                    44.4076035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio Odontoiatrico",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap53350943",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "8 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Corso Paganini"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio Odontoiatrico"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9357143,
+                    44.4152287
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro Odontoiatrico Dottor Bobbio",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533710649",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "4/3 Sc sin"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Corso Alessandro De Stefanis"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro Odontoiatrico Dottor Bobbio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9554916,
+                    44.4155733
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio Dentistico Associato Platania",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap53349145",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3/6"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Colombo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio Dentistico Associato Platania"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9426818,
+                    44.4064632
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cucinotta e Brancato",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap532025213",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cucinotta e Brancato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7736448,
+                    44.4288765
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio Dentistico Gianluca Russo",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533594958",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio Dentistico Gianluca Russo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9553741,
+                    44.4041217
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dentisti",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533500545",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9343481,
+                    44.4157064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio Odontoiatrico Associato",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533972003",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "16 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Giuseppe Majorana"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio Odontoiatrico Associato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.011237,
+                    44.3859633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio Odontoiatrico Baraghini",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap53332815800000006",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Faliero Vezzani"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio Odontoiatrico Baraghini"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.895366,
+                    44.4374498
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dentisti",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap534629587",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "250 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Struppa"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0133894,
+                    44.4495693
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Careldent",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap53377482799999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "83 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Angelo Orsini"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Careldent"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9767824,
+                    44.4007004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cicconardi Rosa",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533651012",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cicconardi Rosa"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9549047,
+                    44.4101965
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dott. Edward J. Mora",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533389748",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Dott. Edward J. Mora"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9295017,
+                    44.4094731
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dental Pro",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533728088",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Dental Pro"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8996323,
+                    44.4731765
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ABC Dental",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap5332344569999999",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "ABC Dental"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8918657,
+                    44.43158
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio dentistico Dott. Giuseppe Pate",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533664378",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio dentistico Dott. Giuseppe Pate"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9542934,
+                    44.4121444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio Dentistico Dott. Giacomo Napoli",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap53338546799999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "18 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Galeazzo Alessi"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio Dentistico Dott. Giacomo Napoli"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9362455,
+                    44.4023013
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dentisti",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533432488",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "13c"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Corso Ugo Bassi"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9236249,
+                    44.4196239
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio odontoiatrico dott.ssa Resini",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap532877456",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio odontoiatrico dott.ssa Resini"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.871341,
+                    44.4164046
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio Odontoiatrico Ronda",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533524352",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "39/10"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Galata"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio Odontoiatrico Ronda"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.943711,
+                    44.4087242
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dental",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533505937",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Dental"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9409554,
+                    44.4096383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio Dentistico",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533918948",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio Dentistico"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9997297,
+                    44.3921651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio Romanelli",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533473372",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio Romanelli"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9331185,
+                    44.4142187
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio Medico Odontoiatrico",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533393937",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio Medico Odontoiatrico"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9185259,
+                    44.4208678
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio Dentistico Piccardo",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533442979",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio Dentistico Piccardo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9403419,
+                    44.403956
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dott. M.R. Vaseghi",
+                "layerId": "dentist_openstreetmap",
+                "uuid": "dentist_openstreetmap533457597",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Dott. M.R. Vaseghi"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9340495,
+                    44.4117102
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro Trasfusionale",
+                "layerId": "blood_donation_openstreetmap",
+                "uuid": "blood_donation_openstreetmap533840644",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro Trasfusionale"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "healthcare"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9746135,
+                    44.4094509
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Servizio di immunoematologia e trasfusionale",
+                "layerId": "blood_donation_openstreetmap",
+                "uuid": "blood_donation_openstreetmap533403533",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Servizio di immunoematologia e trasfusionale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9422649,
+                    44.3980884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro Trasfusionale",
+                "layerId": "blood_donation_openstreetmap",
+                "uuid": "blood_donation_openstreetmap532813257",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro Trasfusionale"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "healthcare"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8503738,
+                    44.4309519
+                ]
+            }
+        }
+    ]
+}

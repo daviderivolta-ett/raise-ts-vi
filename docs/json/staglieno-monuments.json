@@ -4,10 +4,10 @@
     {
       "name": "Monumenti cimitero Staglieno",
       "id": "CULTURA:V_STAG_SCULTURE",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "CULTURA:V_STAG_SCULTURE",
+        "typeName": "aitek:CULTURA_V_STAG_SCULTURE",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"

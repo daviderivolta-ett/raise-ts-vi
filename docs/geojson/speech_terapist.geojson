@@ -1,0 +1,57 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio di Logopedia",
+                "layerId": "speech_therapist_openstreetmap",
+                "uuid": "speech_therapist_openstreetmap533849082",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio di Logopedia"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9882902,
+                    44.396618
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Logopedista Dott.ssa Francesca Casazza",
+                "layerId": "speech_therapist_openstreetmap",
+                "uuid": "speech_therapist_openstreetmap533462575",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Logopedista Dott.ssa Francesca Casazza"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9427169,
+                    44.4035406
+                ]
+            }
+        }
+    ]
+}

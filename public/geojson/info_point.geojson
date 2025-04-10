@@ -1,0 +1,2008 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Infocenter & Virtual Tour",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53336805",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Infocenter & Virtual Tour"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9279533,
+                    44.4088517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53332083499999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9236945,
+                    44.408389
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap534468639",
+                "props": [
+                    {
+                        "propertyName": "note",
+                        "displayName": "Note",
+                        "type": "string",
+                        "value": "indicazione per: Bavari 1h45'; San Desiderio (sentiero dell'eremita) 45'; Pomà; Apparizione 3h"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0233006,
+                    44.4235633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Genova turismo Ufficio informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533435571",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "12 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Giuseppe Garibaldi"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Genova turismo Ufficio informazioni"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9323543,
+                    44.4112028
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53365889300000006",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Bolzaneto - Sella del Diamante - San Sebastiano - Preli, segnavia triangolo rosso pieno"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9024921,
+                    44.4633972
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533429072",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9296006,
+                    44.4133066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Porta del Parco: funicolare Zecca - Righi",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap5336203570000001",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Porta del Parco: funicolare Zecca - Righi"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9376998,
+                    44.4243359
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53361856200000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9377071,
+                    44.4241491
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap5334043319999999",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9335031,
+                    44.4069301
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533117363",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8336616,
+                    44.4780747
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533118617",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8337892,
+                    44.4780725
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Sella del diamante",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533967792",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Sella del diamante"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9377548,
+                    44.4590244
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap534730348",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9759275,
+                    44.4971073
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53337584500000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9280758,
+                    44.4095087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53337033899999994",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9287631,
+                    44.4082708
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533854137",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9540211,
+                    44.4313926
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533795969",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9508803,
+                    44.4287166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533842129",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9541506,
+                    44.4300623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532368532",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8113219,
+                    44.4255313
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53305330500000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8918423,
+                    44.4134882
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533430631",
+                "props": [
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9316063,
+                    44.4114568
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53194438500000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7466287,
+                    44.4478098
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53382068399999994",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9525216,
+                    44.4295468
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533399862",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.927084,
+                    44.4129022
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532288453",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7703205,
+                    44.4585248
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gazeu",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532442489",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gazeu"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7767761,
+                    44.4674728
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53234815",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7785652,
+                    44.4562498
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532263067",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7685939,
+                    44.4577128
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532268997",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7688079,
+                    44.4580918
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53227966200000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7695262,
+                    44.45844
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532284032",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7687886,
+                    44.4596146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532422011",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.780788,
+                    44.4614131
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53246094",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7844421,
+                    44.4616519
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532401824",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Sella suiassa 10'; Punta Pietralunga 40'; Cappellina 45'; Roccai Belvedere 2'; Cave 10'; Acquasanta 50'"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7775905,
+                    44.4625919
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532412139",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7776614,
+                    44.4635525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532511068",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7846068,
+                    44.4665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532460396",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7794941,
+                    44.4665455
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Fontanin",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532497989",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Fontanin"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7812005,
+                    44.4685984
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532555356",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7852417,
+                    44.4702939
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532455333",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7682545,
+                    44.4772788
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53285099",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.801957,
+                    44.483142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53219451",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7546476,
+                    44.4648034
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53222436599999995",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7525224,
+                    44.4699142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533381159",
+                "props": [
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Parco delle Mura"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9125661,
+                    44.4255498
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533973883",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9362137,
+                    44.4611746
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap534054733",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9438836,
+                    44.4615897
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532019617",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7047083,
+                    44.4972534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53223365",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7354608,
+                    44.4879042
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532025138",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7056131,
+                    44.4969007
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap531999316",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.702279,
+                    44.4976526
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap531997822",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7021254,
+                    44.4976568
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53378454700000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9495288,
+                    44.4289259
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533806143",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9506576,
+                    44.4299567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533802745",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9474946,
+                    44.4327799
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533802448",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9497106,
+                    44.4305342
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533837535",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9539159,
+                    44.4298376
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap5325592880000001",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Sentiero Carlo Poggio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7875409,
+                    44.4683879
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53378021499999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.949332,
+                    44.4286895
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Mappa tattile",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53345446",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Mappa tattile"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9329653,
+                    44.4124807
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533397817",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9280805,
+                    44.4117012
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533390268",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9244478,
+                    44.414579
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533374232",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9218349,
+                    44.4155883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53340811900000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.935194,
+                    44.4056179
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533387937",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9307588,
+                    44.4080349
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Targa di Paganini",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533778325",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Nella sua piccola casa di Romairone - San Biagio Niccolò Paganini studiò per scoprire \"posizioni del tutto nuove e suoni mai uditi prima\" e la sua salma sostò nell'attesa di una degna sepoltura. Amici di Paganini - Corcoscrizione V Valplcevera"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Targa di Paganini"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8919966,
+                    44.4858359
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap534493602",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "segnavia su palificazione elettrica"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.015455,
+                    44.4339052
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Tourist Office",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533367496",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Tourist Office"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9279838,
+                    44.4087658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53363026000000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9483504,
+                    44.4146756
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533276927",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8539994,
+                    44.4736933
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53437350699999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0247804,
+                    44.4125703
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533819393",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9514813,
+                    44.430458
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53450515300000006",
+                "props": [
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "CAI"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9961223,
+                    44.454393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53451952500000004",
+                "props": [
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "CAI"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9936969,
+                    44.4582556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "L'acquedetto storico di Genova",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap534759511",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Il pannello è diviso in due parti: L'oratorio di San Rocco e il muretto a secco."
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "L'acquedetto storico di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0247395,
+                    44.4512116
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "L'acquedetto storico di Genova",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap5346587339999999",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Il pannello è diviso in tre parti: il ponte canale su rio Torbido; i mulini di rio Torbido; i custodi."
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "L'acquedetto storico di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0107203,
+                    44.4551531
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "acquedotto storico",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap534414031",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "acquedotto storico"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9827112,
+                    44.4586919
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Campo Pisano",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53336244199999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Campo Pisano"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9323469,
+                    44.4038973
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Mura del Barbarossa",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533364763",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Mura del Barbarossa"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9327011,
+                    44.4037752
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "acquedotto storico",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533997514",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "acquedotto storico"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9620368,
+                    44.4377146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533766614",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9482697,
+                    44.4283917
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533773932",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9488793,
+                    44.4285139
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Itinerario Storico Colombiano",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53403846800000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Itinerario Storico Colombiano"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0195535,
+                    44.3842933
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gli alberi della Radura della Memoria",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53316268199999996",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Un pannello informativo riportante le informazioni botaniche sui tipi di alberi presenti"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gli alberi della Radura della Memoria"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8905761,
+                    44.4256921
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53301595",
+                "props": [
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "RFI"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8667243,
+                    44.4348707
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533014468",
+                "props": [
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "RFI"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8665876,
+                    44.4348592
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Quadro orario partenze",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53301611",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Quadro orario partenze"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Rete Ferroviaria Italiana"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8669229,
+                    44.4346881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532654932",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Informazioni"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.823397,
+                    44.4420962
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pecorso urbano certificato Corso Italia",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53341087599999994",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pecorso urbano certificato Corso Italia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9452891,
+                    44.3957985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ponte Carrega (1788)",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53397958100000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ponte Carrega (1788)"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9620291,
+                    44.435929
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ponte Carrega tra storia e sport",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533985597",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ponte Carrega tra storia e sport"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9628784,
+                    44.4356813
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53386908500000004",
+                "props": [
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "APS Filarmonica"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9002279,
+                    44.4866806
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53384665299999995",
+                "props": [
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Pubblica Assistenza Croce Rosa San Quirico"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9009004,
+                    44.4837649
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533859467",
+                "props": [
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Municipio V Valpolcevera"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9005383,
+                    44.4854084
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53202605000000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.774891,
+                    44.427714
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532042709",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7769443,
+                    44.4273266
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532051729",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7763944,
+                    44.4287785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap53339365699999995",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9339447,
+                    44.405421
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pontedecimo - San Cipriano - Castrofino - Serra - Santuario Nostra Signora della Vittoria",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap534023114",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "La mappa mostra parte dell'itinerario con alcuni punti d'interesse storico-geografico con relative fotografie. È presente anche un testo con la descrizione e la storia di centri abitati e località."
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pontedecimo - San Cipriano - Castrofino - Serra - Santuario Nostra Signora della Vittoria"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Federazione Italiana Escursionismo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9040169,
+                    44.4982945
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Parco Durazzo Pallavicini",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap532430216",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Parco Durazzo Pallavicini"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8170832,
+                            44.4259384
+                        ],
+                        [
+                            8.8172265,
+                            44.4259366
+                        ],
+                        [
+                            8.817224,
+                            44.4258311
+                        ],
+                        [
+                            8.8170807,
+                            44.4258329
+                        ],
+                        [
+                            8.8170832,
+                            44.4259384
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informazioni",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533102599",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9052724,
+                            44.4049875
+                        ],
+                        [
+                            8.905273,
+                            44.405006
+                        ],
+                        [
+                            8.9052938,
+                            44.4050057
+                        ],
+                        [
+                            8.9052932,
+                            44.4049871
+                        ],
+                        [
+                            8.9052724,
+                            44.4049875
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Infopoint \"Il Parco del Ponte - La Radura della Memoria\"",
+                "layerId": "information_openstreetmap",
+                "uuid": "information_openstreetmap533160906",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Infopoint \"Il Parco del Ponte - La Radura della Memoria\""
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8904036,
+                            44.425687
+                        ],
+                        [
+                            8.8905104,
+                            44.4257584
+                        ],
+                        [
+                            8.8905541,
+                            44.4257251
+                        ],
+                        [
+                            8.8904473,
+                            44.4256537
+                        ],
+                        [
+                            8.8904036,
+                            44.425687
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

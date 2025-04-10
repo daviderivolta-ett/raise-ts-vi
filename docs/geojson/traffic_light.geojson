@@ -1,0 +1,822 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap533692548",
+                "props": [
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9558935,
+                    44.4133613
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap533694216",
+                "props": [
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9561158,
+                    44.4133058
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap533336313",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "no"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9298523,
+                    44.403779
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap53297690200000005",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "no"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.884041,
+                    44.4136492
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap53398147200000004",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.961981,
+                    44.4361662
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap5335244",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9463191,
+                    44.4061209
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap533750735",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "no"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9004905,
+                    44.474583
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap53289724899999996",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8736804,
+                    44.4160445
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap533023061",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "no"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8891755,
+                    44.4131306
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap53341104699999995",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "no"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9356508,
+                    44.4054539
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap533526383",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9464251,
+                    44.4062132
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap533984284",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9629422,
+                    44.4354862
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap533863903",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9003306,
+                    44.4860597
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap53382858999999996",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9005788,
+                    44.4822802
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap5334572060000001",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9344073,
+                    44.4113133
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap533523408",
+                "props": [
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9463833,
+                    44.4059575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap53351254100000006",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "no"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.946997,
+                    44.4042571
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap533982178",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9628692,
+                    44.4353486
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap533305491",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9154382,
+                    44.4151109
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap53330300900000005",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9152958,
+                    44.4150051
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap5335023580000001",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "no"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9458947,
+                    44.4043411
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap533614672",
+                "props": [
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9474216,
+                    44.4140456
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap533515474",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9473894,
+                    44.404158
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap533510113",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9472133,
+                    44.403798
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap53343223300000005",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "no"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9299133,
+                    44.41331
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap53343419499999996",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.930155,
+                    44.4132645
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap53343235899999996",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "no"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9300169,
+                    44.413219
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap533535317",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9482475,
+                    44.4052842
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Semafori con segnale sonoro",
+                "layerId": "traffic_light_openstreetmap",
+                "uuid": "traffic_light_openstreetmap532811967",
+                "props": [
+                    {
+                        "propertyName": "tactile_paving",
+                        "displayName": "Pavimentazione tattile",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "traffic_signals:sound",
+                        "displayName": "Avviso sonoro",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8658534,
+                    44.4153433
+                ]
+            }
+        }
+    ]
+}

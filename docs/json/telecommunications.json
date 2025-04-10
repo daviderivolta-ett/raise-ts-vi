@@ -4,10 +4,10 @@
     {
       "name": "Router FreeWiFiGenova",
       "id": "SITGEO:WI-FI_URBANO",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "SITGEO:WI-FI_URBANO",
+        "typeName": "aitek:SITGEO_WI-FI_URBANO",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"

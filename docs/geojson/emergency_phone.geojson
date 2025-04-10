@@ -1,0 +1,1070 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53184038799999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7522538,
+                    44.431785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap531790398",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7448756,
+                    44.4341642
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532247311",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7293541,
+                    44.495377
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53223571899999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7325374,
+                    44.4910345
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532157091",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7341233,
+                    44.4815858
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532027258",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7441358,
+                    44.45859
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53203327099999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7447555,
+                    44.4585716
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53186054799999994",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.737565,
+                    44.4484898
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53186979799999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7384376,
+                    44.4485422
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap531812614",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7337005,
+                    44.4475609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap531809859",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7339342,
+                    44.4470517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53164544199999995",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7157394,
+                    44.4488048
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53160855",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7173272,
+                    44.4435278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap531616496",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7178258,
+                    44.4438238
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap531758052",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7351892,
+                    44.440616
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap531734519",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7377527,
+                    44.4356992
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53288592799999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8614295,
+                    44.4271633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532081629",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.778841,
+                    44.4293219
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532252168",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7958262,
+                    44.4293906
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53262414899999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8330133,
+                    44.4294016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532621614",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8325711,
+                    44.4295903
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap531969071",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7672101,
+                    44.429697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532772815",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8470023,
+                    44.4302792
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532033756",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7730622,
+                    44.4303134
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532741717",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8436341,
+                    44.4305376
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532490946",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8183108,
+                    44.4307838
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53184897199999995",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7534186,
+                    44.4314786
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532174853",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7858533,
+                    44.431632
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532397915",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8076936,
+                    44.4320979
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap531253755",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7085565,
+                    44.416819
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap531308516",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7120742,
+                    44.4187774
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap531476484",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7272308,
+                    44.4204176
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap531485996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7275237,
+                    44.4210759
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap531633974",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7380905,
+                    44.4253069
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53161999300000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7361129,
+                    44.4258864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53288834200000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.861387,
+                    44.4274472
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap533246162",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8977147,
+                    44.4269015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap533345907",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9004433,
+                    44.4341474
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53330956900000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8952594,
+                    44.4356975
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap533418452",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8967684,
+                    44.4450768
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap533543916",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9085782,
+                    44.4458134
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap533543717",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9087464,
+                    44.4456253
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap533624277",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9165137,
+                    44.445914
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap533662551",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9203865,
+                    44.4458686
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53377774900000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9398455,
+                    44.4379294
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53377803",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9404933,
+                    44.4373097
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53394265700000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9628354,
+                    44.4314303
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap533997119",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9776489,
+                    44.422063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap534000523",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9778284,
+                    44.4222239
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53402568599999995",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9895601,
+                    44.4130085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53402963",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9898778,
+                    44.4130852
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap534049217",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0020893,
+                    44.4028324
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53404368899999994",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0014456,
+                    44.4029233
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap534154109",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0211829,
+                    44.394228
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap5341501",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0202479,
+                    44.3947621
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532100151",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7425951,
+                    44.46742
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532153392",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7336012,
+                    44.481738
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53201196800000005",
+                "props": [
+                    {
+                        "propertyName": "covered",
+                        "displayName": "Coperto",
+                        "type": "string",
+                        "value": "no"
+                    },
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Telefono per la segnalazione delle emergenze nel parco ferroviario."
+                    },
+                    {
+                        "propertyName": "indoor",
+                        "displayName": "Al chiuso",
+                        "type": "string",
+                        "value": "no"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "RFI"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7745091,
+                    44.4266877
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532106931",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7431665,
+                    44.4675266
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap532241058",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7332038,
+                    44.490902
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53218460500000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7201719,
+                    44.4982886
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap53218835",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7201094,
+                    44.4987256
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap531641181",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.715203,
+                    44.4489151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap531700261",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7265754,
+                    44.4434507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Telefoni d'emergenza",
+                "layerId": "emergency_phone_openstreetmap",
+                "uuid": "emergency_phone_openstreetmap531701805",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.727279,
+                    44.4429015
+                ]
+            }
+        }
+    ]
+}

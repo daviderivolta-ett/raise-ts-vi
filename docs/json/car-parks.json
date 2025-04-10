@@ -4,10 +4,10 @@
     {
       "name": "Parcheggi Car Sharing",
       "id": "V_MOB_PARKS_CARSHARING",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "SITGEO:V_MOB_PARKS_CARSHARING",
+        "typeName": "aitek:SITGEO_V_MOB_PARKS_CARSHARING",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
@@ -38,10 +38,10 @@
     {
       "name": "Parcheggi di interscambio",
       "id": "V_MOB_PARKS_INTERSCAMBIO",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "V_MOB_PARKS_INTERSCAMBIO",
+        "typeName": "aitek:SITGEO_V_MOB_PARKS_INTERSCAMBIO",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
@@ -64,40 +64,6 @@
         {
           "property_name": "NUMERO_STALLI",
           "display_name": "Numero stalli",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Blu area",
-      "id": "SITGEO:V_MOB_BLUAREA",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
-      "get": {
-        "service": "WFS",
-        "typeName": "SITGEO:V_MOB_BLUAREA",
-        "outputFormat": "application/json",
-        "request": "GetFeature",
-        "srsname": "EPSG:4326"
-      },
-      "style": {
-        "type": ["border"],
-        "color": "#56f676",
-        "opacity": 0.5,
-        "icon": "🔵"
-      },
-      "tags": [
-        "dati urbani",
-        "mobilità"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "DENOMINAZIONE",
-          "display_name": "Nome area",
-          "type": "string"
-        },
-        {
-          "property_name": "CODICE_ZONA",
-          "display_name": "Codice area",
           "type": "string"
         }
       ]

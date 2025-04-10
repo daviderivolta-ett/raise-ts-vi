@@ -1,0 +1,4878 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ASL 3",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533625616",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "ASL 3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.951897,
+                    44.4106646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa Aziani Madri Pie",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533523421",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "40"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Galata"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa Aziani Madri Pie"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Consorzio Roberto Tassano"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.943602,
+                    44.4087401
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro di ascolto San Marcellino",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533399912",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "1"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza di San Marcellino"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro di ascolto San Marcellino"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9281443,
+                    44.4118469
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Circolo Guido Mariscotti",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533471636",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "2c"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Cocito"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Circolo Guido Mariscotti"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9514359,
+                    44.3957277
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro 2000",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533393169",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "4"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Vico delle Monachette"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro 2000"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9236487,
+                    44.4156682
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro Poliassociativo di Villa Brignole",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap532854401",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro Poliassociativo di Villa Brignole"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8565859,
+                    44.4288542
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa Famiglia Rosanna Benzi",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53345315600000006",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa Famiglia Rosanna Benzi"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9411928,
+                    44.4041228
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambito Territoriale Sociale 47",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap534368849",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "11b-r"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Antonio Sertoli"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambito Territoriale Sociale 47"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9800885,
+                    44.4567964
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "O mercou de Zena",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap532832169",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Segretariato sociale e servizi per l'immigrazione"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "O mercou de Zena"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8678308,
+                    44.4153861
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Informagiovani",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533402609",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "24 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Giacomo Matteotti"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Informagiovani"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9326626,
+                    44.4075983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambito Territoriale Sociale 42",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53349460699999995",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "24"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Corso Firenze"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambito Territoriale Sociale 42"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9316354,
+                    44.4178253
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro Sociale Comunale di Teglia",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533450415",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "4"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro Sociale Comunale di Teglia"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Circoscrizione di Rivarolo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8939412,
+                    44.4511003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "C.E.T. Il Ponte esclamativo",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53341168599999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "15"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Luca"
+                    },
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Comunità Educativa territoriale"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "C.E.T. Il Ponte esclamativo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.929913,
+                    44.4112556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La spiga",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53341159100000006",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "15"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Luca"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La spiga"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Cooperativa Il laboratorio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9299297,
+                    44.4112294
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pas à pas - Associazione di promozione sociale",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533410085",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "8 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via delle Vigne"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pas à pas - Associazione di promozione sociale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9310187,
+                    44.4099898
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cea Ardini",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533440966",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "7"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di Vallechiara"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cea Ardini"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9299056,
+                    44.414191
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Struttura sociale",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53341588",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9284196,
+                    44.4131684
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro \"genti di pace\"",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533442012",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Distribuione panini: il servizi viene effettuato lunedì, venerdì e sabato dalle 11.15 alle 12.15."
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro \"genti di pace\""
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comunità di Sant'Egidio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9299096,
+                    44.4142916
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "CET La Salle",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53345724000000004",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "5"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Salita Negrone Durazzo"
+                    },
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Comunità Educativa Territoriale"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "CET La Salle"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "La Salle"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.930894,
+                    44.41483
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro di ascolto interparrocchiale",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533443093",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Brignole De Ferrari"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro di ascolto interparrocchiale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9293356,
+                    44.4149737
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Struttura sociale",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533451971",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9302905,
+                    44.4149066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "L'ancora",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533447308",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "4"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Salita di San Bartolomeo del Carmine"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "L'ancora"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "L'aurora cooperativa sociale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9294228,
+                    44.415308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa della Giovane",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533411406",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "4"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Santa Sabina"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa della Giovane"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Fondazione Auxilium"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9278881,
+                    44.4132525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Mensa comunità di sant'Egidio",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533411317",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Mensa comunità di sant'Egidio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9279022,
+                    44.4132295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa S. Siro",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53342246",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "alloggio assistito per anziane autosufficienti in difficolta' per problemi abitativi o di solitudine."
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa S. Siro"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Associazione Shalom o.n.l.u.s."
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.930292,
+                    44.411954
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro di ascolto vicariale",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533422464",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza di Santa Maria degli Angeli"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro di ascolto vicariale"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Parrocchia di San Siro"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9308198,
+                    44.4114266
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La stiva",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533422938",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza di Santa Maria degli Angeli"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La stiva"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Associazione Shalom o.n.l.u.s."
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9307681,
+                    44.4115257
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Spazio famiglia Lanterna magica",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533427253",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "1"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Cairoli"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Spazio famiglia Lanterna magica"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9306018,
+                    44.4121235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Residenza servita Biscotti",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533381302",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "4"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di San Donato"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Residenza servita Biscotti"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.932198,
+                    44.4059322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro di ascolto vicariale",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533374472",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "10"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di San Donato"
+                    },
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Centro di ascolto vicariale San Donato - Santa Maria di Castello"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro di ascolto vicariale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9316625,
+                    44.4057847
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro di ascolto vicariale",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53343381699999995",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "11"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza della Maddalena"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro di ascolto vicariale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9332302,
+                    44.4101515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Circolo Vega",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533412986",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di Famagosta"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Circolo Vega"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9249711,
+                    44.4163275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro per non subire violenza",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533427659",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "14"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Cairoli"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro per non subire violenza"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "U.D.I."
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9299493,
+                    44.4128166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cif",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap5334166209999999",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "9"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Vico della Lepre"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cif"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9314091,
+                    44.410253
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa famiglia femminile",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53338024",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "6"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di san Donato"
+                    },
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Ospita in misura alternativa da 5 a 8 detenute nei 18 mesi precedenti il fine pena e detenute in permesso premio."
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa famiglia femminile"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Veneranda compagnia di misericordia onlus"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9321054,
+                    44.4059186
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Laboratorio scuola di cucito femminile",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533380035",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "6"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di san Donato"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Laboratorio scuola di cucito femminile"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Veneranda compagnia di misericordia onlus"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9321097,
+                    44.4058938
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Residenza sociale Duca",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533434867",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "22"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Vico del Duca"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Residenza sociale Duca"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9324174,
+                    44.4110693
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La buona lena",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533434848",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "11"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza della Maddalena"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La buona lena"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9330438,
+                    44.410441
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa Bimbi",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53342811299999994",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "1b"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Milazzo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa Bimbi"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.942463,
+                    44.4003483
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Struttura sociale",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53339239",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "4"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Vico delle Monachette"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9235666,
+                    44.4156724
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Presidio Ospitalità Collettiva",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53339188500000006",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "4"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Vico delle Monachette"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Presidio Ospitalità Collettiva"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9235528,
+                    44.4156357
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Mensa di Vallata",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533859796",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Mensa di Vallata"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Associazione Don Vincenzo De Negri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9007264,
+                    44.4852532
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa Serena",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53339676299999994",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "RSA di mantenimento Nucleo Alzheimer"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa Serena"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9233376,
+                    44.4163387
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa dell'affido",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53341291899999995",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "7"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via delle Vigne"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa dell'affido"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9311478,
+                    44.4101441
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La Comunità Onlus",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533402087",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "8"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via degli Orefici"
+                    },
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Coperativa sociale"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La Comunità Onlus"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9310289,
+                    44.4091798
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro Servizi per la Famiglia",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533402186",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "8"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via degli Orefici"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro Servizi per la Famiglia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9310231,
+                    44.4091955
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Soggiorno Sant'olcese S.R.L.",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap534562059",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "13"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Costa Monti"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Soggiorno Sant'olcese S.R.L."
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9657294,
+                    44.4904765
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa di riposo Santa Rosa",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53413409099999996",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Meirana"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa di riposo Santa Rosa"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9326257,
+                    44.4807834
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "VeriAmici o.n.l.u.s.",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533401967",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "43 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di Prè"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "VeriAmici o.n.l.u.s."
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9264109,
+                    44.4137858
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Residenza Valpolcevera",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53397303900000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Residenza Valpolcevera"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9047757,
+                    44.4925282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Villa Albaro",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53360277599999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "15"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Giorgio Byron"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Villa Albaro"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9579903,
+                    44.4022873
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambito Territoriale Sociale 35",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap532996502",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "34"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Pier d'Arena"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambito Territoriale Sociale 35"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8900596,
+                    44.4095906
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambito Territoriale Sociale 41",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533290007",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "12"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Passo Torbella"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambito Territoriale Sociale 41"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.894216,
+                    44.4347847
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambito Territoriale Sociale 46",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533604209",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "1"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Manzoni"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambito Territoriale Sociale 46"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9521442,
+                    44.4082767
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambito Territoriale Sociale 36",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53267329700000005",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "9"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Filippo Emanuele Bottino"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambito Territoriale Sociale 36"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8430613,
+                    44.4242684
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambito Territoriale Sociale 36",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap5328724389999999",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "14"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Viale Narisano"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambito Territoriale Sociale 36"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8704006,
+                    44.4168433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambito Territoriale Sociale 34",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53179306100000005",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "2"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Sebastiano Gaggero"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambito Territoriale Sociale 34"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7514485,
+                    44.4278576
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambito Territoriale Sociale 34",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap532120877",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "4r"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Sapello"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambito Territoriale Sociale 34"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7843297,
+                    44.427758
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambito Territoriale Sociale 34",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53239577499999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3r"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Teodoro II di Monferrato"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambito Territoriale Sociale 34"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8135645,
+                    44.426013
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambito Territoriale Sociale 43",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53381252",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "39r"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Salita Superiore della Noce"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambito Territoriale Sociale 43"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9744031,
+                    44.4068489
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ufficio di Coordinamento Inserimenti Lavorativi",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533453637",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Domenico Fiasella"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ufficio di Coordinamento Inserimenti Lavorativi"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.941184,
+                    44.4041797
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Fondazone Cepim Onlus",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533428787",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "11"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Cairoli"
+                    },
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Centro Diurno"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Fondazone Cepim Onlus"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9302251,
+                    44.4126536
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro antiviolenza Mascherona",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533496667",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Colombo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro antiviolenza Mascherona"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.943254,
+                    44.4064127
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro Residenziale per Disabili",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533847631",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro Residenziale per Disabili"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.988588,
+                    44.3961751
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "SS Centro Studi",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53384953499999995",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "È un servizio di ASL 3 Genovese che ha il compito di promuovere e sostenere percorsi riabilitativi attuati attraverso lo strumento dell’integrazione lavorativa di persone con disabilità intellettiva e motoria all’interno del mondo del lavoro"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "SS Centro Studi"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9883056,
+                    44.3966479
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro Diurno Socio Riabilitativo Franco Basaglia",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533860998",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro Diurno Socio Riabilitativo Franco Basaglia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9890949,
+                    44.3970049
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro di Ascolto Monastero",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533680513",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro di Ascolto Monastero"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Fondazione AUXILIUM"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9592631,
+                    44.4087882
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "OMNIA Consorzio Opportunità Lavorative",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533682527",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "OMNIA Consorzio Opportunità Lavorative"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9599464,
+                    44.4083063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "CRESS",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53368226199999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "CRESS"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9598537,
+                    44.4083725
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Mensa Il Chicco di Grano",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53368165899999994",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Mensa Il Chicco di Grano"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Fondazione AUXILIUM"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9593095,
+                    44.4088564
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "L'Ulivo",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53368464100000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "L'Ulivo"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Fondazione AUXILIUM"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9595787,
+                    44.4088854
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il Pioppo",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533684248",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il Pioppo"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Fondazione AUXILIUM"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9594919,
+                    44.4089329
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro vicariale d'ascolto",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53273183",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro vicariale d'ascolto"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.849015,
+                    44.424168
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Sportello del Cittadino",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533402272",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Sportello del Cittadino"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9326552,
+                    44.407572
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro Diurno\"Il Girasole\"",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533874867",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro Diurno\"Il Girasole\""
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9917247,
+                    44.395762
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Villa Maria, residenza per anziani",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap532923337",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Villa Maria, residenza per anziani"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8755909,
+                    44.4167428
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Villa delle Rose",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533562919",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "7"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Corso Solferino"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Villa delle Rose"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9425995,
+                    44.4136924
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Struttura sociale",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533552189",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8996781,
+                    44.4555408
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "SAI Levante",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53380899899999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "SAI Levante"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9819452,
+                    44.3989547
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "CET Il mulino",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53387517100000004",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Comunità Educativa Territoriale"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "CET Il mulino"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Opera Benedetto XV"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9776923,
+                    44.4098248
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cisef Cooperativa Sociale",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap534127539",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "73r"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Arvigo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cisef Cooperativa Sociale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9346227,
+                    44.4781312
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Lab85",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53342244699999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Lab85"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Cooperativa Sociale  Il laboratorio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9314694,
+                    44.4107753
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "CEL Arianna",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533742582",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Centro di Educazione al Lavoro"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "CEL Arianna"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9566619,
+                    44.4175963
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Residenza delle Cappuccine",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53349465499999994",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "40"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Salita Sant'Anna"
+                    },
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Residenza per anziani"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Residenza delle Cappuccine"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Korian"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9359645,
+                    44.413501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Area Famiglia",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533415393",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via delle Vigne"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Area Famiglia"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Centro Servizi per la Famiglia - Centro Est"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9311025,
+                    44.4104368
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pas à pas - Associazione di promozione sociale",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533402665",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "10 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Vico delle Vigne"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pas à pas - Associazione di promozione sociale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9308794,
+                    44.4093871
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il sorriso",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533517348",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il sorriso"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.935786,
+                    44.4159488
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro Diurno \"Le Peschiere\"",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533512584",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Corso Paganini"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro Diurno \"Le Peschiere\""
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.936025,
+                    44.4152334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ARCI Immigrazione",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533329418",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via al Molo Giano"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "ARCI Immigrazione"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9278883,
+                    44.4050535
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro Servizi Integrati per Immigrati",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533356749",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "19"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di Mascherona"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro Servizi Integrati per Immigrati"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9305007,
+                    44.4051742
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "C.E.T. Le Tende di Dumyat",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533534622",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Comunità Educativo Territoriale"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "C.E.T. Le Tende di Dumyat"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Consorzio O.So - s.c.s."
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9549949,
+                    44.3984673
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Comunità diurna La pilotina",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53353484",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Comunità diurna La pilotina"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Consorzio O.So - s.c.s."
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9550544,
+                    44.3984296
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Villa Marta di Betania",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533589325",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Villa Marta di Betania"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Gruppo insieme s.r.l."
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9431004,
+                    44.4158321
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Residenza Santa Marta",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53385408",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Residenza Santa Marta"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9951983,
+                    44.3902097
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Sereni orizzonti",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap532786785",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "71"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Angelo Siffredi"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Sereni orizzonti"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8565198,
+                    44.4221587
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Associazione Gigi Ghirotti",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53378743899999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Associazione Gigi Ghirotti"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9719,
+                    44.4068439
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa di Riposo SS Concezione",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533546931",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa di Riposo SS Concezione"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9326827,
+                    44.4220104
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro di Aiuto alla Vita",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533552858",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro di Aiuto alla Vita"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9444844,
+                    44.4108014
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Servizio Educativa Adulti",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533411538",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "15"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Luca"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Servizio Educativa Adulti"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9299144,
+                    44.4112394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il timone",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533696334",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il timone"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "CEIS Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9607941,
+                    44.4088393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il ponte",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53187193300000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il ponte"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Cosorio Oso"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7572441,
+                    44.4299492
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "L'arca",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap531871025",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "L'arca"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Cosorio Oso"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7572294,
+                    44.4298731
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa D",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533484589",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Comunità diurna"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa D"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9244308,
+                    44.4240281
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Officina della Cura",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533425388",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Officina della Cura"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Progetto Startappe"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9320414,
+                    44.4104974
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Associazione Soleluna",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap532801025",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Centro di accoglienza per persone bisognose"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Associazione Soleluna"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8651876,
+                    44.4149149
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "PrioneHub spazio 22",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533390155",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "PrioneHub spazio 22"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9333332,
+                    44.4056823
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Struttura sociale",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53207185800000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7778624,
+                    44.4293234
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Area Immigrazione",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533412143",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "15"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Luca"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Area Immigrazione"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Agorà cooperativa sociale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9299623,
+                    44.411252
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Villa Ines",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap534528637",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "12"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Salita Canova di Struppa"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Villa Ines"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ANFFAS"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0025442,
+                    44.4503195
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa di Riposo Gaetano Luce",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53402950000000004",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "10"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Mogadiscio"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa di Riposo Gaetano Luce"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9662973,
+                    44.4366527
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa di Riposo San Gottardo",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53414926799999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "2"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Trensasco"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa di Riposo San Gottardo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9674153,
+                    44.4475115
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "RSA Villa duchessa di Galliera",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53292461",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "38"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Nino Cervetto"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "RSA Villa duchessa di Galliera"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8740479,
+                    44.4184131
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Servizio Educativa Adulti Levante",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533612384",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Servizio Educativa Adulti Levante"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9566246,
+                    44.4046138
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "CEL Tempi Moderni",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap5333142480000001",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Centro di Educazione al Lavoro"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "CEL Tempi Moderni"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Coopsse"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8925376,
+                    44.4388872
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa dell'Angelo",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53289892",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa dell'Angelo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8608161,
+                    44.4290759
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambito Territoriale Sociale 51",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533864194",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "6"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Maggio"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambito Territoriale Sociale 51"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9889354,
+                    44.397484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Residenza Sestri Ponente",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap532785097",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Residenza Sestri Ponente"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8567326,
+                    44.4217771
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Istituto San Francesco di Paola",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533731196",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Istituto San Francesco di Paola"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Suore Minime Infermiere"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9564522,
+                    44.4166674
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La Casa del Cuore",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533822058",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La Casa del Cuore"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9874642,
+                    44.3947416
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Stella Maris",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533243034",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "9"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazzetta Don Bruno Venturelli"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Stella Maris"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9104575,
+                            44.4138459
+                        ],
+                        [
+                            8.9102811,
+                            44.4137848
+                        ],
+                        [
+                            8.9102526,
+                            44.4138323
+                        ],
+                        [
+                            8.9102206,
+                            44.4138792
+                        ],
+                        [
+                            8.9101859,
+                            44.4139313
+                        ],
+                        [
+                            8.9101514,
+                            44.4139944
+                        ],
+                        [
+                            8.9101356,
+                            44.4139884
+                        ],
+                        [
+                            8.9101027,
+                            44.4140498
+                        ],
+                        [
+                            8.9100861,
+                            44.4141361
+                        ],
+                        [
+                            8.9101496,
+                            44.4141436
+                        ],
+                        [
+                            8.9101694,
+                            44.4140699
+                        ],
+                        [
+                            8.9102258,
+                            44.4140871
+                        ],
+                        [
+                            8.9102898,
+                            44.4141066
+                        ],
+                        [
+                            8.9103839,
+                            44.4139604
+                        ],
+                        [
+                            8.9104287,
+                            44.4138945
+                        ],
+                        [
+                            8.9104575,
+                            44.4138459
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Struttura sociale",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533713573",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9575882,
+                            44.4137691
+                        ],
+                        [
+                            8.9576899,
+                            44.4136753
+                        ],
+                        [
+                            8.9579325,
+                            44.4138095
+                        ],
+                        [
+                            8.9578308,
+                            44.4139034
+                        ],
+                        [
+                            8.9577524,
+                            44.4138601
+                        ],
+                        [
+                            8.9577984,
+                            44.4138176
+                        ],
+                        [
+                            8.9577258,
+                            44.4137774
+                        ],
+                        [
+                            8.9576797,
+                            44.4138199
+                        ],
+                        [
+                            8.9575882,
+                            44.4137691
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Istituto Opera Pia Causa",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533635711",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Istituto Opera Pia Causa"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9608536,
+                            44.4027175
+                        ],
+                        [
+                            8.9609072,
+                            44.4025403
+                        ],
+                        [
+                            8.9608995,
+                            44.4025076
+                        ],
+                        [
+                            8.9607482,
+                            44.4023381
+                        ],
+                        [
+                            8.9606059,
+                            44.4023982
+                        ],
+                        [
+                            8.9605398,
+                            44.4026158
+                        ],
+                        [
+                            8.9607298,
+                            44.4026544
+                        ],
+                        [
+                            8.9607155,
+                            44.4026902
+                        ],
+                        [
+                            8.9608536,
+                            44.4027175
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Asilo Notturno Massoero",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533333804",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Asilo Notturno Massoero"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9260827,
+                            44.4072977
+                        ],
+                        [
+                            8.9258499,
+                            44.4070611
+                        ],
+                        [
+                            8.9255721,
+                            44.4072253
+                        ],
+                        [
+                            8.9257916,
+                            44.407443
+                        ],
+                        [
+                            8.9260827,
+                            44.4072977
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cel La torretta",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53287682000000004",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Centro di Educazione al Lavoro"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cel La torretta"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8707883,
+                            44.4168937
+                        ],
+                        [
+                            8.8708968,
+                            44.4168764
+                        ],
+                        [
+                            8.8708598,
+                            44.4167584
+                        ],
+                        [
+                            8.8707513,
+                            44.4167757
+                        ],
+                        [
+                            8.8707883,
+                            44.4168937
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa di Riposo San Francesco",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533903729",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa di Riposo San Francesco"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Oasi - Casa di Riposo San Francesco s.r.l."
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9745131,
+                            44.4158598
+                        ],
+                        [
+                            8.9745101,
+                            44.4159099
+                        ],
+                        [
+                            8.9744178,
+                            44.4159067
+                        ],
+                        [
+                            8.9744103,
+                            44.4160172
+                        ],
+                        [
+                            8.9747244,
+                            44.4160281
+                        ],
+                        [
+                            8.9747204,
+                            44.4160685
+                        ],
+                        [
+                            8.9749505,
+                            44.4160801
+                        ],
+                        [
+                            8.9749632,
+                            44.415952
+                        ],
+                        [
+                            8.9747851,
+                            44.4159429
+                        ],
+                        [
+                            8.9747867,
+                            44.4159195
+                        ],
+                        [
+                            8.9746243,
+                            44.4159139
+                        ],
+                        [
+                            8.9746274,
+                            44.4158633
+                        ],
+                        [
+                            8.9745131,
+                            44.4158598
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pubblica Assistenza Molassana",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap534354748",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pubblica Assistenza Molassana"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9805382,
+                            44.4549366
+                        ],
+                        [
+                            8.9805348,
+                            44.4547902
+                        ],
+                        [
+                            8.9803932,
+                            44.4547913
+                        ],
+                        [
+                            8.9803987,
+                            44.4550282
+                        ],
+                        [
+                            8.9803812,
+                            44.4550875
+                        ],
+                        [
+                            8.9805284,
+                            44.455106
+                        ],
+                        [
+                            8.9805432,
+                            44.4550458
+                        ],
+                        [
+                            8.9805382,
+                            44.4549366
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Villa Spinola Pavese Dufour",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap532841182",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Villa Spinola Pavese Dufour"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8673908,
+                            44.4167274
+                        ],
+                        [
+                            8.8673768,
+                            44.4167509
+                        ],
+                        [
+                            8.8674699,
+                            44.4167793
+                        ],
+                        [
+                            8.8676042,
+                            44.4168203
+                        ],
+                        [
+                            8.8676413,
+                            44.4168316
+                        ],
+                        [
+                            8.8676443,
+                            44.4168265
+                        ],
+                        [
+                            8.8676485,
+                            44.4168194
+                        ],
+                        [
+                            8.8676682,
+                            44.4168282
+                        ],
+                        [
+                            8.8678322,
+                            44.4169014
+                        ],
+                        [
+                            8.8678287,
+                            44.4169053
+                        ],
+                        [
+                            8.8678789,
+                            44.4169276
+                        ],
+                        [
+                            8.8679519,
+                            44.4168393
+                        ],
+                        [
+                            8.8679343,
+                            44.4168312
+                        ],
+                        [
+                            8.867907,
+                            44.4168186
+                        ],
+                        [
+                            8.8679032,
+                            44.4168169
+                        ],
+                        [
+                            8.8674834,
+                            44.416617
+                        ],
+                        [
+                            8.867478,
+                            44.4166228
+                        ],
+                        [
+                            8.8673908,
+                            44.4167274
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Villa Freccia",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap532798931",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Villa Freccia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8635772,
+                            44.4163159
+                        ],
+                        [
+                            8.8637841,
+                            44.4164222
+                        ],
+                        [
+                            8.8638607,
+                            44.4163461
+                        ],
+                        [
+                            8.8636538,
+                            44.4162398
+                        ],
+                        [
+                            8.8635772,
+                            44.4163159
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa di cura Villa Montallegro",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533666367",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa di cura Villa Montallegro"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9644858,
+                            44.4021509
+                        ],
+                        [
+                            8.9648196,
+                            44.4021037
+                        ],
+                        [
+                            8.9653217,
+                            44.4019107
+                        ],
+                        [
+                            8.9656879,
+                            44.401769
+                        ],
+                        [
+                            8.9655078,
+                            44.4014386
+                        ],
+                        [
+                            8.9657245,
+                            44.4013558
+                        ],
+                        [
+                            8.9660267,
+                            44.4013743
+                        ],
+                        [
+                            8.9660572,
+                            44.4015455
+                        ],
+                        [
+                            8.9663533,
+                            44.401751
+                        ],
+                        [
+                            8.9658799,
+                            44.4021209
+                        ],
+                        [
+                            8.9657304,
+                            44.4022376
+                        ],
+                        [
+                            8.9660951,
+                            44.4028078
+                        ],
+                        [
+                            8.9663301,
+                            44.403185
+                        ],
+                        [
+                            8.9658225,
+                            44.4031088
+                        ],
+                        [
+                            8.9660478,
+                            44.402974
+                        ],
+                        [
+                            8.966018,
+                            44.40278
+                        ],
+                        [
+                            8.9659162,
+                            44.4026038
+                        ],
+                        [
+                            8.9657876,
+                            44.4025576
+                        ],
+                        [
+                            8.9657228,
+                            44.4025775
+                        ],
+                        [
+                            8.9651283,
+                            44.4027015
+                        ],
+                        [
+                            8.9648866,
+                            44.4021649
+                        ],
+                        [
+                            8.9648121,
+                            44.4021541
+                        ],
+                        [
+                            8.9645251,
+                            44.4022181
+                        ],
+                        [
+                            8.9644858,
+                            44.4021509
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "C.E.T.",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53386251900000005",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Comunità Educativa Territoriale"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "C.E.T."
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9905904,
+                            44.3956615
+                        ],
+                        [
+                            8.9906358,
+                            44.3957416
+                        ],
+                        [
+                            8.9907645,
+                            44.3957044
+                        ],
+                        [
+                            8.9907191,
+                            44.3956243
+                        ],
+                        [
+                            8.9905904,
+                            44.3956615
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pia Casa dell'Angelo Custode",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53386947899999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pia Casa dell'Angelo Custode"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9020052,
+                            44.4849427
+                        ],
+                        [
+                            8.9018222,
+                            44.4849108
+                        ],
+                        [
+                            8.9017244,
+                            44.4851993
+                        ],
+                        [
+                            8.9019074,
+                            44.4852311
+                        ],
+                        [
+                            8.9020052,
+                            44.4849427
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro Diurno per la Salute Mentale di Serino",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53446364200000005",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "5"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Campopiano di Serino"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro Diurno per la Salute Mentale di Serino"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.0057716,
+                            44.4405926
+                        ],
+                        [
+                            9.0057453,
+                            44.4404958
+                        ],
+                        [
+                            9.0057166,
+                            44.4404997
+                        ],
+                        [
+                            9.0056257,
+                            44.4405124
+                        ],
+                        [
+                            9.0056267,
+                            44.4405162
+                        ],
+                        [
+                            9.005652,
+                            44.4406093
+                        ],
+                        [
+                            9.0057716,
+                            44.4405926
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro di Ospitalità",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap533858169",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro di Ospitalità"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Croce Rossa Italiana - Comitato Locale Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.990752,
+                            44.3950649
+                        ],
+                        [
+                            8.9909841,
+                            44.3950746
+                        ],
+                        [
+                            8.9909914,
+                            44.3949855
+                        ],
+                        [
+                            8.9909387,
+                            44.3949833
+                        ],
+                        [
+                            8.9909397,
+                            44.3949699
+                        ],
+                        [
+                            8.9908142,
+                            44.394965
+                        ],
+                        [
+                            8.9908132,
+                            44.394978
+                        ],
+                        [
+                            8.9907593,
+                            44.3949757
+                        ],
+                        [
+                            8.990752,
+                            44.3950649
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro Esperienze Sanna",
+                "layerId": "social_facility_openstreetmap",
+                "uuid": "social_facility_openstreetmap53447078000000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro Esperienze Sanna"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ANGSA Liguria"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.0050219,
+                            44.4420561
+                        ],
+                        [
+                            9.0050307,
+                            44.4421459
+                        ],
+                        [
+                            9.0052429,
+                            44.4421353
+                        ],
+                        [
+                            9.0052341,
+                            44.4420454
+                        ],
+                        [
+                            9.0050219,
+                            44.4420561
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

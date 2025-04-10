@@ -1,0 +1,37 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sensor_1",
+                "type": "meteorological station",
+                "active": true
+            },
+            "geometry": {
+                "coordinates": [
+                    8.973746649872112,
+                    44.40953904219174
+                ],
+                "type": "Point"
+            },
+            "id": 0
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "sensor_2",
+                "type": "meteorological station",
+                "active": true
+            },
+            "geometry": {
+                "coordinates": [
+                    8.971282703772687,
+                    44.40866967458223
+                ],
+                "type": "Point"
+            },
+            "id": 1
+        }
+    ]
+}

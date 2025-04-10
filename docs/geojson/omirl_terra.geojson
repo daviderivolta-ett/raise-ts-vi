@@ -1,0 +1,173 @@
+{
+    "type": "FeatureCollection",
+    "propertyNames": [
+        "name",
+        "shortCode"
+    ],
+    "propertyUnits": [
+        null,
+        null
+    ],
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.21077,
+                    44.04882
+                ]
+            },
+            "properties": {
+                "name": "Albenga - Molino Branca",
+                "id": "MOBRA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9722,
+                    44.07884
+                ]
+            },
+            "properties": {
+                "name": "Ameglia Foce Magra",
+                "id": "AMEFM"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.57322,
+                    44.37234
+                ]
+            },
+            "properties": {
+                "name": "Bolsine",
+                "id": "BOLSN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.95395,
+                    44.41094
+                ]
+            },
+            "properties": {
+                "name": "Genova - Firpo",
+                "id": "FIRPO"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.82023,
+                    44.43671
+                ]
+            },
+            "properties": {
+                "name": "Genova - Granara",
+                "id": "VAREN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.88952,
+                    44.43788
+                ]
+            },
+            "properties": {
+                "name": "Genova - Rivarolo",
+                "id": "GERIV"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.98468,
+                    44.39625
+                ]
+            },
+            "properties": {
+                "name": "Genova - Sturla",
+                "id": "GSTUR"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.74603,
+                    44.43946
+                ]
+            },
+            "properties": {
+                "name": "Molinetto",
+                "id": "MOLIN"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.43753,
+                    44.34555
+                ]
+            },
+            "properties": {
+                "name": "Santuario di Savona",
+                "id": "SANTU"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.40992,
+                    44.27377
+                ]
+            },
+            "properties": {
+                "name": "Sestri Levante",
+                "id": "SLEVA"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.81883,
+                    43.83551
+                ]
+            },
+            "properties": {
+                "name": "Valle Armea - Ponte",
+                "id": "ARMEA"
+            }
+        }
+    ],
+    "bbox": [
+        7.81883,
+        43.83551,
+        9.9722,
+        44.43946
+    ]
+}

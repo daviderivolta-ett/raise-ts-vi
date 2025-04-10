@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "propertyNames": [
+        "name",
+        "shortCode"
+    ],
+    "propertyUnits": [
+        null,
+        null
+    ],
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.177,
+                    43.92167
+                ]
+            },
+            "properties": {
+                "name": "BOA Capo Mele",
+                "id": "BOACM"
+            }
+        }
+    ],
+    "bbox": [
+        8.177,
+        43.92167,
+        8.177,
+        43.92167
+    ]
+}

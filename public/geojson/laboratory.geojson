@@ -1,0 +1,79 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Laboratori",
+                "layerId": "laboratory_openstreetmap",
+                "uuid": "laboratory_openstreetmap533882798",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9807681,
+                    44.4075117
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Biomedical SpA",
+                "layerId": "laboratory_openstreetmap",
+                "uuid": "laboratory_openstreetmap533403075",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Biomedical SpA"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9236096,
+                    44.4166979
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Synlab",
+                "layerId": "laboratory_openstreetmap",
+                "uuid": "laboratory_openstreetmap533337401",
+                "props": [
+                    {
+                        "propertyName": "brand",
+                        "displayName": "Brand",
+                        "type": "string",
+                        "value": "Synlab"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Synlab"
+                    },
+                    {
+                        "propertyName": "wheelchair",
+                        "displayName": "Accessibile",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9149012,
+                    44.4188389
+                ]
+            }
+        }
+    ]
+}

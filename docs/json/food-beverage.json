@@ -4,10 +4,8 @@
         {
             "name": "Bar",
             "id": "bar_openstreetmap",
-            "url": "https://overpass-api.de/api/interpreter",
-            "post": {
-                "amenity": "bar"
-            },
+            "url": "./geojson/bar.geojson",
+            "get": {},
             "style": {
                 "type": ["point", "area"],
                 "color": "#fc9632",
@@ -68,10 +66,8 @@
         {
             "name": "Cafe",
             "id": "cafe_openstreetmap",
-            "url": "https://overpass-api.de/api/interpreter",
-            "post": {
-                "amenity": "cafe"
-            },
+            "url": "./geojson/cafe.geojson",
+            "get": {},
             "style": {
                 "type": ["point", "area"],
                 "color": "#fc9632",
@@ -132,10 +128,8 @@
         {
             "name": "Fast food",
             "id": "fast_food_openstreetmap",
-            "url": "https://overpass-api.de/api/interpreter",
-            "post": {
-                "amenity": "fast_food"
-            },
+            "url": "./geojson/fast_food.geojson",
+            "get": {},
             "style": {
                 "type": ["point", "area"],
                 "color": "#fc9632",
@@ -196,10 +190,8 @@
         {
             "name": "Gelaterie",
             "id": "ice_cream_openstreetmap",
-            "url": "https://overpass-api.de/api/interpreter",
-            "post": {
-                "amenity": "ice_cream"
-            },
+            "url": "./geojson/ice_cream.geojson",
+            "get": {},
             "style": {
                 "type": ["point", "area"],
                 "color": "#fc9632",
@@ -260,10 +252,8 @@
         {
             "name": "Pub",
             "id": "pub_openstreetmap",
-            "url": "https://overpass-api.de/api/interpreter",
-            "post": {
-                "amenity": "pub"
-            },
+            "url": "./geojson/pub.geojson",
+            "get": {},
             "style": {
                 "type": ["point", "area"],
                 "color": "#fc9632",
@@ -324,10 +314,8 @@
         {
             "name": "Ristoranti",
             "id": "restaurant_openstreetmap",
-            "url": "https://overpass-api.de/api/interpreter",
-            "post": {
-                "amenity": "restaurant"
-            },
+            "url": "./geojson/restaurant.geojson",
+            "get": {},
             "style": {
                 "type": ["point", "area"],
                 "color": "#fc9632",
@@ -388,10 +376,8 @@
         {
             "name": "Panifici",
             "id": "bakery_openstreetmap",
-            "url": "https://overpass-api.de/api/interpreter",
-            "post": {
-                "shop": "bakery"
-            },
+            "url": "./geojson/bakery.geojson",
+            "get": {},
             "style": {
                 "type": ["point", "area"],
                 "color": "#fc9632",
@@ -452,10 +438,8 @@
         {
             "name": "Supermercati",
             "id": "supermarket_openstreetmap",
-            "url": "https://overpass-api.de/api/interpreter",
-            "post": {
-                "shop": "supermarket"
-            },
+            "url": "./geojson/supermarket.geojson",
+            "get": {},
             "style": {
                 "type": ["point", "area"],
                 "color": "#fc9632",

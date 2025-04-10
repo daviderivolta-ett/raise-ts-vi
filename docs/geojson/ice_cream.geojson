@@ -1,0 +1,2276 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelaterie Genovesi",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533614697",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "97 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Corso Sardegna"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelaterie Genovesi"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9536476,
+                    44.4078221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Gran Sasso",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53352573",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "52 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Paolo da Novi"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Gran Sasso"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9493467,
+                    44.4032263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Bar Gelateria Giardino",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533656606",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Bar Gelateria Giardino"
+                    },
+                    {
+                        "propertyName": "outdoor_seating",
+                        "displayName": "Posti all'aperto",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9581317,
+                    44.4075289
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pasticceria Gelateria Russo",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53371965",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pasticceria Gelateria Russo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9672308,
+                    44.4047342
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Antica Gelateria Amedeo",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533647015",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "7 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Nettuno"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Antica Gelateria Amedeo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9744167,
+                    44.3902848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Creperia La voglia matta",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533316384",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Creperia La voglia matta"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9230613,
+                    44.4085771
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Balilla Sturla",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533755062",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Balilla Sturla"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.980326,
+                    44.3951802
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Capriccio",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53339571199999995",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "29 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di Porta Soprana"
+                    },
+                    {
+                        "propertyName": "indoor_seating",
+                        "displayName": "Posti al chiuso",
+                        "type": "string",
+                        "value": "no"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Capriccio"
+                    },
+                    {
+                        "propertyName": "outdoor_seating",
+                        "displayName": "Posti all'aperto",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9333318,
+                    44.4062394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cremeria caffetteria Centrale",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533515836",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cremeria caffetteria Centrale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9447473,
+                    44.4068363
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Don Paolo",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533469671",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Don Paolo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9333364,
+                    44.4136307
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Antica Gelateria Guarino",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53346569300000006",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "23"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Cesare Crosa di Vergagni"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Antica Gelateria Guarino"
+                    },
+                    {
+                        "propertyName": "outdoor_seating",
+                        "displayName": "Posti all'aperto",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9333857,
+                    44.4131836
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il Gelato di Mario",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533739598",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il Gelato di Mario"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9576641,
+                    44.4162957
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Grom",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533387255",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "81 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Lorenzo"
+                    },
+                    {
+                        "propertyName": "cuisine",
+                        "displayName": "Cucina",
+                        "type": "string",
+                        "value": "ice_cream"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Grom"
+                    },
+                    {
+                        "propertyName": "takeaway",
+                        "displayName": "Take away",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9312914,
+                    44.4074341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Pasticceria Larosa Antonio",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap534337969",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Pasticceria Larosa Antonio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9795479,
+                    44.454249
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La Cremeria delle Erbe",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533388225",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "15 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Vico delle Erbe"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La Cremeria delle Erbe"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.932391,
+                    44.4064315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Yogurteria Il Pinguino",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53380645900000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Yogurteria Il Pinguino"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9751794,
+                    44.4054665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Danilo & Diego",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53244601900000006",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Danilo & Diego"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8197462,
+                    44.4248557
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Creperia Era Glaciale",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533744722",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Creperia Era Glaciale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9666556,
+                    44.4078166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Il Siculo",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533539388",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Il Siculo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9526196,
+                    44.4013192
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Voglia di gelato e caffè",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533610002",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "12 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Paolo Giacometti"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Voglia di gelato e caffè"
+                    },
+                    {
+                        "propertyName": "outdoor_seating",
+                        "displayName": "Posti all'aperto",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9536925,
+                    44.4073077
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Filipas",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533706092",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "37 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Ettore Marchini"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Filipas"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9576067,
+                    44.4130025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Carla",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533786575",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Carla"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9867509,
+                    44.3919066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Artigiana Costa Giulio",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53364355",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "1a rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Aurora"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Artigiana Costa Giulio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9742668,
+                    44.3900882
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Emporio del Gelato",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533218089",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Emporio del Gelato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8921164,
+                    44.4296925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelaterie",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap532265866",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8021667,
+                    44.4244199
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cuore di Gelato 2",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap532408713",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cuore di Gelato 2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8159507,
+                    44.4249206
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Alba",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap532397562",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Alba"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8150308,
+                    44.4247254
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelatitalia",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53359486000000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelatitalia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9677149,
+                    44.3917711
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Bar Gelateria Mukke Pazze",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533335999",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Bar Gelateria Mukke Pazze"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9257342,
+                    44.4078657
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria La Piazzetta",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap534200673",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria La Piazzetta"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9712715,
+                    44.4487958
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelaterie",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53354661199999995",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9532915,
+                    44.4013697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Caneva",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533381196",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "9 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di Sottoripa"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Caneva"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9292486,
+                    44.408871
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Golosiamo",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53344596499999994",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Golosiamo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9385583,
+                    44.4060382
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punto dolce",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap532054977",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "159d rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Pra'"
+                    },
+                    {
+                        "propertyName": "cuisine",
+                        "displayName": "Cucina",
+                        "type": "string",
+                        "value": "ice_cream"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Punto dolce"
+                    },
+                    {
+                        "propertyName": "takeaway",
+                        "displayName": "Take away",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7781265,
+                    44.4273712
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelaterie",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533594126",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9686757,
+                    44.3907369
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "U Gelato du Caruggiu",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533374066",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "91 rossso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di San Bernardo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "U Gelato du Caruggiu"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9313662,
+                    44.4060404
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria DG",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533290035",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria DG"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9140863,
+                    44.4149172
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Il Pinguino Blu",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533595543",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Il Pinguino Blu"
+                    },
+                    {
+                        "propertyName": "outdoor_seating",
+                        "displayName": "Posti all'aperto",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9689951,
+                    44.3905592
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ciarrapica",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap532532707",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "183"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Pionieri e Aviatori d'Italia"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ciarrapica"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8378113,
+                    44.4154594
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Crema e Cioccolato",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap5336589239999999",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Crema e Cioccolato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9586139,
+                    44.4072785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelaterie",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533881517",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9681249,
+                    44.4200268
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Profumo",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53344233900000006",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "16 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Vico Superiore del Ferro"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Profumo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9339585,
+                    44.4102754
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Caffè Gelateria Box Cream",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533405206",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "59 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via degli Orefici"
+                    },
+                    {
+                        "propertyName": "indoor_seating",
+                        "displayName": "Posti al chiuso",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Caffè Gelateria Box Cream"
+                    },
+                    {
+                        "propertyName": "outdoor_seating",
+                        "displayName": "Posti all'aperto",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.931348,
+                    44.4091726
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria San Nicola",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533513399",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria San Nicola"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9303177,
+                    44.4210222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ciarrapica",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533412506",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ciarrapica"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9354408,
+                    44.4058098
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Excelsa",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap5336389630000001",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Excelsa"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.971785,
+                    44.3921113
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Puro & Bio",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533813907",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "12"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Silvio Lagustena"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Puro & Bio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.975859,
+                    44.4055317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cremeria San Vincenzo",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533506922",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cremeria San Vincenzo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9438245,
+                    44.4068677
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "LAIT Gelateria Alpina",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533362361",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "15"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Calata Cattaneo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "LAIT Gelateria Alpina"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9275142,
+                    44.4087219
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Profumo di rosa",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53342739",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Profumo di rosa"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9306215,
+                    44.4121175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Excelsa",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533581408",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Excelsa"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9577477,
+                    44.4003931
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Vittoriana",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53358986",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Vittoriana"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9589225,
+                    44.4000635
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Crema & Cioccolato",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533426849",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "12 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Teglia"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Crema & Cioccolato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8940414,
+                    44.4486435
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Ciarapica",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533726012",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Orlando"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Ciarapica"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9779939,
+                    44.3946073
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "I cream",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap532943522",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "I cream"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8807415,
+                    44.4136107
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Titilla Papilla",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533379601",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Titilla Papilla"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9298279,
+                    44.4081322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La Bottega del Goloso",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap532135104",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La Bottega del Goloso"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7864613,
+                    44.4270491
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Premûa Street Food Caffetteria Gelato",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53350667200000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Premûa Street Food Caffetteria Gelato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9437897,
+                    44.4068775
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Crema e Cioccolato",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533676193",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "11 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Cagliari"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Crema e Cioccolato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.95512,
+                    44.4124993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria San Luca",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533408",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria San Luca"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9298047,
+                    44.4109953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Crema e Cioccolato",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533436771",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Crema e Cioccolato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9479327,
+                    44.3957444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria artigianale Cavarretta",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533442463",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "57 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Luccoli"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria artigianale Cavarretta"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.934345,
+                    44.4099013
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Fruit & Ice Cream Factory",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533382622",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Fruit & Ice Cream Factory"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9305485,
+                    44.4077137
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Coop Gelateria",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533726507",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Coop Gelateria"
+                    },
+                    {
+                        "propertyName": "outdoor_seating",
+                        "displayName": "Posti all'aperto",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "takeaway",
+                        "displayName": "Take away",
+                        "type": "string",
+                        "value": "no"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9005181,
+                    44.4721326
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Flora",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap532143363",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "85"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Prà"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Flora"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7874116,
+                    44.4269247
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Paciuga",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533516113",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Paciuga"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9488067,
+                    44.4028046
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Crema & cioccolato",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53289001999999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Crema & cioccolato"
+                    },
+                    {
+                        "propertyName": "outdoor_seating",
+                        "displayName": "Posti all'aperto",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8721688,
+                    44.4168332
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Bellavista",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53174045",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Bellavista"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7456447,
+                    44.4284003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Viganotti",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533388671",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Viganotti"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9329826,
+                    44.4058845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cioccolati Italiani",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533638213",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cioccolati Italiani"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9547688,
+                    44.4090525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelatina",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533429782",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelatina"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9316093,
+                    44.4113689
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Titilla Papilla Gelateria Artigianale",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53347594799999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Titilla Papilla Gelateria Artigianale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9409243,
+                    44.4066705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53359558799999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9017517,
+                    44.4578071
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Giorgelato",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53347120600000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Giorgelato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9406229,
+                    44.4064977
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Bar Yogurt",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533473496",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Bar Yogurt"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9407779,
+                    44.4065717
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "gelateria Galata",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533484351",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "gelateria Galata"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9426884,
+                    44.4057467
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La bottega del goloso 2",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap53177908900000006",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La bottega del goloso 2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7496232,
+                    44.4282857
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dallo zio",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533377511",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Dallo zio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9296699,
+                    44.4080812
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Balbi",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533401236",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Balbi"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9236678,
+                    44.4164558
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "6o Senso",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533945991",
+                "props": [
+                    {
+                        "propertyName": "indoor_seating",
+                        "displayName": "Posti al chiuso",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "6o Senso"
+                    },
+                    {
+                        "propertyName": "outdoor_seating",
+                        "displayName": "Posti all'aperto",
+                        "type": "string",
+                        "value": "yes"
+                    },
+                    {
+                        "propertyName": "takeaway",
+                        "displayName": "Take away",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9177757,
+                    44.4768234
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Gelateria Ella",
+                "layerId": "ice_cream_openstreetmap",
+                "uuid": "ice_cream_openstreetmap533371232",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "6 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via della Mercanzia"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Gelateria Ella"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.928491,
+                            44.4086322
+                        ],
+                        [
+                            8.9284671,
+                            44.4086243
+                        ],
+                        [
+                            8.9284417,
+                            44.4086291
+                        ],
+                        [
+                            8.9284266,
+                            44.4086445
+                        ],
+                        [
+                            8.9284289,
+                            44.4086633
+                        ],
+                        [
+                            8.9284475,
+                            44.4086765
+                        ],
+                        [
+                            8.9284737,
+                            44.4086782
+                        ],
+                        [
+                            8.9284953,
+                            44.4086674
+                        ],
+                        [
+                            8.9285021,
+                            44.4086493
+                        ],
+                        [
+                            8.928491,
+                            44.4086322
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

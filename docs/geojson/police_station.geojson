@@ -1,0 +1,2824 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia di Stato",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53275862",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia di Stato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8495207,
+                    44.4263413
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ufficio Oggetti Rinvenuti",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533664133",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ufficio Oggetti Rinvenuti"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9555831,
+                    44.4108302
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Commissariato di P. S. San Fruttuoso",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53371613499999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Commissariato di P. S. San Fruttuoso"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9636672,
+                    44.4079463
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Comando Stazione Genova San Fruttuoso",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533726141",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Comando Stazione Genova San Fruttuoso"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9647597,
+                    44.4078544
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carabinieri",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap532166615",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7898742,
+                    44.4267873
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533555695",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9548237,
+                    44.4007458
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Commissariato Centro",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533392386",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Commissariato Centro"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9322369,
+                    44.4070017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Commissariato di Polizia di Stato - Dipartimento di Prè",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53339663",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Commissariato di Polizia di Stato - Dipartimento di Prè"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9233202,
+                    44.4163428
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Comando Provinciale nucleo operativo",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533528936",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Comando Provinciale nucleo operativo"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9591364,
+                    44.3937572
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia municipale",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53274985799999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia municipale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8483549,
+                    44.4266309
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533432912",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9395965,
+                    44.4036947
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Commissariato di P.S. centro - Ufficio Denuncie",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53339726999999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "8 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Giacomo Matteotti"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Commissariato di P.S. centro - Ufficio Denuncie"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9324288,
+                    44.4072982
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53333472799999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9191519,
+                    44.4143209
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533359",
+                "props": [
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9325105,
+                    44.4033895
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carabinieri - Comando della Compagnia di Genova Sampierdarena",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533046758",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Carabinieri - Comando della Compagnia di Genova Sampierdarena"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8914569,
+                    44.4132189
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Comando Stazione Carabinieri Genova Pegli",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap532436713",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "1a"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Beato Martino da Pegli"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Comando Stazione Carabinieri Genova Pegli"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8166244,
+                    44.4270469
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia Locale",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533438921",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Giuseppe Garibaldi"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia Locale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9326423,
+                    44.4112498
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia Locale",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533861934",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia Locale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9903252,
+                    44.3958682
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533870116",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9129863,
+                    44.4740253
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carabinieri",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533283835",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8916017,
+                    44.4367818
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533372393",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9244942,
+                    44.4127451
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia municipale Municipio Ponente",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53179468899999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "2"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Sebastiano Gaggero"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia municipale Municipio Ponente"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7515114,
+                    44.4279575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia Municipale - Distretto 7",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap532129384",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia Municipale - Distretto 7"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7852332,
+                    44.4277052
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carabinieri Stazione di Genova San Teodoro e scali",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533323487",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Carabinieri Stazione di Genova San Teodoro e scali"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9160184,
+                    44.4163303
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Stazione Carabinieri Genova Maddalena",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533402679",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Stazione Carabinieri Genova Maddalena"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.928528,
+                    44.4117399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia Municipale",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533492581",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "24"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Corso Firenze"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia Municipale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9314365,
+                    44.4178216
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia Municipale",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap532996938",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "34"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Pier d'Arena"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia Municipale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8900657,
+                    44.4096281
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia Ferroviaria (Polfer)",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap5335368510000001",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia Ferroviaria (Polfer)"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9471734,
+                    44.4065117
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ufficio Immigrazione",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53334709200000006",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "80"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Gabriele D'Annunzio"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ufficio Immigrazione"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9325339,
+                    44.4021753
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Guardia di Finanza",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53345048299999995",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "28"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Nizza"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Guardia di Finanza"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9499327,
+                    44.3951156
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Nucleo di polizia economico finanziaria Genova",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533885149",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "450"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Corso Europa"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Nucleo di polizia economico finanziaria Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9851769,
+                    44.403338
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia Locale",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533999842",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia Locale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9036458,
+                    44.4963384
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Sezione di Polizia Giudiziaria presso la Procura per i Minorenni",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533506097",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "8"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Serra"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Sezione di Polizia Giudiziaria presso la Procura per i Minorenni"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9410794,
+                    44.4095303
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia Locale",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53389249199999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia Locale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9947726,
+                    44.3944766
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia Locale",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533597063",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia Locale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.950903,
+                    44.4088033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Comando Carabinieri Genova Voltri",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap531826049",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "2c"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Don Giovanni Verità"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Comando Carabinieri Genova Voltri"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7544726,
+                    44.4281323
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia di Stato",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533375074",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia di Stato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.92082,
+                    44.4166874
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Questura",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533455441",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Questura"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9444546,
+                            44.4010895
+                        ],
+                        [
+                            8.944814,
+                            44.4009937
+                        ],
+                        [
+                            8.9448907,
+                            44.4009742
+                        ],
+                        [
+                            8.9449693,
+                            44.4008389
+                        ],
+                        [
+                            8.944937,
+                            44.4007763
+                        ],
+                        [
+                            8.9447619,
+                            44.4004382
+                        ],
+                        [
+                            8.9445467,
+                            44.400495
+                        ],
+                        [
+                            8.9446595,
+                            44.400713
+                        ],
+                        [
+                            8.944733,
+                            44.4006936
+                        ],
+                        [
+                            8.9447828,
+                            44.40079
+                        ],
+                        [
+                            8.9447267,
+                            44.4009024
+                        ],
+                        [
+                            8.9445758,
+                            44.4009423
+                        ],
+                        [
+                            8.9445525,
+                            44.4008972
+                        ],
+                        [
+                            8.9443788,
+                            44.400943
+                        ],
+                        [
+                            8.9444546,
+                            44.4010895
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Stazione Carabinieri",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53435359399999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Stazione Carabinieri"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9809104,
+                            44.454449
+                        ],
+                        [
+                            8.9809083,
+                            44.4544489
+                        ],
+                        [
+                            8.9807477,
+                            44.4544361
+                        ],
+                        [
+                            8.9807093,
+                            44.4546823
+                        ],
+                        [
+                            8.9809454,
+                            44.4547004
+                        ],
+                        [
+                            8.9809384,
+                            44.4547454
+                        ],
+                        [
+                            8.9811077,
+                            44.4547588
+                        ],
+                        [
+                            8.9811156,
+                            44.4547135
+                        ],
+                        [
+                            8.981052,
+                            44.4547086
+                        ],
+                        [
+                            8.9810879,
+                            44.4544769
+                        ],
+                        [
+                            8.9809574,
+                            44.4544665
+                        ],
+                        [
+                            8.9809597,
+                            44.4544529
+                        ],
+                        [
+                            8.9809104,
+                            44.454449
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Comando Legione Carabinieri",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533817759",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Comando Legione Carabinieri"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9847995,
+                            44.3969764
+                        ],
+                        [
+                            8.9847486,
+                            44.3970135
+                        ],
+                        [
+                            8.9846936,
+                            44.3970348
+                        ],
+                        [
+                            8.9848818,
+                            44.3974315
+                        ],
+                        [
+                            8.9855357,
+                            44.4006034
+                        ],
+                        [
+                            8.9856335,
+                            44.400808
+                        ],
+                        [
+                            8.9859652,
+                            44.4008159
+                        ],
+                        [
+                            8.9861982,
+                            44.4006381
+                        ],
+                        [
+                            8.9865046,
+                            44.4003339
+                        ],
+                        [
+                            8.9866796,
+                            44.4001377
+                        ],
+                        [
+                            8.9870195,
+                            44.3997074
+                        ],
+                        [
+                            8.9872876,
+                            44.3993626
+                        ],
+                        [
+                            8.9874177,
+                            44.3991949
+                        ],
+                        [
+                            8.9874183,
+                            44.3991162
+                        ],
+                        [
+                            8.9873862,
+                            44.3989312
+                        ],
+                        [
+                            8.9873274,
+                            44.3987664
+                        ],
+                        [
+                            8.9861236,
+                            44.3979167
+                        ],
+                        [
+                            8.9854538,
+                            44.3974343
+                        ],
+                        [
+                            8.9852511,
+                            44.3972932
+                        ],
+                        [
+                            8.9850471,
+                            44.3971446
+                        ],
+                        [
+                            8.9847995,
+                            44.3969764
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Commissariato",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap532884176",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Commissariato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8716473,
+                            44.4167703
+                        ],
+                        [
+                            8.8717204,
+                            44.41677
+                        ],
+                        [
+                            8.8718423,
+                            44.4167684
+                        ],
+                        [
+                            8.8718417,
+                            44.4167195
+                        ],
+                        [
+                            8.8718393,
+                            44.4166127
+                        ],
+                        [
+                            8.8718386,
+                            44.4164267
+                        ],
+                        [
+                            8.8718974,
+                            44.4164263
+                        ],
+                        [
+                            8.871897,
+                            44.4163872
+                        ],
+                        [
+                            8.871896,
+                            44.4163077
+                        ],
+                        [
+                            8.8718027,
+                            44.4163057
+                        ],
+                        [
+                            8.8716314,
+                            44.4163066
+                        ],
+                        [
+                            8.8716367,
+                            44.4165135
+                        ],
+                        [
+                            8.8716473,
+                            44.4167703
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53271966",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8544796,
+                            44.4174864
+                        ],
+                        [
+                            8.8546579,
+                            44.4175583
+                        ],
+                        [
+                            8.8547335,
+                            44.4174628
+                        ],
+                        [
+                            8.8545552,
+                            44.4173909
+                        ],
+                        [
+                            8.8544796,
+                            44.4174864
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Sezione aerea GdF",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap532656837",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Sezione aerea GdF"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8487884,
+                            44.4168953
+                        ],
+                        [
+                            8.8489657,
+                            44.4167234
+                        ],
+                        [
+                            8.8492102,
+                            44.4168528
+                        ],
+                        [
+                            8.8490368,
+                            44.4170265
+                        ],
+                        [
+                            8.8487884,
+                            44.4168953
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carabinieri",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53419169800000006",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9213014,
+                            44.4978684
+                        ],
+                        [
+                            8.9213321,
+                            44.4979052
+                        ],
+                        [
+                            8.9212835,
+                            44.4979259
+                        ],
+                        [
+                            8.9213269,
+                            44.4979766
+                        ],
+                        [
+                            8.9213666,
+                            44.4979592
+                        ],
+                        [
+                            8.9213785,
+                            44.4979732
+                        ],
+                        [
+                            8.9214803,
+                            44.4979284
+                        ],
+                        [
+                            8.9214293,
+                            44.497869
+                        ],
+                        [
+                            8.9214223,
+                            44.4978721
+                        ],
+                        [
+                            8.9213286,
+                            44.4977628
+                        ],
+                        [
+                            8.9211942,
+                            44.4978219
+                        ],
+                        [
+                            8.9212059,
+                            44.4978355
+                        ],
+                        [
+                            8.9212521,
+                            44.4978894
+                        ],
+                        [
+                            8.9213014,
+                            44.4978684
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap534192373",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9213321,
+                            44.4979052
+                        ],
+                        [
+                            8.9213014,
+                            44.4978684
+                        ],
+                        [
+                            8.9212521,
+                            44.4978894
+                        ],
+                        [
+                            8.9212835,
+                            44.4979259
+                        ],
+                        [
+                            8.9213321,
+                            44.4979052
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Guardia Costiera e Capitaneria di Porto",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533307211",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Guardia Costiera e Capitaneria di Porto"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9226452,
+                            44.4080759
+                        ],
+                        [
+                            8.9225523,
+                            44.4080525
+                        ],
+                        [
+                            8.9221984,
+                            44.4079629
+                        ],
+                        [
+                            8.9221672,
+                            44.4080285
+                        ],
+                        [
+                            8.922527,
+                            44.408116
+                        ],
+                        [
+                            8.9226156,
+                            44.4081375
+                        ],
+                        [
+                            8.9232413,
+                            44.4082896
+                        ],
+                        [
+                            8.9232646,
+                            44.4082424
+                        ],
+                        [
+                            8.9232147,
+                            44.4082305
+                        ],
+                        [
+                            8.9232232,
+                            44.4082129
+                        ],
+                        [
+                            8.9235388,
+                            44.4082908
+                        ],
+                        [
+                            8.923571,
+                            44.4082227
+                        ],
+                        [
+                            8.9231541,
+                            44.4081256
+                        ],
+                        [
+                            8.9231605,
+                            44.408111
+                        ],
+                        [
+                            8.9231689,
+                            44.4080918
+                        ],
+                        [
+                            8.9231761,
+                            44.4080753
+                        ],
+                        [
+                            8.9232319,
+                            44.4080845
+                        ],
+                        [
+                            8.9232665,
+                            44.4079809
+                        ],
+                        [
+                            8.9232035,
+                            44.4079732
+                        ],
+                        [
+                            8.923207,
+                            44.4079571
+                        ],
+                        [
+                            8.9232112,
+                            44.4079379
+                        ],
+                        [
+                            8.9232144,
+                            44.4079235
+                        ],
+                        [
+                            8.9240244,
+                            44.4079743
+                        ],
+                        [
+                            8.9240295,
+                            44.4079237
+                        ],
+                        [
+                            8.9239801,
+                            44.4079205
+                        ],
+                        [
+                            8.9239826,
+                            44.4079008
+                        ],
+                        [
+                            8.9242182,
+                            44.4079176
+                        ],
+                        [
+                            8.9242247,
+                            44.4078591
+                        ],
+                        [
+                            8.9239813,
+                            44.4078454
+                        ],
+                        [
+                            8.9237298,
+                            44.4078308
+                        ],
+                        [
+                            8.9232992,
+                            44.4078062
+                        ],
+                        [
+                            8.9227643,
+                            44.4077756
+                        ],
+                        [
+                            8.9223419,
+                            44.4077515
+                        ],
+                        [
+                            8.9223338,
+                            44.4078408
+                        ],
+                        [
+                            8.9223307,
+                            44.4078752
+                        ],
+                        [
+                            8.9227558,
+                            44.4079007
+                        ],
+                        [
+                            8.9229442,
+                            44.407912
+                        ],
+                        [
+                            8.9229418,
+                            44.4079289
+                        ],
+                        [
+                            8.9228897,
+                            44.407925
+                        ],
+                        [
+                            8.9228572,
+                            44.4080296
+                        ],
+                        [
+                            8.9229074,
+                            44.408042
+                        ],
+                        [
+                            8.9228983,
+                            44.408062
+                        ],
+                        [
+                            8.9227646,
+                            44.4080305
+                        ],
+                        [
+                            8.9227346,
+                            44.4080985
+                        ],
+                        [
+                            8.9226452,
+                            44.4080759
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Caserma Pietro Ilardi",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533768196",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Caserma Pietro Ilardi"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.983173,
+                            44.3936466
+                        ],
+                        [
+                            8.9832553,
+                            44.3935952
+                        ],
+                        [
+                            8.983332,
+                            44.3935556
+                        ],
+                        [
+                            8.9834741,
+                            44.3934856
+                        ],
+                        [
+                            8.9834396,
+                            44.3934516
+                        ],
+                        [
+                            8.9836377,
+                            44.3933449
+                        ],
+                        [
+                            8.9842454,
+                            44.3930639
+                        ],
+                        [
+                            8.9843856,
+                            44.39317
+                        ],
+                        [
+                            8.9848848,
+                            44.3935478
+                        ],
+                        [
+                            8.9851529,
+                            44.3937886
+                        ],
+                        [
+                            8.9852609,
+                            44.3939324
+                        ],
+                        [
+                            8.9853076,
+                            44.3941128
+                        ],
+                        [
+                            8.9852373,
+                            44.3942151
+                        ],
+                        [
+                            8.9849879,
+                            44.3941349
+                        ],
+                        [
+                            8.9837298,
+                            44.3938635
+                        ],
+                        [
+                            8.9831372,
+                            44.3936838
+                        ],
+                        [
+                            8.983173,
+                            44.3936466
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Comando Stazione Carabinieri Genova Castelletto",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53355007400000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Comando Stazione Carabinieri Genova Castelletto"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9398911,
+                            44.4151163
+                        ],
+                        [
+                            8.9396254,
+                            44.4151364
+                        ],
+                        [
+                            8.9396376,
+                            44.4151711
+                        ],
+                        [
+                            8.9397525,
+                            44.4153848
+                        ],
+                        [
+                            8.9398027,
+                            44.4153748
+                        ],
+                        [
+                            8.9397682,
+                            44.4153174
+                        ],
+                        [
+                            8.9399212,
+                            44.415306
+                        ],
+                        [
+                            8.9398911,
+                            44.4151163
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53452886199999995",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.0189579,
+                            44.4339283
+                        ],
+                        [
+                            9.0189383,
+                            44.4339315
+                        ],
+                        [
+                            9.0189661,
+                            44.4340061
+                        ],
+                        [
+                            9.0190956,
+                            44.4339855
+                        ],
+                        [
+                            9.019058,
+                            44.4339122
+                        ],
+                        [
+                            9.0190004,
+                            44.4339215
+                        ],
+                        [
+                            9.0189579,
+                            44.4339283
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carabinieri Stazione Marassi",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53365717",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Carabinieri Stazione Marassi"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9526817,
+                            44.4130353
+                        ],
+                        [
+                            8.9528969,
+                            44.4130479
+                        ],
+                        [
+                            8.9529018,
+                            44.4130155
+                        ],
+                        [
+                            8.9529078,
+                            44.4129751
+                        ],
+                        [
+                            8.9529476,
+                            44.4129783
+                        ],
+                        [
+                            8.9529511,
+                            44.4129606
+                        ],
+                        [
+                            8.9529094,
+                            44.4129567
+                        ],
+                        [
+                            8.9529154,
+                            44.412927
+                        ],
+                        [
+                            8.9529569,
+                            44.4129308
+                        ],
+                        [
+                            8.9529676,
+                            44.4129323
+                        ],
+                        [
+                            8.9529942,
+                            44.4127248
+                        ],
+                        [
+                            8.952699,
+                            44.4127008
+                        ],
+                        [
+                            8.9526918,
+                            44.4127659
+                        ],
+                        [
+                            8.9527149,
+                            44.4127688
+                        ],
+                        [
+                            8.9526817,
+                            44.4130353
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Carabinieri Comando Compagnia Genova San Martino",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533807889",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "14"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Martino"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Carabinieri Comando Compagnia Genova San Martino"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9746632,
+                            44.4061257
+                        ],
+                        [
+                            8.97456,
+                            44.4060291
+                        ],
+                        [
+                            8.9744354,
+                            44.4060971
+                        ],
+                        [
+                            8.9743725,
+                            44.4061313
+                        ],
+                        [
+                            8.9744047,
+                            44.4061647
+                        ],
+                        [
+                            8.9741998,
+                            44.4062769
+                        ],
+                        [
+                            8.9742607,
+                            44.4063309
+                        ],
+                        [
+                            8.9742904,
+                            44.4063134
+                        ],
+                        [
+                            8.9743418,
+                            44.406355
+                        ],
+                        [
+                            8.9745201,
+                            44.4062548
+                        ],
+                        [
+                            8.974461,
+                            44.4062012
+                        ],
+                        [
+                            8.9744551,
+                            44.4061901
+                        ],
+                        [
+                            8.9745003,
+                            44.4061633
+                        ],
+                        [
+                            8.9745379,
+                            44.4061948
+                        ],
+                        [
+                            8.9746632,
+                            44.4061257
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Caserma Torquato Testero",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53304524900000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Caserma Torquato Testero"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8966446,
+                            44.4078803
+                        ],
+                        [
+                            8.8967381,
+                            44.4080444
+                        ],
+                        [
+                            8.8973902,
+                            44.4078549
+                        ],
+                        [
+                            8.8972967,
+                            44.4076908
+                        ],
+                        [
+                            8.8966446,
+                            44.4078803
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "NAS",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53385063800000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "NAS"
+                    },
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9844432,
+                            44.4006206
+                        ],
+                        [
+                            8.9845464,
+                            44.4006005
+                        ],
+                        [
+                            8.9846203,
+                            44.4005762
+                        ],
+                        [
+                            8.9845961,
+                            44.4005165
+                        ],
+                        [
+                            8.9845391,
+                            44.4005111
+                        ],
+                        [
+                            8.9845013,
+                            44.4005106
+                        ],
+                        [
+                            8.9844319,
+                            44.4005017
+                        ],
+                        [
+                            8.9843932,
+                            44.4004232
+                        ],
+                        [
+                            8.9843526,
+                            44.4003373
+                        ],
+                        [
+                            8.984474,
+                            44.4000609
+                        ],
+                        [
+                            8.9844829,
+                            44.3999633
+                        ],
+                        [
+                            8.9842005,
+                            44.3995648
+                        ],
+                        [
+                            8.9836618,
+                            44.3994541
+                        ],
+                        [
+                            8.9835044,
+                            44.3998604
+                        ],
+                        [
+                            8.9832728,
+                            44.3998742
+                        ],
+                        [
+                            8.9832783,
+                            44.3999547
+                        ],
+                        [
+                            8.9832896,
+                            44.4000189
+                        ],
+                        [
+                            8.9833259,
+                            44.4001292
+                        ],
+                        [
+                            8.9833374,
+                            44.4001529
+                        ],
+                        [
+                            8.9833696,
+                            44.4002178
+                        ],
+                        [
+                            8.9834108,
+                            44.4003009
+                        ],
+                        [
+                            8.9834376,
+                            44.4003535
+                        ],
+                        [
+                            8.9835846,
+                            44.4006243
+                        ],
+                        [
+                            8.9837019,
+                            44.4007558
+                        ],
+                        [
+                            8.9844284,
+                            44.4006003
+                        ],
+                        [
+                            8.9844432,
+                            44.4006206
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533807284",
+                "props": [
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9742972,
+                            44.4064312
+                        ],
+                        [
+                            8.9747233,
+                            44.4061845
+                        ],
+                        [
+                            8.9747277,
+                            44.4059309
+                        ],
+                        [
+                            8.9747025,
+                            44.4059143
+                        ],
+                        [
+                            8.9741249,
+                            44.4062461
+                        ],
+                        [
+                            8.9741497,
+                            44.4063457
+                        ],
+                        [
+                            8.9741983,
+                            44.4064044
+                        ],
+                        [
+                            8.9742908,
+                            44.4064312
+                        ],
+                        [
+                            8.9742972,
+                            44.4064312
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533881528",
+                "props": [
+                    {
+                        "propertyName": "operator:short",
+                        "displayName": "Operatore",
+                        "type": "string",
+                        "value": "Carabinieri"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9863953,
+                            44.4017575
+                        ],
+                        [
+                            8.9862773,
+                            44.4015027
+                        ],
+                        [
+                            8.9861646,
+                            44.4011366
+                        ],
+                        [
+                            8.9865294,
+                            44.4009086
+                        ],
+                        [
+                            8.9870149,
+                            44.4005138
+                        ],
+                        [
+                            8.9871597,
+                            44.4004372
+                        ],
+                        [
+                            8.987436,
+                            44.4004813
+                        ],
+                        [
+                            8.9871302,
+                            44.4012823
+                        ],
+                        [
+                            8.9871114,
+                            44.4014701
+                        ],
+                        [
+                            8.9867601,
+                            44.4016368
+                        ],
+                        [
+                            8.9863953,
+                            44.4017575
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533155106",
+                "props": []
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9075592,
+                            44.4079514
+                        ],
+                        [
+                            8.9076051,
+                            44.4079916
+                        ],
+                        [
+                            8.9076322,
+                            44.4079758
+                        ],
+                        [
+                            8.9075863,
+                            44.4079356
+                        ],
+                        [
+                            8.9075592,
+                            44.4079514
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia Stradale Genova",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53312792",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia Stradale Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9016103,
+                            44.4111817
+                        ],
+                        [
+                            8.9020557,
+                            44.411206
+                        ],
+                        [
+                            8.9020683,
+                            44.4110667
+                        ],
+                        [
+                            8.9021363,
+                            44.4110673
+                        ],
+                        [
+                            8.902145,
+                            44.4109564
+                        ],
+                        [
+                            8.9020887,
+                            44.410955
+                        ],
+                        [
+                            8.9020945,
+                            44.4108538
+                        ],
+                        [
+                            8.9019247,
+                            44.4108462
+                        ],
+                        [
+                            8.9019286,
+                            44.4108809
+                        ],
+                        [
+                            8.9016287,
+                            44.4108705
+                        ],
+                        [
+                            8.9016103,
+                            44.4111817
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Comando Regionale Guardia di Finanza",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53332892400000006",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Comando Regionale Guardia di Finanza"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        8.9266094,
+                        44.406283
+                    ],
+                    [
+                        8.9265259,
+                        44.4061699
+                    ],
+                    [
+                        8.9266649,
+                        44.4061187
+                    ],
+                    [
+                        8.9267487,
+                        44.4062304
+                    ],
+                    [
+                        8.9266094,
+                        44.406283
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Comando Regionale Guardia di Finanza",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533330482",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Comando Regionale Guardia di Finanza"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        8.9268591,
+                        44.4061891
+                    ],
+                    [
+                        8.9267725,
+                        44.4060742
+                    ],
+                    [
+                        8.9268629,
+                        44.4060394
+                    ],
+                    [
+                        8.9268855,
+                        44.4060695
+                    ],
+                    [
+                        8.9269331,
+                        44.4060512
+                    ],
+                    [
+                        8.9269956,
+                        44.4061371
+                    ],
+                    [
+                        8.9268591,
+                        44.4061891
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Comando Regionale Guardia di Finanza",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap53333211899999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Comando Regionale Guardia di Finanza"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        8.9269986,
+                        44.4062133
+                    ],
+                    [
+                        8.9270448,
+                        44.4061955
+                    ],
+                    [
+                        8.9270514,
+                        44.4062022
+                    ],
+                    [
+                        8.9271606,
+                        44.4061601
+                    ],
+                    [
+                        8.9269581,
+                        44.4058848
+                    ],
+                    [
+                        8.9263435,
+                        44.4061188
+                    ],
+                    [
+                        8.9264621,
+                        44.4062775
+                    ],
+                    [
+                        8.9264741,
+                        44.4062731
+                    ],
+                    [
+                        8.9265289,
+                        44.4063499
+                    ],
+                    [
+                        8.9265568,
+                        44.4063833
+                    ],
+                    [
+                        8.9269986,
+                        44.4062133
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia ferroviaria",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533367776",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia ferroviaria"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        8.9188536,
+                        44.417924
+                    ],
+                    [
+                        8.9185534,
+                        44.4179573
+                    ],
+                    [
+                        8.9185693,
+                        44.4180304
+                    ],
+                    [
+                        8.917989,
+                        44.4180947
+                    ],
+                    [
+                        8.9178871,
+                        44.4176254
+                    ],
+                    [
+                        8.9181459,
+                        44.4175967
+                    ],
+                    [
+                        8.9181693,
+                        44.4177046
+                    ],
+                    [
+                        8.9184958,
+                        44.4176684
+                    ],
+                    [
+                        8.9185189,
+                        44.417775
+                    ],
+                    [
+                        8.9188141,
+                        44.4177423
+                    ],
+                    [
+                        8.9188536,
+                        44.417924
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Polizia ferroviaria",
+                "layerId": "police_openstreetmap",
+                "uuid": "police_openstreetmap533360098",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Polizia ferroviaria"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        8.9181706,
+                        44.4178392
+                    ],
+                    [
+                        8.9182156,
+                        44.4178341
+                    ],
+                    [
+                        8.9182234,
+                        44.4178699
+                    ],
+                    [
+                        8.9182746,
+                        44.4178642
+                    ],
+                    [
+                        8.9182672,
+                        44.4178301
+                    ],
+                    [
+                        8.918384,
+                        44.417817
+                    ],
+                    [
+                        8.9184108,
+                        44.4179392
+                    ],
+                    [
+                        8.9181978,
+                        44.417963
+                    ],
+                    [
+                        8.9181706,
+                        44.4178392
+                    ]
+                ]
+            }
+        }
+    ]
+}

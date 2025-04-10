@@ -1,0 +1,1307 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533667118",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9767546,
+                    44.3899572
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap534703009",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0032,
+                    44.4671009
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap534239078",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0161304,
+                    44.4077774
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap532901674",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8478954,
+                    44.442272
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Colla di Prà",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53234796599999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Colla di Prà"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7784796,
+                    44.456317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Fontanarossa",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533930723",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Fontanarossa"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "AMT"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9715421,
+                    44.4215302
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53348789800000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9242538,
+                    44.424536
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53356873400000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9191445,
+                    44.4377289
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Via Dino Col - Via Rigola",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533197335",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Via Dino Col - Via Rigola"
+                    },
+                    {
+                        "propertyName": "wheelchair",
+                        "displayName": "Accessibile",
+                        "type": "string",
+                        "value": "limited"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9069584,
+                    44.4127751
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533471811",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9240182,
+                    44.4231629
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53420649100000006",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0150617,
+                    44.4055874
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533556109",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.916583,
+                    44.4390279
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533777702",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9012854,
+                    44.4764848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53358864100000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.940662,
+                    44.4182021
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53361079700000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.935427,
+                    44.4256527
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53351365",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8622421,
+                    44.4891229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53281888200000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.865079,
+                    44.4168092
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Pinetti",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53392611200000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Pinetti"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "AMT"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9720213,
+                    44.4205899
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap532819277",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8619449,
+                    44.4199828
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap532000143",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7022627,
+                    44.4977516
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Balaustra Villa Lertora",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53357053400000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Balaustra Villa Lertora"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9338113,
+                    44.4232421
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Terrazze Capolinea Funicolare",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53361672299999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Terrazze Capolinea Funicolare"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9376475,
+                    44.4240248
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53432561199999995",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9971239,
+                    44.4354373
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Portazza",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533926797",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Portazza"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "AMT"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9719502,
+                    44.4207295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533451235",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9395443,
+                    44.4055792
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533707242",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8990218,
+                    44.4717024
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53347249899999994",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9359729,
+                    44.411277
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53348131",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9368136,
+                    44.4113174
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53341999799999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9433224,
+                    44.3986774
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap5334429300000001",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9433453,
+                    44.4009477
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Terrazza del Castello del Belvedere",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53179271400000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Terrazza del Castello del Belvedere"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7482748,
+                    44.4309966
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap531798604",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7491969,
+                    44.4306635
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap531798195",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7492563,
+                    44.4305632
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53179852",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7493786,
+                    44.4304734
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Belvedere Porta dei Givi",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53176493900000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Belvedere Porta dei Givi"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7449153,
+                    44.4315786
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533797761",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9063044,
+                    44.4734717
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Panorama Forte Diamante",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap534013797",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Panorama Forte Diamante"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9401116,
+                    44.4612681
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap5335954770000001",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9332843,
+                    44.4262634
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533781192",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9026133,
+                    44.4755059
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533807746",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9499118,
+                    44.4308628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53371223099999995",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8996606,
+                    44.4715625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53372173000000004",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8985648,
+                    44.4736082
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Belvedere Mirko Vicini",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533049384",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Belvedere Mirko Vicini"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8783666,
+                    44.4265718
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Brichin di Crői",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533378563",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Brichin di Crői"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8708365,
+                    44.4670198
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap532498078",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.818831,
+                    44.4309768
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533458818",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9276727,
+                    44.4182091
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53315405399999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9026504,
+                    44.412755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Belvedere Lagaccio",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533350669",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Belvedere Lagaccio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9161966,
+                    44.4188703
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53346572699999996",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9315849,
+                    44.4149878
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53345417",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9329165,
+                    44.4125005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533535251",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8633507,
+                    44.4901744
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Belvedere Marzabotto",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533329077",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Belvedere Marzabotto"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9109553,
+                    44.4219524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533629111",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9472133,
+                    44.4156978
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Rimorchiatori Riuniti",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533319949",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Rimorchiatori Riuniti"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9219009,
+                    44.410094
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533451911",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9326393,
+                    44.4125518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap534060176",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0011537,
+                    44.4048639
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap531879115",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7113659,
+                    44.4765456
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53421115400000005",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0154374,
+                    44.405678
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53363548",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9739965,
+                    44.3895515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533629982",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9461625,
+                    44.4168357
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punti panoramici",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533653272",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9326133,
+                    44.4327139
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Belvedere Luigi Montaldo",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap53346276",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Belvedere Luigi Montaldo"
+                    },
+                    {
+                        "propertyName": "wheelchair",
+                        "displayName": "Accessibile",
+                        "type": "string",
+                        "value": "yes"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9334825,
+                            44.4127935
+                        ],
+                        [
+                            8.9334768,
+                            44.4124746
+                        ],
+                        [
+                            8.9329863,
+                            44.4124791
+                        ],
+                        [
+                            8.9325969,
+                            44.4125314
+                        ],
+                        [
+                            8.93252,
+                            44.4126581
+                        ],
+                        [
+                            8.9325099,
+                            44.4126886
+                        ],
+                        [
+                            8.9324767,
+                            44.4127826
+                        ],
+                        [
+                            8.9324926,
+                            44.4127905
+                        ],
+                        [
+                            8.9324967,
+                            44.4127969
+                        ],
+                        [
+                            8.9324966,
+                            44.4128113
+                        ],
+                        [
+                            8.9326083,
+                            44.4128086
+                        ],
+                        [
+                            8.9326398,
+                            44.4128079
+                        ],
+                        [
+                            8.9326337,
+                            44.4126364
+                        ],
+                        [
+                            8.9330021,
+                            44.4126277
+                        ],
+                        [
+                            8.9333768,
+                            44.4126181
+                        ],
+                        [
+                            8.933383,
+                            44.4127961
+                        ],
+                        [
+                            8.9334517,
+                            44.4127943
+                        ],
+                        [
+                            8.9334825,
+                            44.4127935
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Lanterna di Genova",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533092",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Lanterna di Genova"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Giovani Urbanisti-Fondazione Labò"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9045889,
+                            44.4046111
+                        ],
+                        [
+                            8.9047267,
+                            44.4045892
+                        ],
+                        [
+                            8.9046967,
+                            44.4044927
+                        ],
+                        [
+                            8.9046076,
+                            44.4045069
+                        ],
+                        [
+                            8.9045589,
+                            44.4045146
+                        ],
+                        [
+                            8.9045889,
+                            44.4046111
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Torre Grimaldina",
+                "layerId": "viewpoint_openstreetmap",
+                "uuid": "viewpoint_openstreetmap533400576",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Torre Grimaldina"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.932423,
+                            44.4076346
+                        ],
+                        [
+                            8.9323633,
+                            44.4076786
+                        ],
+                        [
+                            8.9322772,
+                            44.4076153
+                        ],
+                        [
+                            8.9323295,
+                            44.4075706
+                        ],
+                        [
+                            8.932423,
+                            44.4076346
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

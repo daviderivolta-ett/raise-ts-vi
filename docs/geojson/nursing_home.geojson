@@ -1,0 +1,199 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa di Riposo Domiziana",
+                "layerId": "nursing_home_openstreetmap",
+                "uuid": "nursing_home_openstreetmap533404121",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa di Riposo Domiziana"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9159163,
+                    44.4244958
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "RSA Casa Michelini",
+                "layerId": "nursing_home_openstreetmap",
+                "uuid": "nursing_home_openstreetmap533865172",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "RSA Casa Michelini"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ALS 3 Genovese - Dipartimento Salute Mentale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9894624,
+                    44.3970548
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "RSA Il Cammino",
+                "layerId": "nursing_home_openstreetmap",
+                "uuid": "nursing_home_openstreetmap533848565",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Nel corridoio a sinistra prendere l'ascensore per il 2° piano."
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "RSA Il Cammino"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ALS 3 Genovese - Dipartimento Salute Mentale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9882055,
+                    44.396651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Residenza San Camillo",
+                "layerId": "nursing_home_openstreetmap",
+                "uuid": "nursing_home_openstreetmap53359870900000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Residenza San Camillo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9415496,
+                            44.4183213
+                        ],
+                        [
+                            8.9415362,
+                            44.4183754
+                        ],
+                        [
+                            8.9416075,
+                            44.4183821
+                        ],
+                        [
+                            8.9415714,
+                            44.418506
+                        ],
+                        [
+                            8.9417763,
+                            44.4185359
+                        ],
+                        [
+                            8.9418395,
+                            44.4183129
+                        ],
+                        [
+                            8.9416961,
+                            44.4182882
+                        ],
+                        [
+                            8.9418978,
+                            44.4180781
+                        ],
+                        [
+                            8.9418662,
+                            44.4180639
+                        ],
+                        [
+                            8.9418852,
+                            44.4180428
+                        ],
+                        [
+                            8.9418678,
+                            44.4180334
+                        ],
+                        [
+                            8.9419635,
+                            44.417937
+                        ],
+                        [
+                            8.9418661,
+                            44.4178021
+                        ],
+                        [
+                            8.9415365,
+                            44.4181478
+                        ],
+                        [
+                            8.941504,
+                            44.4181378
+                        ],
+                        [
+                            8.9414733,
+                            44.4181537
+                        ],
+                        [
+                            8.941445,
+                            44.4181683
+                        ],
+                        [
+                            8.9414697,
+                            44.4181948
+                        ],
+                        [
+                            8.9410349,
+                            44.4183624
+                        ],
+                        [
+                            8.9411256,
+                            44.4184819
+                        ],
+                        [
+                            8.9415496,
+                            44.4183213
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

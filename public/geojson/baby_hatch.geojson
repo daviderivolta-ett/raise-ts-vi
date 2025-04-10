@@ -1,0 +1,34 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Culla per la vita",
+                "layerId": "baby_hatch_openstreetmap",
+                "uuid": "baby_hatch_openstreetmap533416489",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Culla per la vita"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Ospedale Galliera"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.940283,
+                    44.4013659
+                ]
+            }
+        }
+    ]
+}

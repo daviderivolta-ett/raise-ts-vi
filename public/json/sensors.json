@@ -2,12 +2,128 @@
     "name": "Sensori",
     "layers": [
         {
+            "name": "OMIRL terra",
+            "id": "omirl_terra",
+            "url": "./geojson/omirl_terra.geojson",
+            "get": {},
+            "style": {
+                "type": [
+                    "point"
+                ],
+                "color": "#f5f10c",
+                "opacity": 1,
+                "icon": "🔵"
+            },
+            "tags": [
+                "dati urbani"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "id",
+                    "display_name": "id",
+                    "type": "string"
+                },
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                }
+            ],
+            "hasAction": true,
+            "components": [
+                {
+                    "tag": "app-acronet-charts",
+                    "props": {
+                        "url": "https://erddap1-dev.s4raise.it/erddap/tabledap/omirl_stazioni_terra.json?name%2CshortCode%2Ctime%2Clatitude%2Clongitude%2CRAIN_1h%2CCUMUL_1h%2CRAIN_5m%2CCUMUL_5m%2CRAIN_7d%2CCUMUL_7d%2CRAIN_1d%2CCUMUL_1d%2CAIR_TEMP%2CTMIN%2CTMAX%2CRLEV%2CATMP%2CTENS&time>=now-2days&shortCode="
+                    }
+                }
+            ]
+        },
+        {
+            "name": "OMIRL mare",
+            "id": "omirl_mare",
+            "url": "./geojson/omirl_mare.geojson",
+            "get": {},
+            "style": {
+                "type": [
+                    "point"
+                ],
+                "color": "#f5f10c",
+                "opacity": 1,
+                "icon": "🔵"
+            },
+            "tags": [
+                "dati urbani"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "id",
+                    "display_name": "id",
+                    "type": "string"
+                },
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                }
+            ],
+            "hasAction": true,
+            "components": [
+                {
+                    "tag": "app-acronet-charts",
+                    "props": {
+                        "url": "https://erddap1-dev.s4raise.it/erddap/tabledap/omirl_stazioni_mare.json?name%2CshortCode%2Ctime%2Clatitude%2Clongitude%2CVHZA%2CAIR_TEMP%2CWSPD%2CGSPD%2CWDIR%2CWSPD_2d%2CGSPD_2d%2CWDIR_2d%2CATMP&time>=now-2days&shortCode="
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Acronet",
+            "id": "acronet",
+            "url": "./geojson/acronet.geojson",
+            "get": {},
+            "style": {
+                "type": [
+                    "point"
+                ],
+                "color": "#f5f10c",
+                "opacity": 1,
+                "icon": "🔵"
+            },
+            "tags": [
+                "dati urbani"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "id",
+                    "display_name": "id",
+                    "type": "string"
+                },
+                {
+                    "property_name": "STATION_NAME",
+                    "display_name": "Nome",
+                    "type": "string"
+                }
+            ],
+            "hasAction": true,
+            "components": [
+                {
+                    "tag": "app-acronet-charts",
+                    "props": {
+                        "url": "https://erddap1-dev.s4raise.it/erddap/tabledap/ACRONET.json?time%2CSTATION_ID%2CSTATION_NAME%2Clatitude%2Clongitude%2CRAINGAUGE%2CTEMP%2CHUMIDITY%2CWSPEED%2CPRESS%2CWSPEED_GUST&time>=now-2days&STATION_ID="
+                    }
+                }
+            ]
+        },
+        {
             "name": "Sensori San Martino",
             "id": "WEATHER_STATIONS_SAN_MARTINO",
             "url": "./geojson/san-martino-weather-station.geojson",
             "get": {},
             "style": {
-                "type": ["point"],
+                "type": [
+                    "point"
+                ],
                 "color": "#f5f10c",
                 "opacity": 1,
                 "icon": "🟡"
@@ -38,7 +154,7 @@
                     "tag": "app-san-martino-charts",
                     "props": {
                         "url": "https://cnr-udp.aitek.it/api/sensors/byId/"
-                    } 
+                    }
                 }
             ]
         },
@@ -48,7 +164,9 @@
             "url": "./geojson/san-martino-cameras.geojson",
             "get": {},
             "style": {
-                "type": ["point"],
+                "type": [
+                    "point"
+                ],
                 "color": "#1AA7EC",
                 "opacity": 1,
                 "icon": "🔵"

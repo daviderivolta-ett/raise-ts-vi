@@ -4,10 +4,10 @@
     {
       "name": "Impianti sportivi comunali",
       "id": "SITGEO:V_IMPIANTI_SPORTIVI",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "SITGEO:V_IMPIANTI_SPORTIVI",
+        "typeName": "aitek:SITGEO_V_IMPIANTI_SPORTIVI",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
@@ -75,49 +75,6 @@
         {
           "property_name": "PERICOLOS_INC",
           "display_name": "Pericolo incendio",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Aree ad uso sportivo",
-      "id": "URBANISTICA:V_VAS_SPORT",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
-      "get": {
-        "service": "WFS",
-        "typeName": "URBANISTICA:V_VAS_SPORT",
-        "outputFormat": "application/json",
-        "request": "GetFeature",
-        "srsname": "EPSG:4326"
-      },
-      "style": {
-        "type": ["area"],
-        "color": "#79f7fd",
-        "opacity": 0.5,
-        "icon": "🏟️"
-      },
-      "tags": [
-        "sport"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "TIPO",
-          "display_name": "Tipo",
-          "type": "string"
-        },
-        {
-          "property_name": "INDIRIZZO",
-          "display_name": "Indirizzo",
-          "type": "string"
-        },
-        {
-          "property_name": "MUNICIPIO",
-          "display_name": "Municipio",
-          "type": "string"
-        },
-        {
-          "property_name": "CATEGORIA",
-          "display_name": "Categoria",
           "type": "string"
         }
       ]

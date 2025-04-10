@@ -1,0 +1,1149 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio dell'Ordine di Malta",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533404192",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio dell'Ordine di Malta"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9289917,
+                    44.4114275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dottori",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap53463206899999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "256 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Struppa"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0135965,
+                    44.4496104
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio pediatrico",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533985333",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "1136"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio pediatrico"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0035883,
+                    44.394945
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio Giacometti",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533620697",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "38 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Paolo Giacometti"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio Giacometti"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9550119,
+                    44.4070578
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dottori",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap532249107",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7679331,
+                    44.4569776
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Croce Verde",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533410023",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Croce Verde"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9275522,
+                    44.4134501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio Medico Associato Colombini, Pellettieri, Solinas, Tauriello",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533886011",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio Medico Associato Colombini, Pellettieri, Solinas, Tauriello"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9685975,
+                    44.4200036
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dottori",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap5334179159999999",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza della Cernaia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9313319,
+                    44.4104597
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dottori",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533573181",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9490869,
+                    44.4082312
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio Associato Manesseno",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap5339530979999999",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "27"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Giacomo Poirè"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio Associato Manesseno"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9186041,
+                    44.4767057
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro giovani",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533344531",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "4a canc"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Rivoli"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro giovani"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9339169,
+                    44.4005362
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dottori",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap53367532600000004",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "118 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via delle Ginestre"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9444323,
+                    44.4231003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Servizio Disabili DSS 13",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap53386598299999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Servizio Disabili DSS 13"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9891157,
+                    44.3974826
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro Disturbi Alimentari",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap53386607999999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro Disturbi Alimentari"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9891144,
+                    44.3974936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio di Logopedia",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533849082",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio di Logopedia"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9882902,
+                    44.396618
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "CLIVIA",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533848032",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "CLIVIA"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9881868,
+                    44.3966164
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "NO Polo Riabilitativo Levante",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533847533",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "NO Polo Riabilitativo Levante"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9879073,
+                    44.396846
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "NO Polo Riabilitativo Levante",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap53384934",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "NO Polo Riabilitativo Levante"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9882484,
+                    44.3966856
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio Medico",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533455347",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio Medico"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comunità di Sant'Egidio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9304299,
+                    44.4151048
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dottori",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap532807944",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8653829,
+                    44.4154115
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio Medico del fine settimana",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533306436",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "2"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Croce Rosa"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio Medico del fine settimana"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8930384,
+                    44.4376052
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Croce Gialla",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533811859",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Angelo Scribanti"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Croce Gialla"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9751523,
+                    44.4060336
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dottori",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533448875",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9300598,
+                    44.4148277
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dottori",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533394507",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9251202,
+                    44.4143305
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dottori",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap53354171699999995",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9284743,
+                    44.4256974
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio Ortopedico Capuzzo",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533619055",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "11"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Leonardo da Vinci"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio Ortopedico Capuzzo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9640804,
+                    44.3978251
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dottor Gabriele Ridella",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap534016529",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Dottor Gabriele Ridella"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9039867,
+                    44.4976662
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dottor Alberto Naso",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap534016914",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Dottor Alberto Naso"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9039936,
+                    44.4976978
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "IRO Centro Diagnostico",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap53351677699999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "IRO Centro Diagnostico"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9451681,
+                    44.4065096
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Oculista",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533363967",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Oculista"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9350285,
+                    44.4013682
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Turtulici Istituto Radiologico",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533489808",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Turtulici Istituto Radiologico"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.942386,
+                    44.4065948
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dottori",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap53211680699999995",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7841075,
+                    44.4275732
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dottori",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap531808015",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7524198,
+                    44.4283817
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "K Medical",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533517825",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "K Medical"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9536762,
+                    44.3981063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "K medical",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap53351807",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "K medical"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.953697,
+                    44.39811
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "JB Medica",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap53339906299999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "JB Medica"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9355485,
+                    44.4043578
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Dottoressa Sara Casale",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap534030439",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Dottoressa Sara Casale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9036253,
+                    44.4994186
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio Medico",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap533360537",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio Medico"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9319486,
+                    44.4041051
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Palazzo della Salute Doria",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap534497558",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Palazzo della Salute Doria"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            9.0020716,
+                            44.4476842
+                        ],
+                        [
+                            9.0020942,
+                            44.4479424
+                        ],
+                        [
+                            9.0021064,
+                            44.4480809
+                        ],
+                        [
+                            9.0028146,
+                            44.4481194
+                        ],
+                        [
+                            9.0027665,
+                            44.4489297
+                        ],
+                        [
+                            9.002765,
+                            44.448955
+                        ],
+                        [
+                            9.0036795,
+                            44.4490032
+                        ],
+                        [
+                            9.003996,
+                            44.4490185
+                        ],
+                        [
+                            9.0041555,
+                            44.4490166
+                        ],
+                        [
+                            9.0042325,
+                            44.4490073
+                        ],
+                        [
+                            9.0042803,
+                            44.4489888
+                        ],
+                        [
+                            9.0043299,
+                            44.4489573
+                        ],
+                        [
+                            9.0043441,
+                            44.4488979
+                        ],
+                        [
+                            9.004379,
+                            44.4483705
+                        ],
+                        [
+                            9.0045592,
+                            44.4483662
+                        ],
+                        [
+                            9.0046067,
+                            44.4482254
+                        ],
+                        [
+                            9.0046314,
+                            44.4480783
+                        ],
+                        [
+                            9.0046477,
+                            44.4480533
+                        ],
+                        [
+                            9.0051781,
+                            44.4480559
+                        ],
+                        [
+                            9.0051641,
+                            44.4479852
+                        ],
+                        [
+                            9.0051396,
+                            44.4478103
+                        ],
+                        [
+                            9.0041633,
+                            44.4476573
+                        ],
+                        [
+                            9.0037263,
+                            44.4476132
+                        ],
+                        [
+                            9.0030994,
+                            44.447598
+                        ],
+                        [
+                            9.0026381,
+                            44.4476195
+                        ],
+                        [
+                            9.0020716,
+                            44.4476842
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Palazzo della Salute Sestri - ASL 3",
+                "layerId": "doctors_openstreetmap",
+                "uuid": "doctors_openstreetmap532683307",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "7"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Giacomo Soliman"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Palazzo della Salute Sestri - ASL 3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8436693,
+                            44.4246614
+                        ],
+                        [
+                            8.8437138,
+                            44.4246585
+                        ],
+                        [
+                            8.8438376,
+                            44.4246504
+                        ],
+                        [
+                            8.8438479,
+                            44.4246495
+                        ],
+                        [
+                            8.8438012,
+                            44.424315
+                        ],
+                        [
+                            8.8436662,
+                            44.424323
+                        ],
+                        [
+                            8.8436258,
+                            44.4243257
+                        ],
+                        [
+                            8.8436693,
+                            44.4246614
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

@@ -4,10 +4,10 @@
     {
       "name": "Alberi monumentali",
       "id": "L9671",
-      "url": "https://geoservizi.regione.liguria.it/geoserver/M2502/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "L9671",
+        "typeName": "aitek:M2502_L9671",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
@@ -98,10 +98,10 @@
     {
       "name": "Parchi e giardini",
       "id": "L8776",
-      "url": "https://geoservizi.regione.liguria.it/geoserver/M2342/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "L8776",
+        "typeName": "aitek:M2342_L8776",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"

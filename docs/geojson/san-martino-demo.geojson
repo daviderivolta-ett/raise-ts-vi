@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Entrata Ospedale San Martino"
+            },
+            "geometry": {
+                "coordinates": [
+                    8.969437304418351,
+                    44.40706632588079
+                ],
+                "type": "Point"
+            },
+            "id": 0
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Monoblocco San Martino"
+            },
+            "geometry": {
+                "coordinates": [
+                    8.975094410632341,
+                    44.40954893985544
+                ],
+                "type": "Point"
+            },
+            "id": 1
+        }
+    ]
+}

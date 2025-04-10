@@ -4,10 +4,10 @@
     {
       "name": "Parcheggi Bike Sharing",
       "id": "SITGEO:V_MOB_PARKS_BIKESHARING",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
+      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
       "get": {
         "service": "WFS",
-        "typeName": "SITGEO:V_MOB_PARKS_BIKESHARING",
+        "typeName": "aitek:SITGEO_V_MOB_PARKS_BIKESHARING",
         "outputFormat": "application/json",
         "request": "GetFeature",
         "srsname": "EPSG:4326"
@@ -26,80 +26,6 @@
         {
           "property_name": "NOME",
           "display_name": "Nome",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Piste ciclabili",
-      "id": "SITGEO:V_MOB_PISTE_CICLABILI",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
-      "get": {
-        "service": "WFS",
-        "typeName": "SITGEO:V_MOB_PISTE_CICLABILI",
-        "outputFormat": "application/json",
-        "request": "GetFeature",
-        "srsname": "EPSG:4326"
-      },
-      "style": {
-        "type": ["line"],
-        "color": "#51b6b0",
-        "opacity": 1,
-        "icon": "🚲",
-        "colorLevels": {
-          "key": "STATO",
-          "colors": {
-              "ESISTENTE": "green",
-              "IN ESECUZIONE-PROGRAMMAZIONE": "yellow"
-          }
-      }
-      },
-      "tags": [
-        "mobilità"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "NOME_TRATTA",
-          "display_name": "Tratta",
-          "type": "string"
-        },
-        {
-          "property_name": "TIPO",
-          "display_name": "Tipologia",
-          "type": "string"
-        },
-        {
-          "property_name": "STATO",
-          "display_name": "Condizione",
-          "type": "string"
-        }
-      ]
-    },
-    {
-      "name": "Aree pedonali",
-      "id": "SITGEO:V_MOB_AREE_PEDONALI",
-      "url": "https://mappe.comune.genova.it/geoserver/wfs/",
-      "get": {
-        "service": "WFS",
-        "typeName": "SITGEO:V_MOB_AREE_PEDONALI",
-        "outputFormat": "application/json",
-        "request": "GetFeature",
-        "srsname": "EPSG:4326"
-      },
-      "style": {
-        "type": ["area"],
-        "color": "#b3e27d",
-        "opacity": 0.5,
-        "icon": "🚶"
-      },
-      "tags": [
-        "mobilità",
-        "dati urbani"
-      ],
-      "relevant_properties": [
-        {
-          "property_name": "NOME_VIA",
-          "display_name": "Indirizzo",
           "type": "string"
         }
       ]

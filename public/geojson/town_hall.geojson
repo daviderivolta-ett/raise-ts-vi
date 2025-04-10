@@ -1,0 +1,651 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Municipio Bassa Val Bisagno",
+                "layerId": "townhall_openstreetmap",
+                "uuid": "townhall_openstreetmap533604378",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Municipio Bassa Val Bisagno"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9522871,
+                    44.4081507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Municipi",
+                "layerId": "townhall_openstreetmap",
+                "uuid": "townhall_openstreetmap532121146",
+                "props": []
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7843931,
+                    44.4277215
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Municipio 5 Valpolcevera",
+                "layerId": "townhall_openstreetmap",
+                "uuid": "townhall_openstreetmap53351820499999995",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Costantino Reta"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Municipio 5 Valpolcevera"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8971921,
+                    44.4546284
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Comune di Genova",
+                "layerId": "townhall_openstreetmap",
+                "uuid": "townhall_openstreetmap53317930600000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9067001,
+                    44.4112305
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Municipio 1 Centro Est",
+                "layerId": "townhall_openstreetmap",
+                "uuid": "townhall_openstreetmap533441897",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Area Organi Istituzionali"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Municipio 1 Centro Est"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9321789,
+                    44.4120108
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Municipio VIII Medio Levante",
+                "layerId": "townhall_openstreetmap",
+                "uuid": "townhall_openstreetmap533417287",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Municipio VIII Medio Levante"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9446011,
+                    44.3971276
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Comune di Genova",
+                "layerId": "townhall_openstreetmap",
+                "uuid": "townhall_openstreetmap53344008099999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9326277,
+                    44.4113804
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Uffici Municipio Levante",
+                "layerId": "townhall_openstreetmap",
+                "uuid": "townhall_openstreetmap53385843",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "6"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Maggio"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Uffici Municipio Levante"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9886081,
+                    44.3972349
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Municipio 1 Centro Est",
+                "layerId": "townhall_openstreetmap",
+                "uuid": "townhall_openstreetmap533404378",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via delle Fontane"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Municipio 1 Centro Est"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9270736,
+                            44.4133642
+                        ],
+                        [
+                            8.9271239,
+                            44.4134066
+                        ],
+                        [
+                            8.9271768,
+                            44.4134512
+                        ],
+                        [
+                            8.927187,
+                            44.4134446
+                        ],
+                        [
+                            8.9272302,
+                            44.4134178
+                        ],
+                        [
+                            8.9273627,
+                            44.4133491
+                        ],
+                        [
+                            8.9273736,
+                            44.4133588
+                        ],
+                        [
+                            8.9274283,
+                            44.4133237
+                        ],
+                        [
+                            8.9273125,
+                            44.4132318
+                        ],
+                        [
+                            8.927292,
+                            44.4132464
+                        ],
+                        [
+                            8.9272451,
+                            44.4132099
+                        ],
+                        [
+                            8.92722,
+                            44.4132248
+                        ],
+                        [
+                            8.927167,
+                            44.4132563
+                        ],
+                        [
+                            8.9271465,
+                            44.4132685
+                        ],
+                        [
+                            8.9271327,
+                            44.4132595
+                        ],
+                        [
+                            8.9271014,
+                            44.4132865
+                        ],
+                        [
+                            8.9271413,
+                            44.4133268
+                        ],
+                        [
+                            8.9270736,
+                            44.4133642
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Municipio",
+                "layerId": "townhall_openstreetmap",
+                "uuid": "townhall_openstreetmap53193497300000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Municipio"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.7480903,
+                            44.445407
+                        ],
+                        [
+                            8.7480797,
+                            44.4453701
+                        ],
+                        [
+                            8.7481584,
+                            44.4453584
+                        ],
+                        [
+                            8.7481347,
+                            44.445276
+                        ],
+                        [
+                            8.747864,
+                            44.445316
+                        ],
+                        [
+                            8.7478895,
+                            44.4454047
+                        ],
+                        [
+                            8.7479661,
+                            44.4453934
+                        ],
+                        [
+                            8.7479749,
+                            44.445424
+                        ],
+                        [
+                            8.7480903,
+                            44.445407
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Municipio di Sant'Olcese",
+                "layerId": "townhall_openstreetmap",
+                "uuid": "townhall_openstreetmap534513966",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Municipio di Sant'Olcese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9678616,
+                            44.483535
+                        ],
+                        [
+                            8.9679025,
+                            44.4835984
+                        ],
+                        [
+                            8.9679959,
+                            44.4835713
+                        ],
+                        [
+                            8.9680892,
+                            44.4835442
+                        ],
+                        [
+                            8.9680709,
+                            44.4834769
+                        ],
+                        [
+                            8.9678616,
+                            44.483535
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Municipio VII Ponente",
+                "layerId": "townhall_openstreetmap",
+                "uuid": "townhall_openstreetmap53179608",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Municipio VII Ponente"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.7516355,
+                            44.4279725
+                        ],
+                        [
+                            8.7516199,
+                            44.4277955
+                        ],
+                        [
+                            8.7513125,
+                            44.4278093
+                        ],
+                        [
+                            8.7513281,
+                            44.4279863
+                        ],
+                        [
+                            8.7513883,
+                            44.4279836
+                        ],
+                        [
+                            8.7515858,
+                            44.4279747
+                        ],
+                        [
+                            8.7516355,
+                            44.4279725
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Palazzo Albini",
+                "layerId": "townhall_openstreetmap",
+                "uuid": "townhall_openstreetmap533454178",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Palazzo Albini"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comune di Genova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9329914,
+                            44.4124264
+                        ],
+                        [
+                            8.932797,
+                            44.4119721
+                        ],
+                        [
+                            8.93266,
+                            44.412002
+                        ],
+                        [
+                            8.932621,
+                            44.411911
+                        ],
+                        [
+                            8.9330984,
+                            44.4118068
+                        ],
+                        [
+                            8.933062,
+                            44.4117218
+                        ],
+                        [
+                            8.9334005,
+                            44.4116479
+                        ],
+                        [
+                            8.9336313,
+                            44.4121874
+                        ],
+                        [
+                            8.9334562,
+                            44.4122256
+                        ],
+                        [
+                            8.9331703,
+                            44.4122881
+                        ],
+                        [
+                            8.9332091,
+                            44.4123789
+                        ],
+                        [
+                            8.9329914,
+                            44.4124264
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Palazzo municipale",
+                "layerId": "townhall_openstreetmap",
+                "uuid": "townhall_openstreetmap534004189",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Palazzo municipale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        8.9038566,
+                        44.4965623
+                    ],
+                    [
+                        8.9039445,
+                        44.4964514
+                    ],
+                    [
+                        8.9039983,
+                        44.4963834
+                    ],
+                    [
+                        8.9040185,
+                        44.496358
+                    ],
+                    [
+                        8.9040472,
+                        44.4963218
+                    ],
+                    [
+                        8.9039944,
+                        44.4963005
+                    ],
+                    [
+                        8.9037215,
+                        44.4961905
+                    ],
+                    [
+                        8.903531,
+                        44.4964309
+                    ],
+                    [
+                        8.9038566,
+                        44.4965623
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Palazzo municipale",
+                "layerId": "townhall_openstreetmap",
+                "uuid": "townhall_openstreetmap53400113399999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Palazzo municipale"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        8.9037028,
+                        44.4964106
+                    ],
+                    [
+                        8.9037818,
+                        44.4963139
+                    ],
+                    [
+                        8.903873,
+                        44.496352
+                    ],
+                    [
+                        8.9037938,
+                        44.4964487
+                    ],
+                    [
+                        8.9037028,
+                        44.4964106
+                    ]
+                ]
+            }
+        }
+    ]
+}

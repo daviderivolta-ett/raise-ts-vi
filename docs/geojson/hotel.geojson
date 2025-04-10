@@ -1,0 +1,4136 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Starhotels President",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53353294500000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Starhotels President"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9484129,
+                    44.4048816
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "NH Genova Centro",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533489224",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "NH Genova Centro"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.938075,
+                    44.4108474
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Novotel Genova Ovest",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533131105",
+                "props": [
+                    {
+                        "propertyName": "brand",
+                        "displayName": "Brand",
+                        "type": "string",
+                        "value": "Novotel"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Novotel Genova Ovest"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9026436,
+                    44.4104669
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Grand Hotel Savoia",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53339992300000006",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "5"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Arsenale di Terra"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Grand Hotel Savoia"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "5"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9230123,
+                    44.41698
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Tower Genova airport",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap532705273",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "44"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Pionieri ed Aviatori d'Italia"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Tower Genova airport"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8536501,
+                    44.4168772
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Astoria",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533527448",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "4"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Brignole"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Astoria"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9435457,
+                    44.4091991
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "BEST WESTERN City Hotel",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533447555",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "6"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Sebastiano"
+                    },
+                    {
+                        "propertyName": "brand",
+                        "displayName": "Brand",
+                        "type": "string",
+                        "value": "Best Western"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "BEST WESTERN City Hotel"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9354674,
+                    44.4092881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Mini Hotel",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53341813800000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Mini Hotel"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9292802,
+                    44.4125336
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Helvetia",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533421653",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Helvetia"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9286938,
+                    44.4134715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Soglia Hotel Genova",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53340239600000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Soglia Hotel Genova"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.924413,
+                    44.4158266
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "NH Collection Genova Marina",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533378669",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "5"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Molo Ponte Calvi"
+                    },
+                    {
+                        "propertyName": "brand",
+                        "displayName": "Brand",
+                        "type": "string",
+                        "value": "NH Hotels"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "NH Collection Genova Marina"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.926761,
+                    44.4111059
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Best Western Hotel Moderno Verdi",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533523098",
+                "props": [
+                    {
+                        "propertyName": "brand",
+                        "displayName": "Brand",
+                        "type": "string",
+                        "value": "Best Western"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Best Western Hotel Moderno Verdi"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.945353,
+                    44.4069568
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Agnello D'Oro",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533395737",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Agnello D'Oro"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9237289,
+                    44.4158448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Comfort Hotel Europa",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533397339",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "8"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Vico delle Monachette"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Comfort Hotel Europa"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9236753,
+                    44.4160586
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Meliã",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53339892600000006",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "4"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Corsica"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Meliã"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "5"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9381435,
+                    44.4017491
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel No Logo",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53349766",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel No Logo"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9424907,
+                    44.4072753
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hermitage",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53354768799999995",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hermitage"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9567712,
+                    44.3979976
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Veronese",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533400032",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Vico Cicala"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Veronese"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9289986,
+                    44.4110046
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Galles",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533362843",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Galles"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9203793,
+                    44.415905
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Galata",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53337161",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Galata"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9211936,
+                    44.4159674
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "La Capannina",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53364010699999994",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "La Capannina"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9729554,
+                    44.3910553
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cairoli",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53342963000000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cairoli"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9301175,
+                    44.4128455
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Albergo Caffaro",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533467111",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Albergo Caffaro"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9347546,
+                    44.4119565
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Acquaverde",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533402707",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Acquaverde"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9239221,
+                    44.4163486
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Boccascena",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533489807",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "62 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Carlo Barabino"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Boccascena"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9490435,
+                    44.3999372
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Ricci",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap5334919909999999",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Colombo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Ricci"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9431537,
+                    44.4060454
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Alexander",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53336156700000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Alexander"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9201904,
+                    44.4159663
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Chopin",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53337534500000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Chopin"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9216212,
+                    44.4159133
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Colombo",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533397682",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "27"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di Porta Soprana"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Colombo"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9338877,
+                    44.4058805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Nettuno Lido",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533634503",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Nettuno Lido"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9722172,
+                    44.3912331
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Rex",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53364733199999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Rex"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9728438,
+                    44.3918894
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Vittoria",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533405527",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Vittoria"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9237504,
+                    44.4168023
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ginevra",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533409325",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ginevra"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9252765,
+                    44.415656
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Brignole",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53351746999999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "13R"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Vico del Corallo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Brignole"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9447123,
+                    44.4070347
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Modena",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533021196",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Modena"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8903881,
+                    44.4117315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Primavera",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap532993931",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Primavera"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8878605,
+                    44.4115326
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Iris",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533867017",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Iris"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9976958,
+                    44.3890059
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Acquario",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533411806",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Acquario"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9293783,
+                    44.4118023
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Major",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533444793",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Major"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9343435,
+                    44.4101358
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Bel Soggiorno",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533467178",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Bel Soggiorno"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9407692,
+                    44.4059486
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Astro",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533486252",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3/21"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Venti Settembre"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Astro"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9435689,
+                    44.4050563
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Bruxelles Margherita",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533466226",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "19"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Venti Settembre"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Bruxelles Margherita"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9408779,
+                    44.4057447
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Fiume",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533506853",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "9r"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Fiume"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Fiume"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9448061,
+                    44.4058792
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Novecento",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53353678200000004",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "4"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Gropallo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Novecento"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9438473,
+                    44.4098309
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Olympia",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533462114",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Olympia"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9403857,
+                    44.4058257
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Laurens",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53361413399999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "7"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Giordano Bruno"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Laurens"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9701247,
+                    44.3912887
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Tirreno",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533764415",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via dei Mille"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Tirreno"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9831749,
+                    44.3932666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Soana",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53346102",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "23"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Venti Settembre"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Soana"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9400238,
+                    44.4060782
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Bologna",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53340829299999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Bologna"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9266848,
+                    44.4141445
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Nuovo nord",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53340379799999994",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Nuovo nord"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9241967,
+                    44.4161831
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Elena",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533409547",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Elena"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9253741,
+                    44.4155806
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Assarotti",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533553987",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Assarotti"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9430852,
+                    44.4123135
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Tommaseo",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533550164",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "18/4"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Monte Suello"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Tommaseo"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9532507,
+                    44.4017657
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Bar Armonia",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533400649",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Bar Armonia"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9262922,
+                    44.4137727
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Della Posta",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533403766",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Della Posta"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9246766,
+                    44.4157
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Best Western Metropoli",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533450544",
+                "props": [
+                    {
+                        "propertyName": "brand",
+                        "displayName": "Brand",
+                        "type": "string",
+                        "value": "Best Western"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Best Western Metropoli"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Best Western"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.935048,
+                    44.4100064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Barone",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53348640399999994",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Barone"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9439362,
+                    44.4047042
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Balbi Genova",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533405623",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "21"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Balbi"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Balbi Genova"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9246399,
+                    44.4159224
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Principe",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53336387",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Principe"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9202416,
+                    44.4161454
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Bar Hotel Serafino",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap532839726",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Bar Hotel Serafino"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8692772,
+                    44.4146954
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Massena",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53292707",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Massena"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8761204,
+                    44.4165866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Fiorita",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533010663",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "59"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Pier d'Arena"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Fiorita"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8915512,
+                    44.4095151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Euro",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap5330332610000001",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Pier d'Arena"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Euro"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8944571,
+                    44.408869
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "BEST WESTERN Hotel Porto Antico",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53340510300000005",
+                "props": [
+                    {
+                        "propertyName": "brand",
+                        "displayName": "Brand",
+                        "type": "string",
+                        "value": "Best Western"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "BEST WESTERN Hotel Porto Antico"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9287126,
+                    44.4117977
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Le 3 Stazioni",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53331347799999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "25"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via San Benedetto"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Le 3 Stazioni"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9156389,
+                    44.4157089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Il giardino di Albaro",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533641402",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "19"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Oreste De Gaspari"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Il giardino di Albaro"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9713507,
+                    44.3927895
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Fieramare",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533501972",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Fieramare"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9497033,
+                    44.4004939
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Arcobaleno",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533501101",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Arcobaleno"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9496843,
+                    44.4004258
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Holiday Inn",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533198653",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "47"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Milano"
+                    },
+                    {
+                        "propertyName": "brand",
+                        "displayName": "Brand",
+                        "type": "string",
+                        "value": "Holiday Inn"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Holiday Inn"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9082745,
+                    44.4115908
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Lucia",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53336875500000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Lucia"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9209073,
+                    44.4159682
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Albergo Parigi",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533382333",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Albergo Parigi"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9226444,
+                    44.4155889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Albergo Rinascente",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53338839",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Albergo Rinascente"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9233377,
+                    44.4155013
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Lausanne",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533407124",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Lausanne"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.923941,
+                    44.4167714
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Locanda di Palazzo Cicala",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533388444",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "16"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza di San Lorenzo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Locanda di Palazzo Cicala"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.930681,
+                    44.4081634
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Actor Hotel",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53351815800000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Actor Hotel"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9394543,
+                    44.4123615
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Argentina",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533536346",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Gropallo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Argentina"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9438387,
+                    44.4097959
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Albergo Boccadasse",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533694067",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "14a"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Boccadasse"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Albergo Boccadasse"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9758053,
+                    44.3936014
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Albergo Puppo",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap532392765",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Albergo Puppo"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.814776,
+                    44.4245005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Castello Miramare",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap532365801",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Castello Miramare"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8122433,
+                    44.4243368
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Paradiso",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533018616",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Paradiso"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8924996,
+                    44.409362
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Bristol Palace",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533431094",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "35"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Venti Settembre"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Bristol Palace"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9362672,
+                    44.4068422
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Marina Place Resort",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53255488299999996",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "129"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Pionieri e Aviatori d’Italia"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Marina Place Resort"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8404775,
+                    44.4150108
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa del Pellegrino",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53352861",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "31a"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza del Santuario"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa del Pellegrino"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "San Giorgio ristorazione coop"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8620077,
+                    44.4908533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Bernheof",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53340876",
+                "props": [
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "Ingresso principale all'albergo diffuso"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Bernheof"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9252873,
+                    44.4155887
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Agricampeggio Dearca",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap534865827",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "29"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Loc. Piani di Creto"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Agricampeggio Dearca"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0108762,
+                    44.4757065
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Albergo Doria",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533433305",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Vico dei Garibaldi"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Albergo Doria"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9343114,
+                    44.4090191
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Bellevue",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap5333991279999999",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Bellevue"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9224888,
+                    44.417424
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Britannia",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533397237",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "38"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Balbi"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Britannia"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9234746,
+                    44.4162491
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Genziana",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53340619000000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Genziana"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "1"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9306003,
+                    44.4100187
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Cantore",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533043068",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Cantore"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.892598,
+                    44.4117088
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Megan Hotel",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53297911299999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Megan Hotel"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8872143,
+                    44.410697
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Suisse",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533461419",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Suisse"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9402937,
+                    44.4058482
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Cairoli",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533427927",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "14/4"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Cairoli"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Cairoli"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Gierrea S.n.c. di Garbellini Luigi e Romano Giovanni"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9299056,
+                    44.4128871
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "B&B Hotel Genova",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533386665",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "1"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza Acquaverde"
+                    },
+                    {
+                        "propertyName": "brand",
+                        "displayName": "Brand",
+                        "type": "string",
+                        "value": "B&B Hotels"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "B&B Hotel Genova"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.922518,
+                    44.4161485
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Continental Genoa",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53340065100000004",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "1"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Arsenale di Terra"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Continental Genoa"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9233607,
+                    44.4167044
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Palazzo Grillo",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533404819",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "4"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazza delle Vigne"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Palazzo Grillo"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9310118,
+                    44.4094701
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Check Inn Rooms",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53346569200000005",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "19/5"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Venti Settembre"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Check Inn Rooms"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9408151,
+                    44.4057541
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "HNN Luxury suites",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53340225600000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "HNN Luxury suites"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9238215,
+                    44.4164041
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533132221",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "8"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Antonio Cantore"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9026778,
+                    44.4105443
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Iris",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533862823",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via G. Rossetti"
+                    },
+                    {
+                        "propertyName": "description",
+                        "displayName": "Descrizione",
+                        "type": "string",
+                        "value": "***"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Iris"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9976634,
+                    44.3886189
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel  Royal",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533387558",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel  Royal"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9231969,
+                    44.4155589
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "AC Hotel Genova",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533937059",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "1075"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Corso Europa"
+                    },
+                    {
+                        "propertyName": "brand",
+                        "displayName": "Brand",
+                        "type": "string",
+                        "value": "AC Hotel"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "AC Hotel Genova"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Marriott"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0000311,
+                    44.3936748
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Le Nuvole",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533404977",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Le Nuvole"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9308714,
+                    44.4096263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "B&B Hotel Genova City Center",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53344498599999994",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "B&B Hotel Genova City Center"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9396984,
+                    44.4048002
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "NH Genova Centro",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap533494894",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "11"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Martin Piaggio"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "NH Genova Centro"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.938454,
+                            44.4110354
+                        ],
+                        [
+                            8.9383472,
+                            44.4109978
+                        ],
+                        [
+                            8.9383353,
+                            44.4110115
+                        ],
+                        [
+                            8.9380039,
+                            44.4108687
+                        ],
+                        [
+                            8.9379205,
+                            44.4109691
+                        ],
+                        [
+                            8.9383694,
+                            44.4111353
+                        ],
+                        [
+                            8.938454,
+                            44.4110354
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Mediterranee",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53237887900000004",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Mediterranee"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.812834,
+                            44.4250539
+                        ],
+                        [
+                            8.8129027,
+                            44.4252259
+                        ],
+                        [
+                            8.8130213,
+                            44.4252028
+                        ],
+                        [
+                            8.8132778,
+                            44.425157
+                        ],
+                        [
+                            8.8132711,
+                            44.4251352
+                        ],
+                        [
+                            8.8135786,
+                            44.4250869
+                        ],
+                        [
+                            8.8135729,
+                            44.4250603
+                        ],
+                        [
+                            8.8137208,
+                            44.4250371
+                        ],
+                        [
+                            8.8136852,
+                            44.4249111
+                        ],
+                        [
+                            8.8136694,
+                            44.424855
+                        ],
+                        [
+                            8.8131758,
+                            44.4249134
+                        ],
+                        [
+                            8.8131495,
+                            44.4249437
+                        ],
+                        [
+                            8.8131433,
+                            44.4249443
+                        ],
+                        [
+                            8.8130209,
+                            44.4249556
+                        ],
+                        [
+                            8.8129773,
+                            44.4249357
+                        ],
+                        [
+                            8.8128934,
+                            44.4249472
+                        ],
+                        [
+                            8.812834,
+                            44.4250539
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Sirenella",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap531826466",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Sirenella"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.75467,
+                            44.4279766
+                        ],
+                        [
+                            8.7546738,
+                            44.4278776
+                        ],
+                        [
+                            8.7549022,
+                            44.4278768
+                        ],
+                        [
+                            8.7549845,
+                            44.4278122
+                        ],
+                        [
+                            8.7549865,
+                            44.4277565
+                        ],
+                        [
+                            8.754585,
+                            44.4277591
+                        ],
+                        [
+                            8.7545857,
+                            44.4279752
+                        ],
+                        [
+                            8.75467,
+                            44.4279766
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Columbus Sea",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53314927700000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Columbus Sea"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9066387,
+                            44.408289
+                        ],
+                        [
+                            8.9066783,
+                            44.4083988
+                        ],
+                        [
+                            8.9067142,
+                            44.4083943
+                        ],
+                        [
+                            8.9068536,
+                            44.4088016
+                        ],
+                        [
+                            8.9066612,
+                            44.4088334
+                        ],
+                        [
+                            8.9065066,
+                            44.4084309
+                        ],
+                        [
+                            8.9065165,
+                            44.4084277
+                        ],
+                        [
+                            8.9064788,
+                            44.4083127
+                        ],
+                        [
+                            8.9066387,
+                            44.408289
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Mercure",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap53372719499999995",
+                "props": [
+                    {
+                        "propertyName": "brand",
+                        "displayName": "Brand",
+                        "type": "string",
+                        "value": "Mercure"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Mercure"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "4"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8970668,
+                            44.4756527
+                        ],
+                        [
+                            8.8970357,
+                            44.4756679
+                        ],
+                        [
+                            8.8970185,
+                            44.4756806
+                        ],
+                        [
+                            8.8970055,
+                            44.4756965
+                        ],
+                        [
+                            8.8969954,
+                            44.4757156
+                        ],
+                        [
+                            8.896988,
+                            44.4757362
+                        ],
+                        [
+                            8.8968532,
+                            44.4758451
+                        ],
+                        [
+                            8.8966149,
+                            44.4760434
+                        ],
+                        [
+                            8.8965945,
+                            44.4760293
+                        ],
+                        [
+                            8.8965666,
+                            44.4760498
+                        ],
+                        [
+                            8.8965938,
+                            44.4760683
+                        ],
+                        [
+                            8.8966315,
+                            44.4760947
+                        ],
+                        [
+                            8.8966675,
+                            44.4761196
+                        ],
+                        [
+                            8.8966836,
+                            44.4761077
+                        ],
+                        [
+                            8.8967617,
+                            44.4761532
+                        ],
+                        [
+                            8.8971586,
+                            44.4758246
+                        ],
+                        [
+                            8.897108,
+                            44.4757869
+                        ],
+                        [
+                            8.8971774,
+                            44.4757094
+                        ],
+                        [
+                            8.8972465,
+                            44.4757329
+                        ],
+                        [
+                            8.8974921,
+                            44.4753889
+                        ],
+                        [
+                            8.897521,
+                            44.4753989
+                        ],
+                        [
+                            8.8975793,
+                            44.4753207
+                        ],
+                        [
+                            8.8974204,
+                            44.4752611
+                        ],
+                        [
+                            8.8973849,
+                            44.4753099
+                        ],
+                        [
+                            8.897325,
+                            44.4752874
+                        ],
+                        [
+                            8.8970668,
+                            44.4756527
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Hotel Villa delle Due Palme",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap531530162",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Hotel Villa delle Due Palme"
+                    },
+                    {
+                        "propertyName": "stars",
+                        "displayName": "stelle",
+                        "type": "string",
+                        "value": "2"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.7316444,
+                            44.4213718
+                        ],
+                        [
+                            8.7316644,
+                            44.4213527
+                        ],
+                        [
+                            8.7315725,
+                            44.4213052
+                        ],
+                        [
+                            8.7315824,
+                            44.4212955
+                        ],
+                        [
+                            8.7315624,
+                            44.4212852
+                        ],
+                        [
+                            8.7315713,
+                            44.4212753
+                        ],
+                        [
+                            8.7315454,
+                            44.421262
+                        ],
+                        [
+                            8.7315526,
+                            44.4212544
+                        ],
+                        [
+                            8.7314376,
+                            44.4212009
+                        ],
+                        [
+                            8.7313933,
+                            44.4212504
+                        ],
+                        [
+                            8.7314384,
+                            44.4212713
+                        ],
+                        [
+                            8.7314035,
+                            44.4213112
+                        ],
+                        [
+                            8.7314483,
+                            44.4213333
+                        ],
+                        [
+                            8.7313829,
+                            44.4214105
+                        ],
+                        [
+                            8.7315613,
+                            44.4214897
+                        ],
+                        [
+                            8.7316444,
+                            44.4215411
+                        ],
+                        [
+                            8.7316701,
+                            44.4215207
+                        ],
+                        [
+                            8.7316373,
+                            44.4215019
+                        ],
+                        [
+                            8.7316525,
+                            44.4214829
+                        ],
+                        [
+                            8.7316307,
+                            44.421475
+                        ],
+                        [
+                            8.7316543,
+                            44.4214243
+                        ],
+                        [
+                            8.7316467,
+                            44.4214178
+                        ],
+                        [
+                            8.7316803,
+                            44.4213972
+                        ],
+                        [
+                            8.7316444,
+                            44.4213718
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Best Western Premier CHC Airport",
+                "layerId": "hotel_openstreetmap",
+                "uuid": "hotel_openstreetmap532765452",
+                "props": [
+                    {
+                        "propertyName": "brand",
+                        "displayName": "Brand",
+                        "type": "string",
+                        "value": "Best Western Premier"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Best Western Premier CHC Airport"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.85507,
+                            44.4214752
+                        ],
+                        [
+                            8.8552435,
+                            44.4214145
+                        ],
+                        [
+                            8.8549422,
+                            44.4209752
+                        ],
+                        [
+                            8.8547687,
+                            44.4210359
+                        ],
+                        [
+                            8.85507,
+                            44.4214752
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

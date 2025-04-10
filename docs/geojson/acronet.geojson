@@ -1,0 +1,173 @@
+{
+    "type": "FeatureCollection",
+    "propertyNames": [
+        "id",
+        "STATION_NAME"
+    ],
+    "propertyUnits": [
+        null,
+        null
+    ],
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.939134,
+                    44.511955
+                ]
+            },
+            "properties": {
+                "id": 200043683,
+                "STATION_NAME": "Ungaretti"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.922596,
+                    44.40827
+                ]
+            },
+            "properties": {
+                "id": 200044100,
+                "STATION_NAME": "Porto Antico Genova"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.320283,
+                    44.312637
+                ]
+            },
+            "properties": {
+                "id": 200262737,
+                "STATION_NAME": "Marina Chiavari S.R.L."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.686734,
+                    44.406998
+                ]
+            },
+            "properties": {
+                "id": 200262843,
+                "STATION_NAME": "Villa Figoli"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.494204,
+                    44.395733
+                ]
+            },
+            "properties": {
+                "id": 200262845,
+                "STATION_NAME": "Scuola Stella San Giovanni"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.810751,
+                    44.42659
+                ]
+            },
+            "properties": {
+                "id": 200262846,
+                "STATION_NAME": "IC Pegli - Villa Rosa"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.747984,
+                    44.445347
+                ]
+            },
+            "properties": {
+                "id": 200262847,
+                "STATION_NAME": "Mele Municipio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.929864,
+                    44.493633
+                ]
+            },
+            "properties": {
+                "id": 200262855,
+                "STATION_NAME": "Comago"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.641541,
+                    44.43832
+                ]
+            },
+            "properties": {
+                "id": 200262904,
+                "STATION_NAME": "Rifugio Argentea"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.700902,
+                    44.45025
+                ]
+            },
+            "properties": {
+                "id": 200263006,
+                "STATION_NAME": "Sambuco"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.888139,
+                    44.445854
+                ]
+            },
+            "properties": {
+                "id": 200263007,
+                "STATION_NAME": "Scuola Primaria Villa Sanguineti (Teglia)"
+            }
+        }
+    ],
+    "bbox": [
+        8.494204,
+        44.312637,
+        9.320283,
+        44.511955
+    ]
+}

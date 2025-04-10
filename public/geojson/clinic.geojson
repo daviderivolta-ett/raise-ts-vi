@@ -1,0 +1,1934 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Consultorio Familiare",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533758484",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Consultorio Familiare"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9589596,
+                    44.4168888
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ASL 3 Genovese",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53358469",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9454296,
+                    44.4130394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Istituto di analisi Il Baluardo",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533334718",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "2"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Piazzale Porta del Molo"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Istituto di analisi Il Baluardo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9254107,
+                    44.4080611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Presidio pediatrico",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533400073",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "50"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di Prè"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Presidio pediatrico"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Caritas"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9261561,
+                    44.4138512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio pediatrico camici e pigiami",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533415787",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via di San Siro"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio pediatrico camici e pigiami"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Città Aperta"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9297624,
+                    44.4118163
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533435859",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "41r"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Vico del Duca"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Associzione ambulatorio iternazionale città aperta"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9325325,
+                    44.4110534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533433304",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "18"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Vico del Duca"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Comitato umanità nuova"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.932378,
+                    44.4109524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Istituto Salus - Alliance Medical",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap5334217890000001",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Istituto Salus - Alliance Medical"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9446556,
+                    44.3975233
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Biomedical SpA",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53222492499999994",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "1b"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Prà"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Biomedical SpA"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7967927,
+                    44.4256998
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533375505",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Parrocchia San Donato"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9316448,
+                    44.4059057
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Palazzo della Salute - Villa De Mari - ASL 3",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap531993097",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "1b"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via De Mari"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Palazzo della Salute - Villa De Mari - ASL 3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7711159,
+                    44.4281938
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Studio Gazzerro",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533530789",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Studio Gazzerro"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9488613,
+                    44.4042176
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Consultorio Familiare",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533874803",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Giovanni Maggio"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Consultorio Familiare"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9916815,
+                    44.3957988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Salute Mentale",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53387480499999995",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Giovanni Maggio"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Salute Mentale"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9917512,
+                    44.3957293
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Consultorio familiare",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533987934",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Consultorio familiare"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8995844,
+                    44.499209
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "SerT Distretto 13",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533850421",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "SerT Distretto 13"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9890788,
+                    44.3959633
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "ISPRE",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533539222",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "29 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Antiochia"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "ISPRE"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9496257,
+                    44.4042965
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio sovrazonale autismo",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533858307",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio sovrazonale autismo"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.989464,
+                    44.3963667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Baluardo TMA Centro Medico Diagnostico",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533709396",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "48"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Montallegro"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Baluardo TMA Centro Medico Diagnostico"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Gruppo il Baluardo SpA"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9672792,
+                    44.4036604
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Infermeria",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53265270799999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Infermeria"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Aeroporto di Genova Spa plc"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8500684,
+                    44.4152024
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cicìo",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53369542300000006",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cicìo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9557744,
+                    44.4137679
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro di Salute Mentale",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53365943400000006",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro di Salute Mentale"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9019218,
+                    44.4640216
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Consultorio Familiare",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53366072900000006",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Consultorio Familiare"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9019728,
+                    44.4641001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro di Salute Mentale",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53351208799999995",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "3"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Corso Paganini"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro di Salute Mentale"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9360204,
+                    44.4151884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Opera Giosue' Signori - Istituto Medico Psicopedagogico",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53360108100000005",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Opera Giosue' Signori - Istituto Medico Psicopedagogico"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9405738,
+                    44.4195343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa della Salute ASL 3",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53177877099999996",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa della Salute ASL 3"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Azienda Sanitaria Ligure 3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7500042,
+                    44.4278729
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Fisioterapia & Medicina",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap5333458709999999",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Fisioterapia & Medicina"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9343653,
+                    44.4002218
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cliniche",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533860564",
+                "props": [
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9849657,
+                    44.4010907
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Consultorio Familiare",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53358310700000004",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "35"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Assarotti"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Consultorio Familiare"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9453089,
+                    44.4130018
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Laboratorio Albaro",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533650661",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Laboratorio Albaro"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9677265,
+                    44.3973396
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Consultorio Familiare",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533344861",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Consultorio Familiare"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9339716,
+                    44.4005145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa della Salute Quarto",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533940542",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa della Salute Quarto"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0004319,
+                    44.3936223
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Istituto Salus - Alliance Medical",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53343784",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "33 rosso"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Polleri"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Istituto Salus - Alliance Medical"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9296538,
+                    44.4141302
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Consultorio Familiare",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533372203",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "9"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via del Lagaccio"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Consultorio Familiare"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9187657,
+                    44.4184546
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa della Salute Multedo",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap532597101",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa della Salute Multedo"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8333887,
+                    44.4263214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "CAU Struppa",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53463867500000006",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "246c"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Struppa"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "CAU Struppa"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0138839,
+                    44.4499836
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Casa della Salute",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533722652",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Casa della Salute"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Casa della Saute"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.8991788,
+                    44.4730864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Punto Infermieristico Territoriale",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533849834",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Punto Infermieristico Territoriale"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9012552,
+                    44.4837282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Villa Esperia",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533629729",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Villa Esperia"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.954239,
+                    44.4087339
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "salute mentale voltri",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap531814795",
+                "props": [
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Lemerle"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "salute mentale voltri"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "asl3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7524332,
+                    44.4290463
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Cerba HealthCare Italia",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap534014201",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Cerba HealthCare Italia"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Cerba HealthCare SA"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9025167,
+                    44.4989034
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Villa Serena",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap533591007",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Villa Serena"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9612597,
+                            44.397841
+                        ],
+                        [
+                            8.961481,
+                            44.3978581
+                        ],
+                        [
+                            8.9614529,
+                            44.3980433
+                        ],
+                        [
+                            8.9616403,
+                            44.3980579
+                        ],
+                        [
+                            8.9616947,
+                            44.3977002
+                        ],
+                        [
+                            8.9614446,
+                            44.3976808
+                        ],
+                        [
+                            8.9614695,
+                            44.397517
+                        ],
+                        [
+                            8.9613327,
+                            44.3975064
+                        ],
+                        [
+                            8.9613072,
+                            44.3976745
+                        ],
+                        [
+                            8.9612853,
+                            44.3976728
+                        ],
+                        [
+                            8.9612597,
+                            44.397841
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio medico di prima accoglienza",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53398332999999994",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio medico di prima accoglienza"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8993341,
+                            44.4989989
+                        ],
+                        [
+                            8.8993536,
+                            44.4989928
+                        ],
+                        [
+                            8.8993384,
+                            44.4989684
+                        ],
+                        [
+                            8.8993115,
+                            44.4989276
+                        ],
+                        [
+                            8.8992551,
+                            44.4988418
+                        ],
+                        [
+                            8.8992473,
+                            44.4988299
+                        ],
+                        [
+                            8.8992447,
+                            44.498826
+                        ],
+                        [
+                            8.899214,
+                            44.4988363
+                        ],
+                        [
+                            8.8989559,
+                            44.4989226
+                        ],
+                        [
+                            8.8990333,
+                            44.4990404
+                        ],
+                        [
+                            8.8991792,
+                            44.4989916
+                        ],
+                        [
+                            8.8992095,
+                            44.4990378
+                        ],
+                        [
+                            8.8993341,
+                            44.4989989
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio medico Morego",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53376494",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio medico Morego"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Cooperativa SABA"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9008999,
+                            44.4755941
+                        ],
+                        [
+                            8.9008882,
+                            44.4756769
+                        ],
+                        [
+                            8.9009403,
+                            44.4756806
+                        ],
+                        [
+                            8.9009324,
+                            44.4757361
+                        ],
+                        [
+                            8.9010113,
+                            44.4757418
+                        ],
+                        [
+                            8.9010139,
+                            44.4757233
+                        ],
+                        [
+                            8.9011253,
+                            44.4757313
+                        ],
+                        [
+                            8.9011325,
+                            44.4756801
+                        ],
+                        [
+                            8.9011556,
+                            44.4756817
+                        ],
+                        [
+                            8.9011634,
+                            44.4756269
+                        ],
+                        [
+                            8.9010914,
+                            44.4756217
+                        ],
+                        [
+                            8.9010933,
+                            44.4756081
+                        ],
+                        [
+                            8.9008999,
+                            44.4755941
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Centro diurno anziani Brignole Sede",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53349477",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "26A"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Corso Firenze"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Centro diurno anziani Brignole Sede"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASP Emanuele Brignole"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.9311381,
+                            44.4183389
+                        ],
+                        [
+                            8.9311298,
+                            44.4184576
+                        ],
+                        [
+                            8.9311103,
+                            44.418658
+                        ],
+                        [
+                            8.9312759,
+                            44.4186649
+                        ],
+                        [
+                            8.9312844,
+                            44.4185631
+                        ],
+                        [
+                            8.9313035,
+                            44.4185639
+                        ],
+                        [
+                            8.9313057,
+                            44.4185354
+                        ],
+                        [
+                            8.9312846,
+                            44.4185343
+                        ],
+                        [
+                            8.9312994,
+                            44.4183869
+                        ],
+                        [
+                            8.9313104,
+                            44.4182779
+                        ],
+                        [
+                            8.931331,
+                            44.4182788
+                        ],
+                        [
+                            8.9313337,
+                            44.4182474
+                        ],
+                        [
+                            8.9313131,
+                            44.4182467
+                        ],
+                        [
+                            8.9313201,
+                            44.418147
+                        ],
+                        [
+                            8.931165,
+                            44.4181414
+                        ],
+                        [
+                            8.9311472,
+                            44.4181407
+                        ],
+                        [
+                            8.9311381,
+                            44.4183389
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Palazzo della Salute Martinez",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap53229212399999994",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Palazzo della Salute Martinez"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "Azienda Sanitaria Ligure 3"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8052891,
+                            44.4239233
+                        ],
+                        [
+                            8.8052607,
+                            44.4239361
+                        ],
+                        [
+                            8.8052391,
+                            44.4239581
+                        ],
+                        [
+                            8.8052324,
+                            44.4239788
+                        ],
+                        [
+                            8.8052834,
+                            44.4242111
+                        ],
+                        [
+                            8.8053951,
+                            44.4241746
+                        ],
+                        [
+                            8.8054641,
+                            44.4242257
+                        ],
+                        [
+                            8.8058102,
+                            44.4239873
+                        ],
+                        [
+                            8.8057248,
+                            44.4239242
+                        ],
+                        [
+                            8.8057008,
+                            44.4239167
+                        ],
+                        [
+                            8.8056373,
+                            44.423923
+                        ],
+                        [
+                            8.8054843,
+                            44.4240348
+                        ],
+                        [
+                            8.8054219,
+                            44.4240419
+                        ],
+                        [
+                            8.8054009,
+                            44.4239529
+                        ],
+                        [
+                            8.8053883,
+                            44.4239401
+                        ],
+                        [
+                            8.8053632,
+                            44.4239262
+                        ],
+                        [
+                            8.8053282,
+                            44.4239191
+                        ],
+                        [
+                            8.8052891,
+                            44.4239233
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Ambulatorio medico di prima accoglienza",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap532816787",
+                "props": [
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Ambulatorio medico di prima accoglienza"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            8.8507526,
+                            44.4309261
+                        ],
+                        [
+                            8.8507893,
+                            44.4310127
+                        ],
+                        [
+                            8.8507948,
+                            44.4310258
+                        ],
+                        [
+                            8.8508287,
+                            44.4310185
+                        ],
+                        [
+                            8.8512268,
+                            44.4309333
+                        ],
+                        [
+                            8.8512618,
+                            44.4309259
+                        ],
+                        [
+                            8.8511642,
+                            44.4306896
+                        ],
+                        [
+                            8.8510607,
+                            44.4307114
+                        ],
+                        [
+                            8.8510233,
+                            44.4307193
+                        ],
+                        [
+                            8.8510348,
+                            44.4307473
+                        ],
+                        [
+                            8.8509865,
+                            44.4307575
+                        ],
+                        [
+                            8.8509403,
+                            44.4307672
+                        ],
+                        [
+                            8.8509465,
+                            44.430782
+                        ],
+                        [
+                            8.8508606,
+                            44.4308
+                        ],
+                        [
+                            8.8508442,
+                            44.4307603
+                        ],
+                        [
+                            8.8506969,
+                            44.4307913
+                        ],
+                        [
+                            8.8507526,
+                            44.4309261
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Palazzo della Salute Fiumara - ASL3",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap532944586",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "80"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Operai"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Palazzo della Salute Fiumara - ASL3"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        8.8830811,
+                        44.4113775
+                    ],
+                    [
+                        8.883561,
+                        44.4112907
+                    ],
+                    [
+                        8.8838401,
+                        44.4117132
+                    ],
+                    [
+                        8.8835989,
+                        44.4117685
+                    ],
+                    [
+                        8.8834722,
+                        44.4115653
+                    ],
+                    [
+                        8.8832555,
+                        44.411627
+                    ],
+                    [
+                        8.8830811,
+                        44.4113775
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "customName": "Palazzo della Salute Fiumara - ASL3",
+                "layerId": "clinic_openstreetmap",
+                "uuid": "clinic_openstreetmap532947563",
+                "props": [
+                    {
+                        "propertyName": "addr:housenumber",
+                        "displayName": "Numero",
+                        "type": "string",
+                        "value": "80"
+                    },
+                    {
+                        "propertyName": "addr:street",
+                        "displayName": "Indirizzo",
+                        "type": "string",
+                        "value": "Via Operai"
+                    },
+                    {
+                        "propertyName": "name",
+                        "displayName": "Nome",
+                        "type": "string",
+                        "value": "Palazzo della Salute Fiumara - ASL3"
+                    },
+                    {
+                        "propertyName": "operator",
+                        "displayName": "Gestito da",
+                        "type": "string",
+                        "value": "ASL 3 Genovese"
+                    }
+                ]
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        8.8833056,
+                        44.4114507
+                    ],
+                    [
+                        8.8833302,
+                        44.4114895
+                    ],
+                    [
+                        8.8833873,
+                        44.411471
+                    ],
+                    [
+                        8.8833627,
+                        44.4114322
+                    ],
+                    [
+                        8.8833056,
+                        44.4114507
+                    ]
+                ]
+            }
+        }
+    ]
+}

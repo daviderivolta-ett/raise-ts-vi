@@ -1,0 +1,30 @@
+{
+    "name": "Demo",
+    "layers": [
+        {
+            "name": "Demo",
+            "id": "demo",
+            "url": "./geojson/san-martino-demo.geojson",
+            "get": {},
+            "style": {
+                "type": [
+                    "point"
+                ],
+                "color": "#f5f10c",
+                "opacity": 1,
+                "icon": "🟡"
+            },
+            "tags": [
+                "demo"
+            ],
+            "relevant_properties": [
+                {
+                    "property_name": "name",
+                    "display_name": "Nome",
+                    "type": "string"
+                  }
+            ],
+            "components": []
+        }
+    ]
+}
