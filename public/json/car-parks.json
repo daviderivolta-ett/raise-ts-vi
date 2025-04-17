@@ -4,7 +4,7 @@
     {
       "name": "Parcheggi Car Sharing",
       "id": "V_MOB_PARKS_CARSHARING",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:SITGEO_V_MOB_PARKS_CARSHARING",
@@ -38,7 +38,7 @@
     {
       "name": "Parcheggi di interscambio",
       "id": "V_MOB_PARKS_INTERSCAMBIO",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:SITGEO_V_MOB_PARKS_INTERSCAMBIO",

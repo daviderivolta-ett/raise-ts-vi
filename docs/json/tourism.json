@@ -4,7 +4,7 @@
         {
             "name": "Pietre d'inciampo",
             "id": "SITGEO:V_LUOGHI_TURISTICI&CQL_FILTER=OGGETTO='PIETRE_INCIAMPO'",
-            "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+            "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
             "get": {
                 "service": "WFS",
                 "typeName": "aitek:SITGEO_V_LUOGHI_TURISTICI",
@@ -43,7 +43,7 @@
         {
             "name": "Botteghe Storiche",
             "id": "V_BOTTEGHE_STORICHE",
-            "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+            "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
             "get": {
                 "service": "WFS",
                 "typeName": "aitek:SITGEO_V_BOTTEGHE_STORICHE",
@@ -96,7 +96,7 @@
         {
             "name": "Luoghi di culto",
             "id": "V_CULTO_GEO",
-            "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+            "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
             "get": {
                 "service": "WFS",
                 "typeName": "aitek:SITGEO_V_CULTO_GEO",

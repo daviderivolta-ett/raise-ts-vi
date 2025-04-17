@@ -4,7 +4,7 @@
     {
       "name": "Monumenti cimitero Staglieno",
       "id": "CULTURA:V_STAG_SCULTURE",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:CULTURA_V_STAG_SCULTURE",

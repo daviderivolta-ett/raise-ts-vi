@@ -4,7 +4,7 @@
     {
       "name": "Bagni pubblici",
       "id": "SITGEO:V_BAGNI",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:SITGEO_V_BAGNI",
@@ -61,7 +61,7 @@
     {
       "name": "Ospedali",
       "id": "SITGEO:V_PC_OSPEDALI",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:SITGEO_V_PC_OSPEDALI",
@@ -106,7 +106,7 @@
     {
       "name": "Farmacie",
       "id": "L807",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:M452_L807",
@@ -147,7 +147,7 @@
     {
       "name": "Musei",
       "id": "V_COLLETTIVE_GEO_MUSEI",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:SITGEO_V_COLLETTIVE_GEO",
@@ -184,7 +184,7 @@
     {
       "name": "Biblioteche",
       "id": "V_COLLETTIVE_GEO_BIBLIOTECHE",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:SITGEO_V_COLLETTIVE_GEO",
@@ -220,7 +220,7 @@
     {
       "name": "Cinema",
       "id": "V_COLLETTIVE_GEO_CINEMA",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:SITGEO_V_COLLETTIVE_GEO",
@@ -257,7 +257,7 @@
     {
       "name": "Teatri",
       "id": "V_COLLETTIVE_GEO_TEATRI",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:SITGEO_V_COLLETTIVE_GEO",
@@ -294,7 +294,7 @@
     {
       "name": "Scuole",
       "id": "SITGEO:SCUOLE_AGG_GEO",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:SITGEO_SCUOLE_AGG_GEO",
@@ -389,7 +389,7 @@
     {
       "name": "Mercati rionali",
       "id": "SITGEO:V_COM_MERCATI",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:SITGEO_V_COM_MERCATI",

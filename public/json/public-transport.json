@@ -4,7 +4,7 @@
     {
       "name": "Fermate AMT",
       "id": "SITGEO:V_MOB_FERMATE_AMT",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:SITGEO_V_MOB_FERMATE_AMT",
@@ -47,7 +47,7 @@
     {
       "name": "Stazioni metropolitana",
       "id": "SITGEO:V_MOB_METROPOLITANA_STAZIONI",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:SITGEO_V_MOB_METROPOLITANA_STAZIONI",

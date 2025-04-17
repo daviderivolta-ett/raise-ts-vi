@@ -4,7 +4,7 @@
     {
       "name": "Impianti sportivi comunali",
       "id": "SITGEO:V_IMPIANTI_SPORTIVI",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:SITGEO_V_IMPIANTI_SPORTIVI",

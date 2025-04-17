@@ -4,7 +4,7 @@
     {
       "name": "Manufatti storici acquedotto",
       "id": "CULTURA:V_ACQ_MANU_STORICI",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:CULTURA_V_ACQ_MANU_STORICI",
@@ -51,7 +51,7 @@
     {
       "name": "Area di sosta acquedotto",
       "id": "CULTURA:V_ACQ_AREA_SOSTA",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:CULTURA_V_ACQ_AREA_SOSTA",
@@ -78,7 +78,7 @@
     {
       "name": "Punti di accesso acquedotto",
       "id": "V_ACQ_PTI_ACCESSO",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:CULTURA_V_ACQ_PTI_ACCESSO",
@@ -115,7 +115,7 @@
     {
       "name": "Punti di interesse storico acquedotto",
       "id": "CULTURA:V_ACQ_PTI_INT_STORICO",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:CULTURA_V_ACQ_PTI_INT_STORICO",
@@ -148,7 +148,7 @@
     {
       "name": "Pannelli informativi acquedotto",
       "id": "SITGEO:V_LOCALIZZAZIONE_PANNELLI_INFORMATIVI",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:SITGEO_V_LOCALIZZAZIONE_PANNELLI_INFORMATIVI",

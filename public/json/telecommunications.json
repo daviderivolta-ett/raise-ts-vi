@@ -4,7 +4,7 @@
     {
       "name": "Router FreeWiFiGenova",
       "id": "SITGEO:WI-FI_URBANO",
-      "url": "https://geoserver-udp.aitek.it/geoserver/aitek/ows",
+      "url": "https://udp-geoserver.ge.imati.cnr.it/geoserver/ows",
       "get": {
         "service": "WFS",
         "typeName": "aitek:SITGEO_WI-FI_URBANO",
