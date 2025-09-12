@@ -33,10 +33,6 @@ export class BarComponent extends HTMLElement {
                     <span class="material-symbols-outlined icon" aria-label="Intorno a te">explore</span>
                 </a>
 
-                <a class="bar-el-link suggested-paths-link" href="/suggested-paths" title="Percorsi suggeriti" role="tab" aria-selected="false" aria-controls="suggested-paths-panel">
-                    <span class="material-symbols-outlined icon" aria-label="Percorsi suggeriti">directions</span>
-                </a>
-
                 <a class="bar-el-link custom-path-link" href="/custom-path" title="Percorso personalizzato" role="tab" aria-selected="false" aria-controls="cusotm-path-panel">
                     <span class="material-symbols-outlined icon" aria-label="Percorso personalizzato">favorite</span>
                 </a>

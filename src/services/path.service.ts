@@ -1,13 +1,10 @@
 import { FeatureGeometryType } from '../models/feature.model';
-import { Layer } from '../models/layer.model';
 import { Path } from '../models/path.model';
 import { Poi, PoiProperty, PoiPropertyType, PoiType } from '../models/poi.model';
 
 export class PathService {
     private static _instance: PathService;
     private _customPath: Path = new Path('Percorso personalizzato', []);
-    private _suggestedPaths: Path[] = [];
-    private _selectedSuggestedPath: Path = new Path('', []);
 
     constructor() {
         if (PathService._instance) return PathService._instance;
@@ -25,23 +22,6 @@ export class PathService {
 
     public set customPath(customPath: Path) {
         this._customPath = customPath;
-    }
-
-    public get suggestedPaths(): Path[] {
-        return this._suggestedPaths;
-    }
-
-    public set suggestedPaths(suggestedPaths: Path[]) {
-        this._suggestedPaths = suggestedPaths;
-    }
-
-    public get selectedSuggestedPath(): Path {
-        return this._selectedSuggestedPath;
-    }
-
-    public set selectedSuggestedPath(selectedSuggestedPath: Path) {
-        this._selectedSuggestedPath = selectedSuggestedPath;
-        localStorage.setItem('selected-suggested-path-vi', JSON.stringify(this.selectedSuggestedPath));
     }
 
     public addPoiToCustomPath(poi: Poi): void {
@@ -135,116 +115,5 @@ export class PathService {
         if (poi.distance) p.distance = poi.distance;
 
         return p;
-    }
-
-    public getCsvPaths(fileNumber: number): Promise<void> {
-        return new Promise((resolve, reject) => {
-            let index = 0;
-            const paths: Path[] = [];
-            const promises: Promise<any>[] = [];
-
-            while (index < fileNumber) {               
-                const promise = fetch(`./suggested-paths/${index}.tsv`)
-                    .then(res => res.text())
-                    .then(data => {                            
-                        const parsedCsv: Record<string, string>[] = this.parseCsvFile(data);                       
-                        paths.push(this.parseCsvPath(parsedCsv));
-                    })
-                    .catch(error => console.error('Errore durante il recupero dei percorsi suggeriti', error))
-
-                promises.push(promise);
-                index++;
-            }
-
-            Promise.all(promises)
-                .then(() => {
-                    this.suggestedPaths = [...paths];
-                    resolve();
-                })
-                .catch(error => reject(error))
-        });
-    }
-
-    private parseCsvFile(text: any): Record<string, string>[] {
-        const lines: string[] = text.split('\n');
-
-        const data: Record<string, string>[] = lines.map((line: string) => {
-            const columns: string[] = line.split('\t');
-
-            return {
-                path: columns[0],
-                layerName: columns[1],
-                id: columns[2],
-                name: columns[3],
-                latitude: columns[4],
-                longitude: columns[5],
-                height: columns[6],
-                info: columns[7],
-            }
-        });
-
-        return data;
-    }
-
-    private parseCsvPath(data: Record<string, string>[]): Path {       
-        let path: Path = Path.createEmpty();     
-
-        path.name = data[1].path;
-
-        data.forEach((d: Record<string, string>, index) => {
-            if (index === 0) return;         
-            path.pois.push(this.parseCsvPoi(d));
-        });
-
-        return path;
-    }
-
-    private parseCsvPoi(data: Record<string, string>): Poi {
-        let poi: Poi = new Poi();
-       
-        poi.layerName = data.layerName;
-        poi.name = data.name;
-        poi.coordinates = [parseFloat(data.longitude), parseFloat(data.latitude), parseFloat(data.height)];
-        poi.type = PoiType.Point;
-        poi.uuid = data.id;       
-        poi.props = this.parseCsvPoiProperties(data.info);
-
-        return poi;
-    }
-
-    private parseCsvPoiProperties(data: string): PoiProperty[] {
-        let properties: PoiProperty[] = [];
-       
-        const props: string[] = data.split('|');
-
-        props.forEach((prop: string) => {
-            let property: PoiProperty = new PoiProperty();
-            property.displayName = prop.split(':')[0];
-            property.value = prop.split(':')[1].trim();
-            property.type = PoiPropertyType.String;
-
-            properties.push(property);
-        });
-
-        return properties;
-    }
-
-    public getSuggestedPaths(layers: Layer[]): Path[] {
-        let paths: Path[] = [];
-        this.suggestedPaths.forEach((path: Path) => {
-            path.pois.forEach((poi: Poi) => {
-                layers.forEach((layer: Layer) => {
-                    if (poi.layerName === layer.id) paths.push(path);
-                });
-            });
-        });
-        return [...new Set(paths)];
-    }
-
-    public getSelectedSuggestedPath(): void {
-        const savedSelectedSuggestedPath: string | null = localStorage.getItem('selected-suggested-path-vi');
-        if (!savedSelectedSuggestedPath) return;
-        const rawSavedSalectedSuggestedPath: any = JSON.parse(savedSelectedSuggestedPath);
-        this._selectedSuggestedPath = this.parsePath(rawSavedSalectedSuggestedPath);
     }
 }
