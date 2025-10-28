@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@types/geojson": "^7946.0.16",
+    "@types/gsi": "^0.0.5",
     "sass": "^1.75.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
