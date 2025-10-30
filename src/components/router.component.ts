@@ -1,6 +1,6 @@
 import { Route } from '../models/route.model';
 import { Contrast, Settings } from '../models/settings.model';
-import { GoogleAuthService } from '../services/google-auth.service';
+// import { GoogleAuthService } from '../services/google-auth.service';
 import { SettingService } from '../services/setting.service';
 import { SnackbarService } from '../services/snackbar.service';
 
@@ -34,7 +34,7 @@ export class Router extends HTMLElement {
 
         const route: Route | undefined = this.routes.find((r: Route) => r.url === hash);        
 
-        const auth = GoogleAuthService.instance.checkAuth();
+        // const auth = GoogleAuthService.instance.checkAuth();
 
         // if (!auth) {
         //     window.location.href = '/';
