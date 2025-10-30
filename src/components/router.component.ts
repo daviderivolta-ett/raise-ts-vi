@@ -36,10 +36,10 @@ export class Router extends HTMLElement {
 
         const auth = GoogleAuthService.instance.checkAuth();
 
-        if (!auth) {
-            window.location.href = '/';
-            return;
-        }
+        // if (!auth) {
+        //     window.location.href = '/';
+        //     return;
+        // }
         
         this.checkParams(window.location.search);
 

@@ -48,10 +48,9 @@ export class GoogleAuthService {
     }
 
     public checkAuth(): boolean {
-        if (!this.auth) return false;      
-        const exp = this.auth['exp'];
-        if (!exp) return false;      
-        const expDate = new Date(exp * 1000);      
-        return expDate > new Date() ? true : false;
+        const exp = this.auth?.exp;
+        const isValid = !!exp && new Date(exp * 1000) > new Date();
+        if (!isValid) localStorage.removeItem('user-profile');
+        return isValid;
     }
 }
