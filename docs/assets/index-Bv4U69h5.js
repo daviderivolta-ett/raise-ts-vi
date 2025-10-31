@@ -1177,8 +1177,8 @@ Andare nella sezione "Categorie" e sceglierne un'altra.`;break}}}customElements.
                 }
             </style>
             `}setup(){this.onLinkClick(),window.addEventListener("hashchange",()=>this.checkCurrentPage())}onLinkClick(){Array.from(this.shadowRoot.querySelectorAll(".bar-el-link")).forEach(s=>{s.addEventListener("click",i=>{i.preventDefault();const n=s.getAttribute("href");n&&(window.location.hash=n)})})}checkCurrentPage(){const t=window.location.hash.slice(2);Array.from(this.shadowRoot.querySelectorAll(".bar-el-link")).forEach(i=>{var n;((n=i.getAttribute("href"))==null?void 0:n.slice(1))===t?(i.classList.add("current"),i.setAttribute("aria-selected","true")):(i.classList.remove("current"),i.setAttribute("aria-selected","false"))})}configBar(t){const s=this.shadowRoot.querySelector(".settings-link");s&&(t||(s.style.display="none"))}}customElements.define("app-bar",wt);class St extends HTMLElement{constructor(){super();a(this,"shadowRoot");this.shadowRoot=this.attachShadow({mode:"closed"})}connectedCallback(){this.render(),this.setup()}render(){this.shadowRoot.innerHTML=`
-            <button type="button" aria-label="Torna alla profilazione">
-                <span class="material-symbols-outlined">home</span>
+            <button type="button" aria-label="Esci e torna alla profilazione">
+                <span class="material-symbols-outlined">logout</span>
             </button>
 
             <style>
@@ -1207,4 +1207,4 @@ Andare nella sezione "Categorie" e sceglierne un'altra.`;break}}}customElements.
                         'opsz' 24;
                 }
             </style>
-            `}setup(){const t=this.shadowRoot.querySelector("button");t&&t.addEventListener("click",()=>window.location.href="../")}}customElements.define("app-home",St);Lt();async function Lt(){R.instance.getSavedCustomPath(),I.instance.getSavedLayers();const o=document.querySelector("app-router"),e=new M("categories",E.Default,()=>"<page-categories />"),t=new M("layers",E.Default,()=>"<page-layers />"),s=new M("around-you",E.Page,()=>"<page-around-you />"),i=new M("around-me",E.Page,()=>"<page-around-me />"),n=new M("settings",E.Page,()=>"<page-settings />"),r=new M("poi",E.Page,()=>"<page-poi />"),c=new M("custom-path",E.Page,()=>"<page-custom-path />"),p=[e,t,s,i,n,r,c];o.addRoutes(p),l.instance.getLocalStorageSettings();const _=document.querySelector("app-bar");_&&(_.showSettings=l.instance.settings.showSettings)}
+            `}setup(){const t=this.shadowRoot.querySelector("button");t&&(t.onclick=()=>{localStorage.clear(),window.location.href="/"})}}customElements.define("app-home",St);Lt();async function Lt(){R.instance.getSavedCustomPath(),I.instance.getSavedLayers();const o=document.querySelector("app-router"),e=new M("categories",E.Default,()=>"<page-categories />"),t=new M("layers",E.Default,()=>"<page-layers />"),s=new M("around-you",E.Page,()=>"<page-around-you />"),i=new M("around-me",E.Page,()=>"<page-around-me />"),n=new M("settings",E.Page,()=>"<page-settings />"),r=new M("poi",E.Page,()=>"<page-poi />"),c=new M("custom-path",E.Page,()=>"<page-custom-path />"),p=[e,t,s,i,n,r,c];o.addRoutes(p),l.instance.getLocalStorageSettings();const _=document.querySelector("app-bar");_&&(_.showSettings=l.instance.settings.showSettings)}
