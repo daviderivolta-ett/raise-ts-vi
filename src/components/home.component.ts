@@ -14,8 +14,8 @@ export class HomeBtnComponent extends HTMLElement {
     private render(): void {
         this.shadowRoot.innerHTML =
             `
-            <button type="button" aria-label="Torna alla profilazione">
-                <span class="material-symbols-outlined">home</span>
+            <button type="button" aria-label="Esci e torna alla profilazione">
+                <span class="material-symbols-outlined">logout</span>
             </button>
 
             <style>
@@ -50,7 +50,10 @@ export class HomeBtnComponent extends HTMLElement {
 
     private setup(): void {
         const btn: HTMLButtonElement | null = this.shadowRoot.querySelector('button');
-        if (btn) btn.addEventListener('click', () => window.location.href = '../');
+        if (btn) btn.onclick = () => {
+            localStorage.clear();
+            window.location.href = '/';
+        }
     }
 }
 
