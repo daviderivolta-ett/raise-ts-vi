@@ -49,7 +49,7 @@ export class TagChipComponent extends HTMLElement {
     }
 
     private setup(): void {
-        this.addEventListener('click', () => {
+        this.addEventListener('click', () => {          
             this.dispatchEvent(new CustomEvent('tag-selected', { bubbles: true, composed: true, detail: { id: this.id } }));
         });
     }

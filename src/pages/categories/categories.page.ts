@@ -105,7 +105,7 @@ export class CategoriesPage extends HTMLElement {
         this.addEventListener('tag-selected', this._onTagSelected);
     }
 
-    private _onTagSelected = (event: Event): void => {
+    private _onTagSelected = (event: Event): void => {      
         const e: CustomEvent = event as CustomEvent;
         window.location.hash = `/layers?layer=${e.detail.id}`;
     }

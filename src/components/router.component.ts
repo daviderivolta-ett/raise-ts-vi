@@ -1,4 +1,4 @@
-import { Route } from '../models/route.model';
+import { Route, RouteType } from '../models/route.model';
 import { Contrast, Settings } from '../models/settings.model';
 // import { GoogleAuthService } from '../services/google-auth.service';
 import { SettingService } from '../services/setting.service';
@@ -32,26 +32,18 @@ export class Router extends HTMLElement {
     private changeRoute(hash: string): void {
         SnackbarService.instance.resetSnackbar();
 
-        const route: Route | undefined = this.routes.find((r: Route) => r.url === hash);        
-
-        // const auth = GoogleAuthService.instance.checkAuth();
-
-        // if (!auth) {
-        //     window.location.href = '/';
-        //     return;
-        // }
-        
-        this.checkParams(window.location.search);
-
-        if (!route) {
-            window.location.hash = '#/categories';
-            return;
+        if (!hash) {
+            this.checkParams(window.location.search);
+            const defaultRoute: Route[] = this.routes.filter((route: Route) => route.type === RouteType.Default);
+            defaultRoute ? window.location.hash = '#/' + defaultRoute[0].url : this.sendNotFound();
+        } else {
+            const pageUri: string = hash.split('?')[0];
+            const hashIndex: number = this.routes.findIndex((route: Route) => route.url === pageUri);
+            this.shadowRoot.innerHTML = this.routes[hashIndex] ? this.routes[hashIndex].routing() : this.sendNotFound();
         }
-
-        this.shadowRoot.innerHTML = route.routing();
     }
 
-    private checkParams(search: string): void {        
+    private checkParams(search: string): void {
         const params = new URLSearchParams(search);
         const settings: Settings = new Settings();
         let paramsProcessed = false;
@@ -83,6 +75,15 @@ export class Router extends HTMLElement {
         }
 
         SettingService.instance.settings = { ...settings };
+    }
+
+
+    private sendNotFound(): string {
+        const notFoundRoute: Route[] = this.routes.filter((route: Route) => route.type === RouteType.NotFound);
+        if (notFoundRoute.length === 0) return '404: Not found';
+        window.location.hash = '#/' + notFoundRoute[0].url;
+        this.changeRoute(notFoundRoute[0].url);
+        return '404: Not found';
     }
 }
 
