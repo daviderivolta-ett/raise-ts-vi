@@ -103,7 +103,7 @@ export class AroundMePage extends HTMLElement {
         SnackbarService.instance.updateSnackbar(SnackbarType.Info, 'Caricamento...');
         this._updateMsg('loading');
 
-        let position: GeolocationPosition | null = null;
+        let position: GeolocationPosition | null = null;        
 
         try {            
             position = await PositionService.instance.getUserPosition();
